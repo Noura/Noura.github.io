@@ -5,8 +5,9 @@ $(window).load(function() {
     var cutoff_width = tab_content_width - tab_width;
     var tabs = [];
     $('.tab').each(function() {
-        tabs.push({$el: $(this), fixed: false});
+        tabs.push({$el: $(this), fixed: false, active: false});
     });
+    tabs[0].active = true;
 
     $('.tab').on('click', function() {
         var i = $(this).data('i');
@@ -34,6 +35,16 @@ $(window).load(function() {
         if (i + 1 < tabs.length) {
             tabs[i+1].$el.css('margin-left', offset+'px');
         }
+        _.each(tabs, function(tab, j) {
+            if (j == i && !tab.active) {
+                tab.$el.addClass('active');
+                tab.active = true;
+            }
+            if (j != i && tab.active) {
+                tab.$el.removeClass('active');
+                tab.active = false;
+            }
+        });
     }, 50);
 });
 

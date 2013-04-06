@@ -1,7 +1,13 @@
+@font-face {
+    font-family: 'myriad-pro-light';
+    src: url(../fnt/MyriadPro-Light.otf);
+}
 body {
     margin: 0;
     width: 100%;
     height: 100%;
+    font-size: 100%;
+    font-family: 'myriad-pro-light', trebuchet ms, helvetica, sans;
 }
 body * {
     border-color: rgb(255, 112, 0);
@@ -10,26 +16,44 @@ body * {
 }
 
 #sidebar {
-    width: 98px;
-    border-right-width: 2px;
+    width: 150px;
+    border-right-width: 1px;
     height: 100%;
     position: fixed;
     background: white;
 }
-#name {
-    width: 94px;
+#name-container {
+    width: 146px;
     padding: 2px;
     border-bottom-width: 2px;
     height: 94px;
+    position: relative;
 }
-#desc {
-    width: 94px;
+#name {
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    width: 146px;
+    font-size: 225%;
+    line-height: .9em;
+    letter-spacing: .1em;
+}
+#desc-container {
+    width: 146px;
     padding: 2px;
     height: 496px;
 }
+#desc {
+    text-align: right;
+}
+#contact {
+    position: absolute;
+    bottom: 10px;
+    padding-left: 5px;
+}
 
 #main {
-    margin-left: 100px;
+    margin-left: 150px;
     width: 4010px;
 }
 #tabs {
@@ -42,12 +66,16 @@ body * {
 .tab {
     display: inline-block;
     float: left;
-    padding: 2px;
-    border-width: 2px;
+    padding: 20px 3px 0;
+    border-width: 1px;
     width: 92px;
     margin-right: 698px;
-    height: 50px;
-    margin-top: 35px;
+    height: 34px;
+    margin-top: 39px;
+}
+.tab.active {
+    color: white;
+    background: rgb(255, 112, 0);
 }
 #content {
     border-top-width: 2px;
