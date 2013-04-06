@@ -37,7 +37,6 @@ body * {
     float: left;
     height: 98px;
     padding-left: 10px;
-    position: fixed;
     width: 4010px;
 }
 .tab {
@@ -49,12 +48,6 @@ body * {
     margin-right: 698px;
     height: 50px;
     margin-top: 35px;
-    /*
-    -moz-transition: margin-right .01s, -moz-transform .01s;
-    -webkit-transition: margin-right .01s, -webkit-transform .01s;
-    -o-transition: margin-right .01s, -o-transform .01s;
-    transition: margin-right .01s, transform .01s;
-    */
 }
 #content {
     border-top-width: 2px;
@@ -63,7 +56,6 @@ body * {
     padding-left: 10px;
     height: 500px;
     width: 100%;
-    margin-top: 98px;
 }
 .tab-content {
     width: 700px;

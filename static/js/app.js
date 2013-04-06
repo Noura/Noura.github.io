@@ -1,41 +1,37 @@
-var content_width = 4120;
-var tab_content_width = 698;
-var min_margin = 2;
-var dt = 10;
-
 $(window).load(function() {
-    var $window = $(window);
-    var min_x = 0;
-    var max_x = content_width - $window.width();
-    var $tabs = [];
-    $('.tab').each(function() {
-        $tabs.push($(this));
-    });
-    var tab_content_x = [];
-    $('.tab-content').each(function() {
-        tab_content_x.push($(this).position().left);
-    });
-
-    var prev_prev_x = 0;
-    var prev_x = 0;
-    setInterval(function() {
-        var x = Math.max(0, $window.scrollLeft());
-        var i = Math.floor(x / tab_content_width);
-        var margin = tab_content_width - (x % tab_content_width);
-        //margin = Math.max(min_margin, margin + 3*(prev_x - x));
-        margin = Math.max(min_margin, margin);
-
-        //console.log('x', x, 'i', i, 'margin', margin, 'prev_x - x', prev_x - x);
-        for (var j = 0; j < i; j++) {
-            $tabs[j].css('margin-right', min_margin + 'px');
-        }
-        $tabs[i].css('margin-right', margin+'px');
-        for (var j = tabs.length - 1; j > i; j--) {
-            $tabs[j].css('margin-right', tab_content_width + 'px');
-        }
-        prev_prev_x = prev_x;
-        prev_x = x;
-    }, dt);
-
+    setInterval(get_tab_shift_function(), 50);
 });
 
+function get_tab_shift_function() {
+    var $window = $(window);
+    var tab_content_width = 800;
+    var tab_width = 102;
+    var cutoff_width = tab_content_width - tab_width;
+    var tabs = [];
+    $('.tab').each(function() {
+        tabs.push({$el: $(this), fixed: false});
+    });
+
+    return function() {
+        var x = Math.max(0, $window.scrollLeft());
+        var i = Math.floor(x / cutoff_width);
+        if (i >= tabs.length) {
+            return;
+        }
+        var margin_left = i*tab_width;
+        var offset = (i+1)*tab_content_width;
+        if (!tabs[i].fixed) {
+            tabs[i].$el.css({'position': 'fixed', 'margin-left': margin_left+'px'});
+            tabs[i].fixed = true;
+        }
+        for (var j = i + 1; j < tabs.length; j++) {
+            if (tabs[j].fixed) {
+                tabs[j].$el.css({'position': 'static', 'margin-left': '0'});
+                tabs[j].fixed = false;
+            }
+        }
+        if (i + 1 < tabs.length) {
+            tabs[i+1].$el.css('margin-left', offset+'px');
+        }
+    }
+}
