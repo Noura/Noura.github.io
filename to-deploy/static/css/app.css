@@ -46,6 +46,10 @@ body * {
 #desc {
     text-align: right;
 }
+#desc > span {
+    display: block;
+    padding-bottom: .5em;
+}
 #contact {
     position: absolute;
     bottom: 10px;
@@ -96,3 +100,17 @@ body * {
     clear: both;
 }
 
+.column {
+    width: 350px;
+    display: inline-block;
+    float: left;
+}
+.list-title {
+    display: inline-block;
+    clear: both;
+    border-bottom: 1px solid black;
+}
+ul.list {
+    list-style-type: none;
+    padding-left: 1em;
+}
