@@ -1,9 +1,5 @@
 $(window).load(function() {
-    setInterval(get_tab_shift_function(), 50);
-});
-
-function get_tab_shift_function() {
-    var $window = $(window);
+    var $body = $('body');
     var tab_content_width = 800;
     var tab_width = 102;
     var cutoff_width = tab_content_width - tab_width;
@@ -12,8 +8,13 @@ function get_tab_shift_function() {
         tabs.push({$el: $(this), fixed: false});
     });
 
-    return function() {
-        var x = Math.max(0, $window.scrollLeft());
+    $('.tab').on('click', function() {
+        var i = $(this).data('i');
+        $body.animate({scrollLeft: i*tab_content_width}, 500);
+    });
+
+    setInterval(function() {
+        var x = Math.max(0, $body.scrollLeft());
         var i = Math.floor(x / cutoff_width);
         if (i >= tabs.length) {
             return;
@@ -33,5 +34,6 @@ function get_tab_shift_function() {
         if (i + 1 < tabs.length) {
             tabs[i+1].$el.css('margin-left', offset+'px');
         }
-    }
-}
+    }, 50);
+});
+
