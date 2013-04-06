@@ -46,7 +46,7 @@ body * {
 #desc {
     text-align: right;
 }
-#desc > span {
+p > span {
     display: block;
     padding-bottom: .5em;
 }
