@@ -39,8 +39,8 @@ body * {
     letter-spacing: .1em;
 }
 #desc-container {
-    width: 146px;
-    padding: 2px;
+    width: 144px;
+    padding-right: 6px;
     height: 496px;
 }
 #desc {
@@ -58,14 +58,14 @@ p > span {
 
 #main {
     margin-left: 150px;
-    width: 4010px;
+    width: 3110px;
 }
 #tabs {
     display: inline-block;
     float: left;
     height: 98px;
     padding-left: 10px;
-    width: 4010px;
+    width: 3110px;
 }
 .tab {
     display: inline-block;
@@ -76,6 +76,13 @@ p > span {
     margin-right: 698px;
     height: 34px;
     margin-top: 39px;
+    -webkit-transition: background-color .1s;
+    -moz-transition: background-color .1s;
+    -o-transition: background-color .1s;
+    transition: background-color .1s;
+}
+.tab:last-child {
+    margin-right: 0;
 }
 .tab.active {
     color: white;
@@ -85,7 +92,7 @@ p > span {
     border-top-width: 2px;
     display: inline-block;
     float: left;
-    padding-left: 10px;
+    padding-left: 11px;
     height: 500px;
     width: 100%;
 }
@@ -94,6 +101,9 @@ p > span {
     margin-right: 100px;
     display: inline-block;
     float: left;
+}
+.tab-content:last-child{
+    margin-right: 0;
 }
 
 .clear {
