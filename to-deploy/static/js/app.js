@@ -10,7 +10,6 @@ $(window).load(function() {
    
     // constants used throughout
     var $body = $('body');
-    $body.scrollLeft(0);
     var tab_content_width = 800;
     var tab_width = 102;
     var cutoff_width = tab_content_width - tab_width;
@@ -25,7 +24,6 @@ $(window).load(function() {
         $body.animate({scrollLeft: i*tab_content_width}, 500);
     });
 
-setTimeout(function() {
     // scrolling through tabs
     setInterval(function() {
         var x = Math.max(0, $body.scrollLeft());
@@ -50,6 +48,5 @@ setTimeout(function() {
             }
         }
     }, 50);
-}, 20);
 });
 
