@@ -27,25 +27,24 @@ $(window).load(function() {
     // scrolling through tabs
     setInterval(function() {
         var x = Math.max(0, $body.scrollLeft());
-        var i = Math.floor(x / cutoff_width);
-        if (i >= tabs.length) {
+        var I = Math.floor(x / cutoff_width);
+        if (I >= tabs.length) {
             return;
         }
-        var margin_left = i*tab_width;
-        var offset = (i+1)*tab_content_width;
-        tabs[i].$el.css({'position': 'fixed', 'margin-left': margin_left+'px'});
-        for (var j = i + 1; j < tabs.length; j++) {
-            tabs[j].$el.css({'position': 'static', 'margin-left': '0'});
+        for (var i = 0; i < I; i++) {
+            var margin_left = i*tab_width;
+            tabs[i].$el.css({'position': 'fixed', 'margin-left': margin_left+'px'})
+                .removeClass('active');
         }
-        if (i + 1 < tabs.length) {
-            tabs[i+1].$el.css('margin-left', offset+'px');
-        }
-        for (var j = 0; j < tabs.length; j++) {
-            if (j == i) {
-                tabs[j].$el.addClass('active');
-            } else {
-                tabs[j].$el.removeClass('active');
-            }
+        var margin_left = I*tab_width;
+        tabs[I].$el.css({'position': 'fixed', 'margin-left': margin_left+'px'})
+            .addClass('active');
+        var i = I + 1;
+        while (i < tabs.length) {
+            var offset = i*tab_content_width;
+            tabs[i].$el.css({'position': 'static', 'margin-left': offset+'px'})
+                .removeClass('active');
+            i++;
         }
     }, 50);
 });
