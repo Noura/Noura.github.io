@@ -18,6 +18,9 @@ a {
     color: inherit;
     text-decoration: none;
 }
+a:hover {
+    text-decoration: underline;
+}
 
 #sidebar {
     width: 150px;
@@ -112,7 +115,7 @@ p > span {
     display: inline-block;
     float: left;
 }
-.tab-content:last-child{
+.tab-content:last-child {
     margin-right: 0;
 }
 
