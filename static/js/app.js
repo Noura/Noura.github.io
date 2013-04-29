@@ -1,5 +1,13 @@
 $(window).load(function() {
 
+    $window = $(window);
+    $content = $('#content');
+    function vertical_sizing() {
+        $content.height($window.height() - 100);
+    }
+    vertical_sizing();
+    $window.resize(vertical_sizing);
+
     // make content the right width to finish scrolling nicely in this window
     var extra_width = $(window).width() - 700 - 151 - 21;
     if (extra_width > 0) {

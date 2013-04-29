@@ -108,6 +108,7 @@ p > span {
     padding-left: 11px;
     height: 500px;
     width: 100%;
+    overflow-y: scroll;
 }
 .tab-content {
     width: 700px;
