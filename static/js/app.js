@@ -1,23 +1,8 @@
 $(window).load(function() {
 
+    // constants used throughout
     $window = $(window);
     $content = $('#content');
-    function vertical_sizing() {
-        $content.height($window.height() - 100);
-    }
-    vertical_sizing();
-    $window.resize(vertical_sizing);
-
-    // make content the right width to finish scrolling nicely in this window
-    var extra_width = $(window).width() - 700 - 151 - 21;
-    if (extra_width > 0) {
-        var $main = $('#main');
-        var main_width = $main.width();
-        $main.width(main_width + extra_width);
-    }
-   
-    // constants used throughout
-    var $body = $('body');
     var tab_content_width = 800;
     var tab_width = 102;
     var cutoff_width = tab_content_width - tab_width;
@@ -26,15 +11,31 @@ $(window).load(function() {
         tabs.push({$el: $(this)});
     });
 
+    function vertical_sizing() {
+        $content.height($window.height() - 100);
+    }
+    vertical_sizing();
+    $window.resize(vertical_sizing);
+
+    // make content the right width to finish scrolling nicely in this window
+    var extra_width = $window.width() - 700 - 151 - 21;
+    if (extra_width > 0) {
+        var $main = $('#main');
+        var main_width = $main.width();
+        $main.width(main_width + extra_width);
+    }
+   
+
     // clicking on a tab scrolls you there
     $('.tab').on('click', function() {
         var i = $(this).data('i');
-        $body.animate({scrollLeft: i*tab_content_width}, 500);
+        $('body,html').animate({scrollLeft: i*tab_content_width}, 500);
     });
 
     // scrolling through tabs
     setInterval(function() {
-        var x = Math.max(0, $body.scrollLeft());
+    //window.fix_tabs = function() {
+        var x = Math.max(0, $window.scrollLeft());
         var I = Math.floor(x / cutoff_width);
         if (I >= tabs.length) {
             return;
@@ -54,6 +55,7 @@ $(window).load(function() {
                 .removeClass('active');
             i++;
         }
+    //}
     }, 50);
 });
 

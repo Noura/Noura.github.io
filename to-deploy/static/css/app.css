@@ -97,6 +97,7 @@ p > span {
     -moz-transition: background-color .1s;
     -o-transition: background-color .1s;
     transition: background-color .1s;
+    left:160px;
 }
 .tab.project {
     padding-top: 10px;
