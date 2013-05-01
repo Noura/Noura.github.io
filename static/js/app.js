@@ -34,7 +34,6 @@ $(window).load(function() {
 
     // scrolling through tabs
     setInterval(function() {
-    //window.fix_tabs = function() {
         var x = Math.max(0, $window.scrollLeft());
         var I = Math.floor(x / cutoff_width);
         if (I >= tabs.length) {
@@ -55,7 +54,6 @@ $(window).load(function() {
                 .removeClass('active');
             i++;
         }
-    //}
     }, 50);
 });
 
