@@ -18,6 +18,7 @@ body * {
 }
 a {
     color: inherit;
+    text-decoration: underline;
 }
 
 #sidebar {
@@ -122,12 +123,14 @@ p > span {
     width: 100%;
     overflow-y: scroll;
     padding-top: 12px;
+    padding-bottom: 10px;
 }
 .tab-content {
     width: 700px;
     margin-right: 100px;
     display: inline-block;
     float: left;
+    overflow: visible;
 }
 .tab-content:last-child {
     margin-right: 0;
@@ -137,19 +140,36 @@ p > span {
     clear: both;
 }
 
+.columns {
+    clear: both;
+}
 .column {
-    width: 350px;
+    width: 48%;
+    margin-right: 2%;
     display: inline-block;
     float: left;
 }
+.column:last-child {
+    margin-right: 0;
+}
+
 .list-title {
     display: inline-block;
     clear: both;
     border-bottom: 1px solid black;
+    margin-bottom: .5em;
 }
 ul.list {
     list-style-type: none;
-    padding-left: 1em;
+    margin-left: 2em;
+    line-height: 1em;
+}
+ul.list > li {
+    text-indent: -1em;
+}
+p.list-intro {
+    padding-bottom: 0;
+    margin-bottom: .1em;
 }
 
 #lissa-carousel img {
@@ -159,6 +179,7 @@ ul.list {
     letter-spacing: -5px;
     line-height: 40px;
     top: 47%;
+    text-decoration: none;
 }
 #lissa-carousel a.left.carousel-control {
     letter-spacing: 5px;
@@ -166,3 +187,8 @@ ul.list {
 #lissa-carousel a.right.carousel-control {
     letter-spacing: -5px;
 }
+
+p.caption {
+    padding-top: 10px;
+}
+

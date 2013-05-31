@@ -14,7 +14,7 @@ $(window).load(function() {
     });
 
     function vertical_sizing() {
-        $content.height($window.height() - 100);
+        $content.height($window.height() - 122);
     }
     vertical_sizing();
     $window.resize(vertical_sizing);
