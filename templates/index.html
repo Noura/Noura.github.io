@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <title>Noura Howell</title>
+<link href="/static/css/bootstrap.min.css" rel="stylesheet">
+<link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet">
 <link href="/static/css/app.css" rel="stylesheet">
 
 <script type="text/javascript">
@@ -42,14 +44,10 @@
                 gmail: noura.howell
             </span>
             <span>
-                <a href="/static/pdf/NouraHowell_Resume.pdf" target="_blank">
-                    resume
-                </a>
+                <a href="/static/pdf/NouraHowell_Resume.pdf" target="_blank">resume</a>
             </span>
             <span>
-                <a href="http://nourahowell.tumblr.com/">
-                    hacks
-                </a>
+                 <a href="http://nourahowell.tumblr.com/" target="_blank">hacks</a>
             </span>
         </p>
     </div>
@@ -63,10 +61,13 @@
             Skills
         </div>
         <div class="tab project" data-i="2">
-            Project Dashboard
+            Lissajous Curves
         </div>
         <div class="tab project" data-i="3">
-            Project Illiteracy
+            Mobile Illiteracy
+        </div>
+        <div class="tab project" data-i="4">
+            Data Dashboard
         </div>
     </div>
     <div class="clear"></div>
@@ -189,13 +190,60 @@
             </div>
         </div>
         <div class="tab-content">
+            <div id="lissa-carousel" class="carousel slide" data-interval=2000>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="/static/img/lissa1.png">
+                    </div>
+                    <div class="item">
+                        <img src="/static/img/lissa2.png">
+                    </div>
+                    <div class="item">
+                        <img src="/static/img/lissa3.png">
+                    </div>
+                    <div class="item">
+                        <img src="/static/img/lissa4.png">
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#lissa-carousel" data-slide="prev">&lsaquo;</a>
+                <a class="right carousel-control" href="#lissa-carousel" data-slide="next">&rsaquo;</a>
+            </div>
             <p class="intro-text">
-                Enterprise software for viewing and manipulating giant data sets.
+                <span>
+                    Lissajous curves are a way to visualize stereo sound. The left speaker position is plotted on the horizontal axis, and the right speaker position is plotted on the vertical axis. For simple waveforms, this creates recognizable and often beautiful patterns.
+                </span>
+                <span>
+                    <a href="http://tytel.org" target="_blank">Matt</a>
+                    and I made a simple 
+                    <a href="http://tytel.org/lissa" target="_blank">app</a>
+                    to play with these, using sound, drawings, and interactive controls.
+                </span>
+            </p>
+        </div>
+        <div class="tab-content">
+            <p class="intro-text">
+                <span>
+                    How can we help illiterate Moroccans use mobile phones? 
+                </span>
+                <span>
+                    They already own at least one, but rely on family, friends, or paying strangers to rifle through their contacts' information and make calls. They need to record names and numbers, find them again, and dial the number.
+                </span>
+                <span>
+                  As a team of <a href="www.olin.edu" target="_blank">Olin</a> design and engineering students, <a href="www.babson.edu" target="_blank">Babson</a> business students, and Moroccan <a href="www.enim.ac.ma" target="_blank">&Eacute;cole Nationale de L'Industrie Min&eacute;rale</a> engineering students, we designed, prototyped, and pilot tested a simple, affordable solution with promising results.
+                </span>
+                <span>
+                    <a href="/static/pdf/Mobile_Illiteracy_Project.pdf" target="_blank">more</a>
+                </span>
+            </p>
+        </div>
+        <div class="tab-content">
+            <p class="intro-text">
+                Enterprise web application for viewing and manipulating giant data sets.
             </p>
             <div class="columns-container">
                 <div class="columns">
                     <div class="list-title">
-                        Performance fun
+                        Performance constraints
                     </div>
                     <ul class="list">
                         <li>
@@ -214,23 +262,11 @@
                 </div>
             </div>
         </div>
-        <div class="tab-content">
-            <p class="intro-text">
-                <span>
-                    How can we help illiterate Moroccans use mobile phones? 
-                </span>
-                <span>
-                    They already own at least one, but rely on family, friends, or paying strangers to rifle through their contacts' information and make calls. They need to record names and numbers, find them again, and dial the number.
-                </span>
-                <span>
-                  As a team of <a href="www.olin.edu">Olin</a> design and engineering students, <a href="www.babson.edu">Babson</a> business students, and Moroccan <a href="www.enim.ac.ma">&Eacute;cole Nationale de L'Industrie Min&eacute;rale</a> engineering students, we designed, prototyped, and pilot tested a simple, affordable solution with promising results.
-                </span>
-            </p>
-        </div>
     </div>
 </div>
 
 <script type="text/javascript" src="/static/js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="/static/js/underscore-min.js"></script>
+<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/static/js/app.js"></script>
 </body>

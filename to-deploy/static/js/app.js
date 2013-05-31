@@ -1,5 +1,7 @@
 $(window).load(function() {
 
+    $('.carousel').carousel();
+
     // constants used throughout
     $window = $(window);
     $content = $('#content');
@@ -18,13 +20,13 @@ $(window).load(function() {
     $window.resize(vertical_sizing);
 
     // make content the right width to finish scrolling nicely in this window
-    var extra_width = $window.width() - 700 - 151 - 21;
+    var extra_width = $window.width() - 700 - 72;
     if (extra_width > 0) {
         var $main = $('#main');
         var main_width = $main.width();
         $main.width(main_width + extra_width);
     }
-   
+
 
     // clicking on a tab scrolls you there
     $('.tab').on('click', function() {
