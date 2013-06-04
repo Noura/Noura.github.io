@@ -77,7 +77,7 @@ p > span {
 
 #main,
 #tabs {
-    width: 3810px;
+    width: 4610px;
 }
 #main {
     margin-left: 150px;
@@ -153,7 +153,8 @@ p > span {
     margin-right: 0;
 }
 
-.list-title {
+.list-title,
+.box-title {
     display: inline-block;
     clear: both;
     border-bottom: 1px solid black;
@@ -190,5 +191,47 @@ p.list-intro {
 
 p.caption {
     padding-top: 10px;
+}
+
+.figure,
+.figure div {
+    display: inline-block;
+    float: left;
+}
+.figure .boxes-row,
+.figure .arrows-row {
+    width: 100%;
+}
+.figure .boxes-row {
+    height: 110px;
+}
+.figure .arrows-row {
+    height: 40px;
+}
+.figure .box-space {
+    width: 45%;
+}
+.figure .box {
+    border-width: 1px;
+    border-color: rgb(200, 200, 200);
+    padding: 2%;
+    height: 94%;
+}
+.figure .box-content {
+    font-size: 90%;
+}
+.figure .middle-space {
+    width: 10%;
+    height: 100%;
+}
+.figure .arrow {
+    text-align: center;
+    width: 100%;
+    font-size: 250%;
+    color: rgb(200, 200, 200);
+    line-height: 1em;
+}
+.figure .arrow.horizontal {
+    margin-top: 30px;
 }
 
