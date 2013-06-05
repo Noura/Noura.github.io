@@ -29,6 +29,37 @@ a {
     background: white;
     z-index: 5;
 }
+#sidebar-white-fade {
+    position: absolute;
+    top: 100px;
+    right: -10px;
+    width: 9px;
+    height: 100%;
+    background-image: linear-gradient(left , rgb(255, 255, 255) 0%, rgba(255,255, 255, 0) 100%);
+background-image: -o-linear-gradient(left , rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+background-image: -moz-linear-gradient(left , rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+background-image: -webkit-linear-gradient(left , rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+background-image: -ms-linear-gradient(left , rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -webkit-gradient(linear, left top, right top,
+        color-stop(0.0, rgb(255, 255, 255)),
+        color-stop(1.0, rgba(255, 255, 255, 0)));
+}
+#content-white-fade {
+    position: fixed;
+    top: 100px;
+    left: 950px;
+    width: 4000px;
+    z-index: 5;
+    height: 100%;
+    background-image: linear-gradient(left , rgba(255, 255, 255, 0) 0%, rgb(255,255, 255) 2.8%);
+background-image: -o-linear-gradient(left , rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 2.8%);
+background-image: -moz-linear-gradient(left , rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 2.8%);
+background-image: -webkit-linear-gradient(left , rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 2.8%);
+background-image: -ms-linear-gradient(left , rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 2.8%);
+    background-image: -webkit-gradient(linear, left top, right top,
+        color-stop(0.0, rgba(255, 255, 255, 0)),
+        color-stop(0.028, rgb(255, 255, 255)));
+}
 #name-container {
     width: 146px;
     padding: 2px;
@@ -67,26 +98,17 @@ p > span {
     padding-bottom: 10px;
     padding-right: 6px;
     margin: 0 0 0 0;
-    background-image: -mx-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 25%);
-    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 25%);
-    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 25%);
-    background-image: -webkit-linear-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0)), color-stop(0.25, rgba(255, 255, 255, 1)));
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 25%);
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 25%);
 }
 
 #main,
 #tabs {
-    width: 4610px;
-}
-#main {
-    margin-left: 150px;
+    width: 4760px;
 }
 #tabs {
     display: inline-block;
     float: left;
     height: 98px;
-    padding-left: 10px;
+    padding-left: 160px;
 }
 .tab {
     display: inline-block;
@@ -118,7 +140,7 @@ p > span {
     border-top-width: 2px;
     display: inline-block;
     float: left;
-    padding-left: 11px;
+    padding-left: 161px;
     height: 500px;
     width: 100%;
     overflow-y: scroll;

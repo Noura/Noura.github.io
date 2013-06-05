@@ -20,7 +20,7 @@ $(document).ready(function() {
     $window.resize(vertical_sizing);
 
     // make content the right width to finish scrolling nicely in this window
-    var extra_width = $window.width() - 700 - 72;
+    var extra_width = $window.width() - 700 - 72 - 150;
     if (extra_width > 0) {
         var $main = $('#main');
         var main_width = $main.width();
