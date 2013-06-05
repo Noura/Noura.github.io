@@ -181,12 +181,22 @@ p.list-intro {
     line-height: 40px;
     top: 47%;
     text-decoration: none;
+    z-index: 2;
 }
 #lissa-carousel a.left.carousel-control {
     letter-spacing: 5px;
 }
 #lissa-carousel a.right.carousel-control {
     letter-spacing: -5px;
+}
+
+a.invisible-box-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
 
 p.caption {
