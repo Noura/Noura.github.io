@@ -193,45 +193,72 @@ p.caption {
     padding-top: 10px;
 }
 
+.figure {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 20px;
+}
 .figure,
 .figure div {
     display: inline-block;
     float: left;
 }
-.figure .boxes-row,
-.figure .arrows-row {
+.figure .figure-row {
     width: 100%;
+    clear: both;
 }
-.figure .boxes-row {
-    height: 110px;
-}
-.figure .arrows-row {
+.figure .figure-row.short {
     height: 40px;
 }
-.figure .box-space {
+.figure .box.short {
+    height: 34px;
+}
+.figure .figure-row.medium {
+    height: 120px;
+}
+.figure .box.medium {
+    height: 104px;
+}
+.figure .figure-row.tall {
+    height: 280px;
+}
+.figure .box.tall {
+    height: 264px;
+}
+.figure .figure-column {
     width: 45%;
+}
+.figure .between-columns {
+    width: 10%;
+    height: 100%;
+}
+.figure .two-thirds {
+    width: 62.5%;
+    margin-right: 5%;
+}
+.figure .one-third {
+    width: 32.5%;
 }
 .figure .box {
     border-width: 1px;
     border-color: rgb(200, 200, 200);
-    padding: 2%;
-    height: 94%;
+    padding: 7px;
 }
 .figure .box-content {
     font-size: 90%;
 }
-.figure .middle-space {
-    width: 10%;
-    height: 100%;
-}
 .figure .arrow {
     text-align: center;
     width: 100%;
-    font-size: 250%;
+    font-size: 200%;
     color: rgb(200, 200, 200);
     line-height: 1em;
 }
 .figure .arrow.horizontal {
-    margin-top: 30px;
+    margin-top: 60%;
+}
+.figure .arrow.vertical {
+    padding: 7px 0;
 }
 
