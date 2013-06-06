@@ -8,8 +8,8 @@
 </head>
 <body>
     <div ng-controller="letters_control">
-        <input type="text" ng-model="input" ng-change="update()">
-        <div class="letter" ng-repeat="letter in letters" 
+        <input type="text" ng-model="input" ng-change="update()" placeholder="say something">
+        <div class="letter" ng-repeat="letter in letters"
             style="
                 font-size: {{letter.size}};
                 color:{{letter.color}};
