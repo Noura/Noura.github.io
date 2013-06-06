@@ -1,3 +1,7 @@
+$(document).ready(function() {
+    $('#input').focus();
+});
+
 function letters_control($scope) {
     var min_font_size = 50; // percent
     var max_font_size = 3000;
@@ -16,7 +20,7 @@ function letters_control($scope) {
                 return;
             }
             if (!letters_cleared) {
-                $scope.letters = $scope.letters.slice(0, i+1);
+                $scope.letters = $scope.letters.slice(0, i);
                 letters_cleared = true;
             }
             var font_size = random(min_font_size, max_font_size) + '%';
