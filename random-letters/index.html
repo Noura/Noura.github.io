@@ -1,0 +1,23 @@
+<!doctype html>
+<html ng-app>
+<head>
+    <script src="/static/js/angular.min.js"></script>
+    <script src="/static/js/letters.js"></script>
+
+    <link rel="stylesheet" href="/static/css/letters.css">
+</head>
+<body>
+    <div ng-controller="letters_control">
+        <input type="text" ng-model="input" ng-change="update()">
+        <div class="letter" ng-repeat="letter in letters" 
+            style="
+                font-size: {{letter.size}};
+                color:{{letter.color}};
+                font-family:{{letter.font}};
+                min-width:{{letter.min_width}};
+                min-height:{{letter.min_height}};">
+            {{letter.letter}}
+        </div>
+    </div>
+</body>
+</html>

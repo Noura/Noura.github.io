@@ -15,6 +15,7 @@ def main():
         shutil.rmtree(deploy_target)
     os.makedirs(deploy_target)
     shutil.copytree(os.path.join(here, 'static'), os.path.join(deploy_target, 'static'))
+    shutil.copytree(os.path.join(here, 'random-letters'), os.path.join(deploy_target, 'random-letters'))
 
     tem = templates.get_template('index.html')
     ctx = {}
