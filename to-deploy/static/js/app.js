@@ -50,9 +50,20 @@ $(document).ready(function() {
         tabs[I].$el.css({'position': 'fixed', 'margin-left': margin_left+'px'})
             .addClass('active');
         var i = I + 1;
+        /*
         while (i < tabs.length) {
             var offset = i*tab_content_width;
             tabs[i].$el.css({'position': 'static', 'margin-left': offset+'px'})
+                .removeClass('active');
+            i++;
+        }
+        */
+        var offset = i * tab_content_width;
+        tabs[i].$el.css({'position': 'static', 'margin-left': offset+'px'})
+            .removeClass('active');
+        i++;
+        while (i < tabs.length) {
+            tabs[i].$el.css({'position': 'static', 'margin-left': 0+'px'})
                 .removeClass('active');
             i++;
         }
