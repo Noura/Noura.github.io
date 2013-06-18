@@ -21,14 +21,7 @@ a {
     text-decoration: underline;
 }
 
-#sidebar {
-    width: 150px;
-    border-right-width: 1px;
-    height: 100%;
-    position: fixed;
-    background: white;
-    z-index: 5;
-}
+/* WHITE GRADIENTS */
 #sidebar-white-fade {
     position: absolute;
     top: 100px;
@@ -59,6 +52,16 @@ background-image: -ms-linear-gradient(left , rgba(255, 255, 255, 0) 0%, rgba(255
     background-image: -webkit-gradient(linear, left top, right top,
         color-stop(0.0, rgba(255, 255, 255, 0)),
         color-stop(0.028, rgba(255, 255, 255, .9)));
+}
+
+/* SIDEBAR */
+#sidebar {
+    width: 150px;
+    border-right-width: 1px;
+    height: 100%;
+    position: fixed;
+    background: white;
+    z-index: 5;
 }
 #name-container {
     width: 146px;
@@ -100,6 +103,7 @@ p > span {
     margin: 0 0 0 0;
 }
 
+/* TABS */
 #main,
 #tabs {
     width: 4760px;
@@ -132,6 +136,26 @@ p > span {
 .tab:last-child {
     margin-right: 0;
 }
+.tab-arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left-width: 30px;
+    margin-left: 100px;
+    margin-top: -33px;
+    opacity: .3;
+    display: none;
+}
+.tab.project .tab-arrow-right {
+    margin-top: -39px;
+}
+.tab.active .tab-arrow-right {
+    display: block;
+}
+.tab:last-child .tab-arrow-right {
+    display: none;
+}
 .tab.active {
     color: white;
     background: rgb(255, 112, 0);
@@ -162,6 +186,7 @@ p > span {
     clear: both;
 }
 
+/* COLUMNS */
 .columns {
     clear: both;
 }
@@ -175,6 +200,7 @@ p > span {
     margin-right: 0;
 }
 
+/* LISTS */
 .list-title,
 .box-title {
     display: inline-block;
@@ -225,6 +251,7 @@ p.caption {
     padding-top: 10px;
 }
 
+/* BOXES AND ARROWS DIAGRAM */
 .figure {
     width: 95%;
     margin-left: 2.5%;
@@ -293,4 +320,5 @@ p.caption {
 .figure .arrow.vertical {
     padding: 7px 0;
 }
+
 

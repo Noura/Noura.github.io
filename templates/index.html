@@ -55,24 +55,18 @@
 </div>
 <div id="main">
     <div id="tabs">
-        <div class="tab" data-i="0">
-            About
-        </div>
-        <div class="tab" data-i="1">
-            Skills
-        </div>
-        <div class="tab project" data-i="2">
-            Lissajous Curves
-        </div>
-        <div class="tab project" data-i="3">
-            Mobile Illiteracy
-        </div>
-        <div class="tab project" data-i="4">
-            Data Dashboard
-        </div>
-        <div class="tab project" data-i="5">
-            Full Stack<br/> QA Tools
-        </div>
+        {% for tab in [
+            {'name': 'About',               'type': 'general'},
+            {'name': 'Skills',              'type': 'general'},
+            {'name': 'Lissajous Curves',    'type': 'project'},
+            {'name': 'Mobile Illiteracy',   'type': 'project'},
+            {'name': 'Data Dashboard',      'type': 'project'},
+            {'name': 'Full Stack QA Tools', 'type': 'project'}] %}
+            <div class="tab {{tab.type}}" data-i="{{loop.index0}}">
+                {{ tab.name }}
+                <div class="tab-arrow-right" data-i="{{loop.index0}}"></div>
+            </div>
+        {%- endfor %}
     </div>
     <div class="clear"></div>
     <div id="content">

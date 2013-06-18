@@ -27,11 +27,21 @@ $(document).ready(function() {
         $main.width(main_width + extra_width);
     }
 
+    function scroll_to_tab(i) {
+        $('body,html').animate({scrollLeft: i*tab_content_width}, 500);
+    }
 
     // clicking on a tab scrolls you there
     $('.tab').on('click', function() {
         var i = $(this).data('i');
-        $('body,html').animate({scrollLeft: i*tab_content_width}, 500);
+        scroll_to_tab(i);
+    });
+
+    // clicking on an arrow scrolls to next tab
+    $('.tab-arrow-right').on('click', function(ev) {
+        ev.stopPropagation();
+        var i = $(this).data('i');
+        scroll_to_tab(i + 1);
     });
 
     // scrolling through tabs

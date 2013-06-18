@@ -27,11 +27,21 @@ $(document).ready(function() {
         $main.width(main_width + extra_width);
     }
 
+    function scroll_to_tab(i) {
+        $('body,html').animate({scrollLeft: i*tab_content_width}, 500);
+    }
 
     // clicking on a tab scrolls you there
     $('.tab').on('click', function() {
         var i = $(this).data('i');
-        $('body,html').animate({scrollLeft: i*tab_content_width}, 500);
+        scroll_to_tab(i);
+    });
+
+    // clicking on an arrow scrolls to next tab
+    $('.tab-arrow-right').on('click', function(ev) {
+        ev.stopPropagation();
+        var i = $(this).data('i');
+        scroll_to_tab(i + 1);
     });
 
     // scrolling through tabs
@@ -50,14 +60,6 @@ $(document).ready(function() {
         tabs[I].$el.css({'position': 'fixed', 'margin-left': margin_left+'px'})
             .addClass('active');
         var i = I + 1;
-        /*
-        while (i < tabs.length) {
-            var offset = i*tab_content_width;
-            tabs[i].$el.css({'position': 'static', 'margin-left': offset+'px'})
-                .removeClass('active');
-            i++;
-        }
-        */
         var offset = i * tab_content_width;
         tabs[i].$el.css({'position': 'static', 'margin-left': offset+'px'})
             .removeClass('active');
