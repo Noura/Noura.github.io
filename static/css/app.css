@@ -2,6 +2,10 @@
     font-family: 'myriad-pro-light';
     src: url(../fnt/MyriadPro-Light.otf);
 }
+@font-face {
+    font-family: 'geosans-light';
+    src: url(../fnt/GeosansLight.ttf);
+}
 body {
     margin: 0;
     width: 100%;
@@ -137,18 +141,19 @@ p > span {
     margin-right: 0;
 }
 .tab-arrow-right {
-    width: 0;
-    height: 0;
-    border-top: 25px solid transparent;
-    border-bottom: 25px solid transparent;
-    border-left-width: 30px;
-    margin-left: 100px;
-    margin-top: -33px;
-    opacity: .3;
+    width: 30px;
+    height: 50px;
+    margin-left: 98px;
+    margin-top: -26px;
+    font-size: 700%;
+    font-weight: lighter;
+    font-family: 'geosans-light';
+    color: rgb(255, 112, 0);
+    cursor: default;
     display: none;
 }
 .tab.project .tab-arrow-right {
-    margin-top: -39px;
+    margin-top: -32px;
 }
 .tab.active .tab-arrow-right {
     display: block;
@@ -226,9 +231,10 @@ p.list-intro {
 }
 #lissa-carousel a.carousel-control {
     letter-spacing: -5px;
-    line-height: 40px;
+    line-height: 30px;
     top: 47%;
     text-decoration: none;
+    font-family: 'geosans-light';
     z-index: 2;
 }
 #lissa-carousel a.left.carousel-control {

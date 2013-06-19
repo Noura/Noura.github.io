@@ -8,6 +8,8 @@ $(document).ready(function() {
     var tab_content_width = 800;
     var tab_width = 102;
     var cutoff_width = tab_content_width - tab_width;
+    var min_d = 30;
+    var max_d = 100;
     var tabs = [];
     $('.tab').each(function() {
         tabs.push({$el: $(this)});
@@ -61,14 +63,27 @@ $(document).ready(function() {
             .addClass('active');
         var i = I + 1;
         var offset = i * tab_content_width;
-        tabs[i].$el.css({'position': 'static', 'margin-left': offset+'px'})
-            .removeClass('active');
+        if (i < tabs.length) {
+            tabs[i].$el.css({'position': 'static', 'margin-left': offset+'px'})
+                .removeClass('active');
+        }
         i++;
         while (i < tabs.length) {
             tabs[i].$el.css({'position': 'static', 'margin-left': 0+'px'})
                 .removeClass('active');
             i++;
         }
+
+        var opacity;
+        var d = (I+1) * cutoff_width - x;
+        if (d <= min_d) {
+            opacity = 0;
+        } else if (d >= max_d) {
+            opacity = 1;
+        } else {
+            opacity = 1/(max_d - min_d) * (d - min_d);
+        }
+        tabs[I].$el.find('.tab-arrow-right').first().css('opacity', opacity);
     }, 50);
 });
 

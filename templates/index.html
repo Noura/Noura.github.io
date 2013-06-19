@@ -64,7 +64,9 @@
             {'name': 'Full Stack QA Tools', 'type': 'project'}] %}
             <div class="tab {{tab.type}}" data-i="{{loop.index0}}">
                 {{ tab.name }}
-                <div class="tab-arrow-right" data-i="{{loop.index0}}"></div>
+                <div class="tab-arrow-right" data-i="{{loop.index0}}">
+                    &rsaquo;
+                </div>
             </div>
         {%- endfor %}
     </div>
