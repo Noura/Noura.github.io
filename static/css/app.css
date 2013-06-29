@@ -64,6 +64,8 @@ background-image: -ms-linear-gradient(left , rgba(255, 255, 255, 0) 0%, rgba(255
     border-right-width: 1px;
     height: 100%;
     position: fixed;
+    left: 0;
+    top: 0;
     background: white;
     z-index: 5;
 }
