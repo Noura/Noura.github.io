@@ -64,6 +64,8 @@ background-image: -ms-linear-gradient(left , rgba(255, 255, 255, 0) 0%, rgba(255
     border-right-width: 1px;
     height: 100%;
     position: fixed;
+    left: 0;
+    top: 0;
     background: white;
     z-index: 5;
 }
@@ -89,20 +91,16 @@ background-image: -ms-linear-gradient(left , rgba(255, 255, 255, 0) 0%, rgba(255
     height: 496px;
     padding-top: 11px;
 }
-#desc {
-    text-align: right;
-}
 p > span {
     display: block;
     padding-bottom: .5em;
 }
 #contact {
     position: absolute;
-    bottom: 0;
+    top: 100px;
     right: 0;
     text-align: right;
-    padding-top: 15px;
-    padding-bottom: 10px;
+    padding-top: 12px;
     padding-right: 6px;
     margin: 0 0 0 0;
 }
@@ -226,6 +224,21 @@ p.list-intro {
     margin-bottom: .1em;
 }
 
+.tile {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    max-width: 50%;
+}
+
+#portrait {
+    height: 400px;
+}
+
+#lissa-carousel,
+#portrait {
+    margin-bottom: 1em;
+}
 #lissa-carousel img {
     width: 700px;
 }
