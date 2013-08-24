@@ -2,6 +2,179 @@
 
 {% block body %}
 
-Hey there
+<div class="container">
+
+    <div class="project">
+
+        <h1>WaaZam</h1>
+
+        <div class="img-backdrop">
+            <img src="static/img/waazam.jpg">
+        </div>
+
+        <p>
+            <a href="http://waazam.com">WaaZam</a> supports shared creative play at a distance. It is the doctoral research of <a href="http://perspectum.com">Seth Hunter</a> in the <a href="http://fluid.media.mit.edu/">Fluid Interfaces Group</a> at the <a href="http://media.mit.edu/">MIT Media Lab</a>. I am helping conduct a user study, analyze those results, and clean up the code.
+        </p>
+
+    </div>
+
+    <div class="project">
+
+        <h1>SiriusXM Music Programmer Tool</h1>
+
+        <p>
+            SiriusXM's <a href="http://blog.echonest.com/post/48040487056/mysxm">MySXM personalized radio stations</a> are created by SiriusXM's music programmers using this tool, made by <a href="http://the.echonest.com/">The Echo Nest</a>. I worked with one other web developer on the front end JavaScript application. Highlights included throttling AJAX requests to reliably load thousands of dynamically structured song objects, maintaining a responsive interface while loading, sorting, and filtering those objects, and automatically suggesting possible areas of concern to the music programmers to guide their design of these radio stations.
+        </p>
+    </div>
+
+    <div class="project">
+
+        <h1>Full Stack Quality Assurance Tool</h1>
+
+        <div class="figure">
+            <div class="figure-row medium">
+                <div class="figure-column">
+                    <div class="box medium">
+                        <div class="box-title">
+                            I. Quizzes Website
+                        </div>
+                        <div class="box-content">
+                            Users create quizzes of sets of data to review, review that data, and track progress. I embedded (IV)'s views and actions and made interactive graphs of progress.
+                        </div>
+                    </div>
+                </div>
+                <div class="between-columns">
+                    <div class="horizontal arrow">
+                        &#8596;
+                    </div>
+                </div>
+                <div class="figure-column">
+                    <div class="box medium">
+                        <div class="box-title">
+                            IV. Data Quality Assurance Website
+                        </div>
+                        <div class="box-content">
+                            Users find, view, and make add/remove actions on data objects. I made this, including search queries and views that dynamically match data structure for display.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="figure-row short">
+                <div class="figure-column">
+                    <div class="vertical arrow">
+                        &#8597;
+                    </div>
+                </div>
+                <div class="between-columns">
+                </div>
+                <div class="figure-column">
+                    <div class="two-thirds">
+                        <div class="vertical arrow">
+                            &#8597;
+                        </div>
+                    </div>
+                    <div class="one-third">
+                        <div class="vertical arrow">
+                            &#8597;
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="figure-row tall">
+                <div class="figure-column">
+                    <div class="box tall">
+                        <div class="box-title">
+                            II. Data Interface and Server
+                        </div>
+                        <div class="box-content">
+                            Serves web pages for (I) and stores data in (III). I defined a new question type, logged worker actions, and calculated worker and quiz progress statistics.
+                        </div>
+                    </div>
+                </div>
+                <div class="between-columns">
+                </div>
+                <div class="figure-column">
+                    <div class="figure-row medium">
+                        <div class="two-thirds">
+                            <div class="box medium">
+                                <div class="box-title">
+                                    V. Web Data Interface
+                                </div>
+                                <div class="box-content">
+                                    AJAX requests for add/remove actions and data structure descriptions.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="one-third">
+                            <div class="box medium">
+                                <div class="box-title">
+                                    VI. Server
+                                </div>
+                                <div class="box-content">
+                                    Serves pages for (IV).
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="figure-row short">
+                        <div class="vertical arrow">
+                            &#8597;
+                        </div>
+                    </div>
+                    <div class="figure-row medium">
+                        <div class="box medium">
+                            <div class="box-title">
+                                VII. Python Data Interface
+                            </div>
+                            <div class="box-content">
+                                Humans and bots can add/remove data objects, and programmers can define new data types. I did not work on this, but I worked closely with those who did to ensure that data type structures were correctly represented.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="figure-row short">
+                <div class="figure-column">
+                    <div class="vertical arrow">
+                        &#8597;
+                    </div>
+                </div>
+                <div class="between-columns">
+                </div>
+                <div class="figure-column">
+                    <div class="vertical arrow">
+                        &#8597;
+                    </div>
+                </div>
+            </div>
+            <div class="figure-row medium">
+                <div class="figure-column">
+                    <div class="box medium">
+                        <div class="box-title">
+                            III. Quizzes to Review Music Data
+                        </div>
+                        <div class="box-content">
+                            This database stores quizzes and responses. I defined the collection to store worker actions and queried that collection to calculate progress statistics.
+                        </div>
+                    </div>
+                </div>
+                <div class="between-columns">
+                </div>
+                <div class="figure-column">
+                    <div class="box medium">
+                        <div class="box-title">
+                            VII. Music Data
+                        </div>
+                        <div class="box-content">
+                            This database stores the music data whose accuracy we must ensure. I did not work on this, but I worked closely with those who did to define how humans could best contribute to data accuracy.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
 
 {% endblock body %}
