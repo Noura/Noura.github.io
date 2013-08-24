@@ -14,7 +14,24 @@ img {
     padding-bottom: 1em;
 }
 
+td.text {
+    vertical-align: top;
+    border: 1px solid rgb(200, 220, 210);
+    font-size: 12px;
+}
+td.arrow {
+    vertical-align: middle;
+    text-align: center;
+}
+td .td-inner {
+    margin: 3px;
+    margin-top: -6px;
+}
+
 /* bootstrap overrides */
 .container {
     max-width: 750px;
+}
+table {
+    border-collapse: separate;
 }
