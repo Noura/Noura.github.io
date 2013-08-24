@@ -20,26 +20,27 @@
     </head>
     <body>
 
-        <header class="navbar navbar-fixed-top" role="banner">
+        <div class="navbar navbar-fixed-top" role="banner">
             <div class="container">
                 <div class="navbar-header">
                     <a href="/" class="navbar-brand">Noura Howell</a>
                 </div>
-                <nav class="collapse navbar-collapse" role="navigation">
+                <div class="collapse navbar-collapse" role="navigation">
                     <ul class="nav navbar-nav">
-                        <li>
-                            <a href="/">Projects</a>
-                        </li>
-                        <li>
-                            <a href="/experiments">Experiments</a>
-                        </li>
-                        <li>
-                            <a href="/about">About</a>
-                        </li>
+                        {% for page in pages %}
+                        <li
+                            {% if current_page_tabname == page['tabname'] -%}
+                                class="active"
+                            {%- endif -%}>
+                                <a href="/{{page['path']}}">
+                                    {{page['tabname']}}
+                                </a>
+                            </li>
+                        {% endfor %}
                     </ul>
-                </nav>
+                </div>
             </div>
-        </header>
+        </div>
 
         {% block body %}
 
