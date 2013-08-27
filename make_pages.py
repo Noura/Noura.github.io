@@ -8,7 +8,8 @@ TARGET = 'to-deploy/'
 pages = [ {
             'template': 'index.html',
             'path': '',
-            'tabname': 'Projects'
+            'tabname': 'Projects',
+            'projects': ['waazam.html', 'sxm.html', 'qa.html', 'mobile_illiteracy.html'],
           },
           {
             'template': 'experiments.html',
@@ -35,7 +36,7 @@ def main():
 
     for page in pages:
         tem = templates.get_template(page['template'])
-        ctx = { 'pages': pages , 'current_page_tabname': page['tabname']}
+        ctx = { 'pages': pages , 'current_page': page }
         out_dir = os.path.join(deploy_target, page['path'])
         if page['path']:
             os.makedirs(out_dir)

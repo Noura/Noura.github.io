@@ -29,7 +29,7 @@
                     <ul class="nav navbar-nav">
                         {% for page in pages %}
                         <li
-                            {% if current_page_tabname == page['tabname'] -%}
+                            {% if current_page['tabname'] == page['tabname']-%}
                                 class="active"
                             {%- endif -%}>
                                 <a href="/{{page['path']}}">
