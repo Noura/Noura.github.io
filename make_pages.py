@@ -12,9 +12,10 @@ pages = [ {
             'projects': ['waazam.html', 'sxm.html', 'qa.html', 'mobile_illiteracy.html'],
           },
           {
-            'template': 'experiments.html',
+            'template': 'index.html',
             'path': 'experiments',
-            'tabname': 'Experiments'
+            'tabname': 'Experiments',
+            'projects': ['lissajous.html', 'chladni.html'],
           },
           {
             'template': 'about.html',

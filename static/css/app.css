@@ -23,6 +23,9 @@ img {
 .img-link-container img {
     position: relative;
 }
+img.me {
+    height: 150px;
+}
 
 .project {
     padding-bottom: 1em;
