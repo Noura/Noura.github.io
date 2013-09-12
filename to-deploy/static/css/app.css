@@ -1,13 +1,56 @@
 body {
     padding-top: 70px;
 }
+/* navbar and tabs */
+.my-navbar {
+    background: white;
+    border-bottom: 1px solid rgb(0, 214, 141);
+    box-shadow: 0 0 3px rgb(52, 145, 112);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.name {
+    display: block;
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    color: black;
+}
+ul.my-tabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.my-tabs li {
+    display: inline-block;
+}
+ul.my-tabs li a {
+    display: block;
+    padding: 15px;
+    -webkit-transition: background-color .05s;
+    -moz-transition: background-color .05s;
+    -o-transition: background-color .05s;
+    -transition: background-color .05s;
+}
+ul.my-tabs li.active a,
+ul.my-tabs li.active a:hover {
+    background: rgb(0, 214, 141);
+    color: rgb(255, 255, 255);
+}
+ul.my-tabs li a:hover {
+    color: rgb(0, 214, 141);
+    background: rgb(235, 255, 245);
+}
 
 img {
     max-width: 100%;
 }
 .img-backdrop {
     padding: 5px;
-    background: rgb(200, 220, 210);
+    background: rgb(223, 233, 233);
 }
 .img-link-container {
     position: relative;
@@ -37,9 +80,16 @@ img.wide {
     padding-bottom: 1em;
 }
 
+table,
+div.img-backdrop {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* flow chart */
 td.text {
     vertical-align: top;
-    border: 1px solid rgb(200, 220, 210);
+    border: 1px solid rgb(203, 213, 213);
     font-size: 12px;
 }
 td.arrow {
@@ -51,10 +101,39 @@ td .td-inner {
     margin-top: -6px;
 }
 
+/* images group */
+table.pics {
+    border-collapse: collapse;
+    max-width: 99%;
+}
+table.pics td {
+    border: 5px solid rgb(223, 233, 233);
+    padding: 0;
+    margin: 0;
+}
+table.pics td#apples {
+    width: 34%;
+}
+
 /* bootstrap overrides */
 .container {
     max-width: 750px;
 }
 table {
     border-collapse: separate;
+}
+a {
+    color: rgb(0, 214, 141);
+}
+p > a {
+    color: rgb(0, 214, 141);
+}
+p > a:hover {
+    color: rgb(255, 255, 250);
+    background: rgb(0, 241, 141);
+}
+a,
+a:hover {
+    text-shadow: none;
+    text-decoration: none;
 }
