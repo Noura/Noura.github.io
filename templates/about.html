@@ -4,14 +4,16 @@
 
 <div class="container">
 
-    <img class="wide" src="/static/img/me/beach.jpeg">
+    <div class="img-wrapper">
+        <img class="wide" src="/static/img/me/beach.jpeg">
 
-    <div class="row">
-        <div class="col-md-12">
-            {% set images = ["sale.jpg", "with_zach.jpeg", "mhd.jpg", "laying_pipe.jpeg"] %}
-            {% for image in images %}
-                <img class="me" src="/static/img/me/{{image}}">
-            {% endfor %}
+        <div class="row">
+            <div class="col-md-12">
+                {% set images = ["sale.jpg", "with_zach.jpeg", "mhd.jpg", "laying_pipe.jpeg"] %}
+                {% for image in images %}
+                    <img class="me" src="/static/img/me/{{image}}">
+                {% endfor %}
+            </div>
         </div>
     </div>
 
@@ -20,11 +22,11 @@
     </p>
 
     <p>
-    My prior work ranges across international human centered design, data dashboards and management web apps, usability testing and results analysis, and audio processing and visualization.
+    My prior work ranges across international human centered design, data dashboards and management web apps, usability testing and results analysis, and interactive audio processing and visualization.
     </p>
 
     <p>
-    Contact: My gmail account is noura.howell.
+    Contact: [firstname].[lastname]@gmail.com
     </p>
 
 </div>
