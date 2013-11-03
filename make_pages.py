@@ -9,7 +9,7 @@ pages = [ {
             'template': 'index.html',
             'path': '',
             'tabname': 'Projects',
-            'projects': ['waazam.html', 'sxm.html', 'qa.html', 'mobile_illiteracy.html'],
+            'projects': ['mobile_illiteracy.html', 'solar_cooker.html', 'waazam.html', 'sxm.html', 'qa.html'],
           },
           {
             'template': 'index.html',

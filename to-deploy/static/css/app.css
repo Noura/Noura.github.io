@@ -117,6 +117,8 @@ table.pics td {
 table.pics td#apples {
     width: 34%;
 }
+table.pics td#yak-dung {
+    width: 63.9%;
 
 /* bootstrap overrides */
 .container {
