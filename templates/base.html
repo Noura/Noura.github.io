@@ -2,9 +2,11 @@
     <head>
         <title>Noura Howell</title>
 
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="/static/css/app.css">
+        {% block css %}
+            <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+            <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+            <link rel="stylesheet" href="/static/css/app.css">
+        {% endblock css %}
 
         <script type="text/javascript">
             var _gaq = _gaq || [];
