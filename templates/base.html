@@ -3,35 +3,35 @@
         <title>Noura Howell</title>
 
         {% block css %}
-            <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-            <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
-            <link rel="stylesheet" href="/static/css/app.css">
-        {% endblock css %}
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="/static/css/app.css">
+    {% endblock css %}
 
-        <script type="text/javascript">
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-39982112-1']);
-            _gaq.push(['_trackPageview']);
-            (function() {
-                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-            })();
-        </script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-39982112-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
 
-    </head>
-    <body>
+</head>
+<body>
 
-        <div class="my-navbar" role="banner">
-            <span class="name">Noura Howell</span>
-            <div class="container">
-                <ul class="my-tabs">
-                    {% for page in pages %}
-                    <li
-                        {% if current_page['tabname'] == page['tabname']-%}
-                            class="active"
-                        {%- endif -%}>
-                            <a href="/{{page['path']}}">
+    <div class="my-navbar" role="banner">
+        <span class="name">Noura Howell</span>
+        <div class="container">
+            <ul class="my-tabs">
+                {% for page in pages %}
+                <li
+                    {% if current_page['tabname'] == page['tabname']-%}
+                        class="active"
+                    {%- endif -%}>
+                        <a href="/{{page['path']}}">
                                 {{page['tabname']}}
                             </a>
                         </li>
