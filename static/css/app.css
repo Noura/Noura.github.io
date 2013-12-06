@@ -89,6 +89,11 @@ div.img-wrapper {
     margin-bottom: 1em;
 }
 
+table.nested {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 /* flow chart */
 td.text {
     vertical-align: top;
