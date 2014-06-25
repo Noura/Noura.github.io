@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<div class="container">
+
+    <div class="img-wrapper">
+        <img class="wide" src="/static/img/me/beach.jpeg">
+
+        <div class="row">
+            <div class="col-md-12">
+                {% set images = ["sale.jpg", "with_zach.jpeg", "mhd.jpg", "laying_pipe.jpeg"] %}
+                {% for image in images %}
+                    <img class="me" src="/static/img/me/{{image}}">
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <p>
+    My work in sustainable development, data dashboards/management web apps, and human computer interaction creates practical human impact.
+    </p>
+    <p>
+    My work in interactive audio processing and visualization seeks to create beauty and enable playful exploration of sound. 
+    </p>
+
+    <p>
+    Contact: [firstname].[lastname]@gmail.com
+    </p>
+
+    <p>
+        <a href="/static/pdf/NouraHowell_Resume.pdf" target="_blank">Resume</a>
+    </p>
+
+</div>
+
+{% endblock body %}

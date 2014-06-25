@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<div class="container">
+
+    {% for project in current_page['projects'] %}
+        <div class="project">
+            {% include "projects/"+project %}
+        </div>
+    {% endfor %}
+
+</div>
+
+{% endblock body %}
