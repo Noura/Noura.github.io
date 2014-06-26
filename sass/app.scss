@@ -1,6 +1,7 @@
 body {
     padding-top: 70px;
 }
+
 /* navbar and tabs */
 .my-navbar {
     background: white;
@@ -44,6 +45,107 @@ ul.my-tabs li a:hover {
     color: rgb(0, 214, 141);
     background: rgb(235, 255, 245);
 }
+///////////////
+
+
+.project {
+    padding-bottom: 1em;
+}
+
+
+/* flow chart */
+td.text {
+    vertical-align: top;
+    border: 1px solid rgb(203, 213, 213);
+    font-size: 12px;
+}
+td.arrow {
+    vertical-align: middle;
+    text-align: center;
+}
+td .td-inner {
+    margin: 3px;
+    margin-top: -6px;
+}
+
+/* bootstrap overrides */
+.container {
+    max-width: 750px;
+}
+table {
+    border-collapse: separate;
+}
+a {
+    color: rgb(0, 214, 141);
+}
+p > a {
+    color: rgb(0, 214, 141);
+}
+p > a:hover {
+    color: rgb(255, 255, 250);
+    background: rgb(0, 241, 141);
+}
+a,
+a:hover {
+    text-shadow: none;
+    text-decoration: none;
+}
+
+/* images */
+@mixin square_container($percent_w) {
+    width: 0;
+    height: 0;
+    box-sizing: border-box;
+    padding-left: $percent_w;
+    padding-bottom: $percent_w;
+    position: relative;
+}
+@mixin square_inner() {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@mixin image($filename) {
+    background-size: cover;
+    @media (min-width: 616px) {
+        background-image: url('/static/img/container_w_750px/' + $filename);
+    }
+    @media (max-width: 615px) {
+        background-image: url('/static/img/container_w_600px/' + $filename);
+    }
+}
+
+.small-square-image {
+    @include square_container(25%);
+    display: inline-block;
+    float: right;
+}
+.small-square-image:after {
+    @include square_inner();
+}
+@mixin full-width-image($ratio) { // height / width * 100
+    width: 100%;
+    height: 0;
+    padding-top: $ratio;
+}
+
+.beach {
+    @include full-width-image(23.5%);
+    @include image('beach.jpg');
+}
+.small-square-image.sale {
+    @include image('sale.jpg');
+}
+.small-square-image.zach {
+    @include image('with_zach.jpg');
+}
+.small-square-image.mhd {
+    @include image('mhd.jpg');
+}
+.small-square-image.pipe {
+    @include image('laying_pipe.jpg');
+}
 
 img {
     max-width: 100%;
@@ -76,10 +178,6 @@ img.wide {
     margin-right: auto;
 }
 
-.project {
-    padding-bottom: 1em;
-}
-
 /* TODO clean this up */
 table,
 div.img-backdrop,
@@ -94,22 +192,7 @@ table.nested {
     margin-bottom: 0;
 }
 
-/* flow chart */
-td.text {
-    vertical-align: top;
-    border: 1px solid rgb(203, 213, 213);
-    font-size: 12px;
-}
-td.arrow {
-    vertical-align: middle;
-    text-align: center;
-}
-td .td-inner {
-    margin: 3px;
-    margin-top: -6px;
-}
 
-/* images group */
 table.pics {
     border-collapse: collapse;
     max-width: 99%;
@@ -126,25 +209,3 @@ table.pics td#yak-dung {
     width: 63.9%;
 }
 
-/* bootstrap overrides */
-.container {
-    max-width: 750px;
-}
-table {
-    border-collapse: separate;
-}
-a {
-    color: rgb(0, 214, 141);
-}
-p > a {
-    color: rgb(0, 214, 141);
-}
-p > a:hover {
-    color: rgb(255, 255, 250);
-    background: rgb(0, 241, 141);
-}
-a,
-a:hover {
-    text-shadow: none;
-    text-decoration: none;
-}

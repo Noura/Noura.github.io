@@ -44,6 +44,109 @@ ul.my-tabs li a:hover {
   color: #00d68d;
   background: #ebfff5; }
 
+.project {
+  padding-bottom: 1em; }
+
+/* flow chart */
+td.text {
+  vertical-align: top;
+  border: 1px solid #cbd5d5;
+  font-size: 12px; }
+
+td.arrow {
+  vertical-align: middle;
+  text-align: center; }
+
+td .td-inner {
+  margin: 3px;
+  margin-top: -6px; }
+
+/* bootstrap overrides */
+.container {
+  max-width: 750px; }
+
+table {
+  border-collapse: separate; }
+
+a {
+  color: #00d68d; }
+
+p > a {
+  color: #00d68d; }
+
+p > a:hover {
+  color: #fffffa;
+  background: #00f18d; }
+
+a,
+a:hover {
+  text-shadow: none;
+  text-decoration: none; }
+
+/* images */
+.small-square-image {
+  width: 0;
+  height: 0;
+  box-sizing: border-box;
+  padding-left: 25%;
+  padding-bottom: 25%;
+  position: relative;
+  display: inline-block;
+  float: right; }
+
+.small-square-image:after {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.beach {
+  width: 100%;
+  height: 0;
+  padding-top: 23.5%;
+  background-size: cover; }
+  @media (min-width: 616px) {
+    .beach {
+      background-image: url("/static/img/container_w_750px/beach.jpg"); } }
+  @media (max-width: 615px) {
+    .beach {
+      background-image: url("/static/img/container_w_600px/beach.jpg"); } }
+
+.small-square-image.sale {
+  background-size: cover; }
+  @media (min-width: 616px) {
+    .small-square-image.sale {
+      background-image: url("/static/img/container_w_750px/sale.jpg"); } }
+  @media (max-width: 615px) {
+    .small-square-image.sale {
+      background-image: url("/static/img/container_w_600px/sale.jpg"); } }
+
+.small-square-image.zach {
+  background-size: cover; }
+  @media (min-width: 616px) {
+    .small-square-image.zach {
+      background-image: url("/static/img/container_w_750px/with_zach.jpg"); } }
+  @media (max-width: 615px) {
+    .small-square-image.zach {
+      background-image: url("/static/img/container_w_600px/with_zach.jpg"); } }
+
+.small-square-image.mhd {
+  background-size: cover; }
+  @media (min-width: 616px) {
+    .small-square-image.mhd {
+      background-image: url("/static/img/container_w_750px/mhd.jpg"); } }
+  @media (max-width: 615px) {
+    .small-square-image.mhd {
+      background-image: url("/static/img/container_w_600px/mhd.jpg"); } }
+
+.small-square-image.pipe {
+  background-size: cover; }
+  @media (min-width: 616px) {
+    .small-square-image.pipe {
+      background-image: url("/static/img/container_w_750px/laying_pipe.jpg"); } }
+  @media (max-width: 615px) {
+    .small-square-image.pipe {
+      background-image: url("/static/img/container_w_600px/laying_pipe.jpg"); } }
+
 img {
   max-width: 100%; }
 
@@ -74,9 +177,6 @@ img.wide {
   margin-left: auto;
   margin-right: auto; }
 
-.project {
-  padding-bottom: 1em; }
-
 /* TODO clean this up */
 table,
 div.img-backdrop,
@@ -89,21 +189,6 @@ table.nested {
   margin-top: 0;
   margin-bottom: 0; }
 
-/* flow chart */
-td.text {
-  vertical-align: top;
-  border: 1px solid #cbd5d5;
-  font-size: 12px; }
-
-td.arrow {
-  vertical-align: middle;
-  text-align: center; }
-
-td .td-inner {
-  margin: 3px;
-  margin-top: -6px; }
-
-/* images group */
 table.pics {
   border-collapse: collapse;
   max-width: 99%; }
@@ -118,25 +203,3 @@ table.pics td#apples {
 
 table.pics td#yak-dung {
   width: 63.9%; }
-
-/* bootstrap overrides */
-.container {
-  max-width: 750px; }
-
-table {
-  border-collapse: separate; }
-
-a {
-  color: #00d68d; }
-
-p > a {
-  color: #00d68d; }
-
-p > a:hover {
-  color: #fffffa;
-  background: #00f18d; }
-
-a,
-a:hover {
-  text-shadow: none;
-  text-decoration: none; }

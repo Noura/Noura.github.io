@@ -5,14 +5,14 @@
 <div class="container">
 
     <div class="img-wrapper">
-        <img class="wide" src="/static/img/beach.jpg">
+        <div class="beach"></div>
 
         <div class="row">
             <div class="col-md-12">
-                {% set images = ["sale.jpg", "with_zach.jpg", "mhd.jpg", "laying_pipe.jpg"] %}
-                {% for image in images %}
-                    <img class="me" src="/static/img/{{image}}">
-                {% endfor %}
+                <div class="small-square-image sale"></div>
+                <div class="small-square-image zach"></div>
+                <div class="small-square-image mhd"></div>
+                <div class="small-square-image pipe"></div>
             </div>
         </div>
     </div>
