@@ -92,12 +92,12 @@ a:hover {
 }
 
 /* images */
-@mixin square_container($percent_w) {
+@mixin square_container($w) {
     width: 0;
     height: 0;
     box-sizing: border-box;
-    padding-left: $percent_w;
-    padding-bottom: $percent_w;
+    padding-left: $w;
+    padding-bottom: $w;
     position: relative;
 }
 @mixin square_inner() {
@@ -130,6 +130,22 @@ a:hover {
     padding-top: $ratio;
 }
 
+.chladni {
+    @include image('chladni.png');
+    width: 0;
+    height: 0;
+    box-sizing: border-box;
+    padding-left: 100%;
+    padding-bottom: 70.8%;
+    background-size: contain;
+    background-position-x: 50%;
+    background-position-y: 0;
+    background-repeat: no-repeat;
+}
+.lissa {
+    @include full-width-image(31.8%);
+    @include image('lissa1.png');
+}
 .beach {
     @include full-width-image(23.5%);
     @include image('beach.jpg');
@@ -167,15 +183,6 @@ img {
 }
 .img-link-container img {
     position: relative;
-}
-img.me {
-    width: 25%;
-    float: left;
-}
-img.wide {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /* TODO clean this up */
