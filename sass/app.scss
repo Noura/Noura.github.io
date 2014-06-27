@@ -130,6 +130,31 @@ a:hover {
     padding-top: $ratio;
 }
 
+.apples {
+    background-size: cover;
+    width: 32%;
+    @include image('current_phone_tech.jpg');
+    box-sizing: border-box;
+    border: 5px solid #dfe9e9;
+    display: inline-block;
+    float: left;
+    height: 56%;
+    background-repeat: no-repeat;
+    margin-bottom: 1em;
+}
+.notebook {
+    background-size: contain;
+    @include image('notebook.png');
+    width: 66%;
+    height: 56%;
+    box-sizing: border-box;
+    border: 5px solid #dfe9e9;
+    border-left-width: 0;
+    display: inline-block;
+    float: left;
+    clear: right;
+    margin-bottom: 1em;
+}
 .chladni {
     @include image('chladni.png');
     width: 0;

@@ -99,6 +99,43 @@ a:hover {
   top: 0;
   left: 0; }
 
+.apples {
+  background-size: cover;
+  width: 32%;
+  background-size: cover;
+  box-sizing: border-box;
+  border: 5px solid #dfe9e9;
+  display: inline-block;
+  float: left;
+  height: 56%;
+  background-repeat: no-repeat;
+  margin-bottom: 1em; }
+  @media (min-width: 616px) {
+    .apples {
+      background-image: url("/static/img/container_w_750px/current_phone_tech.jpg"); } }
+  @media (max-width: 615px) {
+    .apples {
+      background-image: url("/static/img/container_w_600px/current_phone_tech.jpg"); } }
+
+.notebook {
+  background-size: contain;
+  background-size: cover;
+  width: 66%;
+  height: 56%;
+  box-sizing: border-box;
+  border: 5px solid #dfe9e9;
+  border-left-width: 0;
+  display: inline-block;
+  float: left;
+  clear: right;
+  margin-bottom: 1em; }
+  @media (min-width: 616px) {
+    .notebook {
+      background-image: url("/static/img/container_w_750px/notebook.png"); } }
+  @media (max-width: 615px) {
+    .notebook {
+      background-image: url("/static/img/container_w_600px/notebook.png"); } }
+
 .chladni {
   background-size: cover;
   width: 0;
