@@ -36,17 +36,19 @@
                             </a>
                         </li>
                     {% endfor %}
-                </ul>
-            </div>
+                </li>
+            </ul>
         </div>
+    </div>
 
-        {% block body %}
+    {% block body %}
 
-        {% endblock body %}
+    {% endblock body %}
 
-        {% block js %}
-            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script> 
-            <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-        {% endblock js %}
-    </body>
+    {% block js %}
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script> 
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    {% endblock js %}
+
+</body>
 </html>
