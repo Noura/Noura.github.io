@@ -1,0 +1,16 @@
+{% macro tile(page, current_page) %}
+    <div class="tile">
+        <div class="image {{ page.thumbnail }}"></div>
+        <div class="name">
+            {{ page.name }}
+        </div>
+        <a href="/{{ page.path }}"></a>
+    </div>
+{% endmacro %}
+
+{% macro tiles(pages, current_page) %}
+    {% for page in pages %}
+        {{ tile(page, current_page) }}
+    {% endfor %}
+{% endmacro %}
+

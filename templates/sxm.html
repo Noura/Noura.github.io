@@ -1,5 +1,9 @@
-<h1>SiriusXM Music Programmer Tool</h1>
+{% extends "subpage_base.html" %}
+
+{% block content %}
 
 <p>
     SiriusXM's <a href="http://blog.echonest.com/post/48040487056/mysxm" target="_blank">MySXM personalized radio stations</a> are created by SiriusXM's music programmers using this tool, made by <a href="http://the.echonest.com/" target="_blank">The Echo Nest</a>. I worked with one other web developer on the front end JavaScript application. Highlights included throttling AJAX requests to reliably load thousands of dynamically structured song objects, maintaining a responsive interface while loading, sorting, and filtering those objects, and automatically suggesting possible areas of concern to the music programmers to guide their design of these radio stations.
 </p>
+
+{% endblock content %}

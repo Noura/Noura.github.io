@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% import 'macros.html' as macros %}
+
+{% block body %}
+
+<div class="sidebar">
+    {{ macros.tiles(pages, current_page) }}
+</div>
+
+<div class="topbar">
+    <h1>{{current_page.name}}</h1>
+</div>
+
+<div class="mainbar">
+
+    {% block content %}
+
+    {% endblock content %}
+
+</div>
+
+{% endblock body %}
