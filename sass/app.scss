@@ -73,11 +73,16 @@ h1 {
     -webkit-margin-end: 0;
 }
 h1.homepage {
-    margin-left: 10px;
+    margin-left: 16px;
     margin-top: 20px;
 }
 
 /* tiles */
+.big-tiles {
+    padding: 0 10px 10px 10px;
+    display: inline-block;
+    float: left;
+}
 .tile {
     width: 300px;
     height: 300px;
