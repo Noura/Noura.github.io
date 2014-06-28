@@ -61,7 +61,7 @@ body {
 .main {
     margin-top: 10px;
 }
-.topbar h1 {
+h1 {
     margin: 0;
     font-size: 64px;
     line-height: 1em;
@@ -70,6 +70,11 @@ body {
     -webkit-margin-after: 0;
     -webkit-margin-start: 0;
     -webkit-margin-end: 0;
+}
+h1.homepage {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 /* tiles */
@@ -98,7 +103,7 @@ body {
 .tile .name {
     z-index: 0;
     color: white;
-    font-size: 50px;
+    font-size: 72px;
     font-weight: 200;
     font-family: forTitles;
     text-overflow: ellipsis;
@@ -226,7 +231,7 @@ td .td-inner {
     @include weird_sizing(25%, 25%);
 }
 .zach {
-    @include image('zach.jpg');
+    @include image('with_zach.jpg');
 }
 .about-me .zach {
     @include weird_sizing(25%, 25%);
@@ -238,7 +243,7 @@ td .td-inner {
     @include weird_sizing(25%, 25%);
 }
 .pipe {
-    @include image('pipe.jpg');
+    @include image('laying_pipe.jpg');
 }
 .about-me .pipe {
     @include weird_sizing(25%, 25%);
