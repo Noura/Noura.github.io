@@ -199,6 +199,9 @@ td .td-inner {
     height: 100%;
     z-index: 1;
 }
+.about-me .image.square {
+    @include weird_sizing(25%, 25%);
+}
 
 // SPECIFIC IMAGE FILES
 .galileo {
@@ -283,8 +286,13 @@ td .td-inner {
 .string-fling {
     @include image('string_fling.jpg');
 }
-.about-me .image.square {
-    @include weird_sizing(25%, 25%);
+.cat {
+    @include image('cat.png');
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+.project-page .cat {
+    @include weird_sizing(100%, 24%);
 }
 
 //////////////////

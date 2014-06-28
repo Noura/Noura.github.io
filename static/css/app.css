@@ -159,6 +159,14 @@ td .td-inner {
   height: 100%;
   z-index: 1; }
 
+.about-me .image.square {
+  width: 0;
+  height: 0;
+  padding-right: 25%;
+  padding-bottom: 25%;
+  box-sizing: border-box;
+  position: relative; }
+
 .galileo {
   background-size: cover;
   background-repeat: no-repeat;
@@ -449,10 +457,23 @@ td .td-inner {
     .string-fling {
       background-image: url("/static/img/container_w_600px/string_fling.jpg"); } }
 
-.about-me .image.square {
+.cat {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-x: 50%;
+  background-position-y: 50%; }
+  @media (min-width: 616px) {
+    .cat {
+      background-image: url("/static/img/container_w_750px/cat.png"); } }
+  @media (max-width: 615px) {
+    .cat {
+      background-image: url("/static/img/container_w_600px/cat.png"); } }
+
+.project-page .cat {
   width: 0;
   height: 0;
-  padding-right: 25%;
-  padding-bottom: 25%;
+  padding-right: 100%;
+  padding-bottom: 24%;
   box-sizing: border-box;
   position: relative; }
