@@ -1,5 +1,5 @@
 {% macro tile(page, current_page) %}
-    <div class="tile">
+    <div class="tile {%if page.name == current_page.name%} current {%endif%}">
         <div class="image {{ page.thumbnail }}"></div>
         <div class="name">
             {{ page.name }}

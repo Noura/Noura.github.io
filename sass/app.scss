@@ -56,6 +56,7 @@ body {
 
 .container {
     margin-left: 0;
+    padding-left: 25px;
 }
 
 .main {
@@ -92,7 +93,9 @@ h1.homepage {
 .tile {
     width: 300px;
     height: 300px;
-    margin: 10px;
+    margin: 0;
+    border: 10px solid white;
+    box-sizing: border-box;
     display: inline-block;
     float: left;
     position: relative;
@@ -134,8 +137,14 @@ h1.homepage {
 }
 .side .tile {
     @include weird_sizing(100%, 100%);
-    margin-left: 0;
-    margin-right: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+.side .tile.current {
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: black;
+    margin-left: -10px;
 }
 .side .tile .name {
     @include responsive_font_size(22px);
