@@ -42,7 +42,7 @@ $screen_lg: 1200px;
         font-size: 1.73 * $min_size;
     }
     @media (min-width: $screen_lg) {
-        font-size: 2.5 * $min_size;
+        font-size: 2.45 * $min_size;
     }
 }
 
@@ -128,11 +128,13 @@ h1.homepage {
     overflow-x: hidden;
     overflow-y: hidden;
     text-shadow: 1px 1px 1px black;
-    padding: 8px;
+    padding: 8px 8px 4px 8px;
     top: initial;
     bottom: 0;
-    height: 71px;
+    height: initial;
+    max-height: 45%;
     background-color: rgba(0,0,0,0.5);
+    box-sizing: border-box;
 }
 .tile a {
     z-index: 3;
@@ -149,7 +151,12 @@ h1.homepage {
     margin-left: -10px;
 }
 .side .tile .name {
-    @include responsive_font_size(22px);
+    z-index: 0;
+    max-height: 100%;
+    @include responsive_font_size(14px);
+}
+.side .tile:hover .name {
+    z-index: 2;
 }
 //////////////////
 

@@ -5,7 +5,7 @@ import jinja2
 
 pages = [ \
     {
-        'name': 'ConnectAnyThing with the Intel Galileo',
+        'name': 'Connect Anything with Intel\'s Galileo',
         'thumbnail': 'galileo',
         'path': 'intel',
         'template': 'intel.html',

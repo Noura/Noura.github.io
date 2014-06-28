@@ -75,11 +75,13 @@ h1.homepage {
   overflow-x: hidden;
   overflow-y: hidden;
   text-shadow: 1px 1px 1px black;
-  padding: 8px;
+  padding: 8px 8px 4px 8px;
   top: initial;
   bottom: 0;
-  height: 71px;
-  background-color: rgba(0, 0, 0, 0.5); }
+  height: initial;
+  max-height: 45%;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box; }
 
 .tile a {
   z-index: 3; }
@@ -100,18 +102,24 @@ h1.homepage {
   border-color: black;
   margin-left: -10px; }
 
-@media (max-width: 767px) {
-  .side .tile .name {
-    font-size: 22px; } }
-@media (min-width: 768px) and (max-width: 991px) {
-  .side .tile .name {
-    font-size: 24.2px; } }
-@media (min-width: 992px) and (max-width: 1199px) {
-  .side .tile .name {
-    font-size: 38.06px; } }
-@media (min-width: 1200px) {
-  .side .tile .name {
-    font-size: 55px; } }
+.side .tile .name {
+  z-index: 0;
+  max-height: 100%; }
+  @media (max-width: 767px) {
+    .side .tile .name {
+      font-size: 14px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .side .tile .name {
+      font-size: 15.4px; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .side .tile .name {
+      font-size: 24.22px; } }
+  @media (min-width: 1200px) {
+    .side .tile .name {
+      font-size: 34.3px; } }
+
+.side .tile:hover .name {
+  z-index: 2; }
 
 /* flow chart */
 table.flowchart {
