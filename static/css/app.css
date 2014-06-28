@@ -145,6 +145,17 @@ td .td-inner {
   height: 100%;
   z-index: 1; }
 
+.galileo {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%; }
+  @media (min-width: 616px) {
+    .galileo {
+      background-image: url("/static/img/container_w_750px/galileo.jpg"); } }
+  @media (max-width: 615px) {
+    .galileo {
+      background-image: url("/static/img/container_w_600px/galileo.jpg"); } }
+
 .yak-dung {
   background-size: cover;
   background-repeat: no-repeat;
@@ -255,18 +266,27 @@ td .td-inner {
   background-position-x: 50%; }
   @media (min-width: 616px) {
     .chladni {
-      background-image: url("/static/img/container_w_750px/chladni.png"); } }
+      background-image: url("/static/img/container_w_750px/chladni2.png"); } }
   @media (max-width: 615px) {
     .chladni {
-      background-image: url("/static/img/container_w_600px/chladni.png"); } }
+      background-image: url("/static/img/container_w_600px/chladni2.png"); } }
 
 .project-page .chladni {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
   width: 0;
   height: 0;
   padding-right: 100%;
   padding-bottom: 45%;
   box-sizing: border-box;
   position: relative; }
+  @media (min-width: 616px) {
+    .project-page .chladni {
+      background-image: url("/static/img/container_w_750px/chladni.png"); } }
+  @media (max-width: 615px) {
+    .project-page .chladni {
+      background-image: url("/static/img/container_w_600px/chladni.png"); } }
 
 .lissa {
   background-size: cover;
@@ -274,18 +294,27 @@ td .td-inner {
   background-position-x: 50%; }
   @media (min-width: 616px) {
     .lissa {
-      background-image: url("/static/img/container_w_750px/lissa1.png"); } }
+      background-image: url("/static/img/container_w_750px/lissa2.png"); } }
   @media (max-width: 615px) {
     .lissa {
-      background-image: url("/static/img/container_w_600px/lissa1.png"); } }
+      background-image: url("/static/img/container_w_600px/lissa2.png"); } }
 
 .project-page .lissa {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
   width: 0;
   height: 0;
   padding-right: 100%;
   padding-bottom: 31.8%;
   box-sizing: border-box;
   position: relative; }
+  @media (min-width: 616px) {
+    .project-page .lissa {
+      background-image: url("/static/img/container_w_750px/lissa1.png"); } }
+  @media (max-width: 615px) {
+    .project-page .lissa {
+      background-image: url("/static/img/container_w_600px/lissa1.png"); } }
 
 .beach {
   background-size: cover;
@@ -317,14 +346,6 @@ td .td-inner {
     .sale {
       background-image: url("/static/img/container_w_600px/sale.jpg"); } }
 
-.about-me .sale {
-  width: 0;
-  height: 0;
-  padding-right: 25%;
-  padding-bottom: 25%;
-  box-sizing: border-box;
-  position: relative; }
-
 .zach {
   background-size: cover;
   background-repeat: no-repeat;
@@ -335,14 +356,6 @@ td .td-inner {
   @media (max-width: 615px) {
     .zach {
       background-image: url("/static/img/container_w_600px/with_zach.jpg"); } }
-
-.about-me .zach {
-  width: 0;
-  height: 0;
-  padding-right: 25%;
-  padding-bottom: 25%;
-  box-sizing: border-box;
-  position: relative; }
 
 .mhd {
   background-size: cover;
@@ -355,14 +368,6 @@ td .td-inner {
     .mhd {
       background-image: url("/static/img/container_w_600px/mhd.jpg"); } }
 
-.about-me .mhd {
-  width: 0;
-  height: 0;
-  padding-right: 25%;
-  padding-bottom: 25%;
-  box-sizing: border-box;
-  position: relative; }
-
 .pipe {
   background-size: cover;
   background-repeat: no-repeat;
@@ -374,7 +379,41 @@ td .td-inner {
     .pipe {
       background-image: url("/static/img/container_w_600px/laying_pipe.jpg"); } }
 
-.about-me .pipe {
+.bali {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%; }
+  @media (min-width: 616px) {
+    .bali {
+      background-image: url("/static/img/container_w_750px/at_sua_bali.jpg"); } }
+  @media (max-width: 615px) {
+    .bali {
+      background-image: url("/static/img/container_w_600px/at_sua_bali.jpg"); } }
+
+.bike-pump {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%; }
+  @media (min-width: 616px) {
+    .bike-pump {
+      background-image: url("/static/img/container_w_750px/bamboo_bicycle_pump.jpg"); } }
+  @media (max-width: 615px) {
+    .bike-pump {
+      background-image: url("/static/img/container_w_600px/bamboo_bicycle_pump.jpg"); } }
+
+.string-fling {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%; }
+  @media (min-width: 616px) {
+    .string-fling {
+      background-image: url("/static/img/container_w_750px/string_fling.jpg"); } }
+  @media (max-width: 615px) {
+    .string-fling {
+      background-image: url("/static/img/container_w_600px/string_fling.jpg"); } }
+
+.about-me .image.square {
   width: 0;
   height: 0;
   padding-right: 25%;

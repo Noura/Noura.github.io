@@ -187,6 +187,9 @@ td .td-inner {
 }
 
 // SPECIFIC IMAGE FILES
+.galileo {
+    @include image('galileo.jpg');
+}
 .yak-dung {
     @include image('yak_dung.jpg');
 }
@@ -219,15 +222,17 @@ td .td-inner {
     @include weird_sizing(100%, 64%);
 }
 .chladni {
-    @include image('chladni.png');
+    @include image('chladni2.png');
 }
 .project-page .chladni {
+    @include image('chladni.png');
     @include weird_sizing(100%, 45%);
 }
 .lissa {
-    @include image('lissa1.png');
+    @include image('lissa2.png');
 }
 .project-page .lissa {
+    @include image('lissa1.png');
     @include weird_sizing(100%, 31.8%);
 }
 .beach {
@@ -239,25 +244,26 @@ td .td-inner {
 .sale {
     @include image('sale.jpg');
 }
-.about-me .sale {
-    @include weird_sizing(25%, 25%);
-}
 .zach {
     @include image('with_zach.jpg');
-}
-.about-me .zach {
-    @include weird_sizing(25%, 25%);
 }
 .mhd {
     @include image('mhd.jpg');
 }
-.about-me .mhd {
-    @include weird_sizing(25%, 25%);
-}
 .pipe {
     @include image('laying_pipe.jpg');
 }
-.about-me .pipe {
+.bali {
+    @include image('at_sua_bali.jpg');
+    background-position-y: 50%;
+}
+.bike-pump {
+    @include image('bamboo_bicycle_pump.jpg');
+}
+.string-fling {
+    @include image('string_fling.jpg');
+}
+.about-me .image.square {
     @include weird_sizing(25%, 25%);
 }
 

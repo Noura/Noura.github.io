@@ -5,16 +5,10 @@ import jinja2
 
 pages = [ \
     {
-        'name': 'Mobile Phones & Illiteracy in Morocco',
-        'thumbnail': 'apples',
-        'path': 'moblit',
-        'template': 'mobile_illiteracy.html',
-    },
-    {
-        'name': 'Solar Cooker for the Himalayas',
-        'thumbnail': 'solsource',
-        'path': 'solsource',
-        'template': 'solar_cooker.html',
+        'name': 'ConnectAnyThing with the Intel Galileo',
+        'thumbnail': 'galileo',
+        'path': 'intel',
+        'template': 'intel.html',
     },
     {
         'name': 'WaaZam!',
@@ -23,16 +17,28 @@ pages = [ \
         'template': 'waazam.html',
     },
     {
+        'name': 'Tools for Quality Assurance',
+        'thumbnail': '',
+        'path': 'en_qa',
+        'template': 'qa.html',
+    },
+    {
+        'name': 'Mobile Phones & Illiteracy in Morocco',
+        'thumbnail': 'apples',
+        'path': 'moblit',
+        'template': 'mobile_illiteracy.html',
+    },
+    {
         'name': 'SiriusXM Radio Station Creator',
         'thumbnail': '',
         'path': 'sxm',
         'template': 'sxm.html',
     },
     {
-        'name': 'Tools for Quality Assurance',
-        'thumbnail': '',
-        'path': 'en_qa',
-        'template': 'qa.html',
+        'name': 'Solar Cooker for the Himalayas',
+        'thumbnail': 'solsource',
+        'path': 'solsource',
+        'template': 'solar_cooker.html',
     },
     {
         'name': 'Lissajous & Rotary Harmonograph Visualizer',
@@ -48,7 +54,7 @@ pages = [ \
     },
     {
         'name': 'About',
-        'thumbnail': '',
+        'thumbnail': 'bali',
         'path': 'about',
         'template': 'about.html',
     },
