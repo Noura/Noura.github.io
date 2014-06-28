@@ -19,24 +19,10 @@ pages = [ \
         'date': '2013',
     },
     {
-        'name': 'Tools for Quality Assurance',
-        'thumbnail': 'rickshawjs',
-        'path': 'en_qa',
-        'template': 'qa.html',
-        'date': '2013',
-    },
-    {
         'name': 'Mobile Phones & Illiteracy in Morocco',
         'thumbnail': 'apples',
         'path': 'moblit',
         'template': 'mobile_illiteracy.html',
-        'date': '2012',
-    },
-    {
-        'name': 'SiriusXM Radio Station Creator',
-        'thumbnail': 'en',
-        'path': 'sxm',
-        'template': 'sxm.html',
         'date': '2012',
     },
     {
@@ -47,7 +33,7 @@ pages = [ \
         'date': '2010',
     },
     {
-        'name': 'Lissajous & Rotary Harmonograph Visualizer',
+        'name': 'Harmonograph Visualizer',
         'thumbnail': 'lissa',
         'path': 'lissa',
         'template': 'lissajous.html',
@@ -58,6 +44,20 @@ pages = [ \
         'thumbnail': 'chladni',
         'path': 'chladni',
         'template': 'chladni.html',
+        'date': '2013',
+    },
+    {
+        'name': 'SiriusXM Radio Station Creator',
+        'thumbnail': 'en',
+        'path': 'sxm',
+        'template': 'sxm.html',
+        'date': '2012',
+    },
+    {
+        'name': 'Tools for Quality Assurance',
+        'thumbnail': 'rickshawjs',
+        'path': 'en_qa',
+        'template': 'qa.html',
         'date': '2013',
     },
     {

@@ -64,22 +64,22 @@ h1.homepage {
   z-index: 1; }
 
 .tile .name {
-  z-index: 0;
-  color: white;
-  font-size: 72px;
+  z-index: 2;
+  color: #bef0d2;
+  font-size: 30px;
   font-weight: 200;
   font-family: forTitles;
   text-overflow: ellipsis;
   word-wrap: break-word;
-  word-break: break-all;
-  letter-spacing: -.05em;
   line-height: 1em;
   overflow-x: hidden;
   overflow-y: hidden;
-  text-shadow: 1px 1px 1px black; }
-
-.tile:hover .name {
-  z-index: 2; }
+  text-shadow: 1px 1px 1px black;
+  padding: 8px;
+  top: initial;
+  bottom: 0;
+  height: 71px;
+  background-color: rgba(0, 0, 0, 0.5); }
 
 .tile a {
   z-index: 3; }
