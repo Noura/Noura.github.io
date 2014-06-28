@@ -3,7 +3,11 @@
     <title>Noura Howell</title>
 
     {% block css %}
+        <!-- use for deployment, when you will have internet
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        -->
+        <!-- use for development, when sometimes you work without internet -->
+        <link rel="stylesheet" href="/static/css/bootstrap.min.css">
         <link rel="stylesheet" href="/static/css/app.css">
     {% endblock css %}
 
