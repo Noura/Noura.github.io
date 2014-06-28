@@ -159,6 +159,28 @@ td .td-inner {
     .galileo {
       background-image: url("/static/img/container_w_600px/galileo.jpg"); } }
 
+.rickshawjs {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%; }
+  @media (min-width: 616px) {
+    .rickshawjs {
+      background-image: url("/static/img/container_w_750px/rickshawjs.png"); } }
+  @media (max-width: 615px) {
+    .rickshawjs {
+      background-image: url("/static/img/container_w_600px/rickshawjs.png"); } }
+
+.en {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%; }
+  @media (min-width: 616px) {
+    .en {
+      background-image: url("/static/img/container_w_750px/en.jpg"); } }
+  @media (max-width: 615px) {
+    .en {
+      background-image: url("/static/img/container_w_600px/en.jpg"); } }
+
 .yak-dung {
   background-size: cover;
   background-repeat: no-repeat;

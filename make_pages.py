@@ -20,7 +20,7 @@ pages = [ \
     },
     {
         'name': 'Tools for Quality Assurance',
-        'thumbnail': '',
+        'thumbnail': 'rickshawjs',
         'path': 'en_qa',
         'template': 'qa.html',
         'date': '2013',
@@ -34,7 +34,7 @@ pages = [ \
     },
     {
         'name': 'SiriusXM Radio Station Creator',
-        'thumbnail': '',
+        'thumbnail': 'en',
         'path': 'sxm',
         'template': 'sxm.html',
         'date': '2012',

@@ -193,6 +193,12 @@ td .td-inner {
 .galileo {
     @include image('galileo.jpg');
 }
+.rickshawjs {
+    @include image('rickshawjs.png');
+}
+.en {
+    @include image('en.jpg');
+}
 .yak-dung {
     @include image('yak_dung.jpg');
 }
