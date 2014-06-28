@@ -39,7 +39,7 @@ $screen_lg: 1200px;
         font-size: 1.1 * $min_size;
     }
     @media (min-width: $screen_md) and (max-width: $screen_lg - 1px) {
-        font-size: 1.75 * $min_size;
+        font-size: 1.73 * $min_size;
     }
     @media (min-width: $screen_lg) {
         font-size: 2.5 * $min_size;
@@ -75,6 +75,12 @@ h1 {
 h1.homepage {
     margin-left: 16px;
     margin-top: 20px;
+}
+
+.iframe-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
 }
 
 /* tiles */
@@ -206,9 +212,10 @@ td .td-inner {
     @include weird_sizing(65%, 36%);
 }
 .waazam {
-    @include image('waazam.jpg');
+    @include image('waazam_space.png');
 }
 .project-page .waazam {
+    @include image('waazam.jpg');
     @include weird_sizing(100%, 64%);
 }
 .chladni {
