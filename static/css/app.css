@@ -103,6 +103,9 @@ h1.homepage {
     font-size: 55px; } }
 
 /* flow chart */
+table.flowchart {
+  margin-bottom: 1em; }
+
 td.text {
   vertical-align: top;
   border: 1px solid #cbd5d5;
