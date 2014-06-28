@@ -47,7 +47,7 @@ pages = [ \
         'template': 'chladni.html',
     },
     {
-        'name': 'About Noura Howell',
+        'name': 'About',
         'thumbnail': '',
         'path': 'about',
         'template': 'about.html',

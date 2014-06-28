@@ -1,40 +1,66 @@
-$sidebar_tile_w: 100px;
-$tile_margin: 10px;
+// screen sizes copied from bootstrap
+// xs < 768px <= sm < 992px <= md < 1200px <= lg
+$screen_sm: 768px;
+$screen_md: 992px;
+$screen_lg: 1200px;
 
-$sidebar_w: $sidebar_tile_w + 2 * $tile_margin;
+@mixin weird_sizing($w, $h) {
+    width: 0;
+    height: 0;
+    padding-right: $w;
+    padding-bottom: $h;
+    box-sizing: border-box;
+    position: relative;
+}
+@mixin image($filename) {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    @media (min-width: 616px) {
+        background-image: url('/static/img/container_w_750px/' + $filename);
+    }
+    @media (max-width: 615px) {
+        background-image: url('/static/img/container_w_600px/' + $filename);
+    }
+}
+@mixin image_border() {
+    border-style: solid;
+    border-color: white;
+    border-left-width: 5px;
+    &:first-child {
+        border-left-width: 0;
+    }
+}
+@mixin responsive_font_size($min_size) {
+    @media (max-width: $screen_sm - 1px) {
+        font-size: $min_size;
+    }
+    @media (min-width: $screen_sm) and (max-width: $screen_md - 1px) {
+        font-size: 1.1 * $min_size;
+    }
+    @media (min-width: $screen_md) and (max-width: $screen_lg - 1px) {
+        font-size: 1.75 * $min_size;
+    }
+    @media (min-width: $screen_lg) {
+        font-size: 2.5 * $min_size;
+    }
+}
 
 @font-face {
     font-family: forTitles;
     src: url('/static/fnt/MyriadPro-Light.otf');
 }
-
 body {
     font-family: helvetica, sans-serif;
-    margin: 0;
 }
 
-/* layout */
-.sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: $sidebar_w;
+.container {
+    margin-left: 0;
 }
-.topbar {
-    padding-left: $sidebar_w;
-    padding-right: 20px;
-    margin-bottom: $tile_margin;
-    margin-top: $tile_margin;
-    max-width: 750px;
-}
-.mainbar {
-    padding-left: $sidebar_w;
-    padding-right: 20px;
-    margin-bottom: $tile_margin;
-    max-width: 750px;
-}
-///////////
 
+.main {
+    margin-top: 10px;
+}
 .topbar h1 {
     margin: 0;
     font-size: 64px;
@@ -50,7 +76,7 @@ body {
 .tile {
     width: 300px;
     height: 300px;
-    margin: $tile_margin;
+    margin: 10px;
     display: inline-block;
     float: left;
     position: relative;
@@ -75,8 +101,14 @@ body {
     font-size: 50px;
     font-weight: 200;
     font-family: forTitles;
-    word-wrap: break-word;
     text-overflow: ellipsis;
+    word-wrap: break-word;
+    word-break: break-all;
+    letter-spacing: -.05em;
+    line-height: 1em;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-shadow: 1px 1px 1px black;
 }
 .tile:hover .name {
     z-index: 2;
@@ -84,18 +116,13 @@ body {
 .tile a {
     z-index: 3;
 }
-.sidebar .tile {
-    width: $sidebar_tile_w;
-    height: $sidebar_tile_w;
-}
-.sidebar .tile .name {
-    font-size: 20px;
-    z-index: 3;
-}
-.topbar .tile {
+.side .tile {
+    @include weird_sizing(100%, 100%);
     margin-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-right: 0;
+}
+.side .tile .name {
+    @include responsive_font_size(22px);
 }
 //////////////////
 
@@ -117,32 +144,6 @@ td .td-inner {
 
 
 /* images */
-@mixin image($filename) {
-    background-size: cover;
-    background-repeat: no-repeat;
-    @media (min-width: 616px) {
-        background-image: url('/static/img/container_w_750px/' + $filename);
-    }
-    @media (max-width: 615px) {
-        background-image: url('/static/img/container_w_600px/' + $filename);
-    }
-}
-@mixin weird_sizing($w, $h) {
-    width: 0;
-    height: 0;
-    padding-right: $w;
-    padding-bottom: $h;
-    box-sizing: border-box;
-    position: relative;
-}
-@mixin image_border() {
-    border-style: solid;
-    border-color: white;
-    border-left-width: 5px;
-    &:first-child {
-        border-left-width: 0;
-    }
-}
 .images {
     margin-bottom: 1em;
     display: inline-block;

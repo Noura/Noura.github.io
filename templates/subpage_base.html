@@ -2,21 +2,31 @@
 {% import 'macros.html' as macros %}
 
 {% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col-xs-2 side">
+            {% set hometile = {'name': 'Home', 'thumbnail': '', 'path': ''} %}
+            {{ macros.tile(hometile, current_page) }}
+            {{ macros.tiles(pages, current_page) }}
+        </div>
 
-<div class="sidebar">
-    {{ macros.tiles(pages, current_page) }}
-</div>
+        <div class="col-xs-10 main">
+            <div class="row">
+                <div class="col-xs-12 topbar">
+                    <h1>{{current_page.name}}</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 content">
 
-<div class="topbar">
-    <h1>{{current_page.name}}</h1>
-</div>
+                    {% block content %}
 
-<div class="mainbar">
+                    {% endblock content %}
 
-    {% block content %}
-
-    {% endblock content %}
-
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 {% endblock body %}
