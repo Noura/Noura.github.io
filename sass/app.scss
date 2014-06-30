@@ -61,6 +61,9 @@ body {
     padding-top: 25px;
 }
 
+.topbar {
+    margin-top: -7px;
+}
 .main {
     margin-top: 10px;
 }
@@ -147,23 +150,29 @@ h1.homepage {
     border-left-width: 0;
     border-right-width: 0;
 }
-.side .tile.current {
-    border-left-width: 10px;
-    border-right-width: 10px;
-    border-color: black;
-    margin-left: -10px;
-}
-.side .tile.home {
-    @include weird_sizing(100%, 30%);
-}
 .side .tile .name {
     z-index: 0;
     max-height: 100%;
     @include responsive_font_size(14px);
 }
-.side .tile:hover .name {
-    z-index: 2;
+.side .tile.home {
+    width: 100%;
+    height: initial;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: transparent;
 }
+.side .tile.home .image {
+    display: none;
+}
+.side .tile.home .name {
+    display: inline-block;
+    position: static;
+    word-wrap: initial;
+    word-break: initial;
+    text-overflow: ellipsis;
+}
+
 //////////////////
 
 /* flow chart */

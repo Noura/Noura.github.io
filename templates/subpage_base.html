@@ -5,9 +5,9 @@
 <div class="container">
     <div class="row">
         <div class="col-xs-2 side">
+            {{ macros.tile(current_page) }}
             {% set hometile = {'name': 'Home', 'thumbnail': '', 'path': ''} %}
-            {{ macros.tile(hometile, current_page) }}
-            {{ macros.tile(current_page, current_page) }}
+            {{ macros.tile(hometile) }}
         </div>
 
         <div class="col-xs-10 main">
