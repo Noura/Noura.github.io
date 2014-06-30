@@ -3,6 +3,7 @@
 $screen_sm: 768px;
 $screen_md: 992px;
 $screen_lg: 1200px;
+$col_w: .08333333; // a span1 bootstrap col has this percentage width
 
 @mixin weird_sizing($w, $h) {
     width: 0;
@@ -135,7 +136,7 @@ h1.homepage {
     top: initial;
     bottom: 0;
     height: initial;
-    max-height: 45%;
+    max-height: 100%;
     background-color: rgba(0,0,0,0.5);
     box-sizing: border-box;
 }
@@ -145,16 +146,59 @@ h1.homepage {
 .tile a {
     z-index: 3;
 }
+
 .side .tile {
-    @include weird_sizing(100%, 100%);
     border-left-width: 0;
     border-right-width: 0;
 }
 .side .tile .name {
-    z-index: 0;
-    max-height: 100%;
     @include responsive_font_size(14px);
 }
+
+.side .tile.current {
+    @include weird_sizing(100%, 100%);
+}
+.side .tile.current .name {
+    z-index: 0;
+}
+
+$prev_next_tile_h: 0.5;
+$prev_next_min_tile_h: 40px;
+.side .tile.prev,
+.side .tile.next {
+    @media (max-width: $screen_sm - 1px) {
+        width: 100%;
+        height: $prev_next_min_tile_h;
+        box-sizing: content-box;
+    }
+    @media (min-width: $screen_sm) {
+        @include weird_sizing(100%, $prev_next_tile_h * 100%);
+    }
+}
+.side .tile.next .name {
+    right: 0;
+    left: initial;
+}
+.side .tile.next .name,
+.side .tile.prev .name {
+    width: initial;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    @media (max-width: $screen_sm - 1px) {
+        line-height: $prev_next_min_tile_h;
+    }
+    @media (min-width: $screen_sm) and (max-width: $screen_md - 1px) {
+        line-height: $prev_next_tile_h * $col_w * 2 * $screen_sm - 18px;
+    }
+    @media (min-width: $screen_md) and (max-width: $screen_lg - 1px) {
+        line-height: $prev_next_tile_h * $col_w * 2 * $screen_md - 18px;
+    }
+    @media (min-width: $screen_lg) {
+        line-height: $prev_next_tile_h * $col_w * 2 * $screen_lg - 18px;
+    }
+}
+
 .side .tile.home {
     width: 100%;
     height: initial;

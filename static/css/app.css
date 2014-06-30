@@ -82,7 +82,7 @@ h1.homepage {
   top: initial;
   bottom: 0;
   height: initial;
-  max-height: 45%;
+  max-height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   box-sizing: border-box; }
 
@@ -93,30 +93,75 @@ h1.homepage {
   z-index: 3; }
 
 .side .tile {
+  border-left-width: 0;
+  border-right-width: 0; }
+
+@media (max-width: 767px) {
+  .side .tile .name {
+    font-size: 14px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .side .tile .name {
+    font-size: 15.4px; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .side .tile .name {
+    font-size: 24.22px; } }
+@media (min-width: 1200px) {
+  .side .tile .name {
+    font-size: 34.3px; } }
+
+.side .tile.current {
   width: 0;
   height: 0;
   padding-right: 100%;
   padding-bottom: 100%;
   box-sizing: border-box;
-  position: relative;
-  border-left-width: 0;
-  border-right-width: 0; }
+  position: relative; }
 
-.side .tile .name {
-  z-index: 0;
-  max-height: 100%; }
+.side .tile.current .name {
+  z-index: 0; }
+
+@media (max-width: 767px) {
+  .side .tile.prev,
+  .side .tile.next {
+    width: 100%;
+    height: 40px;
+    box-sizing: content-box; } }
+@media (min-width: 768px) {
+  .side .tile.prev,
+  .side .tile.next {
+    width: 0;
+    height: 0;
+    padding-right: 100%;
+    padding-bottom: 50%;
+    box-sizing: border-box;
+    position: relative; } }
+
+.side .tile.next .name {
+  right: 0;
+  left: initial; }
+
+.side .tile.next .name,
+.side .tile.prev .name {
+  width: initial;
+  height: 100%;
+  padding-top: 0;
+  padding-bottom: 0; }
   @media (max-width: 767px) {
-    .side .tile .name {
-      font-size: 14px; } }
+    .side .tile.next .name,
+    .side .tile.prev .name {
+      line-height: 40px; } }
   @media (min-width: 768px) and (max-width: 991px) {
-    .side .tile .name {
-      font-size: 15.4px; } }
+    .side .tile.next .name,
+    .side .tile.prev .name {
+      line-height: 46.0px; } }
   @media (min-width: 992px) and (max-width: 1199px) {
-    .side .tile .name {
-      font-size: 24.22px; } }
+    .side .tile.next .name,
+    .side .tile.prev .name {
+      line-height: 64.66666px; } }
   @media (min-width: 1200px) {
-    .side .tile .name {
-      font-size: 34.3px; } }
+    .side .tile.next .name,
+    .side .tile.prev .name {
+      line-height: 82.0px; } }
 
 .side .tile.home {
   width: 100%;
