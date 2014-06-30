@@ -1,5 +1,5 @@
 {% macro tile(page, current_page) %}
-    <div class="tile {%if page.name == current_page.name%} current {%endif%}">
+<div class="tile {%if page.name == current_page.name%} current {%endif%} {% if page.path|length == 0 %} home {% endif %}">
         <div class="image {{ page.thumbnail }}"></div>
         <div class="name">
             {{ page.name }}
@@ -11,6 +11,22 @@
 {% macro tiles(pages, current_page) %}
     {% for page in pages %}
         {{ tile(page, current_page) }}
+    {% endfor %}
+{% endmacro %}
+
+{% macro adjacent_tiles(pages, current_page) %}
+    {% set iis = [] %}
+    {% for page in pages %}
+        {% if page.path == current_page.path %}
+            {% if iis.append(loop.index0 - 1) %} {% endif %}
+            {% if iis.append(loop.index0) %} {% endif %}
+            {% if iis.append(loop.index0 + 1) %} {% endif %}
+        {% endif %}
+    {% endfor %}
+    {% for i in iis %}
+        {% if i >= 0 and i < pages|length %}
+            {{ tile(pages[i], current_page) }}
+        {% endif %}
     {% endfor %}
 {% endmacro %}
 
