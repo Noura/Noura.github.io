@@ -153,6 +153,9 @@ h1.homepage {
     border-color: black;
     margin-left: -10px;
 }
+.side .tile.home {
+    @include weird_sizing(100%, 30%);
+}
 .side .tile .name {
     z-index: 0;
     max-height: 100%;

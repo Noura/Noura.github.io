@@ -105,6 +105,14 @@ h1.homepage {
   border-color: black;
   margin-left: -10px; }
 
+.side .tile.home {
+  width: 0;
+  height: 0;
+  padding-right: 100%;
+  padding-bottom: 30%;
+  box-sizing: border-box;
+  position: relative; }
+
 .side .tile .name {
   z-index: 0;
   max-height: 100%; }
