@@ -13,15 +13,22 @@ $col_w: .08333333; // a span1 bootstrap col has this percentage width
     box-sizing: border-box;
     position: relative;
 }
-@mixin image($filename) {
+@mixin image($filename, $dir: '') {
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: 50%;
-    @media (min-width: 616px) {
-        background-image: url('/static/img/container_w_750px/' + $filename);
+    background-image: url('/static/img/' + $dir + $filename);
+}
+@mixin responsive_image($filename, $dir: '') {
+    @include image($filename, $dir);
+    @media (max-width: $screen_md - 1px) { // sm
+        background-image: url('/static/img/screen_small/' + $dir + $filename);
     }
-    @media (max-width: 615px) {
-        background-image: url('/static/img/container_w_600px/' + $filename);
+    @media (min-width: $screen_md) and (max-width: $screen_lg - 1px) { // md
+        background-image: url('/static/img/screen_medium/' + $dir + $filename);
+    }
+    @media (min-width: $screen_lg) { // lg
+        background-image: url('/static/img/screen_large/' + $dir + $filename);
     }
 }
 @mixin image_border() {
@@ -265,100 +272,137 @@ td .td-inner {
     height: 100%;
     z-index: 1;
 }
-.about-me .image.square {
-    @include weird_sizing(25%, 25%);
+
+// SPECIFIC IMAGE FILE NAMES
+$img_galileo: 'galileo.jpg';
+$img_rickshawjs: 'rickshawjs.png';
+$img_en: 'en.png';
+$img_yak_dung: 'yak_dung.jpg';
+$img_solsource: 'solsource.jpg';
+$img_apples: 'apples.jpg';
+$img_notebook: 'notebook.png';
+$img_waazam: 'waazam_space.png';
+$img_beach: 'beach.jpg';
+$img_sale: 'sale.jpg';
+$img_zach: 'with_zach.jpg';
+$img_mhd: 'mhd.jpg';
+$img_pipe: 'laying_pipe.jpg';
+$img_bali: 'at_sua_bali.jpg';
+
+// SPECIFIC IMAGES IN CONTEXT
+@mixin big_tile($filename) {
+    @include image($filename, '280px_tiles/');
+}
+.big-tiles .image.galileo {
+    @include big_tile($img_galileo);
+}
+.big-tiles .image.waazam {
+    @include big_tile($img_waazam);
+}
+.big-tiles .image.apples {
+    @include big_tile($img_apples);
+}
+.big-tiles .image.solsource {
+    @include big_tile($img_solsource);
+}
+.big-tiles .image.lissa {
+    @include big_tile('lissa2.png');
+}
+.big-tiles .image.chladni {
+    @include big_tile('chladni2.png');
+}
+.big-tiles .image.en {
+    @include big_tile($img_en);
+}
+.big-tiles .image.rickshawjs {
+    @include big_tile($img_rickshawjs);
+}
+.big-tiles .image.bali {
+    @include big_tile($img_bali);
 }
 
-// SPECIFIC IMAGE FILES
-.galileo {
-    @include image('galileo.jpg');
+@mixin side_tile($filename) {
+    @include responsive_image($filename, 'side_tiles/');
 }
-.rickshawjs {
-    @include image('rickshawjs.png');
+.side .image.galileo {
+    @include side_tile($img_galileo);
 }
-.en {
-    @include image('en.jpg');
+.side .image.waazam {
+    @include side_tile($img_waazam);
 }
-.yak-dung {
-    @include image('yak_dung.jpg');
+.side .image.apples {
+    @include side_tile($img_apples);
 }
-.project-page .yak-dung {
-    @include weird_sizing(62%, 46%);
+.side .image.solsource {
+    @include side_tile($img_solsource);
 }
-.solsource {
-    @include image('amy_testing_solsource.jpg');
+.side .image.lissa {
+    @include side_tile('lissa2.png');
 }
-.project-page .solsource {
-    @include weird_sizing(33%, 46%);
+.side .image.chladni {
+    @include side_tile('chladni2.png');
 }
-.apples {
-    @include image('current_phone_tech.jpg');
+.side .image.en {
+    @include side_tile($img_en);
 }
-.project-page .apples {
+.side .image.rickshawjs {
+    @include side_tile($img_rickshawjs);
+}
+.side .image.bali {
+    @include side_tile($img_bali);
+}
+
+.project-page .image.yak-dung {
+    @include responsive_image($img_yak_dung);
+    @include weird_sizing(60%, 44%);
+}
+.project-page .image.solsource {
+    @include responsive_image($img_solsource);
+    @include weird_sizing(33%, 44%);
+}
+.project-page .image.apples {
+    @include responsive_image($img_apples);
     @include weird_sizing(30%, 36%);
 }
-.notebook {
-    @include image('notebook.png');
-}
-.project-page .notebook {
+.project-page .image.notebook {
+    @include responsive_image($img_notebook);
     @include weird_sizing(65%, 36%);
 }
-.waazam {
-    @include image('waazam_space.png');
-}
-.project-page .waazam {
-    @include image('waazam.jpg');
-    @include weird_sizing(100%, 64%);
-}
-.chladni {
-    @include image('chladni2.png');
-}
-.project-page .chladni {
-    @include image('chladni.png');
+.project-page .image.chladni {
+    @include responsive_image('chladni.png');
     @include weird_sizing(100%, 45%);
 }
-.lissa {
-    @include image('lissa2.png');
-}
-.project-page .lissa {
-    @include image('lissa1.png');
+.project-page .image.lissa {
+    @include responsive_image('lissa1.png');
     @include weird_sizing(100%, 31.8%);
 }
-.beach {
-    @include image('beach.jpg');
-}
-.about-me .beach {
-    @include weird_sizing(100%, 23.5%);
-}
-.sale {
-    @include image('sale.jpg');
-}
-.zach {
-    @include image('with_zach.jpg');
-}
-.mhd {
-    @include image('mhd.jpg');
-}
-.pipe {
-    @include image('laying_pipe.jpg');
-}
-.bali {
-    @include image('at_sua_bali.jpg');
-    background-position-y: 50%;
-}
-.bike-pump {
-    @include image('bamboo_bicycle_pump.jpg');
-}
-.string-fling {
-    @include image('string_fling.jpg');
-}
-.cat {
-    @include image('cat.png');
+.project-page .cat {
+    @include responsive_image('cat.png');
+    @include weird_sizing(100%, 24%);
     background-position-x: 50%;
     background-position-y: 50%;
 }
-.project-page .cat {
-    @include weird_sizing(100%, 24%);
+
+.about-me .image.beach {
+    @include responsive_image($img_beach);
+    @include weird_sizing(100%, 23.5%);
 }
+@mixin about_me_square($filename) {
+    @include weird_sizing(25%, 25%);
+    @include responsive_image($filename);
+}
+.about-me .image.sale {
+    @include about_me_square($img_sale);
+}
+.about-me .image.zach {
+    @include about_me_square($img_zach);
+}
+.about-me .image.mhd {
+    @include about_me_square($img_mhd);
+}
+.about-me .image.pipe {
+    @include about_me_square($img_pipe);
+}
+
 
 //////////////////
