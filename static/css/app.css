@@ -68,7 +68,7 @@ h1.homepage {
 
 .tile .name {
   z-index: 2;
-  color: #bef0d2;
+  color: #95eeb6;
   font-size: 30px;
   font-weight: 200;
   font-family: forTitles;
@@ -83,11 +83,15 @@ h1.homepage {
   bottom: 0;
   height: initial;
   max-height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.45);
   box-sizing: border-box; }
 
 .big-tiles .tile:hover .name {
-  color: #a7f1c2; }
+  color: #a7eec1;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-shadow: 1px 1px 1px #323232;
+  -webkit-transition: all .25s;
+  transition: all .25s; }
 
 .tile a {
   z-index: 3; }
