@@ -86,12 +86,12 @@ h1.homepage {
   background-color: rgba(0, 0, 0, 0.45);
   box-sizing: border-box; }
 
-.big-tiles .tile:hover .name {
+.tile:hover .name {
   color: #a7eec1;
   background-color: rgba(0, 0, 0, 0.4);
   text-shadow: 1px 1px 1px #323232;
   -webkit-transition: all .25s;
-  transition: all .25s; }
+  transition: all .1s; }
 
 .tile a {
   z-index: 3; }
