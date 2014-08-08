@@ -29,6 +29,11 @@ p {
     bottom: 0;
     height: 100%;
     width: auto;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
 }
 
 .section.diagram .image-container {
@@ -79,7 +84,7 @@ p {
 .section.description,
 .section.diagram,
 .section.about-me {
-    margin-bottom: 50px;
+    margin-bottom: 2em;
     padding-top: 0;
     padding-bottom: 0;
     margin-top: 0;
