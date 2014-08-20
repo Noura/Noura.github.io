@@ -1,15 +1,15 @@
 {% macro tile(page, class='', name='') %}
 <div class="tile {{ class }}">
-        <div class="image {{ page.thumbnail }}"></div>
-        <div class="name">
-            {% if name %}
-                {{ name }}
-            {% else %}
-                {{ page.name }}
-            {% endif %}
-        </div>
-        <a href="/{{ page.path }}"></a>
+    <div class="image {{ page.thumbnail }}"></div>
+    <div class="name">
+        {% if name %}
+        {{ name }}
+        {% else %}
+        {{ page.name }}
+        {% endif %}
     </div>
+    <a href="/{{ page.path }}"></a>
+</div>
 {% endmacro %}
 
 {% macro tiles(pages) %}

@@ -9,7 +9,7 @@ pages = [ \
         'thumbnail': 'galileo',
         'path': 'intel',
         'template': 'intel.html',
-        'date': 'Current Work',
+        'date': '2014',
     },
     {
         'name': 'WaaZam!',
