@@ -182,7 +182,7 @@ $prev_next_min_tile_h: 40px;
         height: $prev_next_min_tile_h;
         box-sizing: content-box;
     }
-    @media (min-width: $screen_sm) {
+    @media (min-width: $screen_sm - 1px) {
         @include weird_sizing(100%, $prev_next_tile_h * 100%);
     }
 }
@@ -199,8 +199,10 @@ $prev_next_min_tile_h: 40px;
     @media (max-width: $screen_sm - 1px) {
         line-height: $prev_next_min_tile_h;
     }
+    // NOTE this is hacky but the 3 or 2 refers to the col span that the
+    // side tile is going to have at this screen size
     @media (min-width: $screen_sm) and (max-width: $screen_md - 1px) {
-        line-height: $prev_next_tile_h * $col_w * 2 * $screen_sm - 18px;
+        line-height: $prev_next_tile_h * $col_w * 3 * $screen_sm - 18px;
     }
     @media (min-width: $screen_md) and (max-width: $screen_lg - 1px) {
         line-height: $prev_next_tile_h * $col_w * 2 * $screen_md - 18px;
