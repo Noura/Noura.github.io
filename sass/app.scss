@@ -41,16 +41,16 @@ $col_w: .08333333; // a span1 bootstrap col has this percentage width
 }
 @mixin responsive_font_size($min_size) {
     @media (max-width: $screen_sm - 1px) {
-        font-size: $min_size;
+        font-size: 1.5 * $min_size;
     }
     @media (min-width: $screen_sm) and (max-width: $screen_md - 1px) {
-        font-size: 1.1 * $min_size;
+        font-size: 1.5 * $min_size;
     }
     @media (min-width: $screen_md) and (max-width: $screen_lg - 1px) {
-        font-size: 1.73 * $min_size;
+        font-size: 1 * $min_size;
     }
     @media (min-width: $screen_lg) {
-        font-size: 2.45 * $min_size;
+        font-size: 1 * $min_size;
     }
 }
 
@@ -163,7 +163,7 @@ h1.homepage {
     border-right-width: 0;
 }
 .side .tile .name {
-    @include responsive_font_size(14px);
+    @include responsive_font_size(20px);
 }
 
 .side .tile.current {

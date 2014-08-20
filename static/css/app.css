@@ -102,16 +102,16 @@ h1.homepage {
 
 @media (max-width: 767px) {
   .side .tile .name {
-    font-size: 14px; } }
+    font-size: 30px; } }
 @media (min-width: 768px) and (max-width: 991px) {
   .side .tile .name {
-    font-size: 15.4px; } }
+    font-size: 30px; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   .side .tile .name {
-    font-size: 24.22px; } }
+    font-size: 20px; } }
 @media (min-width: 1200px) {
   .side .tile .name {
-    font-size: 34.3px; } }
+    font-size: 20px; } }
 
 .side .tile.current {
   width: 0;
