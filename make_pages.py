@@ -12,6 +12,13 @@ pages = [ \
         'date': '2014',
     },
     {
+        'name': 'Smart Bamboo Blinds for Bali',
+        'thumbnail': 'bali-house',
+        'path': 'bamboo_blinds',
+        'template': 'bali.html',
+        'date': 'May 2014',
+    },
+    {
         'name': 'WaaZam!',
         'thumbnail': 'waazam',
         'path': 'waazam',

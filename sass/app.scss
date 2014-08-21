@@ -31,14 +31,6 @@ $col_w: .08333333; // a span1 bootstrap col has this percentage width
         background-image: url('/static/img/screen_large/' + $dir + $filename);
     }
 }
-@mixin image_border() {
-    border-style: solid;
-    border-color: white;
-    border-left-width: 5px;
-    &:first-child {
-        border-left-width: 0;
-    }
-}
 @mixin responsive_font_size($min_size) {
     @media (max-width: $screen_sm - 1px) {
         font-size: 1.5 * $min_size;
@@ -259,9 +251,31 @@ td .td-inner {
     width: 100%;
     clear: both;
 }
-.images .border {
-    @include image_border();
+.images.tight {
+    margin-bottom: 0;
 }
+
+$border_w: 5px;
+.image.border {
+    border-style: solid;
+    border-color: white;
+}
+.image.border.all {
+    border-width: $border_w;
+}
+.image.border.left {
+    border-width: 0 0 0 $border_w;
+}
+.image.border.right {
+    border-width: 0 $border_w 0 0;
+}
+.image.border.top {
+    border-width: $border_w 0 0 0;
+}
+.image.border.bottom {
+    border-width: 0 0 $border_w 0;
+}
+
 .images .image {
     display: inline-block;
     float: left;
@@ -294,6 +308,10 @@ $img_zach: 'with_zach.jpg';
 $img_mhd: 'mhd.jpg';
 $img_pipe: 'laying_pipe.jpg';
 $img_bali: 'at_sua_bali.jpg';
+$img_bali_parts: 'bali_components.jpg';
+$img_bali_mech: 'bali_lowering_blinds.png';
+$img_bali_CAT: 'bali_CAT.png';
+$img_bali_house: 'bali_house.jpg';
 
 // SPECIFIC IMAGES IN CONTEXT
 @mixin big_tile($filename) {
@@ -326,6 +344,9 @@ $img_bali: 'at_sua_bali.jpg';
 .big-tiles .image.bali {
     @include big_tile($img_bali);
 }
+.big-tiles .image.bali-house {
+    @include big_tile($img_bali_house);
+}
 
 @mixin side_tile($filename) {
     @include responsive_image($filename, 'side_tiles/');
@@ -357,6 +378,9 @@ $img_bali: 'at_sua_bali.jpg';
 .side .image.bali {
     @include side_tile($img_bali);
 }
+.side .image.bali-house {
+    @include side_tile($img_bali_house);
+}
 
 .project-page .image.yak-dung {
     @include responsive_image($img_yak_dung);
@@ -385,8 +409,22 @@ $img_bali: 'at_sua_bali.jpg';
 .project-page .cat {
     @include responsive_image('cat.png');
     @include weird_sizing(100%, 24%);
-    background-position-x: 50%;
-    background-position-y: 50%;
+    background-position: 50% 50%;
+}
+.project-page .image.bali-CAT {
+    @include responsive_image($img_bali_CAT);
+    @include weird_sizing(100%, 20%);
+}
+.project-page .image.bali-parts {
+    @include responsive_image($img_bali_parts);
+    @include weird_sizing(68%, 30%);
+    background-position: 50% 100%;
+}
+.project-page .image.bali-mech {
+    @include responsive_image($img_bali_mech);
+    @include weird_sizing(30%, 30%);
+    background-position: 100% 50%;
+    background-size: contain;
 }
 
 .about-me .image.beach {

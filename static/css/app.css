@@ -208,12 +208,27 @@ td .td-inner {
   width: 100%;
   clear: both; }
 
-.images .border {
+.images.tight {
+  margin-bottom: 0; }
+
+.image.border {
   border-style: solid;
-  border-color: white;
-  border-left-width: 5px; }
-  .images .border:first-child {
-    border-left-width: 0; }
+  border-color: white; }
+
+.image.border.all {
+  border-width: 5px; }
+
+.image.border.left {
+  border-width: 0 0 0 5px; }
+
+.image.border.right {
+  border-width: 0 5px 0 0; }
+
+.image.border.top {
+  border-width: 5px 0 0 0; }
+
+.image.border.bottom {
+  border-width: 0 0 5px 0; }
 
 .images .image {
   display: inline-block;
@@ -283,6 +298,12 @@ td .td-inner {
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-image: url("/static/img/280px_tiles/at_sua_bali.jpg"); }
+
+.big-tiles .image.bali-house {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/280px_tiles/bali_house.jpg"); }
 
 .side .image.galileo {
   background-size: cover;
@@ -418,6 +439,21 @@ td .td-inner {
   @media (min-width: 1200px) {
     .side .image.bali {
       background-image: url("/static/img/screen_large/side_tiles/at_sua_bali.jpg"); } }
+
+.side .image.bali-house {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/side_tiles/bali_house.jpg"); }
+  @media (max-width: 991px) {
+    .side .image.bali-house {
+      background-image: url("/static/img/screen_small/side_tiles/bali_house.jpg"); } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .side .image.bali-house {
+      background-image: url("/static/img/screen_medium/side_tiles/bali_house.jpg"); } }
+  @media (min-width: 1200px) {
+    .side .image.bali-house {
+      background-image: url("/static/img/screen_large/side_tiles/bali_house.jpg"); } }
 
 .project-page .image.yak-dung {
   background-size: cover;
@@ -556,8 +592,7 @@ td .td-inner {
   padding-bottom: 24%;
   box-sizing: border-box;
   position: relative;
-  background-position-x: 50%;
-  background-position-y: 50%; }
+  background-position: 50% 50%; }
   @media (max-width: 991px) {
     .project-page .cat {
       background-image: url("/static/img/screen_small/cat.png"); } }
@@ -567,6 +602,72 @@ td .td-inner {
   @media (min-width: 1200px) {
     .project-page .cat {
       background-image: url("/static/img/screen_large/cat.png"); } }
+
+.project-page .image.bali-CAT {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/bali_CAT.png");
+  width: 0;
+  height: 0;
+  padding-right: 100%;
+  padding-bottom: 20%;
+  box-sizing: border-box;
+  position: relative; }
+  @media (max-width: 991px) {
+    .project-page .image.bali-CAT {
+      background-image: url("/static/img/screen_small/bali_CAT.png"); } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .project-page .image.bali-CAT {
+      background-image: url("/static/img/screen_medium/bali_CAT.png"); } }
+  @media (min-width: 1200px) {
+    .project-page .image.bali-CAT {
+      background-image: url("/static/img/screen_large/bali_CAT.png"); } }
+
+.project-page .image.bali-parts {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/bali_components.jpg");
+  width: 0;
+  height: 0;
+  padding-right: 68%;
+  padding-bottom: 30%;
+  box-sizing: border-box;
+  position: relative;
+  background-position: 50% 100%; }
+  @media (max-width: 991px) {
+    .project-page .image.bali-parts {
+      background-image: url("/static/img/screen_small/bali_components.jpg"); } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .project-page .image.bali-parts {
+      background-image: url("/static/img/screen_medium/bali_components.jpg"); } }
+  @media (min-width: 1200px) {
+    .project-page .image.bali-parts {
+      background-image: url("/static/img/screen_large/bali_components.jpg"); } }
+
+.project-page .image.bali-mech {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/bali_lowering_blinds.png");
+  width: 0;
+  height: 0;
+  padding-right: 30%;
+  padding-bottom: 30%;
+  box-sizing: border-box;
+  position: relative;
+  background-position: 100% 50%;
+  background-size: contain; }
+  @media (max-width: 991px) {
+    .project-page .image.bali-mech {
+      background-image: url("/static/img/screen_small/bali_lowering_blinds.png"); } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .project-page .image.bali-mech {
+      background-image: url("/static/img/screen_medium/bali_lowering_blinds.png"); } }
+  @media (min-width: 1200px) {
+    .project-page .image.bali-mech {
+      background-image: url("/static/img/screen_large/bali_lowering_blinds.png"); } }
 
 .about-me .image.beach {
   background-size: cover;
