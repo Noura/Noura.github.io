@@ -52,6 +52,9 @@ h1.homepage {
   padding: 0 10px 10px 10px;
   display: inline-block;
   float: left; }
+  @media (max-width: 1000px) {
+    .big-tiles {
+      width: 100%; } }
 
 .tile {
   width: 300px;
@@ -63,6 +66,13 @@ h1.homepage {
   float: left;
   position: relative;
   background-color: black; }
+
+@media (max-width: 1000px) {
+  .big-tiles .tile {
+    width: 0;
+    height: 0;
+    padding-left: 45%;
+    padding-bottom: 45%; } }
 
 .tile .image,
 .tile .name,
@@ -79,7 +89,6 @@ h1.homepage {
 
 .tile .name {
   z-index: 2;
-  color: #95eeb6;
   font-size: 30px;
   font-weight: 200;
   font-family: forTitles;
@@ -95,7 +104,12 @@ h1.homepage {
   height: initial;
   max-height: 100%;
   background-color: rgba(0, 0, 0, 0.45);
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  color: #95eeb6; }
+  @media (max-width: 1000px) {
+    .tile .name {
+      color: white;
+      font-size: 300%; } }
 
 .tile:hover .name {
   color: #a7eec1;
@@ -113,10 +127,10 @@ h1.homepage {
 
 @media (max-width: 767px) {
   .side .tile .name {
-    font-size: 40px; } }
+    font-size: 55px; } }
 @media (min-width: 768px) and (max-width: 991px) {
   .side .tile .name {
-    font-size: 40px; } }
+    font-size: 55px; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   .side .tile .name {
     font-size: 20px; } }
