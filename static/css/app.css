@@ -335,13 +335,13 @@ td .td-inner {
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-image: url("/static/img/side_tiles/galileo.jpg"); }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .side .image.galileo {
       background-image: url("/static/img/screen_small/side_tiles/galileo.jpg"); } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 769px) and (max-width: 1200px) {
     .side .image.galileo {
       background-image: url("/static/img/screen_medium/side_tiles/galileo.jpg"); } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     .side .image.galileo {
       background-image: url("/static/img/screen_large/side_tiles/galileo.jpg"); } }
 
@@ -350,13 +350,13 @@ td .td-inner {
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-image: url("/static/img/side_tiles/waazam_space.png"); }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .side .image.waazam {
       background-image: url("/static/img/screen_small/side_tiles/waazam_space.png"); } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 769px) and (max-width: 1200px) {
     .side .image.waazam {
       background-image: url("/static/img/screen_medium/side_tiles/waazam_space.png"); } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     .side .image.waazam {
       background-image: url("/static/img/screen_large/side_tiles/waazam_space.png"); } }
 
@@ -365,13 +365,13 @@ td .td-inner {
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-image: url("/static/img/side_tiles/apples.jpg"); }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .side .image.apples {
       background-image: url("/static/img/screen_small/side_tiles/apples.jpg"); } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 769px) and (max-width: 1200px) {
     .side .image.apples {
       background-image: url("/static/img/screen_medium/side_tiles/apples.jpg"); } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     .side .image.apples {
       background-image: url("/static/img/screen_large/side_tiles/apples.jpg"); } }
 
@@ -380,13 +380,13 @@ td .td-inner {
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-image: url("/static/img/side_tiles/solsource.jpg"); }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .side .image.solsource {
       background-image: url("/static/img/screen_small/side_tiles/solsource.jpg"); } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 769px) and (max-width: 1200px) {
     .side .image.solsource {
       background-image: url("/static/img/screen_medium/side_tiles/solsource.jpg"); } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     .side .image.solsource {
       background-image: url("/static/img/screen_large/side_tiles/solsource.jpg"); } }
 
@@ -395,13 +395,13 @@ td .td-inner {
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-image: url("/static/img/side_tiles/lissa2.png"); }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .side .image.lissa {
       background-image: url("/static/img/screen_small/side_tiles/lissa2.png"); } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 769px) and (max-width: 1200px) {
     .side .image.lissa {
       background-image: url("/static/img/screen_medium/side_tiles/lissa2.png"); } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     .side .image.lissa {
       background-image: url("/static/img/screen_large/side_tiles/lissa2.png"); } }
 
@@ -410,13 +410,13 @@ td .td-inner {
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-image: url("/static/img/side_tiles/chladni2.png"); }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .side .image.chladni {
       background-image: url("/static/img/screen_small/side_tiles/chladni2.png"); } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 769px) and (max-width: 1200px) {
     .side .image.chladni {
       background-image: url("/static/img/screen_medium/side_tiles/chladni2.png"); } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     .side .image.chladni {
       background-image: url("/static/img/screen_large/side_tiles/chladni2.png"); } }
 
@@ -425,13 +425,13 @@ td .td-inner {
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-image: url("/static/img/side_tiles/en.png"); }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .side .image.en {
       background-image: url("/static/img/screen_small/side_tiles/en.png"); } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 769px) and (max-width: 1200px) {
     .side .image.en {
       background-image: url("/static/img/screen_medium/side_tiles/en.png"); } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     .side .image.en {
       background-image: url("/static/img/screen_large/side_tiles/en.png"); } }
 
@@ -440,13 +440,13 @@ td .td-inner {
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-image: url("/static/img/side_tiles/rickshawjs.png"); }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .side .image.rickshawjs {
       background-image: url("/static/img/screen_small/side_tiles/rickshawjs.png"); } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 769px) and (max-width: 1200px) {
     .side .image.rickshawjs {
       background-image: url("/static/img/screen_medium/side_tiles/rickshawjs.png"); } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     .side .image.rickshawjs {
       background-image: url("/static/img/screen_large/side_tiles/rickshawjs.png"); } }
 
@@ -455,13 +455,13 @@ td .td-inner {
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-image: url("/static/img/side_tiles/at_sua_bali.jpg"); }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .side .image.bali {
       background-image: url("/static/img/screen_small/side_tiles/at_sua_bali.jpg"); } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 769px) and (max-width: 1200px) {
     .side .image.bali {
       background-image: url("/static/img/screen_medium/side_tiles/at_sua_bali.jpg"); } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     .side .image.bali {
       background-image: url("/static/img/screen_large/side_tiles/at_sua_bali.jpg"); } }
 
@@ -470,13 +470,13 @@ td .td-inner {
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-image: url("/static/img/side_tiles/bali_house.jpg"); }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .side .image.bali-house {
       background-image: url("/static/img/screen_small/side_tiles/bali_house.jpg"); } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 769px) and (max-width: 1200px) {
     .side .image.bali-house {
       background-image: url("/static/img/screen_medium/side_tiles/bali_house.jpg"); } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     .side .image.bali-house {
       background-image: url("/static/img/screen_large/side_tiles/bali_house.jpg"); } }
 
@@ -491,13 +491,13 @@ td .td-inner {
   padding-bottom: 44%;
   box-sizing: border-box;
   position: relative; }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .project-page .image.yak-dung {
       background-image: url("/static/img/screen_small/yak_dung.jpg"); } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 769px) and (max-width: 1200px) {
     .project-page .image.yak-dung {
       background-image: url("/static/img/screen_medium/yak_dung.jpg"); } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     .project-page .image.yak-dung {
       background-image: url("/static/img/screen_large/yak_dung.jpg"); } }
 
@@ -512,13 +512,13 @@ td .td-inner {
   padding-bottom: 44%;
   box-sizing: border-box;
   position: relative; }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .project-page .image.solsource {
       background-image: url("/static/img/screen_small/solsource.jpg"); } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 769px) and (max-width: 1200px) {
     .project-page .image.solsource {
       background-image: url("/static/img/screen_medium/solsource.jpg"); } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     .project-page .image.solsource {
       background-image: url("/static/img/screen_large/solsource.jpg"); } }
 
@@ -533,13 +533,13 @@ td .td-inner {
   padding-bottom: 36%;
   box-sizing: border-box;
   position: relative; }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .project-page .image.apples {
       background-image: url("/static/img/screen_small/apples.jpg"); } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 769px) and (max-width: 1200px) {
     .project-page .image.apples {
       background-image: url("/static/img/screen_medium/apples.jpg"); } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     .project-page .image.apples {
       background-image: url("/static/img/screen_large/apples.jpg"); } }
 
@@ -554,13 +554,13 @@ td .td-inner {
   padding-bottom: 36%;
   box-sizing: border-box;
   position: relative; }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .project-page .image.notebook {
       background-image: url("/static/img/screen_small/notebook.png"); } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 769px) and (max-width: 1200px) {
     .project-page .image.notebook {
       background-image: url("/static/img/screen_medium/notebook.png"); } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     .project-page .image.notebook {
       background-image: url("/static/img/screen_large/notebook.png"); } }
 
@@ -575,13 +575,13 @@ td .td-inner {
   padding-bottom: 45%;
   box-sizing: border-box;
   position: relative; }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .project-page .image.chladni {
       background-image: url("/static/img/screen_small/chladni.png"); } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 769px) and (max-width: 1200px) {
     .project-page .image.chladni {
       background-image: url("/static/img/screen_medium/chladni.png"); } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     .project-page .image.chladni {
       background-image: url("/static/img/screen_large/chladni.png"); } }
 
@@ -596,13 +596,13 @@ td .td-inner {
   padding-bottom: 31.8%;
   box-sizing: border-box;
   position: relative; }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .project-page .image.lissa {
       background-image: url("/static/img/screen_small/lissa1.png"); } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 769px) and (max-width: 1200px) {
     .project-page .image.lissa {
       background-image: url("/static/img/screen_medium/lissa1.png"); } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     .project-page .image.lissa {
       background-image: url("/static/img/screen_large/lissa1.png"); } }
 
@@ -618,13 +618,13 @@ td .td-inner {
   box-sizing: border-box;
   position: relative;
   background-position: 50% 50%; }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .project-page .cat {
       background-image: url("/static/img/screen_small/cat.png"); } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 769px) and (max-width: 1200px) {
     .project-page .cat {
       background-image: url("/static/img/screen_medium/cat.png"); } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     .project-page .cat {
       background-image: url("/static/img/screen_large/cat.png"); } }
 
@@ -639,13 +639,13 @@ td .td-inner {
   padding-bottom: 20%;
   box-sizing: border-box;
   position: relative; }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .project-page .image.bali-CAT {
       background-image: url("/static/img/screen_small/bali_CAT.png"); } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 769px) and (max-width: 1200px) {
     .project-page .image.bali-CAT {
       background-image: url("/static/img/screen_medium/bali_CAT.png"); } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     .project-page .image.bali-CAT {
       background-image: url("/static/img/screen_large/bali_CAT.png"); } }
 
@@ -661,13 +661,13 @@ td .td-inner {
   box-sizing: border-box;
   position: relative;
   background-position: 50% 100%; }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .project-page .image.bali-parts {
       background-image: url("/static/img/screen_small/bali_components.jpg"); } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 769px) and (max-width: 1200px) {
     .project-page .image.bali-parts {
       background-image: url("/static/img/screen_medium/bali_components.jpg"); } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     .project-page .image.bali-parts {
       background-image: url("/static/img/screen_large/bali_components.jpg"); } }
 
@@ -684,13 +684,13 @@ td .td-inner {
   position: relative;
   background-position: 100% 50%;
   background-size: contain; }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .project-page .image.bali-mech {
       background-image: url("/static/img/screen_small/bali_lowering_blinds.png"); } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 769px) and (max-width: 1200px) {
     .project-page .image.bali-mech {
       background-image: url("/static/img/screen_medium/bali_lowering_blinds.png"); } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     .project-page .image.bali-mech {
       background-image: url("/static/img/screen_large/bali_lowering_blinds.png"); } }
 
@@ -705,13 +705,13 @@ td .td-inner {
   padding-bottom: 23.5%;
   box-sizing: border-box;
   position: relative; }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .about-me .image.beach {
       background-image: url("/static/img/screen_small/beach.jpg"); } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 769px) and (max-width: 1200px) {
     .about-me .image.beach {
       background-image: url("/static/img/screen_medium/beach.jpg"); } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     .about-me .image.beach {
       background-image: url("/static/img/screen_large/beach.jpg"); } }
 
@@ -726,13 +726,13 @@ td .td-inner {
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-image: url("/static/img/sale.jpg"); }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .about-me .image.sale {
       background-image: url("/static/img/screen_small/sale.jpg"); } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 769px) and (max-width: 1200px) {
     .about-me .image.sale {
       background-image: url("/static/img/screen_medium/sale.jpg"); } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     .about-me .image.sale {
       background-image: url("/static/img/screen_large/sale.jpg"); } }
 
@@ -747,13 +747,13 @@ td .td-inner {
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-image: url("/static/img/with_zach.jpg"); }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .about-me .image.zach {
       background-image: url("/static/img/screen_small/with_zach.jpg"); } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 769px) and (max-width: 1200px) {
     .about-me .image.zach {
       background-image: url("/static/img/screen_medium/with_zach.jpg"); } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     .about-me .image.zach {
       background-image: url("/static/img/screen_large/with_zach.jpg"); } }
 
@@ -768,13 +768,13 @@ td .td-inner {
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-image: url("/static/img/mhd.jpg"); }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .about-me .image.mhd {
       background-image: url("/static/img/screen_small/mhd.jpg"); } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 769px) and (max-width: 1200px) {
     .about-me .image.mhd {
       background-image: url("/static/img/screen_medium/mhd.jpg"); } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     .about-me .image.mhd {
       background-image: url("/static/img/screen_large/mhd.jpg"); } }
 
@@ -789,12 +789,12 @@ td .td-inner {
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-image: url("/static/img/laying_pipe.jpg"); }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .about-me .image.pipe {
       background-image: url("/static/img/screen_small/laying_pipe.jpg"); } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 769px) and (max-width: 1200px) {
     .about-me .image.pipe {
       background-image: url("/static/img/screen_medium/laying_pipe.jpg"); } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1201px) {
     .about-me .image.pipe {
       background-image: url("/static/img/screen_large/laying_pipe.jpg"); } }

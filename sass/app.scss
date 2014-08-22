@@ -23,13 +23,20 @@ $iphone_w: 1000px; // about this much on my iphone 4 I think
 }
 @mixin responsive_image($filename, $dir: '') {
     @include image($filename, $dir);
-    @media (max-width: $screen_md - 1px) { // sm
+    //@media (max-width: $screen_md - 1px) { // sm
+    //    background-image: url('/static/img/screen_small/' + $dir + $filename);
+    //}
+    //@media (min-width: $screen_md) and (max-width: $screen_lg - 1px) { // md
+    //    background-image: url('/static/img/screen_medium/' + $dir + $filename);
+    //}
+    //FIXME image sizes
+    @media (max-width: $screen_sm) {
         background-image: url('/static/img/screen_small/' + $dir + $filename);
     }
-    @media (min-width: $screen_md) and (max-width: $screen_lg - 1px) { // md
+    @media (min-width: $screen_sm + 1px) and (max-width: $screen_lg) {
         background-image: url('/static/img/screen_medium/' + $dir + $filename);
     }
-    @media (min-width: $screen_lg) { // lg
+    @media (min-width: $screen_lg + 1) { // lg
         background-image: url('/static/img/screen_large/' + $dir + $filename);
     }
 }
