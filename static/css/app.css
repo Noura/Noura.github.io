@@ -2,13 +2,24 @@
   font-family: forTitles;
   src: url("/static/fonts/MyriadPro-Light.otf"); }
 body {
+  font-size: 18px;
   font-family: helvetica, sans-serif; }
+
+p {
+  font-weight: 100;
+  font-size: 100%; }
+  @media (max-width: 1000px) {
+    p {
+      font-size: 200%; } }
 
 .container {
   margin-left: 0;
   padding-left: 25px;
   padding-bottom: 25px;
   padding-top: 25px; }
+  @media (max-width: 1000px) and (min-width: 0px) {
+    .container {
+      width: 100% !important; } }
 
 .topbar {
   margin-top: -7px; }
@@ -102,10 +113,10 @@ h1.homepage {
 
 @media (max-width: 767px) {
   .side .tile .name {
-    font-size: 30px; } }
+    font-size: 40px; } }
 @media (min-width: 768px) and (max-width: 991px) {
   .side .tile .name {
-    font-size: 30px; } }
+    font-size: 40px; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   .side .tile .name {
     font-size: 20px; } }

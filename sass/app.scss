@@ -4,6 +4,8 @@ $screen_sm: 768px;
 $screen_md: 992px;
 $screen_lg: 1200px;
 $col_w: .08333333; // a span1 bootstrap col has this percentage width
+$iphone_w: 1000px; // about this much on my iphone 4 I think
+                   // TODO better way to do this
 
 @mixin weird_sizing($w, $h) {
     width: 0;
@@ -33,10 +35,10 @@ $col_w: .08333333; // a span1 bootstrap col has this percentage width
 }
 @mixin responsive_font_size($min_size) {
     @media (max-width: $screen_sm - 1px) {
-        font-size: 1.5 * $min_size;
+        font-size: 2 * $min_size;
     }
     @media (min-width: $screen_sm) and (max-width: $screen_md - 1px) {
-        font-size: 1.5 * $min_size;
+        font-size: 2 * $min_size;
     }
     @media (min-width: $screen_md) and (max-width: $screen_lg - 1px) {
         font-size: 1 * $min_size;
@@ -51,7 +53,16 @@ $col_w: .08333333; // a span1 bootstrap col has this percentage width
     src: url('/static/fonts/MyriadPro-Light.otf');
 }
 body {
+    font-size: 18px;
     font-family: helvetica, sans-serif;
+}
+
+p {
+    font-weight: 100;
+    font-size: 100%;
+    @media (max-width: $iphone_w) {
+        font-size: 200%;
+    }
 }
 
 .container {
@@ -59,6 +70,9 @@ body {
     padding-left: 25px;
     padding-bottom: 25px;
     padding-top: 25px;
+    @media (max-width: $iphone_w) and (min-width: 0px) {
+        width: 100% !important;
+    }
 }
 
 .topbar {
@@ -193,6 +207,7 @@ $prev_next_min_tile_h: 40px;
     }
     // NOTE this is hacky but the 3 or 2 refers to the col span that the
     // side tile is going to have at this screen size
+    // FIXME so it vertically centers at all screen sizes
     @media (min-width: $screen_sm) and (max-width: $screen_md - 1px) {
         line-height: $prev_next_tile_h * $col_w * 3 * $screen_sm - 18px;
     }
