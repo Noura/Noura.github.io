@@ -54,6 +54,20 @@ $iphone_w: 1000px; // about this much on my iphone 4 I think
         font-size: 1 * $min_size;
     }
 }
+@mixin border_radius($tl, $tr, $br, $bl) {
+    -webkit-border-top-left-radius: $tl;
+    -webkit-border-top-right-radius: $tr;
+    -webkit-border-bottom-right-radius: $br;
+    -webkit-border-bottom-left-radius: $bl;
+    -moz-border-radius-topleft: $tl;
+    -moz-border-radius-topright: $tr;
+    -moz-border-radius-bottomright: $br;
+    -moz-border-radius-bottomleft: $bl;
+    border-top-left-radius: $tl;
+    border-top-right-radius: $tr;
+    border-bottom-right-radius: $br;
+    border-bottom-left-radius: $bl;
+}
 
 @font-face {
     font-family: forTitles;
@@ -128,7 +142,7 @@ h1.homepage {
     display: inline-block;
     float: left;
     position: relative;
-    background-color: black;
+    background-color: transparent;
 }
 .big-tiles .tile {
     @media (max-width: $iphone_w) {
@@ -149,9 +163,11 @@ h1.homepage {
     cursor: default;
 }
 .tile .image {
+    @include border_radius(5px, 5px, 5px, 5px);
     z-index: 1;
 }
 .tile .name {
+    @include border_radius(0, 0, 5px, 5px);
     z-index: 2;
     font-size: 30px;
     font-weight: 200;
@@ -218,6 +234,10 @@ $prev_next_min_tile_h: 40px;
 .side .tile.next .name {
     right: 0;
     left: initial;
+    @include border_radius(0, 5px, 5px, 0);
+}
+.side .tile.prev .name {
+    @include border_radius(5px, 0, 0, 5px);
 }
 .side .tile.next .name,
 .side .tile.prev .name {
@@ -258,6 +278,7 @@ $prev_next_min_tile_h: 40px;
     word-wrap: initial;
     word-break: initial;
     text-overflow: ellipsis;
+    @include border_radius(5px, 5px, 5px, 5px);
 }
 
 //////////////////
