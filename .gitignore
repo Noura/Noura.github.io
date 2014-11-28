@@ -2,5 +2,5 @@ thommuse/*
 *inspector-stylesheet.css
 *.swp
 *~
-*DS_Store
+*.DS_Store
 .sass-cache*
