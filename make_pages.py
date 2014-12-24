@@ -5,6 +5,13 @@ import jinja2
 
 pages = [ \
     {
+        'name': 'Myo DJ Effects Controller',
+        'thumbnail': 'myodj',
+        'path': 'myodj',
+        'template': 'myodj.html',
+        'date': '2014',
+    },
+    {
         'name': 'Connect Anything with Intel\'s Galileo',
         'thumbnail': 'galileo',
         'path': 'intel',

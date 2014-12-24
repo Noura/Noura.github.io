@@ -392,6 +392,12 @@ td .td-inner {
   background-position-x: 50%;
   background-image: url("/static/img/280px_tiles/bali_house.jpg"); }
 
+.big-tiles .image.myodj {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/280px_tiles/beatwave.png"); }
+
 .side .image.galileo {
   background-size: cover;
   background-repeat: no-repeat;
@@ -541,6 +547,21 @@ td .td-inner {
   @media (min-width: 1201px) {
     .side .image.bali-house {
       background-image: url("/static/img/screen_large/side_tiles/bali_house.jpg"); } }
+
+.side .image.myodj {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/side_tiles/beatwave.png"); }
+  @media (max-width: 768px) {
+    .side .image.myodj {
+      background-image: url("/static/img/screen_small/side_tiles/beatwave.png"); } }
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .side .image.myodj {
+      background-image: url("/static/img/screen_medium/side_tiles/beatwave.png"); } }
+  @media (min-width: 1201px) {
+    .side .image.myodj {
+      background-image: url("/static/img/screen_large/side_tiles/beatwave.png"); } }
 
 .project-page .image.yak-dung {
   background-size: cover;
