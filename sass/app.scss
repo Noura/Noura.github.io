@@ -371,6 +371,7 @@ $img_bali_parts: 'bali_components.jpg';
 $img_bali_mech: 'bali_lowering_blinds.png';
 $img_bali_CAT: 'bali_CAT.png';
 $img_bali_house: 'bali_house.jpg';
+$img_myodj: 'beatwave.png';
 
 // SPECIFIC IMAGES IN CONTEXT
 @mixin big_tile($filename) {
@@ -406,6 +407,9 @@ $img_bali_house: 'bali_house.jpg';
 .big-tiles .image.bali-house {
     @include big_tile($img_bali_house);
 }
+.big-tiles .image.myodj {
+    @include big_tile($img_myodj);
+}
 
 @mixin side_tile($filename) {
     @include responsive_image($filename, 'side_tiles/');
@@ -439,6 +443,9 @@ $img_bali_house: 'bali_house.jpg';
 }
 .side .image.bali-house {
     @include side_tile($img_bali_house);
+}
+.side .image.myodj {
+    @include side_tile($img_myodj);
 }
 
 .project-page .image.yak-dung {
