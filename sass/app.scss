@@ -7,6 +7,11 @@ $col_w: .08333333; // a span1 bootstrap col has this percentage width
 $iphone_w: 1000px; // about this much on my iphone 4 I think
                    // TODO better way to do this
 
+$name_bg: white;
+$triangle_bg: aquamarine;
+$name_h: 2em;
+$triangle_w: 20px;
+
 @mixin weird_sizing($w, $h) {
     width: 0;
     height: 0;
@@ -83,8 +88,24 @@ p {
         width: 100% !important;
     }
 }
-.project-page.container {
+.container.project-page {
     background: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    position: relative;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    background-clip: padding-box;
+}
+.close-project-page {
+    position: absolute;
+    left: -60px;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-right: 60px solid $triangle_bg;
 }
 
 .topbar {
@@ -123,10 +144,7 @@ h1 {
     padding-left: 100%;
     padding-bottom: 100%;
 }
-$name_bg: white;
-$triangle_bg: aquamarine;
-$name_h: 2em;
-$triangle_w: 20px;
+
 .tile .name {
     position: relative;
     height: $name_h;

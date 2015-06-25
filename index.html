@@ -4,7 +4,8 @@
   <head>
     <title>Noura Howell</title>
 
-    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/app.js"></script>
 
     <link rel="stylesheet" href="/static/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/css/app.css">
@@ -12,7 +13,7 @@
   </head>
   <body>
 
-    <div class="container">
+    <div class="container tiles">
       <div class="row title">
         <div class="col-xs-12">
           <h1>Noura Howell</h1>
@@ -24,8 +25,7 @@
     <div class="row big-tiles">
       
         
-<a href="myodj">
-  <div class="tile  col-xs-4" data-project="myodj">
+  <div class="tile col-xs-4" data-project="myodj">
       <div class="image myodj"></div>
       <div class="name">
         
@@ -41,12 +41,10 @@
         
       </div>
   </div>
-</a>
  
       
         
-<a href="intel">
-  <div class="tile  col-xs-4" data-project="intel">
+  <div class="tile col-xs-4" data-project="intel">
       <div class="image galileo"></div>
       <div class="name">
         
@@ -62,12 +60,10 @@
         
       </div>
   </div>
-</a>
  
       
         
-<a href="bamboo_blinds">
-  <div class="tile  col-xs-4" data-project="bamboo_blinds">
+  <div class="tile col-xs-4" data-project="bamboo_blinds">
       <div class="image bali-house"></div>
       <div class="name">
         
@@ -83,7 +79,6 @@
         
       </div>
   </div>
-</a>
  
       
     </div>
@@ -92,8 +87,7 @@
     <div class="row big-tiles">
       
         
-<a href="waazam">
-  <div class="tile  col-xs-4" data-project="waazam">
+  <div class="tile col-xs-4" data-project="waazam">
       <div class="image waazam"></div>
       <div class="name">
         
@@ -109,12 +103,10 @@
         
       </div>
   </div>
-</a>
  
       
         
-<a href="moblit">
-  <div class="tile  col-xs-4" data-project="moblit">
+  <div class="tile col-xs-4" data-project="moblit">
       <div class="image apples"></div>
       <div class="name">
         
@@ -130,12 +122,10 @@
         
       </div>
   </div>
-</a>
  
       
         
-<a href="solsource">
-  <div class="tile  col-xs-4" data-project="solsource">
+  <div class="tile col-xs-4" data-project="solsource">
       <div class="image solsource"></div>
       <div class="name">
         
@@ -151,7 +141,6 @@
         
       </div>
   </div>
-</a>
  
       
     </div>
@@ -160,8 +149,7 @@
     <div class="row big-tiles">
       
         
-<a href="lissa">
-  <div class="tile  col-xs-4" data-project="lissa">
+  <div class="tile col-xs-4" data-project="lissa">
       <div class="image lissa"></div>
       <div class="name">
         
@@ -177,12 +165,10 @@
         
       </div>
   </div>
-</a>
  
       
         
-<a href="chladni">
-  <div class="tile  col-xs-4" data-project="chladni">
+  <div class="tile col-xs-4" data-project="chladni">
       <div class="image chladni"></div>
       <div class="name">
         
@@ -198,12 +184,10 @@
         
       </div>
   </div>
-</a>
  
       
         
-<a href="sxm">
-  <div class="tile  col-xs-4" data-project="sxm">
+  <div class="tile col-xs-4" data-project="sxm">
       <div class="image en"></div>
       <div class="name">
         
@@ -219,7 +203,6 @@
         
       </div>
   </div>
-</a>
  
       
     </div>
@@ -228,8 +211,7 @@
     <div class="row big-tiles">
       
         
-<a href="en_qa">
-  <div class="tile  col-xs-4" data-project="en_qa">
+  <div class="tile col-xs-4" data-project="en_qa">
       <div class="image rickshawjs"></div>
       <div class="name">
         
@@ -245,12 +227,10 @@
         
       </div>
   </div>
-</a>
  
       
         
-<a href="about">
-  <div class="tile  col-xs-4" data-project="about">
+  <div class="tile col-xs-4" data-project="about">
       <div class="image bali"></div>
       <div class="name">
         
@@ -266,12 +246,506 @@
         
       </div>
   </div>
-</a>
  
       
     </div>
   
 
     </div>
+
+    
+  
+    
+<div class="container project-page hide" data-project="myodj">
+  <div class="close-project-page">
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 topbar">
+      <h1>Myo DJ Effects Controller</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 content">
+
+      
+<div class="iframe-container">
+    <iframe src="//player.vimeo.com/video/113663163" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/113663163">beatwave</a> from <a href="http://vimeo.com/user8307985">Bradford Malt</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</div>
+
+<p>We made an audio effects controller for DJs using the <a href="http://www.thalmic.com/" target="_blank">Myo</a> armband. Moving their arm instead of twisting a knob helps DJs multitask, be more performative, and have fun without sacrificing precise control--aspects of the experience which were important to our users. Through several iterations, we tested using Leap Motion or Myo for the best possible user experience.</p>
+
+<p>Using C++, the application converts Myo input to MIDI output. The MIDI output goes to the GUI, written in Processing, and to whatever audio software the DJ prefers, such as Serato or Traktor.</p>
+
+<p><a href="https://github.com/Noura/myoDJ">github repo</a></p>
+
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 date">
+      <p>2014</p>
+    </div>
+  </div>
+</div>
+
+  
+    
+<div class="container project-page hide" data-project="intel">
+  <div class="close-project-page">
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 topbar">
+      <h1>Connect Anything with Intel's Galileo</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 content">
+
+      
+<div class="images project-page">
+    <div class="image cat"></div>
+</div>
+
+<p>ConnectAnyThing (<a href="https://github.com/IntelOpenDesign/ConnectAnyThing" target="_blank">release repo</a>, <a href="https://github.com/Noura/cat" target="_blank">development repo</a>) makes it possible to use Intel's Galileo microcontroller without writing a line of code. It enables creative play and rapid prototyping. I worked on the client and server side code.</p>
+
+<p>MakerNode (<a href="https://github.com/IntelOpenDesign/MakerNode" target="_blank">repo</a>), a work in progress, will provide a simple workflow for node.js projects on Galileo.</p>
+
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 date">
+      <p>2014</p>
+    </div>
+  </div>
+</div>
+
+  
+    
+<div class="container project-page hide" data-project="bamboo_blinds">
+  <div class="close-project-page">
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 topbar">
+      <h1>Smart Bamboo Blinds for Bali</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 content">
+
+      
+<div class="images tight project-page">
+    <div class="image bali-CAT border bottom"></div>
+</div>
+<div class="images project-page">
+    <div class="image bali-parts"></div>
+    <div class="image bali-mech border left"></div>
+</div>
+
+<p>Traditional Balinese architecture often uses bamboo blinds instead of exterior walls to maximize air circulation for cooling. During nice weather, they are raised, and during hot or rainy weather, they are lowered. If it starts raining while no one is home, then all the furniture will get soaked and probably start to mildew.</p>
+
+<p>I prototyped a system whereby the bamboo blinds lower automatically when it starts to rain. A moisture sensor sends an eletrical signal to the Galileo board, which triggers the motor.</p>
+
+<p>I worked with <a href="http://www.alamsantidesign.com/">Alam Santi</a>, which blends traditional and modern technologies to create sustainable homes, and Intel Labs, which provided the ConnectAnyThing interface and Galileo used for this interconnected home system.</p>
+
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 date">
+      <p>May 2014</p>
+    </div>
+  </div>
+</div>
+
+  
+    
+<div class="container project-page hide" data-project="waazam">
+  <div class="close-project-page">
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 topbar">
+      <h1>WaaZam!</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 content">
+
+      
+<div class="iframe-container">
+    <iframe src="//player.vimeo.com/video/56924825" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/56924825">WaaZam- A System for Creative Play at a Distance</a> from <a href="http://vimeo.com/user15656392">Seth Hunter</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</div>
+
+<p>
+<a href="http://waazam.com" target="_blank">WaaZam</a> supports shared creative play at a distance. It was the doctoral research of <a href="http://perspectum.com" target="_blank">Seth Hunter</a> in the <a href="http://fluid.media.mit.edu/" target="_blank">Fluid Interfaces Group</a> at the <a href="http://media.mit.edu/" target="_blank">MIT Media Lab</a>. I helped conduct the user study, analyze those results, and adapt a few ofxUI components for our openFrameworks front end.
+</p>
+
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 date">
+      <p>2013</p>
+    </div>
+  </div>
+</div>
+
+  
+    
+<div class="container project-page hide" data-project="moblit">
+  <div class="close-project-page">
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 topbar">
+      <h1>Mobile Phones & Illiteracy in Morocco</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 content">
+
+      <p>
+    Many illiterate Moroccans use a mobile phone personally and professionally. They rely on friends or strangers to help them make calls and navigate the text based Arabic or French interface. Our goal was to help these people use the phones they already own independently. As project manager on a team of <a href="http://www.olin.edu/" target="_blank">Olin</a> design and engineering students, <a href="http://www.babson.edu/" target="_blank">Babson</a> business students, and Moroccan <a href="http://www.enim.ac.ma/" target="_blank">&Eacute;cole Nationale de L'Industrie Min&eacute;rale</a> engineering students, I led the design process through user research, problem definition, prototype iteration, and pilot testing.
+</p>
+
+<div class="images project-page">
+    <div class="image apples"></div>
+    <div class="image notebook border left"></div>
+</div>
+
+<p>
+    We interviewed numerous illiterate working Moroccan adults to understand how mobile phones fit into their lifestyles, including bicycle mechanics, produce vendors, bakers, maids, taxi cab drivers, and construction workers. Most own at least one mobile phone which they use for work and calling family and friends. Third hand Nokia bar phones are most common. Contacts are recorded on paper notebooks or scraps of cardboard. 
+</p>
+
+<p>
+    They struggle to unlock their phone, find the contact's number, dial the number, add contacts, and add minutes. We focused on finding and dialing contacts because these needs are most time sensitive. We prototyped and pilot tested a transitional solution which accommodated current usage patterns and price constraints while augmenting the memory and learning abilities of illiterate users.
+</p>
+
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 date">
+      <p>2012</p>
+    </div>
+  </div>
+</div>
+
+  
+    
+<div class="container project-page hide" data-project="solsource">
+  <div class="close-project-page">
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 topbar">
+      <h1>Solar Cooker for the Himalayas</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 content">
+
+      
+<div class="images project-page">
+    <div class="image yak-dung"></div>
+    <div class="image solsource border left"></div>
+</div>
+
+<p>Tibetan women spend hours each day collecting yak dung fuel to burn  inside their winter homes or summer tents for heating and cooking. This delivers bacteria via their hands into their food, creates dangerously smoky homes, and incurs difficult manual labor.</p>
+
+<p>With <a href="http://www.oneearthdesigns.com/" target="_blank">One Earth Designs</a>, I helped develop their parabolic solar cooker prototype through field testing, immersive user research, materials research, and simulation.</p>
+
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 date">
+      <p>2010</p>
+    </div>
+  </div>
+</div>
+
+  
+    
+<div class="container project-page hide" data-project="lissa">
+  <div class="close-project-page">
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 topbar">
+      <h1>Harmonograph Visualizer</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 content">
+
+      
+<div class="images img-link-container project-page">
+    <a href="http://tytel.org/lissa/" target="_blank"></a>
+    <div class="image lissa"></div>
+</div>
+
+<p>
+An interactive Lissajous curves visualizer for exploration, pretty patterns, and random music generation. Lissajous curves represent stereo sound by plotting the left and right speaker positions on the horizontal and vertical axes, respectively. I made this with <a href="http://tytel.org/" target="_blank">Matt Tytel</a>. Go <a href="http://tytel.org/lissa/" target="_blank">play</a>.
+</p>
+
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 date">
+      <p>2013</p>
+    </div>
+  </div>
+</div>
+
+  
+    
+<div class="container project-page hide" data-project="chladni">
+  <div class="close-project-page">
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 topbar">
+      <h1>Chladni Waves Visualizer</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 content">
+
+      
+<div class="images img-link-container project-page">
+    <a href="http://tytel.org/salad/" target="_blank"></a>
+    <div class="image chladni"></div>
+</div>
+
+<p>
+Another interactive curve visualizer, this time inspired by Meara O'Reilly's <a href="http://mearaoreilly.com/index.php?/project/for-bjoerks-biophilia/" target="_blank">collaboration</a> with Bj&ouml;rk for the latter's Biophilia Tour. Chladni curves shows how waves propagate across a flat, finite surface. Each point's acceleration is inversely proportional to the relative position of its neighbors, so higher points get pulled down and vice versa. Waves reflect against the edges of the surface, and the constructive and destructive interference creates beautiful patterns. I made this with <a href="http://tytel.org/" target="_blank">Matt Tytel</a>. Go <a href="http://tytel.org/salad/" target="_blank">play</a>.
+</p>
+
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 date">
+      <p>2013</p>
+    </div>
+  </div>
+</div>
+
+  
+    
+<div class="container project-page hide" data-project="sxm">
+  <div class="close-project-page">
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 topbar">
+      <h1>SiriusXM Radio Station Creator</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 content">
+
+      
+<p>
+    SiriusXM's <a href="http://blog.echonest.com/post/48040487056/mysxm" target="_blank">MySXM personalized radio stations</a> are created by SiriusXM's music programmers using this tool, made by <a href="http://the.echonest.com/" target="_blank">The Echo Nest</a>. I worked with one other web developer on the front end JavaScript application. Highlights included throttling AJAX requests to reliably load thousands of dynamically structured song objects, maintaining a responsive interface while loading, sorting, and filtering those objects, and automatically suggesting possible areas of concern to the music programmers to guide their design of these radio stations.
+</p>
+
+<p>The thumbnail picture is an <a href="http://blog.echonest.com/post/12789403340/new-echo-nest-t-shirt-design-by-john-allison" target="_blank">Echo Nest t-shirt design.</a></p>
+
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 date">
+      <p>2012</p>
+    </div>
+  </div>
+</div>
+
+  
+    
+<div class="container project-page hide" data-project="en_qa">
+  <div class="close-project-page">
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 topbar">
+      <h1>Tools for Quality Assurance</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 content">
+
+      
+<p>
+    As a software engineer for <a href="http://the.echonest.com/" target="_blank">The Echo Nest</a>, one of the projects I worked on was developing internal tools which were used for quality assurance. Data accuracy is of utmost importance to The Echo Nest because data is its primary product, and the continually growing database regularly rolls out to enterprise customers. The tools enabled anyone to view and edit dynamically structured data objects and helped create tasks, workflow, and performance tracking for quality assurance interns.
+</p>
+
+<table width="100%" class="flowchart">
+    <colgroup>
+        <col width="46%">
+        <col width="6%">
+        <col width="46%">
+    </colgroup>
+    <tr>
+        <td class="text">
+            <div class="td-inner">
+                <h5>I. Quizzes Website</h5>
+                Workers review sets of data by completing quizzes, and administrators create those quizzes and track worker progress. I made interactive progress graphs and embedded the views and actions from (IV).
+            </div>
+        </td>
+        <td class="arrow">&#8596;</td>
+        <td colspan=2 class="text">
+            <div class="td-inner">
+                <h5>IV. Quality Assurance Website</h5>
+                Users find, view, and make add/remove actions on data objects. I made this, including views that dynamically match data structures and search queries.
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="arrow">&#8597;</td>
+        <td></td>
+        <td class="arrow">&#8597;</td>
+        <td class="arrow">&#8597;</td>
+    </tr>
+    <tr>
+        <td class="text">
+            <div class="td-inner">
+                <h5>II. Data Interface and Server</h5>
+                Serves web pages for (I) and stores data in (III). I implemented a new question type, logged worker actions, and calculated work and quiz progress statistics.
+            </div>
+        </td>
+        <td></td>
+        <td colspan=2>
+            <table width="100%" class="nested">
+                <colgroup>
+                    <col width="55%">
+                    <col width="5%">
+                    <col width="40%">
+                </colgroup>
+                <tr>
+                    <td class="text">
+                        <div class="td-inner">
+                            <h5>V. Web Data Interface</h5>
+                            AJAX requests for add/remove actions and data structure descriptions.
+                        </div>
+                    </td>
+                    <td></td>
+                    <td class="text">
+                        <div class="td-inner">
+                            <h5>VI. Server</h5>
+                            Serves pages for (IV).
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan=3 class="arrow">&#8597;</td>
+                </tr>
+                <tr>
+                    <td colspan=3 class="text">
+                        <div class="td-inner">
+                            <h5>VII. Python Data Interface</h5>
+                            Humans and bots can add/remove data objects, and programmers can define new data types. I did not work on this, but I worked closely with those who did to ensure that data type structures were correctly represented.
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td class="arrow">&#8597;</td>
+        <td></td>
+        <td colspan=2 class="arrow">&#8597;</td>
+    </tr>
+    <tr>
+        <td class="text">
+            <div class="td-inner">
+                <h5>III. Quizzes to Review Music Data</h5>
+                This database stores quizzes and responses. I defined the collection to store worker actions and queried that collection to calculate progress statistics.
+            </div>
+        </td>
+        <td></td>
+        <td colspan=2 class="text">
+            <div class="td-inner">
+                <h5>VII. Music Data</h5>
+                This database stores the music data whose accuracy must be ensured. I did not work on this, but I worked closely with those who did to define how humans could best contribute to data accuracy.
+            </div>
+        </td>
+    </tr>
+</table>
+
+<p>Thumbnail image from the <a href="http://code.shutterstock.com/rickshaw/" target="_blank">Rickshaw</a> demo <a href="http://code.shutterstock.com/rickshaw/examples/extensions.html" target="_blank">here</a>. I used this JavaScript library for interactive graphs of interns' progress.</p>
+
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 date">
+      <p>2013</p>
+    </div>
+  </div>
+</div>
+
+  
+    
+<div class="container project-page hide" data-project="about">
+  <div class="close-project-page">
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 topbar">
+      <h1>About</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 content">
+
+      
+
+<div class="images about-me">
+    <div class="image beach"></div>
+
+    <div class="image square sale"></div>
+    <div class="image square zach"></div>
+    <div class="image square mhd"></div>
+    <div class="image square pipe"></div>
+</div>
+
+<p>
+My work in sustainable development, data dashboards/management web apps, and human computer interaction creates practical human impact.
+</p>
+<p>
+My work in interactive audio processing and visualization seeks to create beauty and enable playful exploration of sound. 
+</p>
+
+<p>
+Contact: [firstname].[lastname]@gmail.com
+</p>
+
+<p>
+    <a href="/static/pdf/NouraHowell_Resume.pdf" target="_blank">Resume</a>,
+    <a href="https://github.com/Noura" target="_blank">Github</a>
+</p>
+
+
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 date">
+      <p></p>
+    </div>
+  </div>
+</div>
+
+  
+
+
   </body>
 </html>

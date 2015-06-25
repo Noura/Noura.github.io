@@ -23,8 +23,24 @@ p {
     .container {
       width: 100% !important; } }
 
-.project-page.container {
-  background: white; }
+.container.project-page {
+  background: white;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  position: relative;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  background-clip: padding-box; }
+
+.close-project-page {
+  position: absolute;
+  left: -60px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-right: 60px solid aquamarine; }
 
 .topbar {
   margin-top: -7px; }

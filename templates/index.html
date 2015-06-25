@@ -4,7 +4,8 @@
   <head>
     <title>Noura Howell</title>
 
-    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/app.js"></script>
 
     <link rel="stylesheet" href="/static/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/css/app.css">
@@ -12,7 +13,7 @@
   </head>
   <body>
 
-    <div class="container">
+    <div class="container tiles">
       <div class="row title">
         <div class="col-xs-12">
           <h1>Noura Howell</h1>
@@ -20,5 +21,8 @@
       </div>
       {{ macros.tiles(pages) }}
     </div>
+
+    {{ macros.details(pages) }}
+
   </body>
 </html>
