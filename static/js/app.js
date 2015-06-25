@@ -11,8 +11,15 @@ $(window).load(function() {
         $('.container.tiles').removeClass('hide');
         window.location.hash = '';
     });
-    if (window.location.hash.length > 1) {
-        var project_id = window.location.hash.slice(1);
-        ($('.tile[data-project="'+project_id+'"]')[0]).click();
+    function sync_page() {
+        if (window.location.hash.length > 1) {
+            var project_id = window.location.hash.slice(1);
+            ($('.tile[data-project="'+project_id+'"]')[0]).click();
+        } else {
+            $('.container').addClass('hide');
+            $('.container.tiles').removeClass('hide');
+        }
     }
+    window.onhashchange = sync_page;
+    sync_page();
 });
