@@ -54,20 +54,6 @@ $iphone_w: 1000px; // about this much on my iphone 4 I think
         font-size: 1 * $min_size;
     }
 }
-@mixin border_radius($tl, $tr, $br, $bl) {
-    -webkit-border-top-left-radius: $tl;
-    -webkit-border-top-right-radius: $tr;
-    -webkit-border-bottom-right-radius: $br;
-    -webkit-border-bottom-left-radius: $bl;
-    -moz-border-radius-topleft: $tl;
-    -moz-border-radius-topright: $tr;
-    -moz-border-radius-bottomright: $br;
-    -moz-border-radius-bottomleft: $bl;
-    border-top-left-radius: $tl;
-    border-top-right-radius: $tr;
-    border-bottom-right-radius: $br;
-    border-bottom-left-radius: $bl;
-}
 
 @font-face {
     font-family: forTitles;
@@ -113,7 +99,6 @@ h1 {
 
 .row.title div {
     background: #95eeb6;
-    border-radius: 5px;
 }
 
 .iframe-container {
@@ -129,114 +114,74 @@ h1 {
 }
 
 .tile .image {
-    @include border_radius(5px, 5px, 5px, 5px);
     width: 0;
     height: 0;
     padding-left: 100%;
     padding-bottom: 100%;
 }
 .tile .name {
+    position: relative;
+    height: 3em;
     font-size: 30px;
     font-weight: 200;
     font-family: forTitles;
     text-overflow: ellipsis;
     word-wrap: break-word;
     line-height: 1em;
+    background:blue;
+}
+.tile .name-inner {
+    height: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
-    text-shadow: 1px 1px 1px black;
-    padding: 8px 8px 4px 8px;
-    box-sizing: border-box;
-    color: #95eeb6;
-}
-.tile:hover .name {
-    color: #a7eec1;
-    background-color: rgba(0,0,0,0.4);
-    text-shadow: 1px 1px 1px rgb(50,50,50);
-    -webkit-transition: all .25s;
-    transition: all .1s;
-}
-.tile a {
-    z-index: 3;
-}
-
-.side .tile {
-    border-left-width: 0;
-    border-right-width: 0;
-}
-.side .tile .name {
-    @include responsive_font_size(20px);
-}
-
-.side .tile.current {
-    @include weird_sizing(100%, 100%);
-}
-.side .tile.current .name {
-    z-index: 0;
-}
-
-$prev_next_tile_h: 0.5;
-$prev_next_min_tile_h: 40px;
-.side .tile.prev,
-.side .tile.next {
-    @media (max-width: $screen_sm - 1px) {
-        width: 100%;
-        height: $prev_next_min_tile_h;
-        box-sizing: content-box;
-    }
-    @media (min-width: $screen_sm - 1px) {
-        @include weird_sizing(100%, $prev_next_tile_h * 100%);
-    }
-}
-.side .tile.next .name {
-    right: 0;
-    left: initial;
-    @include border_radius(0, 5px, 5px, 0);
-}
-.side .tile.prev .name {
-    @include border_radius(5px, 0, 0, 5px);
-}
-.side .tile.next .name,
-.side .tile.prev .name {
-    width: initial;
-    height: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    @media (max-width: $screen_sm - 1px) {
-        line-height: $prev_next_min_tile_h;
-    }
-    // NOTE this is hacky but the 3 or 2 refers to the col span that the
-    // side tile is going to have at this screen size
-    // FIXME so it vertically centers at all screen sizes
-    @media (min-width: $screen_sm) and (max-width: $screen_md - 1px) {
-        line-height: $prev_next_tile_h * $col_w * 3 * $screen_sm - 18px;
-    }
-    @media (min-width: $screen_md) and (max-width: $screen_lg - 1px) {
-        line-height: $prev_next_tile_h * $col_w * 2 * $screen_md - 18px;
-    }
-    @media (min-width: $screen_lg) {
-        line-height: $prev_next_tile_h * $col_w * 2 * $screen_lg - 18px;
-    }
-}
-
-.side .tile.home {
-    width: 100%;
-    height: initial;
     padding: 0;
-    box-sizing: border-box;
-    background-color: transparent;
+    color: black;
+    background:aquamarine;
+    border-left:20px solid transparent;
+    border-right:20px solid transparent;
+    background-clip: padding-box;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2%;
+    padding-right: 2%;
 }
-.side .tile.home .image {
-    display: none;
+.tile .triangle-br {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-bottom: 3em solid aquamarine;
 }
-.side .tile.home .name {
-    display: inline-block;
-    position: static;
-    word-wrap: initial;
-    word-break: initial;
-    text-overflow: ellipsis;
-    @include border_radius(5px, 5px, 5px, 5px);
+.tile .triangle-bl {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-right: 20px solid transparent;
+  border-bottom: 3em solid aquamarine;
 }
+.tile .triangle-tl {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-right: 20px solid transparent;
+  border-top: 3em solid aquamarine;
+}
+.tile .triangle-tr {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-top: 3em solid aquamarine;
+}
+
 
 //////////////////
 
