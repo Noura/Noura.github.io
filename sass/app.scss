@@ -278,6 +278,11 @@ $border_w: 5px;
     height: 100%;
     z-index: 1;
 }
+.caption {
+  font-weight: 200;
+  font-size: 90%;
+  color: rgb(70, 70, 70);
+}
 
 // SPECIFIC IMAGE FILE NAMES
 $img_galileo: 'galileo.jpg';
@@ -300,6 +305,7 @@ $img_bali_CAT: 'bali_CAT.png';
 $img_bali_house: 'bali_house.jpg';
 $img_myodj: 'beatwave.png';
 $img_hugbug: 'hugbug.jpg';
+$img_peacebone_gsr: 'peacebone_gsr.png';
 
 // SPECIFIC IMAGES IN CONTEXT
 @mixin big_tile($filename) {
@@ -340,6 +346,9 @@ $img_hugbug: 'hugbug.jpg';
 }
 .big-tiles .image.hugbug {
     @include big_tile($img_hugbug);
+}
+.big-tiles .image.peacebone-gsr {
+    @include big_tile($img_peacebone_gsr);
 }
 
 .project-page .image.yak-dung {
@@ -385,6 +394,10 @@ $img_hugbug: 'hugbug.jpg';
     @include weird_sizing(30%, 30%);
     background-position: 100% 50%;
     background-size: contain;
+}
+.project-page .image.peacebone-gsr {
+    @include responsive_image($img_peacebone_gsr);
+    @include weird_sizing(100%, 30%);
 }
 
 .about-me .image.beach {

@@ -193,6 +193,11 @@ td .td-inner {
   height: 100%;
   z-index: 1; }
 
+.caption {
+  font-weight: 200;
+  font-size: 90%;
+  color: #464646; }
+
 .big-tiles .image.galileo {
   background-size: cover;
   background-repeat: no-repeat;
@@ -264,6 +269,12 @@ td .td-inner {
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-image: url("/static/img/280px_tiles/hugbug.jpg"); }
+
+.big-tiles .image.peacebone-gsr {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/280px_tiles/peacebone_gsr.png"); }
 
 .project-page .image.yak-dung {
   background-size: cover;
@@ -478,6 +489,27 @@ td .td-inner {
   @media (min-width: 1201px) {
     .project-page .image.bali-mech {
       background-image: url("/static/img/screen_large/bali_lowering_blinds.png"); } }
+
+.project-page .image.peacebone-gsr {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/peacebone_gsr.png");
+  width: 0;
+  height: 0;
+  padding-right: 100%;
+  padding-bottom: 30%;
+  box-sizing: border-box;
+  position: relative; }
+  @media (max-width: 768px) {
+    .project-page .image.peacebone-gsr {
+      background-image: url("/static/img/screen_small/peacebone_gsr.png"); } }
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .project-page .image.peacebone-gsr {
+      background-image: url("/static/img/screen_medium/peacebone_gsr.png"); } }
+  @media (min-width: 1201px) {
+    .project-page .image.peacebone-gsr {
+      background-image: url("/static/img/screen_large/peacebone_gsr.png"); } }
 
 .about-me .image.beach {
   background-size: cover;

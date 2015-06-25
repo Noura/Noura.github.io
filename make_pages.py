@@ -68,6 +68,13 @@ pages = [ \
         'date': '2010',
     },
     {
+        'name': 'Biosignals Experiments',
+        'thumbnail': 'peacebone-gsr',
+        'path': 'biosignals',
+        'template': 'biosignals.html',
+        'date': '',
+    },
+    {
         'name': 'SiriusXM Radio Station Creator',
         'thumbnail': 'en',
         'path': 'sxm',
