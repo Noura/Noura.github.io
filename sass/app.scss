@@ -62,7 +62,7 @@ $iphone_w: 1000px; // about this much on my iphone 4 I think
 body {
     font-size: 18px;
     font-family: helvetica, sans-serif;
-    background: black;
+    background: rgb(25, 10, 25);
 }
 
 p {
@@ -83,6 +83,9 @@ p {
         width: 100% !important;
     }
 }
+.project-page.container {
+    background: white;
+}
 
 .topbar {
     margin-top: -7px;
@@ -99,7 +102,7 @@ h1 {
 }
 
 .row.title div {
-    background: #95eeb6;
+    background: aquamarine;
 }
 
 .iframe-container {
@@ -121,7 +124,7 @@ h1 {
     padding-bottom: 100%;
 }
 $name_bg: white;
-$triangle_bg: gray;
+$triangle_bg: aquamarine;
 $name_h: 2em;
 $triangle_w: 20px;
 .tile .name {

@@ -4,7 +4,7 @@
 body {
   font-size: 18px;
   font-family: helvetica, sans-serif;
-  background: black; }
+  background: #190a19; }
 
 p {
   font-weight: 100;
@@ -23,6 +23,9 @@ p {
     .container {
       width: 100% !important; } }
 
+.project-page.container {
+  background: white; }
+
 .topbar {
   margin-top: -7px; }
 
@@ -36,7 +39,7 @@ h1 {
   font-weight: 200; }
 
 .row.title div {
-  background: #95eeb6; }
+  background: aquamarine; }
 
 .iframe-container {
   margin-left: auto;
@@ -82,7 +85,7 @@ h1 {
   top: 0;
   width: 0;
   height: 0;
-  border-left: 20px solid gray;
+  border-left: 20px solid aquamarine;
   border-bottom: 2em solid white; }
 
 .tile .triangle-bl {
@@ -91,7 +94,7 @@ h1 {
   top: 0;
   width: 0;
   height: 0;
-  border-right: 20px solid gray;
+  border-right: 20px solid aquamarine;
   border-bottom: 2em solid white; }
 
 .tile .triangle-tl {
@@ -100,7 +103,7 @@ h1 {
   top: 0;
   width: 0;
   height: 0;
-  border-right: 20px solid gray;
+  border-right: 20px solid aquamarine;
   border-top: 2em solid white; }
 
 .tile .triangle-tr {
@@ -109,7 +112,7 @@ h1 {
   top: 0;
   width: 0;
   height: 0;
-  border-left: 20px solid gray;
+  border-left: 20px solid aquamarine;
   border-top: 2em solid white; }
 
 /* flow chart */
