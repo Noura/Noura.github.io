@@ -8,7 +8,8 @@ $iphone_w: 1000px; // about this much on my iphone 4 I think
                    // TODO better way to do this
 
 $name_bg: white;
-$triangle_bg: aquamarine;
+//$triangle_bg: rgb(12, 242, 181);
+$triangle_bg: #2BECB9;
 $name_h: 2em;
 $triangle_w: 20px;
 
@@ -123,7 +124,7 @@ h1 {
 }
 
 .row.title div {
-    background: aquamarine;
+    background: $triangle_bg;
 }
 
 .iframe-container {

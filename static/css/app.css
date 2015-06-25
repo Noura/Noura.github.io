@@ -40,7 +40,7 @@ p {
   height: 0;
   border-top: 40px solid transparent;
   border-bottom: 40px solid transparent;
-  border-right: 60px solid aquamarine; }
+  border-right: 60px solid #2BECB9; }
 
 .topbar {
   margin-top: -7px; }
@@ -55,7 +55,7 @@ h1 {
   font-weight: 200; }
 
 .row.title div {
-  background: aquamarine; }
+  background: #2BECB9; }
 
 .iframe-container {
   margin-left: auto;
@@ -101,7 +101,7 @@ h1 {
   top: 0;
   width: 0;
   height: 0;
-  border-left: 20px solid aquamarine;
+  border-left: 20px solid #2BECB9;
   border-bottom: 2em solid white; }
 
 .tile .triangle-bl {
@@ -110,7 +110,7 @@ h1 {
   top: 0;
   width: 0;
   height: 0;
-  border-right: 20px solid aquamarine;
+  border-right: 20px solid #2BECB9;
   border-bottom: 2em solid white; }
 
 .tile .triangle-tl {
@@ -119,7 +119,7 @@ h1 {
   top: 0;
   width: 0;
   height: 0;
-  border-right: 20px solid aquamarine;
+  border-right: 20px solid #2BECB9;
   border-top: 2em solid white; }
 
 .tile .triangle-tr {
@@ -128,7 +128,7 @@ h1 {
   top: 0;
   width: 0;
   height: 0;
-  border-left: 20px solid aquamarine;
+  border-left: 20px solid #2BECB9;
   border-top: 2em solid white; }
 
 /* flow chart */
