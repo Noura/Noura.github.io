@@ -3,7 +3,8 @@
   src: url("/static/fonts/MyriadPro-Light.otf"); }
 body {
   font-size: 18px;
-  font-family: helvetica, sans-serif; }
+  font-family: helvetica, sans-serif;
+  background: black; }
 
 p {
   font-weight: 100;
@@ -28,19 +29,14 @@ p {
   margin-top: 10px; }
 
 h1 {
-  margin: 0;
   padding-bottom: 10px;
   font-size: 64px;
   line-height: 1em;
-  font-weight: 200;
-  -webkit-margin-before: 0;
-  -webkit-margin-after: 0;
-  -webkit-margin-start: 0;
-  -webkit-margin-end: 0; }
+  font-weight: 200; }
 
-h1.homepage {
-  margin-left: 16px;
-  margin-top: 20px; }
+.row.title div {
+  background: #95eeb6;
+  border-radius: 5px; }
 
 .iframe-container {
   margin-left: auto;
@@ -48,41 +44,8 @@ h1.homepage {
   width: 500px; }
 
 /* tiles */
-.big-tiles {
-  padding: 0 10px 10px 10px;
-  display: inline-block;
-  float: left; }
-  @media (max-width: 1000px) {
-    .big-tiles {
-      width: 100%; } }
-
 .tile {
-  width: 300px;
-  height: 300px;
-  margin: 0;
-  border: 10px solid white;
-  box-sizing: border-box;
-  display: inline-block;
-  float: left;
-  position: relative;
-  background-color: transparent; }
-
-@media (max-width: 1000px) {
-  .big-tiles .tile {
-    width: 0;
-    height: 0;
-    padding-left: 45%;
-    padding-bottom: 45%; } }
-
-.tile .image,
-.tile .name,
-.tile a {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  cursor: default; }
+  padding: 0; }
 
 .tile .image {
   -webkit-border-top-left-radius: 5px;
@@ -97,22 +60,12 @@ h1.homepage {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
-  z-index: 1; }
+  width: 0;
+  height: 0;
+  padding-left: 100%;
+  padding-bottom: 100%; }
 
 .tile .name {
-  -webkit-border-top-left-radius: 0;
-  -webkit-border-top-right-radius: 0;
-  -webkit-border-bottom-right-radius: 5px;
-  -webkit-border-bottom-left-radius: 5px;
-  -moz-border-radius-topleft: 0;
-  -moz-border-radius-topright: 0;
-  -moz-border-radius-bottomright: 5px;
-  -moz-border-radius-bottomleft: 5px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  z-index: 2;
   font-size: 30px;
   font-weight: 200;
   font-family: forTitles;
@@ -123,17 +76,8 @@ h1.homepage {
   overflow-y: hidden;
   text-shadow: 1px 1px 1px black;
   padding: 8px 8px 4px 8px;
-  top: initial;
-  bottom: 0;
-  height: initial;
-  max-height: 100%;
-  background-color: rgba(0, 0, 0, 0.45);
   box-sizing: border-box;
   color: #95eeb6; }
-  @media (max-width: 1000px) {
-    .tile .name {
-      color: white;
-      font-size: 300%; } }
 
 .tile:hover .name {
   color: #a7eec1;

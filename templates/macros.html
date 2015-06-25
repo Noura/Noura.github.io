@@ -1,5 +1,5 @@
 {% macro tile(page, class='', name='') %}
-<div class="tile {{ class }}">
+<div class="tile {{ class }} col-xs-4" data-project="{{page.path}}">
     <div class="image {{ page.thumbnail }}"></div>
     <div class="name">
         {% if name %}
@@ -8,7 +8,6 @@
         {{ page.name }}
         {% endif %}
     </div>
-    <a href="/{{ page.path }}"></a>
 </div>
 {% endmacro %}
 
@@ -18,22 +17,14 @@
     {% endfor %}
 {% endmacro %}
 
-{% macro adjacent_tiles(pages, current_page) %}
-    {% set ps = {'prev': -1, 'current': -1, 'next': -1} %}
+{% macro detail(page) %}
+    <div class="detail" data-project="{{page.path}}">
+      {{ page.path }}
+    </div>
+{% endmacro %}
+
+{% macro details(pages) %}
     {% for page in pages %}
-        {% if page.path == current_page.path %}
-            {% if ps.update({'prev': loop.index0 - 1}) %} {% endif %}
-            {% if ps.update({'current': loop.index0}) %} {% endif %}
-            {% if ps.update({'next': loop.index0 + 1}) %} {% endif %}
-        {% endif %}
+        {{ detail(page) }}
     {% endfor %}
-    {% if ps['current'] >= 0 and ps['current'] < pages|length %}
-        {{ tile(current_page, 'current') }}
-    {% endif %}
-    {% if ps['prev'] >= 0 and ps['prev'] < pages|length %}
-        {{ tile(pages[ps['prev']], 'prev', '<') }}
-    {% endif %}
-    {% if ps['next'] >= 0 and ps['next'] < pages|length %}
-        {{ tile(pages[ps['next']], 'next', '>') }}
-    {% endif %}
 {% endmacro %}
