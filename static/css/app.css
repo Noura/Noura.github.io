@@ -265,6 +265,12 @@ td .td-inner {
   background-position-x: 50%;
   background-image: url("/static/img/280px_tiles/hugbug.jpg"); }
 
+.big-tiles .image.jacquard {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/280px_tiles/jacquard.jpg"); }
+
 .project-page .image.yak-dung {
   background-size: cover;
   background-repeat: no-repeat;

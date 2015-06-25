@@ -300,6 +300,7 @@ $img_bali_CAT: 'bali_CAT.png';
 $img_bali_house: 'bali_house.jpg';
 $img_myodj: 'beatwave.png';
 $img_hugbug: 'hugbug.jpg';
+$img_jacquard: 'jacquard.jpg';
 
 // SPECIFIC IMAGES IN CONTEXT
 @mixin big_tile($filename) {
@@ -340,6 +341,9 @@ $img_hugbug: 'hugbug.jpg';
 }
 .big-tiles .image.hugbug {
     @include big_tile($img_hugbug);
+}
+.big-tiles .image.jacquard {
+    @include big_tile($img_jacquard);
 }
 
 .project-page .image.yak-dung {

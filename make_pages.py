@@ -5,6 +5,13 @@ import jinja2
 
 pages = [ \
     {
+        'name': 'Design / Jacquard',
+        'thumbnail': 'jacquard',
+        'path': 'jacquard',
+        'template': 'jacquard.html',
+        'date': '2015',
+    },
+    {
         'name': 'Buddy the HugBug',
         'thumbnail': 'hugbug',
         'path': 'hugbug',
