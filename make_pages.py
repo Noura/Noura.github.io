@@ -100,14 +100,5 @@ def main():
     with codecs.open(os.path.join(here, 'index.html'), 'w') as out:
         out.write(tem.render(**ctx))
 
-    for page in pages:
-        tem = templates.get_template(page['template'])
-        ctx = { 'pages': pages , 'current_page': page }
-        out_dir = os.path.join(here, page['path'])
-        if page['path'] and not os.path.exists(page['path']):
-            os.makedirs(out_dir)
-        with codecs.open(os.path.join(out_dir, 'index.html'), 'w') as out:
-            out.write(tem.render(**ctx))
-
 if __name__ == '__main__':
     main()
