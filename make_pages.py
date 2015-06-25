@@ -19,18 +19,11 @@ pages = [ \
         'date': '2014',
     },
     {
-        'name': 'Connect Anything with Intel\'s Galileo',
+        'name': 'Intel: Connect Anything',
         'thumbnail': 'galileo',
         'path': 'intel',
         'template': 'intel.html',
         'date': '2014',
-    },
-    {
-        'name': 'Smart Bamboo Blinds for Bali',
-        'thumbnail': 'bali-house',
-        'path': 'bamboo_blinds',
-        'template': 'bali.html',
-        'date': 'May 2014',
     },
     {
         'name': 'WaaZam!',
@@ -38,20 +31,6 @@ pages = [ \
         'path': 'waazam',
         'template': 'waazam.html',
         'date': '2013',
-    },
-    {
-        'name': 'Mobile Phones & Illiteracy in Morocco',
-        'thumbnail': 'apples',
-        'path': 'moblit',
-        'template': 'mobile_illiteracy.html',
-        'date': '2012',
-    },
-    {
-        'name': 'Solar Cooker for the Himalayas',
-        'thumbnail': 'solsource',
-        'path': 'solsource',
-        'template': 'solar_cooker.html',
-        'date': '2010',
     },
     {
         'name': 'Harmonograph Visualizer',
@@ -66,6 +45,27 @@ pages = [ \
         'path': 'chladni',
         'template': 'chladni.html',
         'date': '2013',
+    },
+    {
+        'name': 'Smart Bamboo Blinds for Bali',
+        'thumbnail': 'bali-house',
+        'path': 'bamboo_blinds',
+        'template': 'bali.html',
+        'date': 'May 2014',
+    },
+    {
+        'name': 'Mobile Phones & Illiteracy in Morocco',
+        'thumbnail': 'apples',
+        'path': 'moblit',
+        'template': 'mobile_illiteracy.html',
+        'date': '2012',
+    },
+    {
+        'name': 'Solar Cooker for the Himalayas',
+        'thumbnail': 'solsource',
+        'path': 'solsource',
+        'template': 'solar_cooker.html',
+        'date': '2010',
     },
     {
         'name': 'SiriusXM Radio Station Creator',
