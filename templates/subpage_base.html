@@ -2,36 +2,27 @@
 {% import 'macros.html' as macros %}
 
 {% block body %}
-<div class="container">
-    <div class="row">
-        <div class="col-xs-3 col-md-2 side">
-            {{ macros.adjacent_tiles(pages, current_page) }}
-            {% set hometile = {'name': 'Home', 'thumbnail': '', 'path': ''} %}
-            {{ macros.tile(hometile, 'home') }}
-        </div>
 
-        <div class="col-xs-9 col-md-10 main">
-            <div class="row">
-                <div class="col-xs-12 topbar">
-                    <h1>{{current_page.name}}</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 content">
-
-                    {% block content %}
-
-                    {% endblock content %}
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 date">
-                    <p>{{current_page.date}}</p>
-                </div>
-            </div>
-        </div>
+<div class="container project-page">
+  <div class="row">
+    <div class="col-xs-12 topbar">
+      <h1>{{current_page.name}}</h1>
     </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 content">
+
+      {% block content %}
+
+      {% endblock content %}
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 date">
+      <p>{{current_page.date}}</p>
+    </div>
+  </div>
 </div>
 
 {% endblock body %}

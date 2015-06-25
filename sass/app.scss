@@ -74,10 +74,11 @@ p {
 }
 
 .container {
-    margin-left: 0;
-    padding-left: 25px;
+    margin-left: auto;
+    padding-left: auto;
     padding-bottom: 25px;
     padding-top: 25px;
+    max-width: 768px;
     @media (max-width: $iphone_w) and (min-width: 0px) {
         width: 100% !important;
     }
@@ -119,31 +120,32 @@ h1 {
     padding-left: 100%;
     padding-bottom: 100%;
 }
+$name_bg: white;
+$triangle_bg: gray;
+$name_h: 2em;
+$triangle_w: 20px;
 .tile .name {
     position: relative;
-    height: 3em;
-    font-size: 30px;
-    font-weight: 200;
+    height: $name_h;
+    font-size: 15px;
+    font-weight: 600;
     font-family: forTitles;
-    text-overflow: ellipsis;
-    word-wrap: break-word;
     line-height: 1em;
     background:blue;
 }
 .tile .name-inner {
+    position: relative;
     height: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    padding: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    white-space: nowrap;
     color: black;
-    background:aquamarine;
-    border-left:20px solid transparent;
-    border-right:20px solid transparent;
+    background: $name_bg;
+    border-left:$triangle_w solid transparent;
+    border-right:$triangle_w solid transparent;
     background-clip: padding-box;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding: 0.5em 0;
 }
 .tile .triangle-br {
   position: absolute;
@@ -151,8 +153,8 @@ h1 {
   top: 0;
   width: 0;
   height: 0;
-  border-left: 20px solid transparent;
-  border-bottom: 3em solid aquamarine;
+  border-left: $triangle_w solid $triangle_bg;
+  border-bottom: $name_h solid $name_bg;
 }
 .tile .triangle-bl {
   position: absolute;
@@ -160,8 +162,8 @@ h1 {
   top: 0;
   width: 0;
   height: 0;
-  border-right: 20px solid transparent;
-  border-bottom: 3em solid aquamarine;
+  border-right: $triangle_w solid $triangle_bg;
+  border-bottom: $name_h solid $name_bg;
 }
 .tile .triangle-tl {
   position: absolute;
@@ -169,8 +171,8 @@ h1 {
   top: 0;
   width: 0;
   height: 0;
-  border-right: 20px solid transparent;
-  border-top: 3em solid aquamarine;
+  border-right: $triangle_w solid $triangle_bg;
+  border-top: $name_h solid $name_bg;
 }
 .tile .triangle-tr {
   position: absolute;
@@ -178,8 +180,8 @@ h1 {
   top: 0;
   width: 0;
   height: 0;
-  border-left: 20px solid transparent;
-  border-top: 3em solid aquamarine;
+  border-left: $triangle_w solid $triangle_bg;
+  border-top: $name_h solid $name_bg;
 }
 
 
