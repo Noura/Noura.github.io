@@ -60,7 +60,7 @@ h1 {
 .iframe-container {
   margin-left: auto;
   margin-right: auto;
-  width: 500px; }
+  width: 90%; }
 
 /* tiles */
 .tile {
@@ -258,170 +258,11 @@ td .td-inner {
   background-position-x: 50%;
   background-image: url("/static/img/280px_tiles/beatwave.png"); }
 
-.side .image.galileo {
+.big-tiles .image.hugbug {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/side_tiles/galileo.jpg"); }
-  @media (max-width: 768px) {
-    .side .image.galileo {
-      background-image: url("/static/img/screen_small/side_tiles/galileo.jpg"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .side .image.galileo {
-      background-image: url("/static/img/screen_medium/side_tiles/galileo.jpg"); } }
-  @media (min-width: 1201px) {
-    .side .image.galileo {
-      background-image: url("/static/img/screen_large/side_tiles/galileo.jpg"); } }
-
-.side .image.waazam {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-image: url("/static/img/side_tiles/waazam_space.png"); }
-  @media (max-width: 768px) {
-    .side .image.waazam {
-      background-image: url("/static/img/screen_small/side_tiles/waazam_space.png"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .side .image.waazam {
-      background-image: url("/static/img/screen_medium/side_tiles/waazam_space.png"); } }
-  @media (min-width: 1201px) {
-    .side .image.waazam {
-      background-image: url("/static/img/screen_large/side_tiles/waazam_space.png"); } }
-
-.side .image.apples {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-image: url("/static/img/side_tiles/apples.jpg"); }
-  @media (max-width: 768px) {
-    .side .image.apples {
-      background-image: url("/static/img/screen_small/side_tiles/apples.jpg"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .side .image.apples {
-      background-image: url("/static/img/screen_medium/side_tiles/apples.jpg"); } }
-  @media (min-width: 1201px) {
-    .side .image.apples {
-      background-image: url("/static/img/screen_large/side_tiles/apples.jpg"); } }
-
-.side .image.solsource {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-image: url("/static/img/side_tiles/solsource.jpg"); }
-  @media (max-width: 768px) {
-    .side .image.solsource {
-      background-image: url("/static/img/screen_small/side_tiles/solsource.jpg"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .side .image.solsource {
-      background-image: url("/static/img/screen_medium/side_tiles/solsource.jpg"); } }
-  @media (min-width: 1201px) {
-    .side .image.solsource {
-      background-image: url("/static/img/screen_large/side_tiles/solsource.jpg"); } }
-
-.side .image.lissa {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-image: url("/static/img/side_tiles/lissa2.png"); }
-  @media (max-width: 768px) {
-    .side .image.lissa {
-      background-image: url("/static/img/screen_small/side_tiles/lissa2.png"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .side .image.lissa {
-      background-image: url("/static/img/screen_medium/side_tiles/lissa2.png"); } }
-  @media (min-width: 1201px) {
-    .side .image.lissa {
-      background-image: url("/static/img/screen_large/side_tiles/lissa2.png"); } }
-
-.side .image.chladni {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-image: url("/static/img/side_tiles/chladni2.png"); }
-  @media (max-width: 768px) {
-    .side .image.chladni {
-      background-image: url("/static/img/screen_small/side_tiles/chladni2.png"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .side .image.chladni {
-      background-image: url("/static/img/screen_medium/side_tiles/chladni2.png"); } }
-  @media (min-width: 1201px) {
-    .side .image.chladni {
-      background-image: url("/static/img/screen_large/side_tiles/chladni2.png"); } }
-
-.side .image.en {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-image: url("/static/img/side_tiles/en.png"); }
-  @media (max-width: 768px) {
-    .side .image.en {
-      background-image: url("/static/img/screen_small/side_tiles/en.png"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .side .image.en {
-      background-image: url("/static/img/screen_medium/side_tiles/en.png"); } }
-  @media (min-width: 1201px) {
-    .side .image.en {
-      background-image: url("/static/img/screen_large/side_tiles/en.png"); } }
-
-.side .image.rickshawjs {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-image: url("/static/img/side_tiles/rickshawjs.png"); }
-  @media (max-width: 768px) {
-    .side .image.rickshawjs {
-      background-image: url("/static/img/screen_small/side_tiles/rickshawjs.png"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .side .image.rickshawjs {
-      background-image: url("/static/img/screen_medium/side_tiles/rickshawjs.png"); } }
-  @media (min-width: 1201px) {
-    .side .image.rickshawjs {
-      background-image: url("/static/img/screen_large/side_tiles/rickshawjs.png"); } }
-
-.side .image.bali {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-image: url("/static/img/side_tiles/at_sua_bali.jpg"); }
-  @media (max-width: 768px) {
-    .side .image.bali {
-      background-image: url("/static/img/screen_small/side_tiles/at_sua_bali.jpg"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .side .image.bali {
-      background-image: url("/static/img/screen_medium/side_tiles/at_sua_bali.jpg"); } }
-  @media (min-width: 1201px) {
-    .side .image.bali {
-      background-image: url("/static/img/screen_large/side_tiles/at_sua_bali.jpg"); } }
-
-.side .image.bali-house {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-image: url("/static/img/side_tiles/bali_house.jpg"); }
-  @media (max-width: 768px) {
-    .side .image.bali-house {
-      background-image: url("/static/img/screen_small/side_tiles/bali_house.jpg"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .side .image.bali-house {
-      background-image: url("/static/img/screen_medium/side_tiles/bali_house.jpg"); } }
-  @media (min-width: 1201px) {
-    .side .image.bali-house {
-      background-image: url("/static/img/screen_large/side_tiles/bali_house.jpg"); } }
-
-.side .image.myodj {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-image: url("/static/img/side_tiles/beatwave.png"); }
-  @media (max-width: 768px) {
-    .side .image.myodj {
-      background-image: url("/static/img/screen_small/side_tiles/beatwave.png"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .side .image.myodj {
-      background-image: url("/static/img/screen_medium/side_tiles/beatwave.png"); } }
-  @media (min-width: 1201px) {
-    .side .image.myodj {
-      background-image: url("/static/img/screen_large/side_tiles/beatwave.png"); } }
+  background-image: url("/static/img/280px_tiles/hugbug.jpg"); }
 
 .project-page .image.yak-dung {
   background-size: cover;

@@ -5,6 +5,13 @@ import jinja2
 
 pages = [ \
     {
+        'name': 'Buddy the HugBug',
+        'thumbnail': 'hugbug',
+        'path': 'hugbug',
+        'template': 'hugbug.html',
+        'date': '2015',
+    },
+    {
         'name': 'Myo DJ Effects Controller',
         'thumbnail': 'myodj',
         'path': 'myodj',
