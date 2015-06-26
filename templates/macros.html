@@ -1,5 +1,6 @@
 {% macro tile(page, parity = 0) %}
-  <div class="tile col-xs-4" data-project="{{page.path}}">
+<a href="#{{page.path}}">
+  <div class="tile col-xs-4">
       <div class="image {{ page.thumbnail }}"></div>
       <div class="name">
         {% if parity == 0 %}
@@ -21,6 +22,7 @@
         {% endif %}
       </div>
   </div>
+</a>
 {% endmacro %}
 
 {% macro tiles(pages) %}
@@ -36,8 +38,10 @@
 
 {% macro detail(page) %}
 <div class="container project-page hide" data-project="{{page.path}}">
-  <div class="close-project-page">
-  </div>
+  <a href="#">
+    <div class="close-project-page">
+    </div>
+  </a>
 
   <div class="row">
     <div class="col-xs-12 topbar">
