@@ -5,6 +5,13 @@ import jinja2
 
 pages = [ \
     {
+        'name': 'Color Changing Fabric',
+        'thumbnail': 'threads',
+        'path': 'threads',
+        'template': 'threads.html',
+        'date': '2015',
+    },
+    {
         'name': 'Buddy the HugBug',
         'thumbnail': 'hugbug',
         'path': 'hugbug',
