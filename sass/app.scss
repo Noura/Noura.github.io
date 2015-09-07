@@ -306,7 +306,7 @@ $img_bali_house: 'bali_house.jpg';
 $img_myodj: 'beatwave.png';
 $img_hugbug: 'hugbug.jpg';
 $img_peacebone_gsr: 'peacebone_gsr.png';
-$img_threads1: 'threads1.png';
+$img_threads: 'threads.png';
 
 // SPECIFIC IMAGES IN CONTEXT
 @mixin big_tile($filename) {
@@ -350,6 +350,9 @@ $img_threads1: 'threads1.png';
 }
 .big-tiles .image.peacebone-gsr {
     @include big_tile($img_peacebone_gsr);
+}
+.big-tiles .image.threads {
+    @include big_tile('threads.jpg');
 }
 
 .project-page .image.yak-dung {
@@ -400,9 +403,9 @@ $img_threads1: 'threads1.png';
     @include responsive_image($img_peacebone_gsr);
     @include weird_sizing(100%, 30%);
 }
-.project-page .image.threads1 {
-    @include responsive_image($img_threads1);
-    //@include weird_sizing(100%, 30%);
+.project-page .image.threads {
+    @include responsive_image($img_threads);
+    @include weird_sizing(100%, 42%);
 }
 
 .about-me .image.beach {

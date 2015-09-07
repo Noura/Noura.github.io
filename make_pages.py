@@ -5,7 +5,7 @@ import jinja2
 
 pages = [ \
     {
-        'name': 'Color Changing Fabric',
+        'name': 'Color-Changing Fabric',
         'thumbnail': 'threads',
         'path': 'threads',
         'template': 'threads.html',
