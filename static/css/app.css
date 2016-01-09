@@ -270,6 +270,12 @@ td .td-inner {
   background-position-x: 50%;
   background-image: url("/static/img/280px_tiles/peacebone_gsr.png"); }
 
+.big-tiles .image.code510 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/280px_tiles/code510.png"); }
+
 .project-page .image.yak-dung {
   background-size: cover;
   background-repeat: no-repeat;

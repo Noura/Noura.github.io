@@ -5,6 +5,13 @@ import jinja2
 
 pages = [ \
     {
+        'name': 'Code 510 Mentoring',
+        'thumbnail': 'code510',
+        'path': 'code510',
+        'template': 'code510.html',
+        'date': '2014 - ongoing',
+    },
+    {
         'name': 'Buddy the HugBug',
         'thumbnail': 'hugbug',
         'path': 'hugbug',

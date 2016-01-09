@@ -259,6 +259,7 @@ $img_bali_house: 'bali_house.jpg';
 $img_myodj: 'beatwave.png';
 $img_hugbug: 'hugbug.jpg';
 $img_peacebone_gsr: 'peacebone_gsr.png';
+$img_code510: 'code510.png';
 
 // SPECIFIC IMAGES IN CONTEXT
 @mixin big_tile($filename) {
@@ -302,6 +303,9 @@ $img_peacebone_gsr: 'peacebone_gsr.png';
 }
 .big-tiles .image.peacebone-gsr {
     @include big_tile($img_peacebone_gsr);
+}
+.big-tiles .image.code510 {
+    @include big_tile($img_code510);
 }
 
 @mixin project_img($filename) {
