@@ -89,7 +89,7 @@ pages = [ \
         'date': '2012 - 2013',
     },
     {
-        'name': 'Publications & Contact',
+        'name': 'Contact & Publications',
         'thumbnail': 'bali',
         'path': 'publications',
         'template': 'publications.html',
