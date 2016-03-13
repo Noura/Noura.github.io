@@ -27,12 +27,16 @@ $triangle_w: 20px;
 body {
     font-size: 18px;
     font-family: helvetica, sans-serif;
-    background: rgb(25, 10, 25);
+    background: white;
 }
 
 p {
     font-weight: 100;
     font-size: 100%;
+}
+
+.row {
+    padding-bottom: 10px;
 }
 
 .container {
@@ -70,14 +74,9 @@ p {
 }
 
 h1 {
-    padding-bottom: 10px;
-    font-size: 64px;
+    font-size: 1em;
     line-height: 1em;
     font-weight: 200;
-}
-
-.row.title div {
-    background: $triangle_bg;
 }
 
 .iframe-container {
@@ -103,11 +102,10 @@ h1 {
 .tile .name {
     position: relative;
     height: $name_h;
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 1em;
+    font-weight: 200;
     font-family: forTitles;
     line-height: 1em;
-    background:blue;
 }
 .tile .name-inner {
     position: relative;

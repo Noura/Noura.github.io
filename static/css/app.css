@@ -4,11 +4,14 @@
 body {
   font-size: 18px;
   font-family: helvetica, sans-serif;
-  background: #190a19; }
+  background: white; }
 
 p {
   font-weight: 100;
   font-size: 100%; }
+
+.row {
+  padding-bottom: 10px; }
 
 .container {
   margin-left: auto;
@@ -43,13 +46,9 @@ p {
   margin-top: 10px; }
 
 h1 {
-  padding-bottom: 10px;
-  font-size: 64px;
+  font-size: 1em;
   line-height: 1em;
   font-weight: 200; }
-
-.row.title div {
-  background: #2BECB9; }
 
 .iframe-container {
   margin-left: auto;
@@ -70,11 +69,10 @@ h1 {
 .tile .name {
   position: relative;
   height: 2em;
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 1em;
+  font-weight: 200;
   font-family: forTitles;
-  line-height: 1em;
-  background: blue; }
+  line-height: 1em; }
 
 .tile .name-inner {
   position: relative;
