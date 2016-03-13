@@ -31,13 +31,13 @@ p {
 
 .close-project-page {
   position: absolute;
-  left: -60px;
-  top: 0;
+  left: -50px;
+  top: 30px;
   width: 0;
   height: 0;
-  border-top: 40px solid transparent;
-  border-bottom: 40px solid transparent;
-  border-right: 60px solid #2BECB9; }
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-right: 50px solid #797979; }
 
 .topbar {
   margin-top: -7px; }
@@ -83,8 +83,8 @@ h1 {
   white-space: nowrap;
   color: black;
   background: white;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
   background-clip: padding-box;
   padding: 0.5em 0; }
 
@@ -94,7 +94,7 @@ h1 {
   top: 0;
   width: 0;
   height: 0;
-  border-left: 20px solid #2BECB9;
+  border-left: 15px solid #797979;
   border-bottom: 2em solid white; }
 
 .tile .triangle-bl {
@@ -103,7 +103,7 @@ h1 {
   top: 0;
   width: 0;
   height: 0;
-  border-right: 20px solid #2BECB9;
+  border-right: 15px solid #797979;
   border-bottom: 2em solid white; }
 
 .tile .triangle-tl {
@@ -112,7 +112,7 @@ h1 {
   top: 0;
   width: 0;
   height: 0;
-  border-right: 20px solid #2BECB9;
+  border-right: 15px solid #797979;
   border-top: 2em solid white; }
 
 .tile .triangle-tr {
@@ -121,7 +121,7 @@ h1 {
   top: 0;
   width: 0;
   height: 0;
-  border-left: 20px solid #2BECB9;
+  border-left: 15px solid #797979;
   border-top: 2em solid white; }
 
 /* flow chart */

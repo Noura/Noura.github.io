@@ -1,9 +1,9 @@
 
 $name_bg: white;
 //$triangle_bg: rgb(12, 242, 181);
-$triangle_bg: #2BECB9;
+$triangle_bg: #797979;
 $name_h: 2em;
-$triangle_w: 20px;
+$triangle_w: 15px;
 
 @mixin weird_sizing($w, $h) {
     width: 0;
@@ -57,13 +57,13 @@ p {
 }
 .close-project-page {
     position: absolute;
-    left: -60px;
-    top: 0;
+    left: -50px;
+    top: 30px;
     width: 0;
     height: 0;
-    border-top: 40px solid transparent;
-    border-bottom: 40px solid transparent;
-    border-right: 60px solid $triangle_bg;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 50px solid $triangle_bg;
 }
 
 .topbar {
