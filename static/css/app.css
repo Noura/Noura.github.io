@@ -18,7 +18,10 @@ p {
   padding-left: auto;
   padding-bottom: 25px;
   padding-top: 25px;
-  max-width: 768px; }
+  max-width: 768px;
+  border-width: 0 10px;
+  border-color: white;
+  border-style: solid; }
 
 .container.project-page {
   background: white;
@@ -51,7 +54,7 @@ h1 {
   font-weight: 200; }
 
 .iframe-container {
-  margin-left: auto;
+  margin-left: 0;
   margin-right: auto;
   margin-bottom: 1em;
   width: 90%; }
