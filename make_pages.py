@@ -90,7 +90,7 @@ pages = [ \
     },
     {
         'name': 'Contact & Publications',
-        'thumbnail': 'bali',
+        'thumbnail': 'nyd2015',
         'path': 'publications',
         'template': 'publications.html',
         'date': '',

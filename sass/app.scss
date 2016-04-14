@@ -261,6 +261,7 @@ $img_myodj: 'beatwave.png';
 $img_hugbug: 'hugbug.jpg';
 $img_peacebone_gsr: 'peacebone_gsr.png';
 $img_code510: 'code510.png';
+$img_nyd2015: 'nyd2015.jpg';
 
 // SPECIFIC IMAGES IN CONTEXT
 @mixin big_tile($filename) {
@@ -290,8 +291,8 @@ $img_code510: 'code510.png';
 .big-tiles .image.rickshawjs {
     @include big_tile($img_rickshawjs);
 }
-.big-tiles .image.bali {
-    @include big_tile($img_bali);
+.big-tiles .image.nyd2015 {
+    @include big_tile($img_nyd2015);
 }
 .big-tiles .image.bali-house {
     @include big_tile($img_bali_house);
