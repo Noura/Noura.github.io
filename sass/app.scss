@@ -1,17 +1,9 @@
-// screen sizes copied from bootstrap
-// xs < 768px <= sm < 992px <= md < 1200px <= lg
-$screen_sm: 768px;
-$screen_md: 992px;
-$screen_lg: 1200px;
-$col_w: .08333333; // a span1 bootstrap col has this percentage width
-$iphone_w: 1000px; // about this much on my iphone 4 I think
-                   // TODO better way to do this
 
 $name_bg: white;
 //$triangle_bg: rgb(12, 242, 181);
-$triangle_bg: #2BECB9;
+$triangle_bg: #797979;
 $name_h: 2em;
-$triangle_w: 20px;
+$triangle_w: 15px;
 
 @mixin weird_sizing($w, $h) {
     width: 0;
@@ -27,39 +19,6 @@ $triangle_w: 20px;
     background-position-x: 50%;
     background-image: url('/static/img/' + $dir + $filename);
 }
-@mixin responsive_image($filename, $dir: '') {
-    @include image($filename, $dir);
-    //@media (max-width: $screen_md - 1px) { // sm
-    //    background-image: url('/static/img/screen_small/' + $dir + $filename);
-    //}
-    //@media (min-width: $screen_md) and (max-width: $screen_lg - 1px) { // md
-    //    background-image: url('/static/img/screen_medium/' + $dir + $filename);
-    //}
-    //FIXME image sizes
-    @media (max-width: $screen_sm) {
-        background-image: url('/static/img/screen_small/' + $dir + $filename);
-    }
-    @media (min-width: $screen_sm + 1px) and (max-width: $screen_lg) {
-        background-image: url('/static/img/screen_medium/' + $dir + $filename);
-    }
-    @media (min-width: $screen_lg + 1) { // lg
-        background-image: url('/static/img/screen_large/' + $dir + $filename);
-    }
-}
-@mixin responsive_font_size($min_size) {
-    @media (max-width: $screen_sm - 1px) {
-        font-size: 2.75 * $min_size;
-    }
-    @media (min-width: $screen_sm) and (max-width: $screen_md - 1px) {
-        font-size: 2.75 * $min_size;
-    }
-    @media (min-width: $screen_md) and (max-width: $screen_lg - 1px) {
-        font-size: 1 * $min_size;
-    }
-    @media (min-width: $screen_lg) {
-        font-size: 1 * $min_size;
-    }
-}
 
 @font-face {
     font-family: forTitles;
@@ -68,15 +27,16 @@ $triangle_w: 20px;
 body {
     font-size: 18px;
     font-family: helvetica, sans-serif;
-    background: rgb(25, 10, 25);
+    background: white;
 }
 
 p {
     font-weight: 100;
     font-size: 100%;
-    @media (max-width: $iphone_w) {
-        font-size: 200%;
-    }
+}
+
+.row {
+    padding-bottom: 10px;
 }
 
 .container {
@@ -85,9 +45,9 @@ p {
     padding-bottom: 25px;
     padding-top: 25px;
     max-width: 768px;
-    @media (max-width: $iphone_w) and (min-width: 0px) {
-        width: 100% !important;
-    }
+    border-width: 0 10px;
+    border-color: white;
+    border-style: solid;
 }
 .container.project-page {
     background: white;
@@ -100,13 +60,13 @@ p {
 }
 .close-project-page {
     position: absolute;
-    left: -60px;
-    top: 0;
+    left: -50px;
+    top: 37px;
     width: 0;
     height: 0;
-    border-top: 40px solid transparent;
-    border-bottom: 40px solid transparent;
-    border-right: 60px solid $triangle_bg;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 50px solid $triangle_bg;
 }
 
 .topbar {
@@ -117,18 +77,13 @@ p {
 }
 
 h1 {
-    padding-bottom: 10px;
-    font-size: 64px;
+    font-size: 1em;
     line-height: 1em;
     font-weight: 200;
 }
 
-.row.title div {
-    background: $triangle_bg;
-}
-
 .iframe-container {
-    margin-left: auto;
+    margin-left: 0;
     margin-right: auto;
     margin-bottom: 1em;
     width: 90%;
@@ -150,11 +105,10 @@ h1 {
 .tile .name {
     position: relative;
     height: $name_h;
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 1em;
+    font-weight: 200;
     font-family: forTitles;
     line-height: 1em;
-    background:blue;
 }
 .tile .name-inner {
     position: relative;
@@ -307,6 +261,8 @@ $img_myodj: 'beatwave.png';
 $img_hugbug: 'hugbug.jpg';
 $img_peacebone_gsr: 'peacebone_gsr.png';
 $img_threads: 'threads.png';
+$img_code510: 'code510.png';
+$img_nyd2015: 'nyd2015.jpg';
 
 // SPECIFIC IMAGES IN CONTEXT
 @mixin big_tile($filename) {
@@ -336,8 +292,8 @@ $img_threads: 'threads.png';
 .big-tiles .image.rickshawjs {
     @include big_tile($img_rickshawjs);
 }
-.big-tiles .image.bali {
-    @include big_tile($img_bali);
+.big-tiles .image.nyd2015 {
+    @include big_tile($img_nyd2015);
 }
 .big-tiles .image.bali-house {
     @include big_tile($img_bali_house);
@@ -354,80 +310,86 @@ $img_threads: 'threads.png';
 .big-tiles .image.threads {
     @include big_tile('threads.jpg');
 }
+.big-tiles .image.code510 {
+    @include big_tile($img_code510);
+}
 
+@mixin project_img($filename) {
+    @include image($filename, 'screen_large/');
+}
 .project-page .image.yak-dung {
-    @include responsive_image($img_yak_dung);
+    @include project_img($img_yak_dung);
     @include weird_sizing(60%, 44%);
 }
 .project-page .image.solsource {
-    @include responsive_image($img_solsource);
+    @include project_img($img_solsource);
     @include weird_sizing(33%, 44%);
 }
 .project-page .image.apples {
-    @include responsive_image($img_apples);
+    @include project_img($img_apples);
     @include weird_sizing(30%, 36%);
 }
 .project-page .image.notebook {
-    @include responsive_image($img_notebook);
+    @include project_img($img_notebook);
     @include weird_sizing(65%, 36%);
 }
 .project-page .image.chladni {
-    @include responsive_image('chladni.png');
+    @include project_img('chladni.png');
     @include weird_sizing(100%, 45%);
 }
 .project-page .image.lissa {
-    @include responsive_image('lissa1.png');
+    @include project_img('lissa1.png');
     @include weird_sizing(100%, 31.8%);
 }
 .project-page .cat {
-    @include responsive_image('cat.png');
+    @include project_img('cat.png');
     @include weird_sizing(100%, 24%);
     background-position: 50% 50%;
 }
 .project-page .image.bali-CAT {
-    @include responsive_image($img_bali_CAT);
+    @include project_img($img_bali_CAT);
     @include weird_sizing(100%, 20%);
 }
 .project-page .image.bali-parts {
-    @include responsive_image($img_bali_parts);
+    @include project_img($img_bali_parts);
     @include weird_sizing(68%, 30%);
     background-position: 50% 100%;
 }
 .project-page .image.bali-mech {
-    @include responsive_image($img_bali_mech);
+    @include project_img($img_bali_mech);
     @include weird_sizing(30%, 30%);
     background-position: 100% 50%;
     background-size: contain;
 }
 .project-page .image.peacebone-gsr {
-    @include responsive_image($img_peacebone_gsr);
+    @include project_img($img_peacebone_gsr);
     @include weird_sizing(100%, 30%);
 }
 .project-page .image.threads {
-    @include responsive_image($img_threads);
+    @include project_img($img_threads);
     @include weird_sizing(100%, 42%);
 }
 
 .about-me .image.beach {
-    @include responsive_image($img_beach);
+    @include project_img($img_beach);
     @include weird_sizing(100%, 23.5%);
 }
 @mixin about_me_square($filename) {
     @include weird_sizing(25%, 25%);
-    @include responsive_image($filename);
 }
 .about-me .image.sale {
+    @include project_img($img_sale);
     @include about_me_square($img_sale);
 }
 .about-me .image.zach {
+    @include project_img($img_zach);
     @include about_me_square($img_zach);
 }
 .about-me .image.mhd {
+    @include project_img($img_mhd);
     @include about_me_square($img_mhd);
 }
 .about-me .image.pipe {
+    @include project_img($img_pipe);
     @include about_me_square($img_pipe);
 }
-
-
-//////////////////

@@ -4,24 +4,24 @@
 body {
   font-size: 18px;
   font-family: helvetica, sans-serif;
-  background: #190a19; }
+  background: white; }
 
 p {
   font-weight: 100;
   font-size: 100%; }
-  @media (max-width: 1000px) {
-    p {
-      font-size: 200%; } }
+
+.row {
+  padding-bottom: 10px; }
 
 .container {
   margin-left: auto;
   padding-left: auto;
   padding-bottom: 25px;
   padding-top: 25px;
-  max-width: 768px; }
-  @media (max-width: 1000px) and (min-width: 0px) {
-    .container {
-      width: 100% !important; } }
+  max-width: 768px;
+  border-width: 0 10px;
+  border-color: white;
+  border-style: solid; }
 
 .container.project-page {
   background: white;
@@ -34,13 +34,13 @@ p {
 
 .close-project-page {
   position: absolute;
-  left: -60px;
-  top: 0;
+  left: -50px;
+  top: 37px;
   width: 0;
   height: 0;
-  border-top: 40px solid transparent;
-  border-bottom: 40px solid transparent;
-  border-right: 60px solid #2BECB9; }
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-right: 50px solid #797979; }
 
 .topbar {
   margin-top: -7px; }
@@ -49,16 +49,12 @@ p {
   margin-top: 10px; }
 
 h1 {
-  padding-bottom: 10px;
-  font-size: 64px;
+  font-size: 1em;
   line-height: 1em;
   font-weight: 200; }
 
-.row.title div {
-  background: #2BECB9; }
-
 .iframe-container {
-  margin-left: auto;
+  margin-left: 0;
   margin-right: auto;
   margin-bottom: 1em;
   width: 90%; }
@@ -76,11 +72,10 @@ h1 {
 .tile .name {
   position: relative;
   height: 2em;
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 1em;
+  font-weight: 200;
   font-family: forTitles;
-  line-height: 1em;
-  background: blue; }
+  line-height: 1em; }
 
 .tile .name-inner {
   position: relative;
@@ -91,8 +86,8 @@ h1 {
   white-space: nowrap;
   color: black;
   background: white;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
   background-clip: padding-box;
   padding: 0.5em 0; }
 
@@ -102,7 +97,7 @@ h1 {
   top: 0;
   width: 0;
   height: 0;
-  border-left: 20px solid #2BECB9;
+  border-left: 15px solid #797979;
   border-bottom: 2em solid white; }
 
 .tile .triangle-bl {
@@ -111,7 +106,7 @@ h1 {
   top: 0;
   width: 0;
   height: 0;
-  border-right: 20px solid #2BECB9;
+  border-right: 15px solid #797979;
   border-bottom: 2em solid white; }
 
 .tile .triangle-tl {
@@ -120,7 +115,7 @@ h1 {
   top: 0;
   width: 0;
   height: 0;
-  border-right: 20px solid #2BECB9;
+  border-right: 15px solid #797979;
   border-top: 2em solid white; }
 
 .tile .triangle-tr {
@@ -129,7 +124,7 @@ h1 {
   top: 0;
   width: 0;
   height: 0;
-  border-left: 20px solid #2BECB9;
+  border-left: 15px solid #797979;
   border-top: 2em solid white; }
 
 /* flow chart */
@@ -246,11 +241,11 @@ td .td-inner {
   background-position-x: 50%;
   background-image: url("/static/img/280px_tiles/rickshawjs.png"); }
 
-.big-tiles .image.bali {
+.big-tiles .image.nyd2015 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/280px_tiles/at_sua_bali.jpg"); }
+  background-image: url("/static/img/280px_tiles/nyd2015.jpg"); }
 
 .big-tiles .image.bali-house {
   background-size: cover;
@@ -282,137 +277,89 @@ td .td-inner {
   background-position-x: 50%;
   background-image: url("/static/img/280px_tiles/threads.jpg"); }
 
+.big-tiles .image.code510 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/280px_tiles/code510.png"); }
+
 .project-page .image.yak-dung {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/yak_dung.jpg");
+  background-image: url("/static/img/screen_large/yak_dung.jpg");
   width: 0;
   height: 0;
   padding-right: 60%;
   padding-bottom: 44%;
   box-sizing: border-box;
   position: relative; }
-  @media (max-width: 768px) {
-    .project-page .image.yak-dung {
-      background-image: url("/static/img/screen_small/yak_dung.jpg"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .project-page .image.yak-dung {
-      background-image: url("/static/img/screen_medium/yak_dung.jpg"); } }
-  @media (min-width: 1201px) {
-    .project-page .image.yak-dung {
-      background-image: url("/static/img/screen_large/yak_dung.jpg"); } }
 
 .project-page .image.solsource {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/solsource.jpg");
+  background-image: url("/static/img/screen_large/solsource.jpg");
   width: 0;
   height: 0;
   padding-right: 33%;
   padding-bottom: 44%;
   box-sizing: border-box;
   position: relative; }
-  @media (max-width: 768px) {
-    .project-page .image.solsource {
-      background-image: url("/static/img/screen_small/solsource.jpg"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .project-page .image.solsource {
-      background-image: url("/static/img/screen_medium/solsource.jpg"); } }
-  @media (min-width: 1201px) {
-    .project-page .image.solsource {
-      background-image: url("/static/img/screen_large/solsource.jpg"); } }
 
 .project-page .image.apples {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/apples.jpg");
+  background-image: url("/static/img/screen_large/apples.jpg");
   width: 0;
   height: 0;
   padding-right: 30%;
   padding-bottom: 36%;
   box-sizing: border-box;
   position: relative; }
-  @media (max-width: 768px) {
-    .project-page .image.apples {
-      background-image: url("/static/img/screen_small/apples.jpg"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .project-page .image.apples {
-      background-image: url("/static/img/screen_medium/apples.jpg"); } }
-  @media (min-width: 1201px) {
-    .project-page .image.apples {
-      background-image: url("/static/img/screen_large/apples.jpg"); } }
 
 .project-page .image.notebook {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/notebook.png");
+  background-image: url("/static/img/screen_large/notebook.png");
   width: 0;
   height: 0;
   padding-right: 65%;
   padding-bottom: 36%;
   box-sizing: border-box;
   position: relative; }
-  @media (max-width: 768px) {
-    .project-page .image.notebook {
-      background-image: url("/static/img/screen_small/notebook.png"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .project-page .image.notebook {
-      background-image: url("/static/img/screen_medium/notebook.png"); } }
-  @media (min-width: 1201px) {
-    .project-page .image.notebook {
-      background-image: url("/static/img/screen_large/notebook.png"); } }
 
 .project-page .image.chladni {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/chladni.png");
+  background-image: url("/static/img/screen_large/chladni.png");
   width: 0;
   height: 0;
   padding-right: 100%;
   padding-bottom: 45%;
   box-sizing: border-box;
   position: relative; }
-  @media (max-width: 768px) {
-    .project-page .image.chladni {
-      background-image: url("/static/img/screen_small/chladni.png"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .project-page .image.chladni {
-      background-image: url("/static/img/screen_medium/chladni.png"); } }
-  @media (min-width: 1201px) {
-    .project-page .image.chladni {
-      background-image: url("/static/img/screen_large/chladni.png"); } }
 
 .project-page .image.lissa {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/lissa1.png");
+  background-image: url("/static/img/screen_large/lissa1.png");
   width: 0;
   height: 0;
   padding-right: 100%;
   padding-bottom: 31.8%;
   box-sizing: border-box;
   position: relative; }
-  @media (max-width: 768px) {
-    .project-page .image.lissa {
-      background-image: url("/static/img/screen_small/lissa1.png"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .project-page .image.lissa {
-      background-image: url("/static/img/screen_medium/lissa1.png"); } }
-  @media (min-width: 1201px) {
-    .project-page .image.lissa {
-      background-image: url("/static/img/screen_large/lissa1.png"); } }
 
 .project-page .cat {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/cat.png");
+  background-image: url("/static/img/screen_large/cat.png");
   width: 0;
   height: 0;
   padding-right: 100%;
@@ -420,42 +367,24 @@ td .td-inner {
   box-sizing: border-box;
   position: relative;
   background-position: 50% 50%; }
-  @media (max-width: 768px) {
-    .project-page .cat {
-      background-image: url("/static/img/screen_small/cat.png"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .project-page .cat {
-      background-image: url("/static/img/screen_medium/cat.png"); } }
-  @media (min-width: 1201px) {
-    .project-page .cat {
-      background-image: url("/static/img/screen_large/cat.png"); } }
 
 .project-page .image.bali-CAT {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/bali_CAT.png");
+  background-image: url("/static/img/screen_large/bali_CAT.png");
   width: 0;
   height: 0;
   padding-right: 100%;
   padding-bottom: 20%;
   box-sizing: border-box;
   position: relative; }
-  @media (max-width: 768px) {
-    .project-page .image.bali-CAT {
-      background-image: url("/static/img/screen_small/bali_CAT.png"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .project-page .image.bali-CAT {
-      background-image: url("/static/img/screen_medium/bali_CAT.png"); } }
-  @media (min-width: 1201px) {
-    .project-page .image.bali-CAT {
-      background-image: url("/static/img/screen_large/bali_CAT.png"); } }
 
 .project-page .image.bali-parts {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/bali_components.jpg");
+  background-image: url("/static/img/screen_large/bali_components.jpg");
   width: 0;
   height: 0;
   padding-right: 68%;
@@ -463,21 +392,12 @@ td .td-inner {
   box-sizing: border-box;
   position: relative;
   background-position: 50% 100%; }
-  @media (max-width: 768px) {
-    .project-page .image.bali-parts {
-      background-image: url("/static/img/screen_small/bali_components.jpg"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .project-page .image.bali-parts {
-      background-image: url("/static/img/screen_medium/bali_components.jpg"); } }
-  @media (min-width: 1201px) {
-    .project-page .image.bali-parts {
-      background-image: url("/static/img/screen_large/bali_components.jpg"); } }
 
 .project-page .image.bali-mech {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/bali_lowering_blinds.png");
+  background-image: url("/static/img/screen_large/bali_lowering_blinds.png");
   width: 0;
   height: 0;
   padding-right: 30%;
@@ -486,161 +406,89 @@ td .td-inner {
   position: relative;
   background-position: 100% 50%;
   background-size: contain; }
-  @media (max-width: 768px) {
-    .project-page .image.bali-mech {
-      background-image: url("/static/img/screen_small/bali_lowering_blinds.png"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .project-page .image.bali-mech {
-      background-image: url("/static/img/screen_medium/bali_lowering_blinds.png"); } }
-  @media (min-width: 1201px) {
-    .project-page .image.bali-mech {
-      background-image: url("/static/img/screen_large/bali_lowering_blinds.png"); } }
 
 .project-page .image.peacebone-gsr {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/peacebone_gsr.png");
+  background-image: url("/static/img/screen_large/peacebone_gsr.png");
   width: 0;
   height: 0;
   padding-right: 100%;
   padding-bottom: 30%;
   box-sizing: border-box;
   position: relative; }
-  @media (max-width: 768px) {
-    .project-page .image.peacebone-gsr {
-      background-image: url("/static/img/screen_small/peacebone_gsr.png"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .project-page .image.peacebone-gsr {
-      background-image: url("/static/img/screen_medium/peacebone_gsr.png"); } }
-  @media (min-width: 1201px) {
-    .project-page .image.peacebone-gsr {
-      background-image: url("/static/img/screen_large/peacebone_gsr.png"); } }
 
 .project-page .image.threads {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/threads.png");
+  background-image: url("/static/img/screen_large/threads.png");
   width: 0;
   height: 0;
   padding-right: 100%;
   padding-bottom: 42%;
   box-sizing: border-box;
   position: relative; }
-  @media (max-width: 768px) {
-    .project-page .image.threads {
-      background-image: url("/static/img/screen_small/threads.png"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .project-page .image.threads {
-      background-image: url("/static/img/screen_medium/threads.png"); } }
-  @media (min-width: 1201px) {
-    .project-page .image.threads {
-      background-image: url("/static/img/screen_large/threads.png"); } }
 
 .about-me .image.beach {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/beach.jpg");
+  background-image: url("/static/img/screen_large/beach.jpg");
   width: 0;
   height: 0;
   padding-right: 100%;
   padding-bottom: 23.5%;
   box-sizing: border-box;
   position: relative; }
-  @media (max-width: 768px) {
-    .about-me .image.beach {
-      background-image: url("/static/img/screen_small/beach.jpg"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .about-me .image.beach {
-      background-image: url("/static/img/screen_medium/beach.jpg"); } }
-  @media (min-width: 1201px) {
-    .about-me .image.beach {
-      background-image: url("/static/img/screen_large/beach.jpg"); } }
 
 .about-me .image.sale {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/screen_large/sale.jpg");
   width: 0;
   height: 0;
   padding-right: 25%;
   padding-bottom: 25%;
   box-sizing: border-box;
-  position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-image: url("/static/img/sale.jpg"); }
-  @media (max-width: 768px) {
-    .about-me .image.sale {
-      background-image: url("/static/img/screen_small/sale.jpg"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .about-me .image.sale {
-      background-image: url("/static/img/screen_medium/sale.jpg"); } }
-  @media (min-width: 1201px) {
-    .about-me .image.sale {
-      background-image: url("/static/img/screen_large/sale.jpg"); } }
+  position: relative; }
 
 .about-me .image.zach {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/screen_large/with_zach.jpg");
   width: 0;
   height: 0;
   padding-right: 25%;
   padding-bottom: 25%;
   box-sizing: border-box;
-  position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-image: url("/static/img/with_zach.jpg"); }
-  @media (max-width: 768px) {
-    .about-me .image.zach {
-      background-image: url("/static/img/screen_small/with_zach.jpg"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .about-me .image.zach {
-      background-image: url("/static/img/screen_medium/with_zach.jpg"); } }
-  @media (min-width: 1201px) {
-    .about-me .image.zach {
-      background-image: url("/static/img/screen_large/with_zach.jpg"); } }
+  position: relative; }
 
 .about-me .image.mhd {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/screen_large/mhd.jpg");
   width: 0;
   height: 0;
   padding-right: 25%;
   padding-bottom: 25%;
   box-sizing: border-box;
-  position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-image: url("/static/img/mhd.jpg"); }
-  @media (max-width: 768px) {
-    .about-me .image.mhd {
-      background-image: url("/static/img/screen_small/mhd.jpg"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .about-me .image.mhd {
-      background-image: url("/static/img/screen_medium/mhd.jpg"); } }
-  @media (min-width: 1201px) {
-    .about-me .image.mhd {
-      background-image: url("/static/img/screen_large/mhd.jpg"); } }
+  position: relative; }
 
 .about-me .image.pipe {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/screen_large/laying_pipe.jpg");
   width: 0;
   height: 0;
   padding-right: 25%;
   padding-bottom: 25%;
   box-sizing: border-box;
-  position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-image: url("/static/img/laying_pipe.jpg"); }
-  @media (max-width: 768px) {
-    .about-me .image.pipe {
-      background-image: url("/static/img/screen_small/laying_pipe.jpg"); } }
-  @media (min-width: 769px) and (max-width: 1200px) {
-    .about-me .image.pipe {
-      background-image: url("/static/img/screen_medium/laying_pipe.jpg"); } }
-  @media (min-width: 1201px) {
-    .about-me .image.pipe {
-      background-image: url("/static/img/screen_large/laying_pipe.jpg"); } }
+  position: relative; }
 
 /*# sourceMappingURL=app.css.map */

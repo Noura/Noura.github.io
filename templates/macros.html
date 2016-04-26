@@ -1,13 +1,8 @@
-{% macro tile(page, parity = 0) %}
+{% macro tile(page) %}
 <a href="#{{page.path}}">
-  <div class="tile col-xs-4">
+  <div class="tile col-xs-12 col-sm-6 col-md-4">
       <div class="image {{ page.thumbnail }}"></div>
       <div class="name">
-        {% if parity == 0 %}
-          <div class="triangle-br"></div>
-        {% else %}
-          <div class="triangle-tr"></div>
-        {% endif %}
         <div class="name-inner">
             {% if name %}
             {{ name }}
@@ -15,25 +10,17 @@
             {{ page.name }}
             {% endif %}
         </div>
-        {% if parity == 0 %}
-          <div class="triangle-tl"></div>
-        {% else %}
-          <div class="triangle-bl"></div>
-        {% endif %}
       </div>
   </div>
 </a>
 {% endmacro %}
 
 {% macro tiles(pages) %}
-  {% for row in pages|batch(3) %}
-    {% set row_index = (loop.index-1) * 3 %}
-    <div class="row big-tiles">
-      {% for page in row %}
-        {{ tile(page, (row_index + loop.index - 1) % 2) }} 
-      {% endfor %}
-    </div>
-  {% endfor %}
+  <div class="row big-tiles">
+    {% for page in pages %}
+      {{ tile(page) }} 
+    {% endfor %}
+  </div>
 {% endmacro %}
 
 {% macro detail(page) %}
