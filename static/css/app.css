@@ -419,15 +419,39 @@ td .td-inner {
   box-sizing: border-box;
   position: relative; }
 
-.project-page .image.threads {
+.project-page .image.weave4x4 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/screen_large/weave_4x4.png");
+  background-image: url("/static/img/screen_large/weave_4x4_3up_WEB.jpg");
   width: 0;
   height: 0;
   padding-right: 100%;
-  padding-bottom: 42%;
+  padding-bottom: 30%;
+  box-sizing: border-box;
+  position: relative; }
+
+.project-page .image.crochet {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/screen_large/crochet_3up_WEB.jpg");
+  width: 0;
+  height: 0;
+  padding-right: 100%;
+  padding-bottom: 33%;
+  box-sizing: border-box;
+  position: relative; }
+
+.project-page .image.weave7seg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/screen_large/weave_sevenseg_WEB.jpg");
+  width: 0;
+  height: 0;
+  padding-right: 100%;
+  padding-bottom: 45%;
   box-sizing: border-box;
   position: relative; }
 

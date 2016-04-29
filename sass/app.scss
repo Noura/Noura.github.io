@@ -261,6 +261,9 @@ $img_myodj: 'beatwave.png';
 $img_hugbug: 'hugbug.jpg';
 $img_peacebone_gsr: 'peacebone_gsr.png';
 $img_threads: 'weave_4x4.png';
+$img_weave4x4: 'weave_4x4_3up_WEB.jpg';
+$img_weave7seg: 'weave_sevenseg_WEB.jpg';
+$img_crochet: 'crochet_3up_WEB.jpg';
 $img_code510: 'code510.png';
 $img_nyd2015: 'nyd2015.jpg';
 
@@ -365,9 +368,17 @@ $img_nyd2015: 'nyd2015.jpg';
     @include project_img($img_peacebone_gsr);
     @include weird_sizing(100%, 30%);
 }
-.project-page .image.threads {
-    @include project_img($img_threads);
-    @include weird_sizing(100%, 42%);
+.project-page .image.weave4x4 {
+    @include project_img($img_weave4x4);
+    @include weird_sizing(100%, 30%);
+}
+.project-page .image.crochet {
+    @include project_img($img_crochet);
+    @include weird_sizing(100%, 33%);
+}
+.project-page .image.weave7seg {
+    @include project_img($img_weave7seg);
+    @include weird_sizing(100%, 45%);
 }
 
 .about-me .image.beach {
