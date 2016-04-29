@@ -260,7 +260,7 @@ $img_bali_house: 'bali_house.jpg';
 $img_myodj: 'beatwave.png';
 $img_hugbug: 'hugbug.jpg';
 $img_peacebone_gsr: 'peacebone_gsr.png';
-$img_threads: 'threads.png';
+$img_threads: 'weave_4x4.png';
 $img_code510: 'code510.png';
 $img_nyd2015: 'nyd2015.jpg';
 
@@ -308,7 +308,7 @@ $img_nyd2015: 'nyd2015.jpg';
     @include big_tile($img_peacebone_gsr);
 }
 .big-tiles .image.threads {
-    @include big_tile('threads.jpg');
+    @include big_tile('weave_4x4.png');
 }
 .big-tiles .image.code510 {
     @include big_tile($img_code510);

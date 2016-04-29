@@ -275,7 +275,7 @@ td .td-inner {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/280px_tiles/threads.jpg"); }
+  background-image: url("/static/img/280px_tiles/weave_4x4.png"); }
 
 .big-tiles .image.code510 {
   background-size: cover;
@@ -423,7 +423,7 @@ td .td-inner {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/screen_large/threads.png");
+  background-image: url("/static/img/screen_large/weave_4x4.png");
   width: 0;
   height: 0;
   padding-right: 100%;
