@@ -283,6 +283,12 @@ td .td-inner {
   background-position-x: 50%;
   background-image: url("/static/img/280px_tiles/code510.png"); }
 
+.big-tiles .image.hint {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/280px_tiles/hint_shirt_tile.png"); }
+
 .project-page .image.yak-dung {
   background-size: cover;
   background-repeat: no-repeat;

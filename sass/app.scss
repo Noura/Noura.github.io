@@ -266,6 +266,7 @@ $img_weave7seg: 'weave_sevenseg_WEB.jpg';
 $img_crochet: 'crochet_3up_WEB.jpg';
 $img_code510: 'code510.png';
 $img_nyd2015: 'nyd2015.jpg';
+$img_hint: 'hint_shirt_tile.png';
 
 // SPECIFIC IMAGES IN CONTEXT
 @mixin big_tile($filename) {
@@ -315,6 +316,9 @@ $img_nyd2015: 'nyd2015.jpg';
 }
 .big-tiles .image.code510 {
     @include big_tile($img_code510);
+}
+.big-tiles .image.hint {
+    @include big_tile($img_hint);
 }
 
 @mixin project_img($filename) {

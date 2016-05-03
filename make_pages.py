@@ -5,6 +5,13 @@ import jinja2
 
 pages = [ \
     {
+        'name': 'Biosignals as Social Cues',
+        'thumbnail': 'hint',
+        'path': 'hint',
+        'template': 'hint.html',
+        'date': '2015',
+    },
+    {
         'name': 'Color-Changing Fabric',
         'thumbnail': 'threads',
         'path': 'ebb',
