@@ -7,8 +7,8 @@ pages = [ \
     {
         'name': 'Color-Changing Fabric',
         'thumbnail': 'threads',
-        'path': 'threads',
-        'template': 'threads.html',
+        'path': 'ebb',
+        'template': 'ebb.html',
         'date': '2015',
     },
     {
