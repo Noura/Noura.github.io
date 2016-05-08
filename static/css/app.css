@@ -6,7 +6,7 @@ body {
   font-family: helvetica, sans-serif;
   background: white; }
 
-p {
+p, li {
   font-weight: 100;
   font-size: 100%; }
 
@@ -49,9 +49,10 @@ p {
   margin-top: 10px; }
 
 h1 {
-  font-size: 1em;
-  line-height: 1em;
-  font-weight: 200; }
+  line-height: 1em; }
+
+h2 {
+  font-size: 24px; }
 
 .iframe-container {
   margin-left: 0;

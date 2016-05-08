@@ -30,7 +30,7 @@ body {
     background: white;
 }
 
-p {
+p, li {
     font-weight: 100;
     font-size: 100%;
 }
@@ -77,9 +77,11 @@ p {
 }
 
 h1 {
-    font-size: 1em;
     line-height: 1em;
-    font-weight: 200;
+}
+
+h2 {
+    font-size: 24px;
 }
 
 .iframe-container {

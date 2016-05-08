@@ -9,7 +9,7 @@ pages = [ \
         'thumbnail': 'hint',
         'path': 'hint',
         'template': 'hint.html',
-        'date': '2015',
+        'date': '2015 - present',
     },
     {
         'name': 'Color-Changing Fabric',
