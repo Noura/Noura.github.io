@@ -23,7 +23,7 @@ pages = [ \
         'thumbnail': 'code510',
         'path': 'code510',
         'template': 'code510.html',
-        'date': '2014 - ongoing',
+        'date': '2014 - 2016',
     },
     {
         'name': 'Buddy the HugBug',
