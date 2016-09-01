@@ -4,7 +4,13 @@
 body {
   font-size: 18px;
   font-family: helvetica, sans-serif;
-  background: white; }
+  background: #d6d6d6;
+  background-image: url("/static/img/noise.png");
+  background-blend-mode: soft-light; }
+
+body.no-background-blend-mode {
+  background-image: none;
+  background: #fafafa; }
 
 p, li {
   font-weight: 100;
@@ -20,7 +26,7 @@ p, li {
   padding-top: 25px;
   max-width: 768px;
   border-width: 0 10px;
-  border-color: white;
+  border-color: transparent;
   border-style: solid; }
 
 .container.project-page {
@@ -86,7 +92,7 @@ h2 {
   word-wrap: break-word;
   white-space: nowrap;
   color: black;
-  background: white;
+  background: transparent;
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
   background-clip: padding-box;
@@ -99,7 +105,7 @@ h2 {
   width: 0;
   height: 0;
   border-left: 15px solid #797979;
-  border-bottom: 2em solid white; }
+  border-bottom: 2em solid transparent; }
 
 .tile .triangle-bl {
   position: absolute;
@@ -108,7 +114,7 @@ h2 {
   width: 0;
   height: 0;
   border-right: 15px solid #797979;
-  border-bottom: 2em solid white; }
+  border-bottom: 2em solid transparent; }
 
 .tile .triangle-tl {
   position: absolute;
@@ -117,7 +123,7 @@ h2 {
   width: 0;
   height: 0;
   border-right: 15px solid #797979;
-  border-top: 2em solid white; }
+  border-top: 2em solid transparent; }
 
 .tile .triangle-tr {
   position: absolute;
@@ -126,7 +132,7 @@ h2 {
   width: 0;
   height: 0;
   border-left: 15px solid #797979;
-  border-top: 2em solid white; }
+  border-top: 2em solid transparent; }
 
 /* flow chart */
 table.flowchart {

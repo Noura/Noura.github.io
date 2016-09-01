@@ -1,4 +1,12 @@
 $(document).ready(function() {
+
+    // if the browser does not support background-blend-mode,
+    // implement the backup plan
+    if(typeof window.getComputedStyle(document.body).backgroundBlendMode == 'undefined') {
+        console.log('falling back to css without background-blend-mode');
+        $('body').addClass('no-background-blend-mode');
+    }
+
     function sync_pages() {
         if (window.location.hash.length > 1) {
             // show a project page
