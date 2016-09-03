@@ -126,8 +126,9 @@ h2 {
     white-space: nowrap;
     color: black;
     background: transparent;
-    border-left:$triangle_w solid transparent;
-    border-right:$triangle_w solid transparent;
+    border-left: 2px solid transparent;
+    //border-left:$triangle_w solid transparent;
+    //border-right:$triangle_w solid transparent;
     background-clip: padding-box;
     padding: 0.5em 0;
 }

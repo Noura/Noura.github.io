@@ -93,8 +93,7 @@ h2 {
   white-space: nowrap;
   color: black;
   background: transparent;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
+  border-left: 2px solid transparent;
   background-clip: padding-box;
   padding: 0.5em 0; }
 
