@@ -1,7 +1,6 @@
 
 $name_bg: transparent;
-//$triangle_bg: rgb(12, 242, 181);
-$triangle_bg: #797979;
+$triangle_bg: black;
 $name_h: 2em;
 $triangle_w: 15px;
 
@@ -29,7 +28,6 @@ body {
     font-family: helvetica, sans-serif;
     background: #d6d6d6;
     background-image: url('/static/img/noise.png');
-    background-blend-mode: soft-light;
 }
 body.no-background-blend-mode {
     background-image: none;
@@ -52,8 +50,9 @@ p, li {
     padding-top: 25px;
     max-width: 768px;
     border-width: 0 10px;
-    border-color: transparent;
+    border-color: white;
     border-style: solid;
+    background-color: white;
 }
 .container.project-page {
     background: white;

@@ -5,8 +5,7 @@ body {
   font-size: 18px;
   font-family: helvetica, sans-serif;
   background: #d6d6d6;
-  background-image: url("/static/img/noise.png");
-  background-blend-mode: soft-light; }
+  background-image: url("/static/img/noise.png"); }
 
 body.no-background-blend-mode {
   background-image: none;
@@ -26,8 +25,9 @@ p, li {
   padding-top: 25px;
   max-width: 768px;
   border-width: 0 10px;
-  border-color: transparent;
-  border-style: solid; }
+  border-color: white;
+  border-style: solid;
+  background-color: white; }
 
 .container.project-page {
   background: white;
@@ -46,7 +46,7 @@ p, li {
   height: 0;
   border-top: 30px solid transparent;
   border-bottom: 30px solid transparent;
-  border-right: 50px solid #797979; }
+  border-right: 50px solid black; }
 
 .topbar {
   margin-top: -7px; }
@@ -104,7 +104,7 @@ h2 {
   top: 0;
   width: 0;
   height: 0;
-  border-left: 15px solid #797979;
+  border-left: 15px solid black;
   border-bottom: 2em solid transparent; }
 
 .tile .triangle-bl {
@@ -113,7 +113,7 @@ h2 {
   top: 0;
   width: 0;
   height: 0;
-  border-right: 15px solid #797979;
+  border-right: 15px solid black;
   border-bottom: 2em solid transparent; }
 
 .tile .triangle-tl {
@@ -122,7 +122,7 @@ h2 {
   top: 0;
   width: 0;
   height: 0;
-  border-right: 15px solid #797979;
+  border-right: 15px solid black;
   border-top: 2em solid transparent; }
 
 .tile .triangle-tr {
@@ -131,7 +131,7 @@ h2 {
   top: 0;
   width: 0;
   height: 0;
-  border-left: 15px solid #797979;
+  border-left: 15px solid black;
   border-top: 2em solid transparent; }
 
 /* flow chart */
