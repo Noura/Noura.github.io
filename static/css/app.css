@@ -4,38 +4,29 @@
 body {
   font-size: 18px;
   font-family: helvetica, sans-serif;
-  background: #d6d6d6;
-  background-image: url("/static/img/noise.png"); }
+  background: #190a19; }
 
-body.no-background-blend-mode {
-  background-image: none;
-  background: #fafafa; }
-
-p, li {
+p {
   font-weight: 100;
   font-size: 100%; }
-
-b {
-  font-weight: 500; }
-
-.row {
-  padding-bottom: 10px; }
+  @media (max-width: 1000px) {
+    p {
+      font-size: 200%; } }
 
 .container {
   margin-left: auto;
   padding-left: auto;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  max-width: 768px;
-  border-width: 0 10px;
-  border-color: white;
-  border-style: solid;
-  background-color: white; }
+  padding-bottom: 25px;
+  padding-top: 25px;
+  max-width: 768px; }
+  @media (max-width: 1000px) and (min-width: 0px) {
+    .container {
+      width: 100% !important; } }
 
 .container.project-page {
   background: white;
+  margin-top: 25px;
+  margin-bottom: 25px;
   position: relative;
   border-left: 60px solid transparent;
   border-right: 60px solid transparent;
@@ -43,13 +34,13 @@ b {
 
 .close-project-page {
   position: absolute;
-  left: -50px;
-  top: 37px;
+  left: -60px;
+  top: 0;
   width: 0;
   height: 0;
-  border-top: 30px solid transparent;
-  border-bottom: 30px solid transparent;
-  border-right: 50px solid black; }
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-right: 60px solid #2BECB9; }
 
 .topbar {
   margin-top: -7px; }
@@ -58,13 +49,16 @@ b {
   margin-top: 10px; }
 
 h1 {
-  line-height: 1em; }
+  padding-bottom: 10px;
+  font-size: 64px;
+  line-height: 1em;
+  font-weight: 200; }
 
-h2 {
-  font-size: 24px; }
+.row.title div {
+  background: #2BECB9; }
 
 .iframe-container {
-  margin-left: 0;
+  margin-left: auto;
   margin-right: auto;
   margin-bottom: 1em;
   width: 90%; }
@@ -82,10 +76,11 @@ h2 {
 .tile .name {
   position: relative;
   height: 2em;
-  font-size: 1em;
-  font-weight: 200;
+  font-size: 15px;
+  font-weight: 600;
   font-family: forTitles;
-  line-height: 1em; }
+  line-height: 1em;
+  background: blue; }
 
 .tile .name-inner {
   position: relative;
@@ -95,8 +90,9 @@ h2 {
   word-wrap: break-word;
   white-space: nowrap;
   color: black;
-  background: transparent;
-  border-left: 2px solid transparent;
+  background: white;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
   background-clip: padding-box;
   padding: 0.5em 0; }
 
@@ -106,8 +102,8 @@ h2 {
   top: 0;
   width: 0;
   height: 0;
-  border-left: 15px solid black;
-  border-bottom: 2em solid transparent; }
+  border-left: 20px solid #2BECB9;
+  border-bottom: 2em solid white; }
 
 .tile .triangle-bl {
   position: absolute;
@@ -115,8 +111,8 @@ h2 {
   top: 0;
   width: 0;
   height: 0;
-  border-right: 15px solid black;
-  border-bottom: 2em solid transparent; }
+  border-right: 20px solid #2BECB9;
+  border-bottom: 2em solid white; }
 
 .tile .triangle-tl {
   position: absolute;
@@ -124,8 +120,8 @@ h2 {
   top: 0;
   width: 0;
   height: 0;
-  border-right: 15px solid black;
-  border-top: 2em solid transparent; }
+  border-right: 20px solid #2BECB9;
+  border-top: 2em solid white; }
 
 .tile .triangle-tr {
   position: absolute;
@@ -133,8 +129,8 @@ h2 {
   top: 0;
   width: 0;
   height: 0;
-  border-left: 15px solid black;
-  border-top: 2em solid transparent; }
+  border-left: 20px solid #2BECB9;
+  border-top: 2em solid white; }
 
 /* flow chart */
 table.flowchart {
@@ -162,10 +158,6 @@ td .td-inner {
 
 .images.tight {
   margin-bottom: 0; }
-
-.pin {
-  display: inline;
-  width: 200px; }
 
 .image.border {
   border-style: solid;
@@ -210,7 +202,7 @@ td .td-inner {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/280px_tiles/galileo_w_pin.jpg"); }
+  background-image: url("/static/img/280px_tiles/galileo.jpg"); }
 
 .big-tiles .image.waazam {
   background-size: cover;
@@ -254,11 +246,11 @@ td .td-inner {
   background-position-x: 50%;
   background-image: url("/static/img/280px_tiles/rickshawjs.png"); }
 
-.big-tiles .image.nyd2015 {
+.big-tiles .image.bali {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/280px_tiles/nyd2015.jpg"); }
+  background-image: url("/static/img/280px_tiles/at_sua_bali.jpg"); }
 
 .big-tiles .image.bali-house {
   background-size: cover;
@@ -284,101 +276,137 @@ td .td-inner {
   background-position-x: 50%;
   background-image: url("/static/img/280px_tiles/peacebone_gsr.png"); }
 
-.big-tiles .image.threads {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-image: url("/static/img/280px_tiles/weave_4x4.png"); }
-
-.big-tiles .image.code510 {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-image: url("/static/img/280px_tiles/code510.png"); }
-
-.big-tiles .image.hint {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-image: url("/static/img/280px_tiles/hint_shirt_tile.png"); }
-
 .project-page .image.yak-dung {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/screen_large/yak_dung.jpg");
+  background-image: url("/static/img/yak_dung.jpg");
   width: 0;
   height: 0;
   padding-right: 60%;
   padding-bottom: 44%;
   box-sizing: border-box;
   position: relative; }
+  @media (max-width: 768px) {
+    .project-page .image.yak-dung {
+      background-image: url("/static/img/screen_small/yak_dung.jpg"); } }
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .project-page .image.yak-dung {
+      background-image: url("/static/img/screen_medium/yak_dung.jpg"); } }
+  @media (min-width: 1201px) {
+    .project-page .image.yak-dung {
+      background-image: url("/static/img/screen_large/yak_dung.jpg"); } }
 
 .project-page .image.solsource {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/screen_large/solsource.jpg");
+  background-image: url("/static/img/solsource.jpg");
   width: 0;
   height: 0;
   padding-right: 33%;
   padding-bottom: 44%;
   box-sizing: border-box;
   position: relative; }
+  @media (max-width: 768px) {
+    .project-page .image.solsource {
+      background-image: url("/static/img/screen_small/solsource.jpg"); } }
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .project-page .image.solsource {
+      background-image: url("/static/img/screen_medium/solsource.jpg"); } }
+  @media (min-width: 1201px) {
+    .project-page .image.solsource {
+      background-image: url("/static/img/screen_large/solsource.jpg"); } }
 
 .project-page .image.apples {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/screen_large/apples.jpg");
+  background-image: url("/static/img/apples.jpg");
   width: 0;
   height: 0;
   padding-right: 30%;
   padding-bottom: 36%;
   box-sizing: border-box;
   position: relative; }
+  @media (max-width: 768px) {
+    .project-page .image.apples {
+      background-image: url("/static/img/screen_small/apples.jpg"); } }
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .project-page .image.apples {
+      background-image: url("/static/img/screen_medium/apples.jpg"); } }
+  @media (min-width: 1201px) {
+    .project-page .image.apples {
+      background-image: url("/static/img/screen_large/apples.jpg"); } }
 
 .project-page .image.notebook {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/screen_large/notebook.png");
+  background-image: url("/static/img/notebook.png");
   width: 0;
   height: 0;
   padding-right: 65%;
   padding-bottom: 36%;
   box-sizing: border-box;
   position: relative; }
+  @media (max-width: 768px) {
+    .project-page .image.notebook {
+      background-image: url("/static/img/screen_small/notebook.png"); } }
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .project-page .image.notebook {
+      background-image: url("/static/img/screen_medium/notebook.png"); } }
+  @media (min-width: 1201px) {
+    .project-page .image.notebook {
+      background-image: url("/static/img/screen_large/notebook.png"); } }
 
 .project-page .image.chladni {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/screen_large/chladni.png");
+  background-image: url("/static/img/chladni.png");
   width: 0;
   height: 0;
   padding-right: 100%;
   padding-bottom: 45%;
   box-sizing: border-box;
   position: relative; }
+  @media (max-width: 768px) {
+    .project-page .image.chladni {
+      background-image: url("/static/img/screen_small/chladni.png"); } }
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .project-page .image.chladni {
+      background-image: url("/static/img/screen_medium/chladni.png"); } }
+  @media (min-width: 1201px) {
+    .project-page .image.chladni {
+      background-image: url("/static/img/screen_large/chladni.png"); } }
 
 .project-page .image.lissa {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/screen_large/lissa1.png");
+  background-image: url("/static/img/lissa1.png");
   width: 0;
   height: 0;
   padding-right: 100%;
   padding-bottom: 31.8%;
   box-sizing: border-box;
   position: relative; }
+  @media (max-width: 768px) {
+    .project-page .image.lissa {
+      background-image: url("/static/img/screen_small/lissa1.png"); } }
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .project-page .image.lissa {
+      background-image: url("/static/img/screen_medium/lissa1.png"); } }
+  @media (min-width: 1201px) {
+    .project-page .image.lissa {
+      background-image: url("/static/img/screen_large/lissa1.png"); } }
 
 .project-page .cat {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/screen_large/cat.png");
+  background-image: url("/static/img/cat.png");
   width: 0;
   height: 0;
   padding-right: 100%;
@@ -386,24 +414,42 @@ td .td-inner {
   box-sizing: border-box;
   position: relative;
   background-position: 50% 50%; }
+  @media (max-width: 768px) {
+    .project-page .cat {
+      background-image: url("/static/img/screen_small/cat.png"); } }
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .project-page .cat {
+      background-image: url("/static/img/screen_medium/cat.png"); } }
+  @media (min-width: 1201px) {
+    .project-page .cat {
+      background-image: url("/static/img/screen_large/cat.png"); } }
 
 .project-page .image.bali-CAT {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/screen_large/bali_CAT.png");
+  background-image: url("/static/img/bali_CAT.png");
   width: 0;
   height: 0;
   padding-right: 100%;
   padding-bottom: 20%;
   box-sizing: border-box;
   position: relative; }
+  @media (max-width: 768px) {
+    .project-page .image.bali-CAT {
+      background-image: url("/static/img/screen_small/bali_CAT.png"); } }
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .project-page .image.bali-CAT {
+      background-image: url("/static/img/screen_medium/bali_CAT.png"); } }
+  @media (min-width: 1201px) {
+    .project-page .image.bali-CAT {
+      background-image: url("/static/img/screen_large/bali_CAT.png"); } }
 
 .project-page .image.bali-parts {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/screen_large/bali_components.jpg");
+  background-image: url("/static/img/bali_components.jpg");
   width: 0;
   height: 0;
   padding-right: 68%;
@@ -411,12 +457,21 @@ td .td-inner {
   box-sizing: border-box;
   position: relative;
   background-position: 50% 100%; }
+  @media (max-width: 768px) {
+    .project-page .image.bali-parts {
+      background-image: url("/static/img/screen_small/bali_components.jpg"); } }
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .project-page .image.bali-parts {
+      background-image: url("/static/img/screen_medium/bali_components.jpg"); } }
+  @media (min-width: 1201px) {
+    .project-page .image.bali-parts {
+      background-image: url("/static/img/screen_large/bali_components.jpg"); } }
 
 .project-page .image.bali-mech {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/screen_large/bali_lowering_blinds.png");
+  background-image: url("/static/img/bali_lowering_blinds.png");
   width: 0;
   height: 0;
   padding-right: 30%;
@@ -425,113 +480,155 @@ td .td-inner {
   position: relative;
   background-position: 100% 50%;
   background-size: contain; }
+  @media (max-width: 768px) {
+    .project-page .image.bali-mech {
+      background-image: url("/static/img/screen_small/bali_lowering_blinds.png"); } }
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .project-page .image.bali-mech {
+      background-image: url("/static/img/screen_medium/bali_lowering_blinds.png"); } }
+  @media (min-width: 1201px) {
+    .project-page .image.bali-mech {
+      background-image: url("/static/img/screen_large/bali_lowering_blinds.png"); } }
 
 .project-page .image.peacebone-gsr {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/screen_large/peacebone_gsr.png");
+  background-image: url("/static/img/peacebone_gsr.png");
   width: 0;
   height: 0;
   padding-right: 100%;
   padding-bottom: 30%;
   box-sizing: border-box;
   position: relative; }
+  @media (max-width: 768px) {
+    .project-page .image.peacebone-gsr {
+      background-image: url("/static/img/screen_small/peacebone_gsr.png"); } }
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .project-page .image.peacebone-gsr {
+      background-image: url("/static/img/screen_medium/peacebone_gsr.png"); } }
+  @media (min-width: 1201px) {
+    .project-page .image.peacebone-gsr {
+      background-image: url("/static/img/screen_large/peacebone_gsr.png"); } }
 
-.project-page .image.weave4x4 {
+.project-page .image.threads1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/screen_large/weave_4x4_3up_WEB.jpg");
-  width: 0;
-  height: 0;
-  padding-right: 100%;
-  padding-bottom: 30%;
-  box-sizing: border-box;
-  position: relative; }
-
-.project-page .image.crochet {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-image: url("/static/img/screen_large/crochet_3up_WEB.jpg");
-  width: 0;
-  height: 0;
-  padding-right: 100%;
-  padding-bottom: 33%;
-  box-sizing: border-box;
-  position: relative; }
-
-.project-page .image.weave7seg {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-image: url("/static/img/screen_large/weave_sevenseg_WEB.jpg");
-  width: 0;
-  height: 0;
-  padding-right: 100%;
-  padding-bottom: 45%;
-  box-sizing: border-box;
-  position: relative; }
+  background-image: url("/static/img/threads1.png"); }
+  @media (max-width: 768px) {
+    .project-page .image.threads1 {
+      background-image: url("/static/img/screen_small/threads1.png"); } }
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .project-page .image.threads1 {
+      background-image: url("/static/img/screen_medium/threads1.png"); } }
+  @media (min-width: 1201px) {
+    .project-page .image.threads1 {
+      background-image: url("/static/img/screen_large/threads1.png"); } }
 
 .about-me .image.beach {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-image: url("/static/img/screen_large/beach.jpg");
+  background-image: url("/static/img/beach.jpg");
   width: 0;
   height: 0;
   padding-right: 100%;
   padding-bottom: 23.5%;
   box-sizing: border-box;
   position: relative; }
+  @media (max-width: 768px) {
+    .about-me .image.beach {
+      background-image: url("/static/img/screen_small/beach.jpg"); } }
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .about-me .image.beach {
+      background-image: url("/static/img/screen_medium/beach.jpg"); } }
+  @media (min-width: 1201px) {
+    .about-me .image.beach {
+      background-image: url("/static/img/screen_large/beach.jpg"); } }
 
 .about-me .image.sale {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-image: url("/static/img/screen_large/sale.jpg");
   width: 0;
   height: 0;
   padding-right: 25%;
   padding-bottom: 25%;
   box-sizing: border-box;
-  position: relative; }
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/sale.jpg"); }
+  @media (max-width: 768px) {
+    .about-me .image.sale {
+      background-image: url("/static/img/screen_small/sale.jpg"); } }
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .about-me .image.sale {
+      background-image: url("/static/img/screen_medium/sale.jpg"); } }
+  @media (min-width: 1201px) {
+    .about-me .image.sale {
+      background-image: url("/static/img/screen_large/sale.jpg"); } }
 
 .about-me .image.zach {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-image: url("/static/img/screen_large/with_zach.jpg");
   width: 0;
   height: 0;
   padding-right: 25%;
   padding-bottom: 25%;
   box-sizing: border-box;
-  position: relative; }
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/with_zach.jpg"); }
+  @media (max-width: 768px) {
+    .about-me .image.zach {
+      background-image: url("/static/img/screen_small/with_zach.jpg"); } }
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .about-me .image.zach {
+      background-image: url("/static/img/screen_medium/with_zach.jpg"); } }
+  @media (min-width: 1201px) {
+    .about-me .image.zach {
+      background-image: url("/static/img/screen_large/with_zach.jpg"); } }
 
 .about-me .image.mhd {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-image: url("/static/img/screen_large/mhd.jpg");
   width: 0;
   height: 0;
   padding-right: 25%;
   padding-bottom: 25%;
   box-sizing: border-box;
-  position: relative; }
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/mhd.jpg"); }
+  @media (max-width: 768px) {
+    .about-me .image.mhd {
+      background-image: url("/static/img/screen_small/mhd.jpg"); } }
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .about-me .image.mhd {
+      background-image: url("/static/img/screen_medium/mhd.jpg"); } }
+  @media (min-width: 1201px) {
+    .about-me .image.mhd {
+      background-image: url("/static/img/screen_large/mhd.jpg"); } }
 
 .about-me .image.pipe {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-image: url("/static/img/screen_large/laying_pipe.jpg");
   width: 0;
   height: 0;
   padding-right: 25%;
   padding-bottom: 25%;
   box-sizing: border-box;
-  position: relative; }
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/laying_pipe.jpg"); }
+  @media (max-width: 768px) {
+    .about-me .image.pipe {
+      background-image: url("/static/img/screen_small/laying_pipe.jpg"); } }
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .about-me .image.pipe {
+      background-image: url("/static/img/screen_medium/laying_pipe.jpg"); } }
+  @media (min-width: 1201px) {
+    .about-me .image.pipe {
+      background-image: url("/static/img/screen_large/laying_pipe.jpg"); } }
 
 /*# sourceMappingURL=app.css.map */
