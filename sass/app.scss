@@ -2,6 +2,7 @@ $name_bg: transparent;
 $triangle_bg: black;
 $name_h: 2em;
 $triangle_w: 15px;
+$font_color: black;
 
 @mixin weird_sizing($w, $h) {
     width: 0;
@@ -23,6 +24,7 @@ $triangle_w: 15px;
     src: url('/static/fonts/MyriadPro-Light.otf');
 }
 body {
+    color: $font_color;
     font-size: 16px;
     font-family: MyriadProLight,"Helvetica Neue",helvetica,sans-serif;
     background: #d6d6d6;
@@ -169,6 +171,22 @@ h2 {
   height: 0;
   border-left: $triangle_w solid $triangle_bg;
   border-top: $name_h solid $name_bg;
+}
+
+/* publications */
+p.publication {
+    font-family: "Andale mono",monospace;
+    font-size: 75%;
+    font-weight:100;
+}
+a.publication {
+    color: $font_color;
+}
+span.publication {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color:black;
 }
 
 

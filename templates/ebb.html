@@ -1,3 +1,5 @@
+{% import 'macros.html' as macros %}
+
 <div class="iframe-container">
   <iframe src="https://player.vimeo.com/video/138025527" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   <p><a href="https://vimeo.com/138025527">Ebb: Dynamic Textile Displays</a> from <a href="https://vimeo.com/user4502629">Laura Devendorf</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
@@ -15,7 +17,4 @@
     <div class="image weave7seg border bottom"></div>
 </div>
 
-<p>
-Laura Devendorf, Joanne Lo, <b>Noura Howell</b>, Jung Lin Lee, Nan-Wei Gong, M. Emre Karagozler, Shiho Fukuhara, Ivan Poupyrev, Eric Paulos, Kimiko Ryoaki. (2016). "I don't want to wear a screen": Probing perceptions of and possibilities for dynamic displays on clothing. <i>SIGCHI Conference on Human Factors in Computing Systems (CHI'16 - Best Paper Award)</i>. 
-<a href="http://artfordorks.com/pubs/16_CHI_Ebb.pdf">pdf</a>.
-</p>
+{{ macros.publication(ctx.publications_by_name.ebb) }}

@@ -15,15 +15,15 @@
 </a>
 {% endmacro %}
 
-{% macro tiles(pages) %}
+{% macro tiles(ctx) %}
   <div class="row big-tiles">
-    {% for page in pages %}
+    {% for page in ctx.pages %}
       {{ tile(page) }} 
     {% endfor %}
   </div>
 {% endmacro %}
 
-{% macro detail(page) %}
+{% macro detail(page, ctx) %}
 <div class="container project-page hide" data-project="{{page.path}}">
   <a href="#">
     <div class="close-project-page">
@@ -50,8 +50,23 @@
 </div>
 {% endmacro %}
 
-{% macro details(pages) %}
-  {% for page in pages %}
-    {{ detail(page) }}
+{% macro details(ctx) %}
+  {% for page in ctx.pages %}
+    {{ detail(page, ctx) }}
+  {% endfor %}
+{% endmacro %}
+
+{% macro publication(pub) %}
+<p class="publication">
+  <a class="publication" href="{{pub.url}}">
+    <span class="publication"></span>
+    {{ pub.cite|safe }}
+  </a>
+</p>
+{% endmacro %}
+
+{% macro list_all_publications(pubs_list) %}
+  {% for pub in pubs_list %}
+    {{ publication(pub) }}
   {% endfor %}
 {% endmacro %}
