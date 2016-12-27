@@ -19,12 +19,12 @@ $triangle_w: 15px;
 }
 
 @font-face {
-    font-family: forTitles;
+    font-family: MyriadProLight;
     src: url('/static/fonts/MyriadPro-Light.otf');
 }
 body {
     font-size: 16px;
-    font-family: sans-serif;
+    font-family: MyriadProLight,"Helvetica Neue",helvetica,sans-serif;
     background: #d6d6d6;
     background-image: url('/static/img/noise.png');
 }
@@ -34,7 +34,7 @@ body.no-background-blend-mode {
 }
 
 p, li {
-    font-weight: 300;
+    font-weight: 900;
     font-size: 100%;
 }
 
@@ -86,6 +86,7 @@ b {
 
 h1 {
     line-height: 1em;
+    font-family: "Andale mono",sans-serif;
 }
 
 h2 {
@@ -116,8 +117,6 @@ h2 {
     position: relative;
     height: $name_h;
     font-size: 1em;
-    font-weight: 200;
-    font-family: forTitles;
     line-height: 1em;
 }
 .tile .name-inner {
