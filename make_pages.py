@@ -111,7 +111,7 @@ pages = [ \
     },
   ]
 
-def main():
+def make_pages():
     here = os.path.dirname(__file__)
     loader = jinja2.FileSystemLoader(os.path.join(here, 'templates'))
     templates = jinja2.Environment(loader=loader)
@@ -122,4 +122,4 @@ def main():
         out.write(tem.render(**ctx))
 
 if __name__ == '__main__':
-    main()
+    make_pages()
