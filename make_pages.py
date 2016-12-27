@@ -134,17 +134,17 @@ publications_list = [
     },
     {
         'name': 'ebb',
-        'cite': """Laura Devendorf, Joanne Lo, <b>Noura Howell</b>, Jung Lin Lee, Nan-Wei Gong, M. Emre Karagozler, Shiho Fukuhara, Ivan Poupyrev, Eric Paulos, Kimiko Ryoaki. (2016). "I don't want to wear a screen": Probing perceptions of and possibilities for dynamic displays on clothing. <i>SIGCHI Conference on Human Factors in Computing Systems (CHI'16 - Best Paper Award)</i>.""",
+        'cite': """Laura Devendorf, Joanne Lo, <b>Noura Howell</b>, Jung Lin Lee, Nan-Wei Gong, M. Emre Karagozler, Shiho Fukuhara, Ivan Poupyrev, Eric Paulos, Kimiko Ryoaki. 2016. "I don't want to wear a screen": Probing perceptions of and possibilities for dynamic displays on clothing. <i>SIGCHI Conference on Human Factors in Computing Systems (CHI'16 - Best Paper Award)</i>.""",
         'url': "http://artfordorks.com/pubs/16_CHI_Ebb.pdf",
     },
     {
         'name': 'L21',
-        'cite': """Sarah Spence Adams, <b>Noura Howell</b>, Nathaniel Karst, Denise Sakai Troxell, Junjie Zhu. (2013). On the L(2,1)-labelings of amalgamations of graphs. <i>Discrete Applied Mathematics, 161</i>(7-8): 881-8.""",
+        'cite': """Sarah Spence Adams, <b>Noura Howell</b>, Nathaniel Karst, Denise Sakai Troxell, Junjie Zhu. 2013. On the L(2,1)-labelings of amalgamations of graphs. <i>Discrete Applied Mathematics, 161</i>(7-8): 881-8.""",
         'url': "https://dl.acm.org/citation.cfm?id=2452099",
     },
     {
         'name': 'ethanol',
-        'cite': """Jian Shi, Ratna R. Sharma-Shivappa, Mari Chinn, <b>Noura Howell</b>. (2009). Effect of microbial pretreatment on enzymatic hydrolysis and fermentation of cotton stalks for ethanol production. <i>Biomass and Bioenergy, 33</i>(1): 88-96.""",
+        'cite': """Jian Shi, Ratna R. Sharma-Shivappa, Mari Chinn, <b>Noura Howell</b>. 2009. Effect of microbial pretreatment on enzymatic hydrolysis and fermentation of cotton stalks for ethanol production. <i>Biomass and Bioenergy, 33</i>(1): 88-96.""",
         'url': "http://agris.fao.org/agris-search/search.do?recordID=US201301683178",
     },
   ]
