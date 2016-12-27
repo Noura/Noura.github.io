@@ -121,5 +121,7 @@ def make_pages():
     with codecs.open(os.path.join(here, 'index.html'), 'w') as out:
         out.write(tem.render(**ctx))
 
+    print "make_pages()"
+
 if __name__ == '__main__':
     make_pages()
