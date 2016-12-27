@@ -113,11 +113,6 @@ pages = [ \
 
 def main():
     here = os.path.dirname(__file__)
-
-    latest_css_file = os.path.join(here, 'sass/app.css')
-    static_css_dir = os.path.join(here, 'static/css/app.css')
-    shutil.copyfile(latest_css_file, static_css_dir)
-
     loader = jinja2.FileSystemLoader(os.path.join(here, 'templates'))
     templates = jinja2.Environment(loader=loader)
 
