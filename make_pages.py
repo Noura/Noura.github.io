@@ -138,6 +138,11 @@ publications_list = [
         'url': "http://artfordorks.com/pubs/16_CHI_Ebb.pdf",
     },
     {
+        'name': 'caiot',
+        'cite': """<b>Noura Howell</b>. 2015. Connecting two Oakland neighborhoods: surveillance and self-representation. <i>Workshop paper at Critical Alternatives 2015</i>. <a href="https://depts.washington.edu/tatlab/participationiot/">workshop</a>.""",
+        'url': "/static/pdf/15_CA_IoT.pdf",
+    },
+    {
         'name': 'L21',
         'cite': """Sarah Spence Adams, <b>Noura Howell</b>, Nathaniel Karst, Denise Sakai Troxell, Junjie Zhu. 2013. On the L(2,1)-labelings of amalgamations of graphs. <i>Discrete Applied Mathematics, 161</i>(7-8): 881-8.""",
         'url': "https://dl.acm.org/citation.cfm?id=2452099",
