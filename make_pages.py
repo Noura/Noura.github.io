@@ -6,13 +6,6 @@ import jinja2
 # pages appear in the order listed here
 pages = [ \
     {
-        'name': 'Peace Sculpture (Work in Progress)',
-        'thumbnail': 'salaam',
-        'path': 'salaam',
-        'template': 'salaam.html',
-        'date': '2017',
-    },
-    {
         # appears as title for that project page, and title of tile on homepage
         'name': 'Biosignals as Social Cues',
         # refers to the image as specified in app.scss

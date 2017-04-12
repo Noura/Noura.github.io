@@ -1,0 +1,558 @@
+@font-face {
+  font-family: MyriadProLight;
+  src: url("/static/fonts/MyriadPro-Light.otf"); }
+body {
+  color: black;
+  font-size: 16px;
+  font-family: MyriadProLight,"Helvetica Neue",helvetica,sans-serif;
+  background: #d6d6d6;
+  background-image: url("/static/img/noise.png"); }
+
+body.no-background-blend-mode {
+  background-image: none;
+  background: #fafafa; }
+
+p, li {
+  font-weight: 200;
+  font-size: 100%; }
+
+b {
+  font-weight: 500; }
+
+.row {
+  padding-bottom: 10px; }
+
+.container {
+  margin-left: auto;
+  padding-left: auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  max-width: 768px;
+  border-width: 0 10px;
+  border-color: white;
+  border-style: solid;
+  background-color: white; }
+
+.container.project-page {
+  background: white;
+  position: relative;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  background-clip: padding-box; }
+
+.close-project-page {
+  position: absolute;
+  left: -51px;
+  top: 13px;
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-right: 50px solid black; }
+
+.topbar {
+  margin-top: -7px; }
+
+.main {
+  margin-top: 10px; }
+
+h1 {
+  line-height: 1em;
+  font-family: "Andale mono",sans-serif; }
+
+h2 {
+  font-size: 24px; }
+
+.iframe-container {
+  margin-left: 0;
+  margin-right: auto;
+  margin-bottom: 1em;
+  width: 90%; }
+
+/* tiles */
+.tile {
+  padding: 0; }
+
+.tile .image {
+  width: 0;
+  height: 0;
+  padding-left: 100%;
+  padding-bottom: 100%; }
+
+.tile .name {
+  position: relative;
+  height: 2em;
+  font-size: 1em;
+  line-height: 1em; }
+
+.tile .name-inner {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  white-space: nowrap;
+  color: black;
+  background: transparent;
+  border-left: 2px solid transparent;
+  background-clip: padding-box;
+  padding: 0.5em 0; }
+
+.tile .triangle-br {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-left: 15px solid black;
+  border-bottom: 2em solid transparent; }
+
+.tile .triangle-bl {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-right: 15px solid black;
+  border-bottom: 2em solid transparent; }
+
+.tile .triangle-tl {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-right: 15px solid black;
+  border-top: 2em solid transparent; }
+
+.tile .triangle-tr {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-left: 15px solid black;
+  border-top: 2em solid transparent; }
+
+/* publications */
+p.publication {
+  font-family: "Andale mono",monospace;
+  font-size: 75%;
+  font-weight: 100; }
+
+a.publication {
+  color: black; }
+
+span.publication {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: black; }
+
+/* flow chart */
+table.flowchart {
+  margin-bottom: 1em; }
+
+td.text {
+  vertical-align: top;
+  border: 1px solid #cbd5d5;
+  font-size: 12px; }
+
+td.arrow {
+  vertical-align: middle;
+  text-align: center; }
+
+td .td-inner {
+  margin: 3px;
+  margin-top: -6px; }
+
+/* images */
+.images {
+  margin-bottom: 1em;
+  display: inline-block;
+  width: 100%;
+  clear: both; }
+
+.images.tight {
+  margin-bottom: 0; }
+
+.pin {
+  display: inline;
+  width: 200px; }
+
+.image.border {
+  border-style: solid;
+  border-color: white; }
+
+.image.border.all {
+  border-width: 5px; }
+
+.image.border.left {
+  border-width: 0 0 0 5px; }
+
+.image.border.right {
+  border-width: 0 5px 0 0; }
+
+.image.border.top {
+  border-width: 5px 0 0 0; }
+
+.image.border.bottom {
+  border-width: 0 0 5px 0; }
+
+.images .image {
+  display: inline-block;
+  float: left; }
+
+.img-link-container {
+  position: relative; }
+
+.img-link-container a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; }
+
+.caption {
+  font-weight: 200;
+  font-size: 90%;
+  color: #464646; }
+
+.big-tiles .image.salaam {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/280px_tiles/salaam_tile.jpg"); }
+
+.big-tiles .image.galileo {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/280px_tiles/galileo_w_pin.jpg"); }
+
+.big-tiles .image.waazam {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/280px_tiles/waazam_space.png"); }
+
+.big-tiles .image.apples {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/280px_tiles/apples.jpg"); }
+
+.big-tiles .image.solsource {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/280px_tiles/solsource.jpg"); }
+
+.big-tiles .image.lissa {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/280px_tiles/lissa2.png"); }
+
+.big-tiles .image.chladni {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/280px_tiles/chladni2.png"); }
+
+.big-tiles .image.en {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/280px_tiles/en.png"); }
+
+.big-tiles .image.rickshawjs {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/280px_tiles/rickshawjs.png"); }
+
+.big-tiles .image.nyd2015 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/280px_tiles/nyd2015.jpg"); }
+
+.big-tiles .image.bali-house {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/280px_tiles/bali_house.jpg"); }
+
+.big-tiles .image.myodj {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/280px_tiles/beatwave.png"); }
+
+.big-tiles .image.hugbug {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/280px_tiles/hugbug.jpg"); }
+
+.big-tiles .image.peacebone-gsr {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/280px_tiles/peacebone_gsr.png"); }
+
+.big-tiles .image.threads {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/280px_tiles/weave_4x4.png"); }
+
+.big-tiles .image.code510 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/280px_tiles/code510.png"); }
+
+.big-tiles .image.hint {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/280px_tiles/hint_shirt_tile.png"); }
+
+.project-page .image.yak-dung {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/screen_large/yak_dung.jpg");
+  width: 0;
+  height: 0;
+  padding-right: 60%;
+  padding-bottom: 44%;
+  box-sizing: border-box;
+  position: relative; }
+
+.project-page .image.solsource {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/screen_large/solsource.jpg");
+  width: 0;
+  height: 0;
+  padding-right: 33%;
+  padding-bottom: 44%;
+  box-sizing: border-box;
+  position: relative; }
+
+.project-page .image.apples {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/screen_large/apples.jpg");
+  width: 0;
+  height: 0;
+  padding-right: 30%;
+  padding-bottom: 36%;
+  box-sizing: border-box;
+  position: relative; }
+
+.project-page .image.notebook {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/screen_large/notebook.png");
+  width: 0;
+  height: 0;
+  padding-right: 65%;
+  padding-bottom: 36%;
+  box-sizing: border-box;
+  position: relative; }
+
+.project-page .image.chladni {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/screen_large/chladni.png");
+  width: 0;
+  height: 0;
+  padding-right: 100%;
+  padding-bottom: 45%;
+  box-sizing: border-box;
+  position: relative; }
+
+.project-page .image.lissa {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/screen_large/lissa1.png");
+  width: 0;
+  height: 0;
+  padding-right: 100%;
+  padding-bottom: 31.8%;
+  box-sizing: border-box;
+  position: relative; }
+
+.project-page .cat {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/screen_large/cat.png");
+  width: 0;
+  height: 0;
+  padding-right: 100%;
+  padding-bottom: 24%;
+  box-sizing: border-box;
+  position: relative;
+  background-position: 50% 50%; }
+
+.project-page .image.bali-CAT {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/screen_large/bali_CAT.png");
+  width: 0;
+  height: 0;
+  padding-right: 100%;
+  padding-bottom: 20%;
+  box-sizing: border-box;
+  position: relative; }
+
+.project-page .image.bali-parts {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/screen_large/bali_components.jpg");
+  width: 0;
+  height: 0;
+  padding-right: 68%;
+  padding-bottom: 30%;
+  box-sizing: border-box;
+  position: relative;
+  background-position: 50% 100%; }
+
+.project-page .image.bali-mech {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/screen_large/bali_lowering_blinds.png");
+  width: 0;
+  height: 0;
+  padding-right: 30%;
+  padding-bottom: 30%;
+  box-sizing: border-box;
+  position: relative;
+  background-position: 100% 50%;
+  background-size: contain; }
+
+.project-page .image.peacebone-gsr {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/screen_large/peacebone_gsr.png");
+  width: 0;
+  height: 0;
+  padding-right: 100%;
+  padding-bottom: 30%;
+  box-sizing: border-box;
+  position: relative; }
+
+.project-page .image.weave4x4 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/screen_large/weave_4x4_3up_WEB.jpg");
+  width: 0;
+  height: 0;
+  padding-right: 100%;
+  padding-bottom: 30%;
+  box-sizing: border-box;
+  position: relative; }
+
+.project-page .image.crochet {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/screen_large/crochet_3up_WEB.jpg");
+  width: 0;
+  height: 0;
+  padding-right: 100%;
+  padding-bottom: 33%;
+  box-sizing: border-box;
+  position: relative; }
+
+.project-page .image.weave7seg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/screen_large/weave_sevenseg_WEB.jpg");
+  width: 0;
+  height: 0;
+  padding-right: 100%;
+  padding-bottom: 45%;
+  box-sizing: border-box;
+  position: relative; }
+
+.about-me .image.beach {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/screen_large/beach.jpg");
+  width: 0;
+  height: 0;
+  padding-right: 100%;
+  padding-bottom: 23.5%;
+  box-sizing: border-box;
+  position: relative; }
+
+.about-me .image.sale {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/screen_large/sale.jpg");
+  width: 0;
+  height: 0;
+  padding-right: 25%;
+  padding-bottom: 25%;
+  box-sizing: border-box;
+  position: relative; }
+
+.about-me .image.zach {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/screen_large/with_zach.jpg");
+  width: 0;
+  height: 0;
+  padding-right: 25%;
+  padding-bottom: 25%;
+  box-sizing: border-box;
+  position: relative; }
+
+.about-me .image.mhd {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/screen_large/mhd.jpg");
+  width: 0;
+  height: 0;
+  padding-right: 25%;
+  padding-bottom: 25%;
+  box-sizing: border-box;
+  position: relative; }
+
+.about-me .image.pipe {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/screen_large/laying_pipe.jpg");
+  width: 0;
+  height: 0;
+  padding-right: 25%;
+  padding-bottom: 25%;
+  box-sizing: border-box;
+  position: relative; }
+
+/*# sourceMappingURL=app.css.map */
