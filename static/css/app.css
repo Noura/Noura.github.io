@@ -221,6 +221,12 @@ td .td-inner {
   font-size: 90%;
   color: #464646; }
 
+.big-tiles .image.salaam {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-image: url("/static/img/280px_tiles/salaam_tile.jpg"); }
+
 .big-tiles .image.galileo {
   background-size: cover;
   background-repeat: no-repeat;
