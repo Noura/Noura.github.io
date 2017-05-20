@@ -7,14 +7,21 @@ import jinja2
 pages = [ \
     {
         # appears as title for that project page, and title of tile on homepage
-        'name': 'Biosignals as Social Cues',
+        'name': 'Peace Sculpture',
         # refers to the image as specified in app.scss
-        'thumbnail': 'hint_shirt_tile.png',
+        'thumbnail': 'salaam_square.JPG',
         # the hash of the URL at which the project page appears
-        'path': 'hint',
+        'path': 'salaam',
         # template file in templates/
-        'template': 'hint.html',
+        'template': 'salaam.html',
         # appears at bottom of project page just as text
+        'date': '2017',
+    },
+    {
+        'name': 'Biosignals as Social Cues',
+        'thumbnail': 'hint_shirt_tile.png',
+        'path': 'hint',
+        'template': 'hint.html',
         'date': '2015 - present',
     },
     {
