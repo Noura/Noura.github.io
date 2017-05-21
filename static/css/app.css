@@ -53,7 +53,7 @@ b {
   border-right: 50px solid black; }
 
 .project-page img {
-  width: 100%;
+  max-width: 100%;
   padding-bottom: 1em; }
 
 .caption {
