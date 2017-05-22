@@ -9,7 +9,7 @@ pages = [ \
         # appears as title for that project page, and title of tile on homepage
         'name': 'Peace Sculpture',
         # refers to the image as specified in app.scss
-        'thumbnail': 'salaam_square.JPG',
+        'thumbnail': 'salaam_closeup_15.JPG',
         # the hash of the URL at which the project page appears
         'path': 'salaam',
         # template file in templates/
