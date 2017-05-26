@@ -15,7 +15,14 @@ pages = [ \
         # template file in templates/
         'template': 'salaam.html',
         # appears at bottom of project page just as text
-        'date': '2017',
+        'date': 'spring 2017',
+    },
+    {
+        'name': 'Performing VR',
+        'thumbnail': 'vr_square.jpg',
+        'path': 'performing_vr',
+        'template': 'performing_vr.html',
+        'date': 'fall 2016',
     },
     {
         'name': 'Biosignals as Social Cues',
