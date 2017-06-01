@@ -142,14 +142,19 @@ publications_list = [
         'url': '/static/pdf/16_DIS_Hint.pdf',
     },
     {
-        'name': 'disDC',
-        'cite': """<b>Noura Howell</b>. 2016. Representation and interpretation of biosensing. <i>DIS'16 Companion</i>.""",
-        'url': "/static/pdf/16_DIS_DC.pdf",
-    },
-    {
         'name': 'ebb',
         'cite': """Laura Devendorf, Joanne Lo, <b>Noura Howell</b>, Jung Lin Lee, Nan-Wei Gong, M. Emre Karagozler, Shiho Fukuhara, Ivan Poupyrev, Eric Paulos, Kimiko Ryoaki. 2016. "I don't want to wear a screen": Probing perceptions of and possibilities for dynamic displays on clothing. <i>SIGCHI Conference on Human Factors in Computing Systems (CHI'16 - Best Paper Award)</i>.""",
         'url': "http://artfordorks.com/pubs/16_CHI_Ebb.pdf",
+    },
+    {
+        'name': 'disWorkshopBiosensing',
+        'cite': """Nick Merrill, Richmond Wong, <b>Noura Howell</b>, Luke Stark, Lucian Leahu, Dawn Nafus. 2017. Interrogating Biosensing in Everyday Life. <i>DIS'17 Companion</i>.""",
+        'url': "/static/pdf/17_DIS_Workshop_Biosensing.pdf",
+    },
+    {
+        'name': 'disDC',
+        'cite': """<b>Noura Howell</b>. 2016. Representation and interpretation of biosensing. <i>DIS'16 Companion</i>.""",
+        'url': "/static/pdf/16_DIS_DC.pdf",
     },
     {
         'name': 'caiot',
