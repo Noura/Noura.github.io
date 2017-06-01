@@ -148,12 +148,12 @@ publications_list = [
     },
     {
         'name': 'disWorkshopBiosensing',
-        'cite': """Nick Merrill, Richmond Wong, <b>Noura Howell</b>, Luke Stark, Lucian Leahu, Dawn Nafus. 2017. Interrogating Biosensing in Everyday Life. <i>DIS'17 Companion</i>.""",
+        'cite': """Nick Merrill, Richmond Wong, <b>Noura Howell</b>, Luke Stark, Lucian Leahu, Dawn Nafus. 2017. Interrogating Biosensing in Everyday Life. <i>Designing Interactive Systems Companion</i>.""",
         'url': "/static/pdf/17_DIS_Workshop_Biosensing.pdf",
     },
     {
         'name': 'disDC',
-        'cite': """<b>Noura Howell</b>. 2016. Representation and interpretation of biosensing. <i>DIS'16 Companion</i>.""",
+        'cite': """<b>Noura Howell</b>. 2016. Representation and interpretation of biosensing. <i>Designing Interactive Systems Companion</i>.""",
         'url': "/static/pdf/16_DIS_DC.pdf",
     },
     {
