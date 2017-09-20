@@ -147,6 +147,11 @@ publications_list = [
         'url': "http://artfordorks.com/pubs/16_CHI_Ebb.pdf",
     },
     {
+        'name': 'dis17laughter',
+        'cite': """Kimiko Ryokai, Elena Duran, Dina Bseiso, <b>Noura Howell</b>,Ji Won Jun. 2017. Celebrating Laughter: Capturing and Sharing Tangible Representations of Laughter. <i>Designing Interactive Systems Companion</i>.""",
+        'url': "http://dl.acm.org/citation.cfm?id=3079146",
+    },
+    {
         'name': 'disWorkshopBiosensing',
         'cite': """Nick Merrill, Richmond Wong, <b>Noura Howell</b>, Luke Stark, Lucian Leahu, Dawn Nafus. 2017. Interrogating Biosensing in Everyday Life. <i>Designing Interactive Systems Companion</i>.""",
         'url': "/static/pdf/17_DIS_Workshop_Biosensing.pdf",
