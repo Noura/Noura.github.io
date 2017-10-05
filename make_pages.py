@@ -157,6 +157,11 @@ publications_list = [
         'url': "/static/pdf/17_DIS_Workshop_Biosensing.pdf",
     },
     {
+        'name': 'chimici',
+        'cite': """<b>Noura Howell</b>. 2017. Personal Reflection as Creative Practice in Collaboration with Biosensing Machines. <i>Workshop paper at CHI 2017</i>. <a href="https://mici2017.org/">workshop</a>.""",
+        'url': "/static/pdf/17_CHI_MICI.pdf",
+    },
+    {
         'name': 'disDC',
         'cite': """<b>Noura Howell</b>. 2016. Representation and interpretation of biosensing. <i>Designing Interactive Systems Companion</i>.""",
         'url': "/static/pdf/16_DIS_DC.pdf",
