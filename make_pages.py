@@ -6,6 +6,20 @@ import jinja2
 # pages appear in the order listed here
 pages = [ \
     {
+        'name': 'Biosignals as Social Cues',
+        'thumbnail': 'hint_shirt_tile.png',
+        'path': 'hint',
+        'template': 'hint.html',
+        'date': '2015 - present',
+    },
+    {
+        'name': 'Color-Changing Fabric',
+        'thumbnail': 'weave_4x4.png',
+        'path': 'ebb',
+        'template': 'ebb.html',
+        'date': '2015',
+    },
+    {
         # appears as title for that project page, and title of tile on homepage
         'name': 'Peace Sculpture',
         # refers to the image as specified in app.scss
@@ -23,20 +37,6 @@ pages = [ \
         'path': 'performing_vr',
         'template': 'performing_vr.html',
         'date': 'fall 2016',
-    },
-    {
-        'name': 'Biosignals as Social Cues',
-        'thumbnail': 'hint_shirt_tile.png',
-        'path': 'hint',
-        'template': 'hint.html',
-        'date': '2015 - present',
-    },
-    {
-        'name': 'Color-Changing Fabric',
-        'thumbnail': 'weave_4x4.png',
-        'path': 'ebb',
-        'template': 'ebb.html',
-        'date': '2015',
     },
     {
         'name': 'Code 510 Mentoring',
