@@ -6,6 +6,13 @@ import jinja2
 # pages appear in the order listed here
 pages = [ \
     {
+        'name': 'Tangible Laughter',
+        'thumbnail': 'choc_tile.jpg',
+        'path': 'laughter',
+        'template': 'laughter.html',
+        'date': '2016 - present',
+    },
+    {
         'name': 'Biosignals as Social Cues',
         'thumbnail': 'hint_shirt_tile.png',
         'path': 'hint',
