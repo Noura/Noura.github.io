@@ -1,24 +1,16 @@
 $font_color: black;
 
-@font-face {
-    font-family: MyriadProLight;
-    src: url('/static/fonts/MyriadPro-Light.otf');
-}
 body {
     color: $font_color;
     font-size: 16px;
-    font-family: MyriadProLight,"Helvetica Neue",helvetica,sans-serif;
+    font-family: sans-serif;
+    font-weight: 300;
     background: #d6d6d6;
     background-image: url('/static/img/rgbnoise.png');
 }
 body.no-background-blend-mode {
     background-image: none;
     background: rgb(250, 250, 250);
-}
-
-p, li {
-    font-weight: 300;
-    font-size: 100%;
 }
 
 b {
@@ -97,16 +89,17 @@ h2 {
 // tiles //////////////////////////////
 .tile {
     padding: 0;
+    position: relative;
 }
 
 .tile .name {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    word-wrap: break-word;
-    white-space: nowrap;
     color: black;
-    background-clip: padding-box;
-    padding: 0.5em 0;
+    padding: 0.1em;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgba(200,200,200,1);
+    text-align: right;
 }
 
 .tile img {

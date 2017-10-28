@@ -1,20 +1,14 @@
-@font-face {
-  font-family: MyriadProLight;
-  src: url("/static/fonts/MyriadPro-Light.otf"); }
 body {
   color: black;
   font-size: 16px;
-  font-family: MyriadProLight,"Helvetica Neue",helvetica,sans-serif;
+  font-family: sans-serif;
+  font-weight: 300;
   background: #d6d6d6;
   background-image: url("/static/img/rgbnoise.png"); }
 
 body.no-background-blend-mode {
   background-image: none;
   background: #fafafa; }
-
-p, li {
-  font-weight: 300;
-  font-size: 100%; }
 
 b {
   font-weight: 500; }
@@ -83,16 +77,17 @@ h2 {
   width: 90%; }
 
 .tile {
-  padding: 0; }
+  padding: 0;
+  position: relative; }
 
 .tile .name {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  word-wrap: break-word;
-  white-space: nowrap;
   color: black;
-  background-clip: padding-box;
-  padding: 0.5em 0; }
+  padding: 0.1em;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #c8c8c8;
+  text-align: right; }
 
 .tile img {
   width: 100%; }
