@@ -13,14 +13,14 @@ pages = [ \
         'date': '2016 - present',
     },
     {
-        'name': 'Biosignals as Social Cues',
+        'name': 'Social Emotional Biosensing',
         'thumbnail': 'hint_shirt_tile.png',
         'path': 'hint',
         'template': 'hint.html',
         'date': '2015 - present',
     },
     {
-        'name': 'Color-Changing Fabric',
+        'name': 'Color-Changing Fabric as Realtime Data Display',
         'thumbnail': 'weave_4x4.png',
         'path': 'ebb',
         'template': 'ebb.html',
@@ -28,7 +28,7 @@ pages = [ \
     },
     {
         # appears as title for that project page, and title of tile on homepage
-        'name': 'Peace Sculpture',
+        'name': 'Participatory Peace Sculpture',
         # refers to the image as specified in app.scss
         'thumbnail': 'salaam_closeup_15.JPG',
         # the hash of the URL at which the project page appears
@@ -39,7 +39,7 @@ pages = [ \
         'date': 'spring 2017',
     },
     {
-        'name': 'Performing VR',
+        'name': 'Performing VR Together',
         'thumbnail': 'vr_square.jpg',
         'path': 'performing_vr',
         'template': 'performing_vr.html',
@@ -60,14 +60,14 @@ pages = [ \
         'date': '2015',
     },
     {
-        'name': 'Myo DJ Effects Controller',
+        'name': 'Bio-Controlled DJ Effects',
         'thumbnail': 'beatwave.png',
         'path': 'myodj',
         'template': 'myodj.html',
         'date': '2014',
     },
     {
-        'name': 'Intel: Connect Anything',
+        'name': 'Intel Connect Anything Prototyping Kit',
         'thumbnail': 'galileo_w_pin.jpg',
         'path': 'intel',
         'template': 'intel.html',
@@ -123,7 +123,7 @@ pages = [ \
         'date': '',
     },
     {
-        'name': 'Music & Data @ The Echo Nest',
+        'name': 'Music & Data at The Echo Nest',
         'thumbnail': 'en.png',
         'path': 'the_echo_nest',
         'template': 'echonest.html',
