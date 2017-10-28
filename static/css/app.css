@@ -44,13 +44,13 @@ p {
 
 .close-project-page {
   position: absolute;
-  left: -51px;
-  top: 13px;
+  left: -86px;
+  top: 0;
   width: 0;
   height: 0;
-  border-top: 30px solid transparent;
-  border-bottom: 30px solid transparent;
-  border-right: 50px solid black; }
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  border-right: 85px solid black; }
 
 .project-page img {
   max-width: 100%;
