@@ -1,3 +1,8 @@
+{% import 'macros.html' as macros %}
+
+{{ macros.base_header() }}
+
+{{ macros.project_header(ctx.page, ctx) }}
 
 <a href="http://tytel.org/salad/">
   <img src="/static/img/largest/chladni.png">
@@ -16,3 +21,6 @@ Another interactive curve visualizer, this time inspired by Meara O'Reilly's <a 
 </p>
 
 
+
+{{ macros.project_footer(ctx.page, ctx) }}
+{{ macros.base_footer() }}

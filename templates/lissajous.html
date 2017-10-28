@@ -1,3 +1,12 @@
+
+{% import 'macros.html' as macros %}
+{{ macros.base_header() }}
+{{ macros.project_header(ctx.page, ctx) }}
+
+
+
+
+
 <a href="http://tytel.org/lissa/">
   <img src="/static/img/largest/lissa1.png">
 </a>
@@ -14,3 +23,6 @@ An interactive Lissajous curves visualizer for exploration, pretty patterns, and
 <a href="https://github.com/mtytel/lissa">github</a>
 </p>
 
+
+{{ macros.project_footer(ctx.page, ctx) }}
+{{ macros.base_footer() }}

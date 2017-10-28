@@ -1,4 +1,6 @@
 {% import 'macros.html' as macros %}
+{{ macros.base_header() }}
+{{ macros.project_header(ctx.page, ctx) }}
 
 
 <iframe src="https://player.vimeo.com/video/173674741" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -11,3 +13,6 @@ This paper explores the social meaning of clothing-based displays of biosignals.
 {{ macros.publication(ctx.publications_by_name.hint) }}
 
 {{ macros.publication(ctx.publications_by_name.disDC) }}
+
+{{ macros.project_footer(ctx.page, ctx) }}
+{{ macros.base_footer() }}

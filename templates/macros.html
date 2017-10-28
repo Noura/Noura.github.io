@@ -1,12 +1,33 @@
+{% macro base_header() %}
+  <html lang="en">
+    <head>
+      <title>Noura Howell</title>
+
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="/static/css/app.css">
+
+    </head>
+    <body>
+    <!-- all the page contents go here, then the ending body and html tags come in the footer macro -->
+
+{% endmacro %}
+
+{% macro base_footer() %}
+    </body>
+  </html>
+{% endmacro %}
+
 {% macro tile(page) %}
-<a href="#{{page.path}}">
-  <div class="tile col-xs-12 col-sm-6 col-md-4">
-      <img src="/static/img/280px_tiles/{{ page.thumbnail }}">
-      <span class="name">
-          {{ page.name }}
-      </span>
-  </div>
-</a>
+  <a href="/projects/{{page.path}}.html">
+    <div class="tile col-xs-12 col-sm-6 col-md-4">
+        <img src="/static/img/280px_tiles/{{ page.thumbnail }}">
+        <span class="name">
+            {{ page.name }}
+        </span>
+    </div>
+  </a>
 {% endmacro %}
 
 {% macro tiles(ctx) %}
@@ -17,46 +38,44 @@
   </div>
 {% endmacro %}
 
-{% macro detail(page, ctx) %}
-<div class="container project-page hide" data-project="{{page.path}}">
-  <a href="#">
-    <div class="close-project-page">
-    </div>
-  </a>
+{% macro project_header(page, ctx) %}
 
-  <div class="row">
-    <div class="col-xs-12 topbar">
-      <h1>{{page.name}}</h1>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-xs-12 content">
+  <div class="container project-page" data-project="{{page.path}}">
+    <a href="/">
+      <div class="close-project-page">
+      </div>
+    </a>
 
-      {% include page.template %}
+    <div class="row">
+      <div class="col-xs-12 topbar">
+        <h1>{{page.name}}</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 content">
 
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-xs-12 date">
-      <p>{{page.date}}</p>
-    </div>
-  </div>
-</div>
 {% endmacro %}
 
-{% macro details(ctx) %}
-  {% for page in ctx.pages %}
-    {{ detail(page, ctx) }}
-  {% endfor %}
+{% macro project_footer(page, ctx) %}
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 date">
+        <p>{{page.date}}</p>
+      </div>
+    </div>
+  </div>
+
 {% endmacro %}
 
 {% macro publication(pub) %}
-<p class="publication">
-  <a class="publication" href="{{pub.url}}">
-    <span class="publication"></span>
-    {{ pub.cite|safe }}
-  </a>
-</p>
+  <p class="publication">
+    <a class="publication" href="{{pub.url}}">
+      <span class="publication"></span>
+      {{ pub.cite|safe }}
+    </a>
+  </p>
 {% endmacro %}
 
 {% macro list_all_publications(pubs_list) %}

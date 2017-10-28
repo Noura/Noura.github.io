@@ -1,4 +1,10 @@
 
+{% import 'macros.html' as macros %}
+
+{{ macros.base_header() }}
+
+{{ macros.project_header(ctx.page, ctx) }}
+
 <p>
 We mentored students making independent web apps every Friday afternoon. High school and middle school students come with any level of experience, and we helped them find a project they are interested in, set goals, design the UI, and write code. Past projects have included an anime-inspired video game and a guide to getting into college.
 </p>
@@ -7,3 +13,6 @@ We mentored students making independent web apps every Friday afternoon. High sc
 <a href="http://www.code510.org/">Code 510 Homepage</a>
 </p>
 
+
+{{ macros.project_footer(ctx.page, ctx) }}
+{{ macros.base_footer() }}

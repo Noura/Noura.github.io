@@ -1,4 +1,8 @@
 {% import 'macros.html' as macros %}
+{{ macros.base_header() }}
+{{ macros.project_header(ctx.page, ctx) }}
+
+
 
 <img src="/static/img/laughter/choc.close.01.jpg">
 <p class="caption">
@@ -15,3 +19,6 @@ Laughter is a fundamental part of life, emerging in many contexts, yet it is ext
 </p>
 
 {{ macros.publication(ctx.publications_by_name.dis17laughter) }}
+
+{{ macros.project_footer(ctx.page, ctx) }}
+{{ macros.base_footer() }}

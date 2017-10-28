@@ -1,3 +1,11 @@
+
+{% import 'macros.html' as macros %}
+{{ macros.base_header() }}
+{{ macros.project_header(ctx.page, ctx) }}
+
+
+
+
 <div class="iframe-container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/nKZGNCdAj74" frameborder="0" allowfullscreen></iframe>
 </div>
@@ -10,3 +18,6 @@
 
 <p><a href="https://github.com/cle1994/provocation3">github</a></p>
 
+
+{{ macros.project_footer(ctx.page, ctx) }}
+{{ macros.base_footer() }}

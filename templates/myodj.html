@@ -1,4 +1,11 @@
 
+
+{% import 'macros.html' as macros %}
+{{ macros.base_header() }}
+{{ macros.project_header(ctx.page, ctx) }}
+
+
+
 <div class="iframe-container">
     <iframe src="//player.vimeo.com/video/113663163" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/113663163">beatwave</a> from <a href="http://vimeo.com/user8307985">Bradford Malt</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 </div>
@@ -9,3 +16,6 @@
 
 <p><a href="https://github.com/Noura/myoDJ">github repo</a></p>
 
+
+{{ macros.project_footer(ctx.page, ctx) }}
+{{ macros.base_footer() }}

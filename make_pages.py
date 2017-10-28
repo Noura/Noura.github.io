@@ -201,7 +201,7 @@ def make_pages():
     templates = jinja2.Environment(loader=loader)
 
     # this is a bit hacky, but, jinja templates like to receive an unpacked dict where the keys of the dict become the variable names in the template. but it was getting too annoying to pass all the variables to different templates individually. now the jinja template just gets one variable ctx which is a dict with all the other variables
-    vars_for_templates = { 
+    vars_for_homepage = { 
         'ctx': {
             'pages': pages,
             'publications_list': publications_list,
@@ -209,9 +209,27 @@ def make_pages():
         }
     }
 
-    tem = templates.get_template('index.html')
+    tem = templates.get_template('home.html')
     with codecs.open(os.path.join(here, 'index.html'), 'w') as out:
-        out.write(tem.render(**vars_for_templates))
+        out.write(tem.render(**vars_for_homepage))
+
+    vars_for_project_pages = {
+        'ctx': {
+            'page': {},
+            'publications_list': publications_list,
+            'publications_by_name': publications_by_name,
+        }
+    }
+
+    # assumes projects dir already exists, so first delete it to clear contents
+    shutil.rmtree(os.path.join(here, 'projects'), ignore_errors=True )
+    # then recreate it empty to put in the updated project pages
+    os.mkdir('projects')
+    for page in pages:
+        vars_for_project_pages['ctx']['page'] = page
+        tem = templates.get_template(page['template'])
+        with codecs.open(os.path.join(here, 'projects', page['path']+'.html'), 'w') as out:
+            out.write(tem.render(**vars_for_project_pages))
 
     print "make_pages()"
 

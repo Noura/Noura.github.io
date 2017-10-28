@@ -1,4 +1,11 @@
 
+
+{% import 'macros.html' as macros %}
+{{ macros.base_header() }}
+{{ macros.project_header(ctx.page, ctx) }}
+
+
+
 <img src="/static/img/largest/yak_dung.jpg">
 <img src="/static/img/largest/solsource.jpg">
 
@@ -6,3 +13,6 @@
 
 <p>With <a href="http://www.oneearthdesigns.com/">One Earth Designs</a>, I helped develop their parabolic solar cooker prototype through field testing, immersive user research, materials research, and simulation.</p>
 
+
+{{ macros.project_footer(ctx.page, ctx) }}
+{{ macros.base_footer() }}

@@ -1,4 +1,6 @@
 {% import 'macros.html' as macros %}
+{{ macros.base_header() }}
+{{ macros.project_header(ctx.page, ctx) }}
 
 <p>
   [firstname].[lastname]@gmail.com, &nbsp;
@@ -24,3 +26,7 @@
 
 <p><i>Rethinking Data with Emotion and Materiality</i>, fall 2016, for the course <a href="https://www.ischool.berkeley.edu/courses/info/262">Tangible User Interfaces</a> taught by <a href="http://people.ischool.berkeley.edu/~kimiko/">Kimiko Ryokai</a>. <a href="/static/pdf/16_GuestLecture_TangibleUserInterfaces.pdf">slides</a>.
 
+
+
+{{ macros.project_footer(ctx.page, ctx) }}
+{{ macros.base_footer() }}

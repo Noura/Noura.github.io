@@ -1,4 +1,11 @@
 
+
+{% import 'macros.html' as macros %}
+{{ macros.base_header() }}
+{{ macros.project_header(ctx.page, ctx) }}
+
+
+
 <div class="iframe-container">
     <iframe src="//player.vimeo.com/video/56924825" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/56924825">WaaZam- A System for Creative Play at a Distance</a> from <a href="http://vimeo.com/user15656392">Seth Hunter</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 </div>
@@ -7,3 +14,6 @@
 <a href="http://perspectum.com/waazam/index.htm">WaaZam</a> supports shared creative play at a distance. It was the doctoral research of <a href="http://perspectum.com">Seth Hunter</a> in the <a href="http://fluid.media.mit.edu/">Fluid Interfaces Group</a> at the <a href="http://media.mit.edu/">MIT Media Lab</a>. I helped conduct the user study, analyze those results, and adapt a few ofxUI components for our openFrameworks front end.
 </p>
 
+
+{{ macros.project_footer(ctx.page, ctx) }}
+{{ macros.base_footer() }}
