@@ -144,33 +144,33 @@ publications_list = [
         # custom name to refer to this publication in templates
         'name': 'hint',
         # the citation text, can include HTML, just gets inserted as is
-        'cite': """<b>Noura Howell</b>, Laura Devendorf, Rundong (Kevin) Tian, Tom&aacute;s Vega, Nan-Wei Gong, Ivan Poupyrev, Eric Paulos, Kimiko Ryokai. 2016. Biosignals as social cues: Ambiguity and emotional interpretation in social displays of skin conductance. <i>Designing Interactive Systems</i>.""",
+        'cite': """<b>Noura Howell</b>, Laura Devendorf, Rundong (Kevin) Tian, Tom&aacute;s Vega, Nan-Wei Gong, Ivan Poupyrev, Eric Paulos, Kimiko Ryokai. 2016. Biosignals as social cues: Ambiguity and emotional interpretation in social displays of skin conductance. <i>In Proceedings of the SIGCHI Conference on Designing Interactive Systems</i> (DIS'16).""",
         # link to pdf or official hosting
         'url': '/static/pdf/16_DIS_Hint.pdf',
     },
     {
         'name': 'ebb',
-        'cite': """Laura Devendorf, Joanne Lo, <b>Noura Howell</b>, Jung Lin Lee, Nan-Wei Gong, M. Emre Karagozler, Shiho Fukuhara, Ivan Poupyrev, Eric Paulos, Kimiko Ryokai. 2016. "I don't want to wear a screen": Probing perceptions of and possibilities for dynamic displays on clothing. <i>SIGCHI Conference on Human Factors in Computing Systems (CHI'16 - Best Paper Award)</i>.""",
+        'cite': """Laura Devendorf, Joanne Lo, <b>Noura Howell</b>, Jung Lin Lee, Nan-Wei Gong, M. Emre Karagozler, Shiho Fukuhara, Ivan Poupyrev, Eric Paulos, Kimiko Ryokai. 2016. "I don't want to wear a screen": Probing perceptions of and possibilities for dynamic displays on clothing. <i>In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</i> (CHI'16) Best Paper Award.""",
         'url': "http://artfordorks.com/pubs/16_CHI_Ebb.pdf",
     },
     {
         'name': 'dis17laughter',
-        'cite': """Kimiko Ryokai, Elena Duran, Dina Bseiso, <b>Noura Howell</b>,Ji Won Jun. 2017. Celebrating Laughter: Capturing and Sharing Tangible Representations of Laughter. <i>Designing Interactive Systems Companion</i>.""",
+        'cite': """Kimiko Ryokai, Elena Duran, Dina Bseiso, <b>Noura Howell</b>,Ji Won Jun. 2017. Celebrating Laughter: Capturing and Sharing Tangible Representations of Laughter. <i>In Extended Abstracts of the SIGCHI Conference on Designing Interactive Systems Companion</i> (DIS'17).""",
         'url': "http://dl.acm.org/citation.cfm?id=3079146",
     },
     {
         'name': 'disWorkshopBiosensing',
-        'cite': """Nick Merrill, Richmond Wong, <b>Noura Howell</b>, Luke Stark, Lucian Leahu, Dawn Nafus. 2017. Interrogating Biosensing in Everyday Life. <i>Designing Interactive Systems Companion</i>.""",
+        'cite': """Nick Merrill, Richmond Wong, <b>Noura Howell</b>, Luke Stark, Lucian Leahu, Dawn Nafus. 2017. Interrogating Biosensing in Everyday Life. <i>In Proceedings of the Companion Publication on Designing Interactive Systems</i> (DIS Companion'17).""",
         'url': "/static/pdf/17_DIS_Workshop_Biosensing.pdf",
     },
     {
         'name': 'chimici',
-        'cite': """<b>Noura Howell</b>. 2017. Personal Reflection as Creative Practice in Collaboration with Biosensing Machines. <i>Workshop paper at CHI 2017</i>. <a href="https://mici2017.org/">workshop</a>.""",
+        'cite': """<b>Noura Howell</b>. 2017. Personal Reflection as Creative Practice in Collaboration with Biosensing Machines. <i>Workshop paper at CHI'17</i>. <a href="https://mici2017.org/">workshop</a>.""",
         'url': "/static/pdf/17_CHI_MICI.pdf",
     },
     {
         'name': 'disDC',
-        'cite': """<b>Noura Howell</b>. 2016. Representation and interpretation of biosensing. <i>Designing Interactive Systems Companion</i>.""",
+        'cite': """<b>Noura Howell</b>. 2016. Representation and interpretation of biosensing. <i>In Proceedings of the Companion Publication on Designing Interactive Systems</i> (DIS Companion'16).""",
         'url': "/static/pdf/16_DIS_DC.pdf",
     },
     {
