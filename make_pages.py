@@ -150,7 +150,7 @@ publications_list = [
     },
     {
         'name': 'ebb',
-        'cite': """Laura Devendorf, Joanne Lo, <b>Noura Howell</b>, Jung Lin Lee, Nan-Wei Gong, M. Emre Karagozler, Shiho Fukuhara, Ivan Poupyrev, Eric Paulos, Kimiko Ryoaki. 2016. "I don't want to wear a screen": Probing perceptions of and possibilities for dynamic displays on clothing. <i>SIGCHI Conference on Human Factors in Computing Systems (CHI'16 - Best Paper Award)</i>.""",
+        'cite': """Laura Devendorf, Joanne Lo, <b>Noura Howell</b>, Jung Lin Lee, Nan-Wei Gong, M. Emre Karagozler, Shiho Fukuhara, Ivan Poupyrev, Eric Paulos, Kimiko Ryokai. 2016. "I don't want to wear a screen": Probing perceptions of and possibilities for dynamic displays on clothing. <i>SIGCHI Conference on Human Factors in Computing Systems (CHI'16 - Best Paper Award)</i>.""",
         'url': "http://artfordorks.com/pubs/16_CHI_Ebb.pdf",
     },
     {
