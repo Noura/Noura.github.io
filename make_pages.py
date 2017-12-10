@@ -27,6 +27,13 @@ pages = [ \
         'date': '2015',
     },
     {
+        'name': 'Assembling Critical Practices Reading Group',
+        'thumbnail': 'assembling_critical_practices.png',
+        'path': 'assembling_critical_practices',
+        'template': 'assembling_critical_practices.html',
+        'date': '2016 - present',
+    },
+    {
         # appears as title for that project page, and title of tile on homepage
         'name': 'Participatory Peace Sculpture',
         # refers to the image as specified in app.scss
