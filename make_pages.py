@@ -154,21 +154,26 @@ publications_list = [
     },
     {
         # custom name to refer to this publication in templates
-        'name': 'hint',
+        'name': 'chi18laughter',
         # the citation text, can include HTML, just gets inserted as is
-        'cite': """<b>Noura Howell</b>, Laura Devendorf, Rundong (Kevin) Tian, Tom&aacute;s Vega G&aacute;lvez, Nan-Wei Gong, Ivan Poupyrev, Eric Paulos, Kimiko Ryokai. 2016. Biosignals as social cues: Ambiguity and emotional interpretation in social displays of skin conductance. <i>In Proceedings of the SIGCHI Conference on Designing Interactive Systems</i> (DIS'16).""",
+        'cite': """Kimiko Ryokai, Elena Duran, <b>Noura Howell</b>, Jonathan Gillick, David Bamman. 2018. Capturing, Representing, and Interacting with Laughter. <i>In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</i> (CHI'18) (forthcoming).""",
         # link to pdf or official hosting
+        'url': None,
+    },
+    {
+        'name': 'dis17laughter',
+        'cite': """Kimiko Ryokai, Elena Duran, Dina Bseiso, <b>Noura Howell</b>,Ji Won Jun. 2017. Celebrating Laughter: Capturing and Sharing Tangible Representations of Laughter. <i>In Extended Abstracts of the SIGCHI Conference on Designing Interactive Systems Companion</i> (DIS'17).""",
+        'url': "http://dl.acm.org/citation.cfm?id=3079146",
+    },
+    {
+        'name': 'hint',
+        'cite': """<b>Noura Howell</b>, Laura Devendorf, Rundong (Kevin) Tian, Tom&aacute;s Vega G&aacute;lvez, Nan-Wei Gong, Ivan Poupyrev, Eric Paulos, Kimiko Ryokai. 2016. Biosignals as social cues: Ambiguity and emotional interpretation in social displays of skin conductance. <i>In Proceedings of the SIGCHI Conference on Designing Interactive Systems</i> (DIS'16).""",
         'url': '/static/pdf/16_DIS_Hint.pdf',
     },
     {
         'name': 'ebb',
         'cite': """Laura Devendorf, Joanne Lo, <b>Noura Howell</b>, Jung Lin Lee, Nan-Wei Gong, M. Emre Karagozler, Shiho Fukuhara, Ivan Poupyrev, Eric Paulos, Kimiko Ryokai. 2016. "I don't want to wear a screen": Probing perceptions of and possibilities for dynamic displays on clothing. <i>In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</i> (CHI'16) Best Paper Award.""",
         'url': "http://artfordorks.com/pubs/16_CHI_Ebb.pdf",
-    },
-    {
-        'name': 'dis17laughter',
-        'cite': """Kimiko Ryokai, Elena Duran, Dina Bseiso, <b>Noura Howell</b>,Ji Won Jun. 2017. Celebrating Laughter: Capturing and Sharing Tangible Representations of Laughter. <i>In Extended Abstracts of the SIGCHI Conference on Designing Interactive Systems Companion</i> (DIS'17).""",
-        'url': "http://dl.acm.org/citation.cfm?id=3079146",
     },
     {
         'name': 'disWorkshopBiosensing',
