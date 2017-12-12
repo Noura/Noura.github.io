@@ -6,18 +6,18 @@ import jinja2
 # pages appear in the order listed here
 pages = [ \
     {
+        'name': 'Social Emotional Biosensing',
+        'thumbnail': 'hint_shirt_tile.png',
+        'path': 'ripple',
+        'template': 'ripple.html',
+        'date': '2015 - present',
+    },
+    {
         'name': 'Tangible Laughter',
         'thumbnail': 'choc_tile.jpg',
         'path': 'laughter',
         'template': 'laughter.html',
         'date': '2016 - present',
-    },
-    {
-        'name': 'Social Emotional Biosensing',
-        'thumbnail': 'hint_shirt_tile.png',
-        'path': 'hint',
-        'template': 'hint.html',
-        'date': '2015 - present',
     },
     {
         'name': 'Color-Changing Fabric as Realtime Data Display',
@@ -148,10 +148,15 @@ pages = [ \
 # publications appear in the order listed here
 publications_list = [
     {
+        'name': 'ripple',
+        'cite': """<b>Noura Howell</b>, Laura Devendorf, Tom&aacute;s Vega G&aacute;lvez, Rundong (Kevin) Tian, Kimiko Ryokai. 2017. Tensions of data-driven reflection: A case study of real-time emotional biosensing. <i>In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</i> (CHI'17) (forthcoming).""",
+        'url': None,
+    },
+    {
         # custom name to refer to this publication in templates
         'name': 'hint',
         # the citation text, can include HTML, just gets inserted as is
-        'cite': """<b>Noura Howell</b>, Laura Devendorf, Rundong (Kevin) Tian, Tom&aacute;s Vega, Nan-Wei Gong, Ivan Poupyrev, Eric Paulos, Kimiko Ryokai. 2016. Biosignals as social cues: Ambiguity and emotional interpretation in social displays of skin conductance. <i>In Proceedings of the SIGCHI Conference on Designing Interactive Systems</i> (DIS'16).""",
+        'cite': """<b>Noura Howell</b>, Laura Devendorf, Rundong (Kevin) Tian, Tom&aacute;s Vega G&aacute;lvez, Nan-Wei Gong, Ivan Poupyrev, Eric Paulos, Kimiko Ryokai. 2016. Biosignals as social cues: Ambiguity and emotional interpretation in social displays of skin conductance. <i>In Proceedings of the SIGCHI Conference on Designing Interactive Systems</i> (DIS'16).""",
         # link to pdf or official hosting
         'url': '/static/pdf/16_DIS_Hint.pdf',
     },

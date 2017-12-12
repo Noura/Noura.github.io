@@ -71,10 +71,10 @@
 
 {% macro publication(pub) %}
   <p class="publication">
-    <a class="publication" href="{{pub.url}}">
+    {% if pub.url %} <a class="publication" href="{{pub.url}}"> {% endif %}
       <span class="publication"></span>
       {{ pub.cite|safe }}
-    </a>
+    {% if pub.url %} </a> {% endif %}
   </p>
 {% endmacro %}
 
