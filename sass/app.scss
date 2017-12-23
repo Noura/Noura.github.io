@@ -35,6 +35,10 @@ a {
     color: black;
 }
 
+.solid-bg {
+    background: white;
+}
+
 .row {
     padding-bottom: 1em;
 }
@@ -48,9 +52,9 @@ a {
     margin-bottom: 1.5em;
     max-width: 768px;
     border-width: 0 10px;
-    border-color: white;
+    border-color: transparent;
     border-style: solid;
-    background-color: white;
+    background-color: transparent;
 }
 .container.project-page {
     background: white;
@@ -118,7 +122,6 @@ h2 {
     position: absolute;
     bottom: 0;
     right: 0;
-    background: rgba(200,200,200,1);
     text-align: right;
     line-height: 1.3em;
 }
