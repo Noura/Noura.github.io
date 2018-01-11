@@ -7,7 +7,7 @@ import jinja2
 pages = [ \
     {
         'name': 'Social Emotional Biosensing',
-        'thumbnail': 'hint_shirt_tile.png',
+        'thumbnail': 'ripple.png',
         'path': 'ripple',
         'template': 'ripple.html',
         'date': '2015 - present',
