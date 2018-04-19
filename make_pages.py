@@ -11,8 +11,7 @@ pages = [ \
         'path': 'ripple',
         'template': 'ripple.html',
         'date': '2015 - present',
-    },
-    {
+    }, {
         'name': 'Tangible Laughter',
         'thumbnail': 'choc_tile.jpg',
         'path': 'laughter',
@@ -150,59 +149,71 @@ publications_list = [
     {
         'name': 'ripple',
         'cite': """<b>Noura Howell</b>, Laura Devendorf, Tom&aacute;s Vega G&aacute;lvez, Rundong (Kevin) Tian, Kimiko Ryokai. 2018. Tensions of data-driven reflection: A case study of real-time emotional biosensing. <i>In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</i> (CHI'18).""",
-        'url': '/static/pdf/18_CHI_Ripple.pdf',
+        'pdf': '/static/pdf/18_CHI_Ripple.pdf',
+        'url': None,
     },
     {
         # custom name to refer to this publication in templates
         'name': 'chi18laughter',
         # the citation text, can include HTML, just gets inserted as is
-        'cite': """Kimiko Ryokai, Elena Duran, <b>Noura Howell</b>, Jonathan Gillick, David Bamman. 2018. Capturing, Representing, and Interacting with Laughter. <i>In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</i> (CHI'18) (forthcoming).""",
-        # link to pdf or official hosting
+        'cite': """Kimiko Ryokai, Elena Duran, <b>Noura Howell</b>, Jonathan Gillick, David Bamman. 2018. Capturing, Representing, and Interacting with Laughter. <i>In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</i> (CHI'18).""",
+        # link to pdf
+        'pdf': None,
+        # link to official hosting
         'url': None,
     },
     {
         'name': 'dis17laughter',
         'cite': """Kimiko Ryokai, Elena Duran, Dina Bseiso, <b>Noura Howell</b>,Ji Won Jun. 2017. Celebrating Laughter: Capturing and Sharing Tangible Representations of Laughter. <i>In Extended Abstracts of the SIGCHI Conference on Designing Interactive Systems Companion</i> (DIS'17).""",
+        'pdf': None,
         'url': "http://dl.acm.org/citation.cfm?id=3079146",
     },
     {
         'name': 'hint',
         'cite': """<b>Noura Howell</b>, Laura Devendorf, Rundong (Kevin) Tian, Tom&aacute;s Vega G&aacute;lvez, Nan-Wei Gong, Ivan Poupyrev, Eric Paulos, Kimiko Ryokai. 2016. Biosignals as social cues: Ambiguity and emotional interpretation in social displays of skin conductance. <i>In Proceedings of the SIGCHI Conference on Designing Interactive Systems</i> (DIS'16).""",
-        'url': '/static/pdf/16_DIS_Hint.pdf',
+        'pdf': '/static/pdf/16_DIS_Hint.pdf',
+        'url': 'https://dl.acm.org/citation.cfm?id=2901850',
     },
     {
         'name': 'ebb',
         'cite': """Laura Devendorf, Joanne Lo, <b>Noura Howell</b>, Jung Lin Lee, Nan-Wei Gong, M. Emre Karagozler, Shiho Fukuhara, Ivan Poupyrev, Eric Paulos, Kimiko Ryokai. 2016. "I don't want to wear a screen": Probing perceptions of and possibilities for dynamic displays on clothing. <i>In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</i> (CHI'16) Best Paper Award.""",
-        'url': "http://artfordorks.com/pubs/16_CHI_Ebb.pdf",
+        'pdf': "http://artfordorks.com/pubs/16_CHI_Ebb.pdf",
+        'url': 'https://dl.acm.org/citation.cfm?id=2858192',
     },
     {
         'name': 'disWorkshopBiosensing',
         'cite': """Nick Merrill, Richmond Wong, <b>Noura Howell</b>, Luke Stark, Lucian Leahu, Dawn Nafus. 2017. Interrogating Biosensing in Everyday Life. <i>In Proceedings of the Companion Publication on Designing Interactive Systems</i> (DIS Companion'17).""",
-        'url': "/static/pdf/17_DIS_Workshop_Biosensing.pdf",
+        'pdf': "/static/pdf/17_DIS_Workshop_Biosensing.pdf",
+        'url': 'https://dl.acm.org/citation.cfm?id=3064865',
     },
     {
         'name': 'chimici',
         'cite': """<b>Noura Howell</b>. 2017. Personal Reflection as Creative Practice in Collaboration with Biosensing Machines. <i>Workshop paper at CHI'17</i>. <a href="https://mici2017.org/">workshop</a>.""",
-        'url': "/static/pdf/17_CHI_MICI.pdf",
+        'pdf': "/static/pdf/17_CHI_MICI.pdf",
+        'url': 'https://mici2017.org/proceedings/',
     },
     {
         'name': 'disDC',
         'cite': """<b>Noura Howell</b>. 2016. Representation and interpretation of biosensing. <i>In Proceedings of the Companion Publication on Designing Interactive Systems</i> (DIS Companion'16).""",
-        'url': "/static/pdf/16_DIS_DC.pdf",
+        'pdf': "/static/pdf/16_DIS_DC.pdf",
+        'url': 'https://dl.acm.org/citation.cfm?id=2909422',
     },
     {
         'name': 'caiot',
         'cite': """<b>Noura Howell</b>. 2015. Connecting two Oakland neighborhoods: surveillance and self-representation. <i>Workshop paper at Critical Alternatives 2015</i>. <a href="https://depts.washington.edu/tatlab/participationiot/">workshop</a>.""",
-        'url': "/static/pdf/15_CA_IoT.pdf",
+        'pdf': "/static/pdf/15_CA_IoT.pdf",
+        'url': 'http://depts.washington.edu/tatlab/participationiot/',
     },
     {
         'name': 'L21',
         'cite': """Sarah Spence Adams, <b>Noura Howell</b>, Nathaniel Karst, Denise Sakai Troxell, Junjie Zhu. 2013. On the L(2,1)-labelings of amalgamations of graphs. <i>Discrete Applied Mathematics, 161</i>(7-8): 881-8.""",
+        'pdf': None,
         'url': "https://dl.acm.org/citation.cfm?id=2452099",
     },
     {
         'name': 'ethanol',
         'cite': """Jian Shi, Ratna R. Sharma-Shivappa, Mari Chinn, <b>Noura Howell</b>. 2009. Effect of microbial pretreatment on enzymatic hydrolysis and fermentation of cotton stalks for ethanol production. <i>Biomass and Bioenergy, 33</i>(1): 88-96.""",
+        'pdf': None,
         'url': "http://agris.fao.org/agris-search/search.do?recordID=US201301683178",
     },
   ]
