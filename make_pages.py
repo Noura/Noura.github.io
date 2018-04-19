@@ -149,8 +149,8 @@ pages = [ \
 publications_list = [
     {
         'name': 'ripple',
-        'cite': """<b>Noura Howell</b>, Laura Devendorf, Tom&aacute;s Vega G&aacute;lvez, Rundong (Kevin) Tian, Kimiko Ryokai. 2018. Tensions of data-driven reflection: A case study of real-time emotional biosensing. <i>In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</i> (CHI'18) (forthcoming).""",
-        'url': None,
+        'cite': """<b>Noura Howell</b>, Laura Devendorf, Tom&aacute;s Vega G&aacute;lvez, Rundong (Kevin) Tian, Kimiko Ryokai. 2018. Tensions of data-driven reflection: A case study of real-time emotional biosensing. <i>In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</i> (CHI'18).""",
+        'url': '/static/pdf/18_CHI_Ripple.pdf',
     },
     {
         # custom name to refer to this publication in templates
