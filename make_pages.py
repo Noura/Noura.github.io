@@ -147,6 +147,12 @@ pages = [ \
 # publications appear in the order listed here
 publications_list = [
     {
+        'name': 'cscw_emotional_biosensing',
+        'cite': """<b>Noura Howell</b>, John Chuang, Abigail De Kosnik, Greg Niemeyer. 2018. Emotional Biosensing: Exploring Critical Alternatives. <i>Computer Supported Cooperative Work</i> (CSCW'18).""",
+        'pdf': '/static/pdf/18_CSCW_Emotional_Biosensing.pdf',
+        'url': None,
+    },
+    {
         'name': 'ripple',
         'cite': """<b>Noura Howell</b>, Laura Devendorf, Tom&aacute;s Vega G&aacute;lvez, Rundong (Kevin) Tian, Kimiko Ryokai. 2018. Tensions of data-driven reflection: A case study of real-time emotional biosensing. <i>In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</i> (CHI'18).""",
         'pdf': '/static/pdf/18_CHI_Ripple.pdf',
