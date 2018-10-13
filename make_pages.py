@@ -6,11 +6,17 @@ import jinja2
 # pages appear in the order listed here
 pages = [ \
     {
-        'name': 'Social Emotional Biosensing',
+        'name': 'Emotional Biosensing: Exploring Critical Alternatives',
+        'thumbnail': 'emotional_biosensing_survey.jpeg',
+        'path': 'emotional_biosensing',
+        'template': 'emotional_biosensing.html',
+        'date': '2015 - present',
+    }, {
+        'name': 'Tensions of Data-Driven Emotional Reflection',
         'thumbnail': 'ripple.png',
         'path': 'ripple',
         'template': 'ripple.html',
-        'date': '2015 - present',
+        'date': '2015 - 2018',
     }, {
         'name': 'Tangible Laughter',
         'thumbnail': 'choc_tile.jpg',
