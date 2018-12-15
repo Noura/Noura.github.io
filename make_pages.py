@@ -6,11 +6,17 @@ import jinja2
 # pages appear in the order listed here
 pages = [ \
     {
+        'name': 'Life-Affirmation: Sounding Heartbeats on a Bench',
+        'thumbnail': 'red_bench.jpg',
+        'path': 'heart_sounds_bench',
+        'template': 'heart_sounds_bench.html',
+        'date': '2018 - present',
+    }, {
         'name': 'Emotional Biosensing: Exploring Critical Alternatives',
         'thumbnail': 'emotional_biosensing_survey.jpeg',
         'path': 'emotional_biosensing',
         'template': 'emotional_biosensing.html',
-        'date': '2015 - present',
+        'date': '2015',
     }, {
         'name': 'Tensions of Data-Driven Emotional Reflection',
         'thumbnail': 'ripple.png',
