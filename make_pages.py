@@ -159,14 +159,20 @@ pages = [ \
 # publications appear in the order listed here
 publications_list = [
     {
-        'name': 'cscw_emotional_biosensing',
-        'cite': """<b>Noura Howell</b>, John Chuang, Abigail De Kosnik, Greg Niemeyer. 2018. Emotional Biosensing: Exploring Critical Alternatives. <i>Computer Supported Cooperative Work</i> (CSCW'18).""",
-        'pdf': '/static/pdf/18_CSCW_Emotional_Biosensing.pdf',
+        'name': 'hsb1',
+        'cite': """<b>Noura Howell</b>, Greg Niemeyer, Kimiko Ryokai. 2018. Life-Affirming Biosensing in Public: Sounding Heartbeats on a Red Bench. <i>Human Factors in Computing Systems (CHI'19)</i>. (forthcoming)""",
+        'pdf': None,
         'url': None,
     },
     {
+        'name': 'cscw_emotional_biosensing',
+        'cite': """<b>Noura Howell</b>, John Chuang, Abigail De Kosnik, Greg Niemeyer, Kimiko Ryokai. 2018. Emotional Biosensing: Exploring Critical Alternatives. <i>Computer Supported Cooperative Work (CSCW'18)</i>.""",
+        'pdf': '/static/pdf/18_CSCW_Emotional_Biosensing.pdf',
+        'url': 'https://dl.acm.org/citation.cfm?id=3274338',
+    },
+    {
         'name': 'ripple',
-        'cite': """<b>Noura Howell</b>, Laura Devendorf, Tom&aacute;s Vega G&aacute;lvez, Rundong (Kevin) Tian, Kimiko Ryokai. 2018. Tensions of data-driven reflection: A case study of real-time emotional biosensing. <i>In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</i> (CHI'18).""",
+        'cite': """<b>Noura Howell</b>, Laura Devendorf, Tom&aacute;s Vega G&aacute;lvez, Rundong (Kevin) Tian, Kimiko Ryokai. 2018. Tensions of data-driven reflection: A case study of real-time emotional biosensing. <i>Human Factors in Computing Systems (CHI'18)</i>.""",
         'pdf': '/static/pdf/18_CHI_Ripple.pdf',
         'url': 'https://dl.acm.org/citation.cfm?id=3174005',
     },
@@ -174,7 +180,7 @@ publications_list = [
         # custom name to refer to this publication in templates
         'name': 'chi18laughter',
         # the citation text, can include HTML, just gets inserted as is
-        'cite': """Kimiko Ryokai, Elena Duran, <b>Noura Howell</b>, Jonathan Gillick, David Bamman. 2018. Capturing, Representing, and Interacting with Laughter. <i>In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</i> (CHI'18).""",
+        'cite': """Kimiko Ryokai, Elena Duran, <b>Noura Howell</b>, Jonathan Gillick, David Bamman. 2018. Capturing, Representing, and Interacting with Laughter. <i>Human Factors in Computing Systems (CHI'18)</i>.""",
         # link to pdf
         'pdf': None,
         # link to official hosting
@@ -182,25 +188,25 @@ publications_list = [
     },
     {
         'name': 'dis17laughter',
-        'cite': """Kimiko Ryokai, Elena Duran, Dina Bseiso, <b>Noura Howell</b>,Ji Won Jun. 2017. Celebrating Laughter: Capturing and Sharing Tangible Representations of Laughter. <i>In Extended Abstracts of the SIGCHI Conference on Designing Interactive Systems Companion</i> (DIS'17).""",
+        'cite': """Kimiko Ryokai, Elena Duran, Dina Bseiso, <b>Noura Howell</b>,Ji Won Jun. 2017. Celebrating Laughter: Capturing and Sharing Tangible Representations of Laughter. <i>Extended Abstracts of Designing Interactive Systems (DIS'17)</i>.""",
         'pdf': None,
         'url': "http://dl.acm.org/citation.cfm?id=3079146",
     },
     {
         'name': 'hint',
-        'cite': """<b>Noura Howell</b>, Laura Devendorf, Rundong (Kevin) Tian, Tom&aacute;s Vega G&aacute;lvez, Nan-Wei Gong, Ivan Poupyrev, Eric Paulos, Kimiko Ryokai. 2016. Biosignals as social cues: Ambiguity and emotional interpretation in social displays of skin conductance. <i>In Proceedings of the SIGCHI Conference on Designing Interactive Systems</i> (DIS'16).""",
+        'cite': """<b>Noura Howell</b>, Laura Devendorf, Rundong (Kevin) Tian, Tom&aacute;s Vega G&aacute;lvez, Nan-Wei Gong, Ivan Poupyrev, Eric Paulos, Kimiko Ryokai. 2016. Biosignals as social cues: Ambiguity and emotional interpretation in social displays of skin conductance. <i>Designing Interactive Systems (DIS'16)</i>.""",
         'pdf': '/static/pdf/16_DIS_Hint.pdf',
         'url': 'https://dl.acm.org/citation.cfm?id=2901850',
     },
     {
         'name': 'ebb',
-        'cite': """Laura Devendorf, Joanne Lo, <b>Noura Howell</b>, Jung Lin Lee, Nan-Wei Gong, M. Emre Karagozler, Shiho Fukuhara, Ivan Poupyrev, Eric Paulos, Kimiko Ryokai. 2016. "I don't want to wear a screen": Probing perceptions of and possibilities for dynamic displays on clothing. <i>In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</i> (CHI'16) Best Paper Award.""",
+        'cite': """Laura Devendorf, Joanne Lo, <b>Noura Howell</b>, Jung Lin Lee, Nan-Wei Gong, M. Emre Karagozler, Shiho Fukuhara, Ivan Poupyrev, Eric Paulos, Kimiko Ryokai. 2016. "I don't want to wear a screen": Probing perceptions of and possibilities for dynamic displays on clothing. <i>Human Factors in Computing Systems (CHI'16)</i> - <b>Best Paper Award</b>.""",
         'pdf': "http://artfordorks.com/pubs/16_CHI_Ebb.pdf",
         'url': 'https://dl.acm.org/citation.cfm?id=2858192',
     },
     {
         'name': 'disWorkshopBiosensing',
-        'cite': """Nick Merrill, Richmond Wong, <b>Noura Howell</b>, Luke Stark, Lucian Leahu, Dawn Nafus. 2017. Interrogating Biosensing in Everyday Life. <i>In Proceedings of the Companion Publication on Designing Interactive Systems</i> (DIS Companion'17).""",
+        'cite': """Nick Merrill, Richmond Wong, <b>Noura Howell</b>, Luke Stark, Lucian Leahu, Dawn Nafus. 2017. Interrogating Biosensing in Everyday Life. <i>Designing Interactive Systems Companion (DIS Companion'17) </i>.""",
         'pdf': "/static/pdf/17_DIS_Workshop_Biosensing.pdf",
         'url': 'https://dl.acm.org/citation.cfm?id=3064865',
     },
@@ -212,7 +218,7 @@ publications_list = [
     },
     {
         'name': 'disDC',
-        'cite': """<b>Noura Howell</b>. 2016. Representation and interpretation of biosensing. <i>In Proceedings of the Companion Publication on Designing Interactive Systems</i> (DIS Companion'16).""",
+        'cite': """<b>Noura Howell</b>. 2016. Representation and interpretation of biosensing. <i>Designing Interactive Systems Companion (DIS Companion'16)</i>.""",
         'pdf': "/static/pdf/16_DIS_DC.pdf",
         'url': 'https://dl.acm.org/citation.cfm?id=2909422',
     },
