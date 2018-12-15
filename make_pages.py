@@ -133,13 +133,13 @@ pages = [ \
         'template': 'solar_cooker.html',
         'date': '2010',
     },
-    {
-        'name': 'Biosignals Experiments',
-        'thumbnail': 'peacebone_gsr.png',
-        'path': 'biosignals',
-        'template': 'biosignals.html',
-        'date': '',
-    },
+#    {
+#        'name': 'Biosignals Experiments',
+#        'thumbnail': 'peacebone_gsr.png',
+#        'path': 'biosignals',
+#        'template': 'biosignals.html',
+#        'date': '',
+#    },
     {
         'name': 'Music & Data at The Echo Nest',
         'thumbnail': 'en.png',
