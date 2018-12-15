@@ -28,7 +28,7 @@ pages = [ \
         'thumbnail': 'choc_tile.jpg',
         'path': 'laughter',
         'template': 'laughter.html',
-        'date': '2016 - present',
+        'date': '2016 - 2017',
     },
     {
         'name': 'Color-Changing Fabric as Realtime Data Display',
