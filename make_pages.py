@@ -39,7 +39,7 @@ pages = [ \
     },
     {
         'name': 'Assembling Critical Practices Reading Group',
-        'thumbnail': 'assembling_critical_practices.png',
+        'thumbnail': 'ACP.png',
         'path': 'assembling_critical_practices',
         'template': 'assembling_critical_practices.html',
         'date': '2016 - present',
