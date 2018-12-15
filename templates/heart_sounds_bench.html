@@ -1,0 +1,15 @@
+{% import 'macros.html' as macros %}
+{{ macros.base_header() }}
+{{ macros.project_header(ctx.page, ctx) }}
+
+<img src="/static/img/largest/red_bench.jpg">
+<p class="caption">
+Benches invite rest and taking in one's surroundings. Instead of efficiency or surveillance, how might biosensing technology be enrolled to support this simple yet foundational aspect of public space? Image blurred for privacy.
+</p>
+
+<p>`Smart city' narratives herald promises of IoT data-driven innovations leveraging biosensing technologies. We argue these prevalent narratives often overlook a potential benefit of city living: affirmation. We designed the Heart Sounds Bench, which amplifies the heart sounds of those sitting on it. We outline our design intent to invite rest, reflection, and recognition of others' lives in public space. We share results from a pilot study of 19 participants. Participants expressed feeling connected to a shared life energy including others and the environment, and described heart sounds as feeling intimate yet anonymous. Finally, we elaborate the concept of <i>life-affirmation</i> in terms of <i>recognition</i> of others' lives, feeling <i>connection</i>, and respecting difference with <i>opacity</i>, as a way of helping 'smart city' designs embrace a multiplicity of desires.</p>
+
+{{ macros.publication(ctx.publications_by_name.hsb1) }}
+
+{{ macros.project_footer(ctx.page, ctx) }}
+{{ macros.base_footer() }}
