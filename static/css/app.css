@@ -119,6 +119,19 @@ h2 {
 .tile {
   padding: 0;
   position: relative;
+  border: solid white;
+}
+
+.big-tiles .tile-container:nth-child(3n+1) .tile {
+  border-width: 0 0 0 0;
+}
+
+.big-tiles .tile-container:nth-child(3n+2) .tile {
+  border-width: 0 0 0 0;
+}
+
+.big-tiles .tile-container:nth-child(3n+3) .tile {
+  border-width: 0 0 0 0;
 }
 
 .tile .name {

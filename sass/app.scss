@@ -115,6 +115,19 @@ h2 {
 .tile {
     padding: 0;
     position: relative;
+    border: solid white;
+}
+
+$tile_border_w: 0;
+.big-tiles .tile-container:nth-child(3n+1) .tile {
+               // top            right          bottom         left
+    border-width: $tile_border_w $tile_border_w $tile_border_w 0;
+}
+.big-tiles .tile-container:nth-child(3n+2) .tile {
+    border-width: $tile_border_w $tile_border_w $tile_border_w $tile_border_w;
+}
+.big-tiles .tile-container:nth-child(3n+3) .tile {
+    border-width: $tile_border_w 0 $tile_border_w $tile_border_w;
 }
 
 .tile .name {
