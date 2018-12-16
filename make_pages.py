@@ -160,7 +160,7 @@ pages = [ \
 publications_list = [
     {
         'name': 'hsb1',
-        'cite': """<b>Noura Howell</b>, Greg Niemeyer, Kimiko Ryokai. 2018. Life-Affirming Biosensing in Public: Sounding Heartbeats on a Red Bench. <i>Human Factors in Computing Systems (CHI'19)</i>. (forthcoming)""",
+        'cite': """<b>Noura Howell</b>, Greg Niemeyer, Kimiko Ryokai. 2019. Life-Affirming Biosensing in Public: Sounding Heartbeats on a Red Bench. <i>Human Factors in Computing Systems (CHI'19)</i>. (forthcoming)""",
         'pdf': None,
         'url': None,
     },
