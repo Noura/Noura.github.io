@@ -38,6 +38,13 @@ pages = [ \
         'date': '2015',
     },
     {
+        'name': 'Publications & CV',
+        'thumbnail': 'socialvr2.jpg',
+        'path': 'about',
+        'template': 'about.html',
+        'date': '',
+    },
+    {
         'name': 'Assembling Critical Practices Reading Group',
         'thumbnail': 'ACP.png',
         'path': 'assembling_critical_practices',
@@ -146,14 +153,7 @@ pages = [ \
         'path': 'the_echo_nest',
         'template': 'echonest.html',
         'date': '2012 - 2013',
-    },
-    {
-        'name': 'Contact & Publications',
-        'thumbnail': 'socialvr2.jpg',
-        'path': 'about',
-        'template': 'about.html',
-        'date': '',
-    },
+    }
   ]
 
 # publications appear in the order listed here
