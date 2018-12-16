@@ -149,7 +149,7 @@ pages = [ \
     },
     {
         'name': 'Contact & Publications',
-        'thumbnail': 'nyd2015.jpg',
+        'thumbnail': 'socialvr2.jpg',
         'path': 'about',
         'template': 'about.html',
         'date': '',
