@@ -10,8 +10,8 @@ $font_color: black;
 
 body {
     color: $font_color;
-    font-family: sans-serif;
-    font-weight: 300;
+    font-family: gill-sans-nova, sans-serif;
+    font-weight: 200;
     //background: url('/static/img/rgbnoise/rgbnoise.gif') no-repeat center center fixed;
     background: white;
     background-size: cover;
@@ -25,7 +25,7 @@ body.no-background-blend-mode {
 }
 
 b {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 p {
@@ -95,8 +95,8 @@ a {
 
 h1 {
     line-height: 1em;
-    font-family: "Andale mono",sans-serif;
-    letter-spacing: 0;
+    font-family: gill-sans-nova, sans-serif;
+    font-weight: bold;
 }
 
 h2 {
@@ -137,7 +137,7 @@ $tile_border_w: 0;
     bottom: 0;
     right: 0;
     text-align: right;
-    line-height: 1.3em;
+    line-height: 1.5em;
 }
 
 .tile img {
