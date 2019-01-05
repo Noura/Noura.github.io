@@ -44,13 +44,13 @@ pages = [ \
         'template': 'about.html',
         'date': '',
     },
-    {
-        'name': 'Assembling Critical Practices Reading Group',
-        'thumbnail': 'ACP.png',
-        'path': 'assembling_critical_practices',
-        'template': 'assembling_critical_practices.html',
-        'date': '2016 - present',
-    },
+#    {
+#        'name': 'Assembling Critical Practices Reading Group',
+#        'thumbnail': 'ACP.png',
+#        'path': 'assembling_critical_practices',
+#        'template': 'assembling_critical_practices.html',
+#        'date': '2016 - present',
+#    },
     {
         # appears as title for that project page, and title of tile on homepage
         'name': 'Participatory Peace Sculpture',
