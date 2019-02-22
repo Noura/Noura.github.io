@@ -3,6 +3,35 @@ import os, os.path, shutil, codecs, sys
 
 import jinja2
 
+# news and announcements
+news = [ \
+    {
+        'date': "Mar'19",
+        'description': "Talk at InfoCamp Conference",
+        'link': 'https://berkeley-infocamp.org/',
+    },
+    {
+        'date': "Feb'19",
+        'description': "Talk at Bay Area Signal Hackers at Pandora",
+        'link': 'https://www.meetup.com/bishbash/events/258830536/',
+    },
+    {
+        'date': "Feb'19",
+        'description': "Art Opening at Worth-Ryder Gallery",
+        'link': 'http://scienceatcal.berkeley.edu/visionlight-processing-perception/',
+    },
+    {
+        'date': "Jan'19",
+        'description': "Grant from Center for Long-Term Cybersecurity",
+        'link': 'https://cltc.berkeley.edu/2019grantees/',
+    },
+    {
+        'date': "Jan'19",
+        'description': "Grant from Center for Technology, Society, & Policy",
+        'link': 'https://ctsp.berkeley.edu/projects2019/',
+    }
+]
+
 # pages appear in the order listed here
 pages = [ \
     {
@@ -258,6 +287,7 @@ def make_pages():
             'pages': pages,
             'publications_list': publications_list,
             'publications_by_name': publications_by_name,
+            'news': news,
         }
     }
 
@@ -270,6 +300,7 @@ def make_pages():
             'page': {},
             'publications_list': publications_list,
             'publications_by_name': publications_by_name,
+            'news': news,
         }
     }
 

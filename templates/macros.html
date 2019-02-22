@@ -1,3 +1,9 @@
+{% macro news_item(ctx, N) %}
+    {% for i in range(N) %}
+    <p>{{ctx.news[i].date}} - {{ctx.news[i].description}} <a href="{{ctx.news[i].link}}">&gt;&gt;&gt;</a></p>
+    {% endfor %}
+{% endmacro %}
+
 {% macro base_header() %}
   <html lang="en">
     <head>
