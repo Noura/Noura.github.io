@@ -37,7 +37,7 @@
 <div class="row">
   {% for page in ctx.pages %}
     <div class="col-12 col-xs-12 col-sm-6 col-md-4">
-      <a href="/projects/{{page.path}}.html" id="{{page.path}}">
+      <a href="/projects/{{page.path}}.html" id="{{page.path}}" name="{{page.path}}">
         <img class="tile" src="/static/img/280px_tiles/{{ page.thumbnail }}">
       </a>
       <br>
