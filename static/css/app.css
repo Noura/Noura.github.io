@@ -76,6 +76,15 @@ span.tile-name {
   display: inline-block;
 }
 
+span.news-item {
+  display: inline-block;
+  height: 5px;
+  border-right: 0px solid transparent;
+  border-left: 5px solid black;
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid transparent;
+}
+
 p.publication {
   font-family: "Andale mono", monospace;
   font-size: 80%;

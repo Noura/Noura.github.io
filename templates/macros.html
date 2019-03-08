@@ -2,6 +2,7 @@
     {% for i in range(N) %}
        <a href="{{ctx.news[i].link}}">
          <p>
+           <span class="news-item"></span>
            {{ctx.news[i].description}} ({{ctx.news[i].date}})&nbsp;&gt;&gt;&gt;
          </p>
        </a>

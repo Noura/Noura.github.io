@@ -65,6 +65,7 @@ a {
     width: 90%;
 }
 
+// 280px is the max width i have for the image assets for the tiles...
 img.tile {
     width: 100%;
     max-width: 280px;
@@ -73,6 +74,16 @@ img.tile {
 span.tile-name {
     max-width: 280px;
     display: inline-block;
+}
+
+// news items /////////////////////////////////
+span.news-item {
+    display: inline-block;
+    height: 5px;
+    border-right: 0px solid transparent;
+    border-left: 5px solid black;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
 }
 
 // publications ///////////////////////////////
