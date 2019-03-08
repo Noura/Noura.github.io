@@ -45,32 +45,6 @@ a {
   background: white;
 }
 
-.row {
-  padding-bottom: 0;
-}
-
-.container {
-  margin-left: auto;
-  padding-left: auto;
-  padding-bottom: 1em;
-  padding-top: 1em;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-  max-width: 768px;
-  border-width: 0 10px;
-  border-color: transparent;
-  border-style: solid;
-  background-color: transparent;
-}
-
-.container.project-page {
-  background: white;
-  position: relative;
-  border-left: 60px solid transparent;
-  border-right: 60px solid transparent;
-  background-clip: padding-box;
-}
-
 .project-page img {
   max-width: 100%;
   padding-bottom: 1em;
@@ -110,36 +84,9 @@ h2 {
   width: 90%;
 }
 
-.tile {
-  padding: 0;
-  position: relative;
-  border: solid white;
-}
-
-.big-tiles .tile-container:nth-child(3n+1) .tile {
-  border-width: 0 0 0 0;
-}
-
-.big-tiles .tile-container:nth-child(3n+2) .tile {
-  border-width: 0 0 0 0;
-}
-
-.big-tiles .tile-container:nth-child(3n+3) .tile {
-  border-width: 0 0 0 0;
-}
-
-.tile .name {
-  color: black;
-  padding: 0.1em;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  text-align: right;
-  line-height: 1.5em;
-}
-
-.tile img {
+img.tile {
   width: 100%;
+  max-width: 280px;
 }
 
 p.publication {
