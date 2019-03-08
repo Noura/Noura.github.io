@@ -68,6 +68,11 @@ a {
 img.tile {
     width: 100%;
     max-width: 280px;
+    margin-top: 1em;
+}
+span.tile-name {
+    max-width: 280px;
+    display: inline-block;
 }
 
 // publications ///////////////////////////////
