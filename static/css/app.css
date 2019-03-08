@@ -37,6 +37,10 @@ a {
   color: black !important;
 }
 
+.row {
+  margin-top: 2em;
+}
+
 .solid-bg {
   background: white;
 }
@@ -52,14 +56,6 @@ a {
   color: black;
   margin-top: -1em;
   padding-bottom: 1em;
-}
-
-.topbar {
-  margin-top: -0.5em;
-}
-
-.main {
-  margin-top: 1em;
 }
 
 .iframe-container {
