@@ -93,6 +93,13 @@ pages = [ \
         'date': 'spring 2017',
     },
     {
+        'name': 'Heart Sounds in Cheap Plastic Buckets',
+        'thumbnail': 'hsb3_square.jpg',
+        'path': 'heart_sounds_buckets',
+        'template': 'heart_sounds_buckets.html',
+        'date': 'spring 2019',
+    },
+    {
         'name': 'Performing VR Together',
         'thumbnail': 'vr_square.jpg',
         'path': 'performing_vr',
