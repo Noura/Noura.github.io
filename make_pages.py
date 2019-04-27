@@ -52,7 +52,15 @@ pages = [ \
         'path': 'ripple',
         'template': 'ripple.html',
         'date': '2015 - 2018',
-    }, {
+    },
+    {
+        'name': 'Speculating Near-Future Menstrual Tracking',
+        'thumbnail': 'vivewell_cover_tile.png',
+        'path': 'menstrual_biosensing',
+        'template': 'menstrual_biosensing.html',
+        'date': '2018 - present',
+    },
+    {
         'name': 'Tangible Laughter',
         'thumbnail': 'choc_tile.jpg',
         'path': 'laughter',
@@ -194,6 +202,12 @@ pages = [ \
 
 # publications appear in the order listed here
 publications_list = [
+    {
+        'name': 'vivewell',
+        'cite': """Sarah Fox, <b>Noura Howell</b>, Richmond Wong, Franchesca Spektor. 2019. Vivewell: Speculating Near-Future Menstrual Tracking through Current Data Practices. <i>Designing Interactive Systems Pictorials (DIS'19)</i>.""",
+        'pdf': '/static/pdf/19_DIS_Vivewell.pdf',
+        'url': None,
+    },
     {
         'name': 'hsb1',
         'cite': """<b>Noura Howell</b>, Greg Niemeyer, Kimiko Ryokai. 2019. Life-Affirming Biosensing in Public: Sounding Heartbeats on a Red Bench. <i>Human Factors in Computing Systems (CHI'19)</i>.""",
