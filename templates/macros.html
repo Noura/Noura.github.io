@@ -1,9 +1,9 @@
 {% macro news_item(ctx, N) %}
-    {% for i in range(N) %}
-       <a href="{{ctx.news[i].link}}">
+    {% for item in ctx.news %}
+       <a href="{{item.link}}">
          <p>
            <span class="news-item"></span>
-           {{ctx.news[i].description}} ({{ctx.news[i].date}})&nbsp;&gt;&gt;&gt;
+           {{item.description}} ({{item.date}})&nbsp;&gt;&gt;&gt;
          </p>
        </a>
     {% endfor %}

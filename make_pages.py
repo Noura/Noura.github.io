@@ -5,21 +5,31 @@ import jinja2
 
 # news and announcements
 news = [ \
-    {
-        'date': "Mar'19",
-        'description': "Talk at InfoCamp Conference",
-        'link': 'https://berkeley-infocamp.org/',
-    },
-    {
-        'date': "Feb'19",
-        'description': "Talk at Bay Area Signal Hackers at Pandora",
-        'link': 'https://www.meetup.com/bishbash/events/258830536/',
-    },
-    {
-        'date': "Feb'19",
-        'description': "Art Opening at Worth-Ryder Gallery",
-        'link': 'http://scienceatcal.berkeley.edu/visionlight-processing-perception/',
-    },
+     {
+        'date': "May '19",
+        'description': "Paper at CHI on Life-Affirming Biosensing",
+        'link': '/projects/heart_sounds_bench.html',
+     },
+     {
+        'date': "June '19",
+        'description': "Paper at DIS on Menstrual Biosensing",
+        'link': '/projects/menstrual_biosensing.html',
+     },
+#    {
+#        'date': "Mar'19",
+#        'description': "Talk at InfoCamp Conference",
+#        'link': 'https://berkeley-infocamp.org/',
+#    },
+#    {
+#        'date': "Feb'19",
+#        'description': "Talk at Bay Area Signal Hackers at Pandora",
+#        'link': 'https://www.meetup.com/bishbash/events/258830536/',
+#    },
+#    {
+#        'date': "Feb'19",
+#        'description': "Art Opening at Worth-Ryder Gallery",
+#        'link': 'http://scienceatcal.berkeley.edu/visionlight-processing-perception/',
+#    },
     {
         'date': "Jan'19",
         'description': "Grant from Center for Long-Term Cybersecurity",
