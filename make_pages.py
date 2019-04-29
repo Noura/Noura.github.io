@@ -85,7 +85,7 @@ pages = [ \
         'date': '2015',
     },
     {
-        'name': 'About',
+        'name': 'About Me',
         'thumbnail': 'me_nye_shoot_1_square.jpg',
         'path': 'about',
         'template': 'about.html',
