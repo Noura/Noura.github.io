@@ -45,7 +45,7 @@ news = [ \
 # pages appear in the order listed here
 pages = [ \
     {
-        'name': 'Life-Affirmation: Sounding Heartbeats on a Bench',
+        'name': 'Life-Affirming Biosensing',
         'thumbnail': 'red_bench.jpg',
         'path': 'heart_sounds_bench',
         'template': 'heart_sounds_bench.html',
@@ -64,14 +64,14 @@ pages = [ \
         'date': '2015 - 2018',
     },
     {
-        'name': 'Speculating Near-Future Menstrual Tracking',
+        'name': 'Speculating Near-Future Menstrual Biosensing',
         'thumbnail': 'vivewell_cover_tile.png',
         'path': 'menstrual_biosensing',
         'template': 'menstrual_biosensing.html',
         'date': '2018 - present',
     },
     {
-        'name': 'Tangible Laughter',
+        'name': 'Cherishing Laughter as Biosensory Data',
         'thumbnail': 'choc_tile.jpg',
         'path': 'laughter',
         'template': 'laughter.html',
