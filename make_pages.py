@@ -222,7 +222,7 @@ publications_list = [
         'name': 'hsb1',
         'cite': """<b>Noura Howell</b>, Greg Niemeyer, Kimiko Ryokai. 2019. Life-Affirming Biosensing in Public: Sounding Heartbeats on a Red Bench. <i>Human Factors in Computing Systems (CHI'19)</i>.""",
         'pdf': '/static/pdf/19_CHI_Heart_Sounds_Bench.pdf',
-        'url': None,
+        'url': 'https://dl.acm.org/citation.cfm?id=3300910',
     },
     {
         'name': 'cscw_emotional_biosensing',
