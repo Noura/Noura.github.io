@@ -45,7 +45,7 @@ news = [ \
 # pages appear in the order listed here
 pages = [ \
     {
-        'name': 'Life-Affirming Biosensing',
+        'name': 'Life-Affirming Biosensing with the Heart Sounds Bench',
         'thumbnail': 'red_bench.jpg',
         'path': 'heart_sounds_bench',
         'template': 'heart_sounds_bench.html',
