@@ -52,7 +52,7 @@ pages = [ \
         'date': '2018 - present',
     }, {
         'name': 'Emotional Biosensing: Exploring Critical Alternatives',
-        'thumbnail': 'emotional_biosensing_survey.jpeg',
+        'thumbnail': 'IMG_E1199_square.JPG',
         'path': 'emotional_biosensing',
         'template': 'emotional_biosensing.html',
         'date': '2015',
@@ -93,7 +93,7 @@ pages = [ \
     },
     {
         'name': 'Assembling Critical Practices Reading Group',
-        'thumbnail': 'ACP.png',
+        'thumbnail': 'IMG_E1207_square.JPG',
         'path': 'assembling_critical_practices',
         'template': 'assembling_critical_practices.html',
         'date': '2016 - present',
