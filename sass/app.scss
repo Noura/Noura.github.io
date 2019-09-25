@@ -49,6 +49,14 @@ a {
     max-width: 100%;
     padding-bottom: 1em;
 }
+
+img.not-full-width {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
 .caption {
   font-weight: 400;
   font-size: 93%;
