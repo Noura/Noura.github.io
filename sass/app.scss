@@ -51,10 +51,13 @@ a {
 }
 
 img.not-full-width {
+    width: 60%;
+}
+
+img.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
 }
 
 .caption {
