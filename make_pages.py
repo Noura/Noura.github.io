@@ -65,7 +65,7 @@ pages = [ \
     },
     {
         'name': 'Speculating Near-Future Menstrual Biosensing',
-        'thumbnail': 'vivewell_cover_tile.png',
+        'thumbnail': 'vivewell_vivid.png',
         'path': 'menstrual_biosensing',
         'template': 'menstrual_biosensing.html',
         'date': '2018 - present',
