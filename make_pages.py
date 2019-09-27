@@ -85,13 +85,6 @@ pages = [ \
         'date': '2015',
     },
     {
-        'name': 'About Me',
-        'thumbnail': 'me_nye_shoot_1_square.jpg',
-        'path': 'about',
-        'template': 'about.html',
-        'date': '',
-    },
-    {
         'name': 'Assembling Critical Practices Reading Group',
         'thumbnail': 'IMG_E1207_square.JPG',
         'path': 'assembling_critical_practices',
@@ -344,6 +337,9 @@ def make_pages():
 
     # CV PAGE ##########################################
     make_top_level_page(here, templates, 'cv', 'cv.html', {})
+    
+    # TEACHING PAGE ####################################
+    make_top_level_page(here, templates, 'teaching', 'teaching.html', {})
 
     # ABOUT PAGE #######################################
     make_top_level_page(here, templates, 'about', 'about.html', {})
