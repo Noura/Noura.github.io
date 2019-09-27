@@ -8,6 +8,10 @@
     font-size: 24px;
   }
 }
+.container {
+  max-width: 900px;
+}
+
 body {
   color: black;
   font-family: freight-sans-pro, sans-serif;
@@ -48,10 +52,6 @@ a {
 .project-page img {
   max-width: 100%;
   padding-bottom: 1em;
-}
-
-img.not-full-width {
-  width: 60%;
 }
 
 img.center {
