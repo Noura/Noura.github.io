@@ -312,6 +312,8 @@ def make_pages():
     loader = jinja2.FileSystemLoader(os.path.join(here, 'templates'))
     templates = jinja2.Environment(loader=loader)
 
+    # HOMEPAGE #######################################
+
     # this is a bit hacky, but, jinja templates like to receive an unpacked dict where the keys of the dict become the variable names in the template. but it was getting too annoying to pass all the variables to different templates individually. now the jinja template just gets one variable ctx which is a dict with all the other variables
     vars_for_homepage = { 
         'ctx': {
@@ -325,6 +327,46 @@ def make_pages():
     tem = templates.get_template('home.html')
     with codecs.open(os.path.join(here, 'index.html'), 'w') as out:
         out.write(tem.render(**vars_for_homepage))
+
+    # PUBLICATIONS PAGE ################################
+
+    vars_for_pub_page = {
+        'ctx': {
+            'publications_list': publications_list,
+            'publications_by_name': publications_by_name,
+        }
+    }
+
+    shutil.rmtree(os.path.join(here, 'pubs'), ignore_errors=True )
+    os.mkdir('pubs')
+
+    tem = templates.get_template('publications.html')
+    with codecs.open(os.path.join(here, 'pubs/index.html'), 'w') as out:
+        out.write(tem.render(**vars_for_pub_page))
+
+    # CV PAGE ##########################################
+
+    vars_for_cv_page = {}
+
+    shutil.rmtree(os.path.join(here, 'cv'), ignore_errors=True )
+    os.mkdir('cv')
+
+    tem = templates.get_template('cv.html')
+    with codecs.open(os.path.join(here, 'cv/index.html'), 'w') as out:
+        out.write(tem.render(**vars_for_cv_page))
+
+    # ABOUT PAGE #######################################
+
+    vars_for_about_page = {}
+
+    shutil.rmtree(os.path.join(here, 'about'), ignore_errors=True )
+    os.mkdir('about')
+
+    tem = templates.get_template('about.html')
+    with codecs.open(os.path.join(here, 'about/index.html'), 'w') as out:
+        out.write(tem.render(**vars_for_about_page))
+
+    # PROJECTS PAGES ###################################
 
     vars_for_project_pages = {
         'ctx': {

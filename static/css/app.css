@@ -41,6 +41,10 @@ a {
   color: black !important;
 }
 
+.navbar-brand {
+  font-size: 1.5em;
+}
+
 .row {
   margin-top: 2em;
 }
