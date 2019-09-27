@@ -307,67 +307,48 @@ publications_by_name = {}
 for pub in publications_list:
     publications_by_name[pub['name']] = pub
 
+def make_top_level_page(here, templates, rel_path, this_template, vars_for_template):
+    if rel_path != '':
+        shutil.rmtree(os.path.join(here, rel_path), ignore_errors=True )
+        os.mkdir(rel_path)
+
+    tem = templates.get_template(this_template)
+
+    path = os.path.join(here, rel_path, 'index.html')
+
+    with codecs.open(path, 'w') as out:
+        out.write(tem.render(**vars_for_template))
+
 def make_pages():
     here = os.path.dirname(__file__)
     loader = jinja2.FileSystemLoader(os.path.join(here, 'templates'))
     templates = jinja2.Environment(loader=loader)
 
     # HOMEPAGE #######################################
-
-    # this is a bit hacky, but, jinja templates like to receive an unpacked dict where the keys of the dict become the variable names in the template. but it was getting too annoying to pass all the variables to different templates individually. now the jinja template just gets one variable ctx which is a dict with all the other variables
-    vars_for_homepage = { 
+    make_top_level_page(here, templates, '', 'home.html', {
         'ctx': {
             'pages': pages,
             'publications_list': publications_list,
             'publications_by_name': publications_by_name,
             'news': news,
         }
-    }
-
-    tem = templates.get_template('home.html')
-    with codecs.open(os.path.join(here, 'index.html'), 'w') as out:
-        out.write(tem.render(**vars_for_homepage))
+    })
 
     # PUBLICATIONS PAGE ################################
-
-    vars_for_pub_page = {
+    make_top_level_page(here, templates, 'pubs', 'publications.html', {
         'ctx': {
             'publications_list': publications_list,
             'publications_by_name': publications_by_name,
         }
-    }
-
-    shutil.rmtree(os.path.join(here, 'pubs'), ignore_errors=True )
-    os.mkdir('pubs')
-
-    tem = templates.get_template('publications.html')
-    with codecs.open(os.path.join(here, 'pubs/index.html'), 'w') as out:
-        out.write(tem.render(**vars_for_pub_page))
+    })
 
     # CV PAGE ##########################################
-
-    vars_for_cv_page = {}
-
-    shutil.rmtree(os.path.join(here, 'cv'), ignore_errors=True )
-    os.mkdir('cv')
-
-    tem = templates.get_template('cv.html')
-    with codecs.open(os.path.join(here, 'cv/index.html'), 'w') as out:
-        out.write(tem.render(**vars_for_cv_page))
+    make_top_level_page(here, templates, 'cv', 'cv.html', {})
 
     # ABOUT PAGE #######################################
-
-    vars_for_about_page = {}
-
-    shutil.rmtree(os.path.join(here, 'about'), ignore_errors=True )
-    os.mkdir('about')
-
-    tem = templates.get_template('about.html')
-    with codecs.open(os.path.join(here, 'about/index.html'), 'w') as out:
-        out.write(tem.render(**vars_for_about_page))
+    make_top_level_page(here, templates, 'about', 'about.html', {})
 
     # PROJECTS PAGES ###################################
-
     vars_for_project_pages = {
         'ctx': {
             'page': {},

@@ -1,0 +1,19 @@
+{% import 'macros.html' as macros %}
+{{ macros.base_header() }}
+
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1>Publications</h1>
+
+      <p>
+        <a href="https://scholar.google.com/citations?user=urDLnnEAAAAJ">Google Scholar Profile</a>
+      </p>
+
+      {{ macros.list_all_publications(ctx.publications_list) }}
+
+    </div>
+  </div>
+</div>
+
+{{ macros.base_footer() }}
