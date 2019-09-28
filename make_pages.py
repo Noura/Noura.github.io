@@ -138,7 +138,7 @@ pages = [ \
 #    },
     {
         'name': 'Bio-Controlled DJ Effects',
-        'thumbnail': 'beatwave.png',
+        'thumbnail': 'beatwave_arm.png',
         'path': 'myodj',
         'template': 'myodj.html',
         'date': '2014',
