@@ -6,12 +6,17 @@ import jinja2
 # news and announcements
 news = [ \
      {
-        'date': "May '19",
+        'date': "Oct'19",
+        'description': "Talk at Cybersecurity Research Exchange",
+        'link': 'https://cltc.berkeley.edu/2019/09/08/2019-cltc-research-exchange/',
+     },
+     {
+        'date': "May'19",
         'description': "Paper at CHI on Life-Affirming Biosensing",
         'link': '/projects/heart_sounds_bench.html',
      },
      {
-        'date': "June '19",
+        'date': "June'19",
         'description': "Paper at DIS on Menstrual Biosensing",
         'link': '/projects/menstrual_biosensing.html',
      },
