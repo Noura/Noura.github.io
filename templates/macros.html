@@ -32,7 +32,7 @@
         <div id="navbar" class="">
           <ul class="navbar-nav navbar-right mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="/">Projects</a>
+              <a class="nav-link" href="/#project-tiles">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/pubs">Publications</a>
@@ -62,7 +62,7 @@
 
 
 {% macro tiles(ctx) %}
-<div class="row">
+<div id="project-tiles" class="row">
   {% for page in ctx.pages %}
     <div class="col-12 col-xs-12 col-sm-6 col-md-4">
       <a href="/projects/{{page.path}}.html" id="{{page.path}}" name="{{page.path}}">
