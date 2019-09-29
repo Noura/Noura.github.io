@@ -171,6 +171,13 @@ pages = [ \
 #        'template': 'chladni.html',
 #        'date': '2013',
 #    },
+    {
+        'name': 'Sounds',
+        'thumbnail': 'IMG_E1207_square.JPG',
+        'path': 'sounds',
+        'template': 'sounds.html',
+        'date': 'ongoing',
+    },
 #    {
 #        'name': 'Smart Bamboo Blinds for Bali',
 #        'thumbnail': 'bali_house.jpg',
