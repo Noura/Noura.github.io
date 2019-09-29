@@ -56,13 +56,13 @@ pages = [ \
         'template': 'heart_sounds_bench.html',
         'date': '2018 - present',
     }, {
-        'name': 'Emotional Biosensing: Exploring Critical Alternatives',
+        'name': 'Conceptual Reworkings for Emotional Biosensing',
         'thumbnail': 'IMG_E1199_square.JPG',
         'path': 'emotional_biosensing',
         'template': 'emotional_biosensing.html',
         'date': '2015',
     }, {
-        'name': 'Tensions of Data-Driven Emotional Reflection',
+        'name': 'Color-Changing Garments for Emotional Reflection',
         'thumbnail': 'ripple.png',
         'path': 'ripple',
         'template': 'ripple.html',
