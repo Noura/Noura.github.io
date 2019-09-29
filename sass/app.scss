@@ -113,6 +113,9 @@ span.news-item {
 }
 
 // publications ///////////////////////////////
+p.publication::before {
+    content: "\25A0";
+}
 p.publication {
     font-family: "Andale mono",monospace;
     font-size: 80%;

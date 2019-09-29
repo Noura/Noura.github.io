@@ -115,7 +115,6 @@
 
 {% macro publication(pub) %}
   <p class="publication">
-      <span class="publication"></span>
       {{ pub.cite|safe }}
       {% if pub.pdf %}<a href={{pub.pdf}}>pdf</a>{% endif %}
       {% if pub.url %}<a href={{pub.url}}>url</a>{% endif %}

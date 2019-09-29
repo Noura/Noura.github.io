@@ -112,6 +112,10 @@ span.news-item {
   border-top: 5px solid transparent;
 }
 
+p.publication::before {
+  content: "■";
+}
+
 p.publication {
   font-family: "Andale mono", monospace;
   font-size: 80%;
