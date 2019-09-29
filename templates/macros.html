@@ -1,35 +1,42 @@
 {% macro news_item(ctx, N) %}
-    {% for item in ctx.news %}
-       <a href="{{item.link}}">
-         <p>
-           <span class="news-item"></span>
-           {{item.description}} ({{item.date}})&nbsp;&gt;&gt;&gt;
-         </p>
-       </a>
-    {% endfor %}
+{% for item in ctx.news %}
+<a href="{{item.link}}">
+  <p>
+  <span class="news-item"></span>
+  {{item.description}} ({{item.date}})&nbsp;&gt;&gt;&gt;
+  </p>
+</a>
+{% endfor %}
 {% endmacro %}
 
 {% macro base_header() %}
-  <!doctype html>
-  <html lang="en">
-    <head>
-      <title>Noura Howell</title>
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Noura Howell</title>
 
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <link rel="stylesheet" href="/static/css/app.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-      <link rel="stylesheet" href="https://use.typekit.net/jka1nec.css">
+    <link rel="stylesheet" href="/static/css/app.css">
 
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    </head>
-    <body>
+    <link rel="stylesheet" href="https://use.typekit.net/jka1nec.css">
 
-    <nav class="navbar navbar-default navbar-expand-sm">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-light">
       <div class="container">
+
         <div class="navbar-header">
           <a class="navbar-brand" href="/">Noura Howell</a>
         </div>
-        <div id="navbar" class="">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav navbar-right mr-auto">
             <li class="nav-item">
               <a class="nav-link" href="/#project-tiles">Projects</a>
@@ -53,76 +60,81 @@
 
     <!-- all the page contents go here, then the ending body and html tags come in the footer macro -->
 
-{% endmacro %}
+    {% endmacro %}
 
-{% macro base_footer() %}
-    </body>
-  </html>
+    {% macro base_footer() %}
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+</html>
 {% endmacro %}
 
 
 {% macro tiles(ctx) %}
 <div id="project-tiles" class="row">
   {% for page in ctx.pages %}
-    <div class="col-12 col-xs-12 col-sm-6 col-md-4">
-      <a href="/projects/{{page.path}}.html" id="{{page.path}}" name="{{page.path}}">
-        <img class="tile" src="/static/img/280px_tiles/{{ page.thumbnail }}">
-      </a>
-      <br>
-      <a href="/projects/{{page.path}}.html">
-        <span class="tile-name">
-          {{ page.name }}
-        </span>
-      </a>
-    </div>
+  <div class="col-12 col-xs-12 col-sm-6 col-md-4">
+    <a href="/projects/{{page.path}}.html" id="{{page.path}}" name="{{page.path}}">
+      <img class="tile" src="/static/img/280px_tiles/{{ page.thumbnail }}">
+    </a>
+    <br>
+    <a href="/projects/{{page.path}}.html">
+      <span class="tile-name">
+        {{ page.name }}
+      </span>
+    </a>
+  </div>
   {% endfor %}
 </div>
 {% endmacro %}
 
 {% macro project_header(page, ctx) %}
 
-  <div class="container project-page" data-project="{{page.path}}">
-    <div class="row">
-      <div class="col-12">
-        <a href="/#{{ page.path }}">
-          &lt;&lt;&lt; Back
-        </a>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-12">
-        <h1>{{page.name}}</h1>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-
-{% endmacro %}
-
-{% macro project_footer(page, ctx) %}
-
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12 date">
-        <p>{{page.date}}</p>
-      </div>
+<div class="container project-page" data-project="{{page.path}}">
+  <div class="row">
+    <div class="col-12">
+      <a href="/#{{ page.path }}">
+        &lt;&lt;&lt; Back
+      </a>
     </div>
   </div>
+
+  <div class="row">
+    <div class="col-12">
+      <h1>{{page.name}}</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+
+      {% endmacro %}
+
+      {% macro project_footer(page, ctx) %}
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 date">
+      <p>{{page.date}}</p>
+    </div>
+  </div>
+</div>
 
 {% endmacro %}
 
 {% macro publication(pub) %}
-  <p class="publication">
-      {{ pub.cite|safe }}
-      {% if pub.pdf %}<a href={{pub.pdf}}>pdf</a>{% endif %}
-      {% if pub.url %}<a href={{pub.url}}>url</a>{% endif %}
-  </p>
+<p class="publication">
+{{ pub.cite|safe }}
+{% if pub.pdf %}<a href={{pub.pdf}}>pdf</a>{% endif %}
+{% if pub.url %}<a href={{pub.url}}>url</a>{% endif %}
+</p>
 {% endmacro %}
 
 {% macro list_all_publications(pubs_list) %}
-  {% for pub in pubs_list %}
-    {{ publication(pub) }}
-  {% endfor %}
+{% for pub in pubs_list %}
+{{ publication(pub) }}
+{% endfor %}
 {% endmacro %}
