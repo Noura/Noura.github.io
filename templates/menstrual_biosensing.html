@@ -2,16 +2,46 @@
 {{ macros.base_header() }}
 {{ macros.project_header(ctx.page, ctx) }}
 
-<img src="/static/img/largest/vivewell_cover.png">
-<p class="caption">
-Vivewell's winter catalog showcases cutting-edge period tracking technologies that embrace the corporate motto, <i>Live smart, live well.</i>. This zine presents a series of speculative designs in the form of a product catalog by fictional company Vivewell that explore the future of menstrual tracking. These speculative designs prompt reflection on current issues with menstrual tracking, such as embedding stereotypical gender roles and expansive data surveillance.
-</p>
+</div> <!-- closing the <div class="col-12"> provided by project_header -->
 
-<p>
-In this pictorial, we explore how emergent menstrual biosensing technologies compound existing concerns for the everyday ethics of extracting and analyzing intimate data. Specifically, we review the data practices of a set of existing menstrual applications and use that analysis to inform the design of speculative near future technologies. We present these technologies here in the form of a product catalog for a fictional company called Vivewell. Through this work, we contribute both a set of speculative design proposals and a case study of a design project that begins with the analysis of existing data policies.
-</p>
+<div class="col-md-6 col-sm-12">
+  <img src="/static/img/largest/vivewell1.jpg">
+</div>
 
-{{ macros.publication(ctx.publications_by_name.vivewell) }}
+<div class="col-md-6 col-sm-12">
+  <img src="/static/img/largest/vivewell2.jpg">
+</div>
 
-{{ macros.project_footer(ctx.page, ctx) }}
-{{ macros.base_footer() }}
+<div class="col-md-6 col-sm-12">
+  <img src="/static/img/largest/vivewell3.jpg">
+</div>
+
+<div class="col-md-6 col-sm-12">
+  <img src="/static/img/largest/vivewell4.jpg">
+</div>
+
+
+<div class="col-12"> <!-- opening another one to continue with the idea of the project_header template -->
+
+  <p class="caption">
+  Vivewell's winter catalog showcases cutting-edge period tracking technologies that embrace the corporate motto, <i>Live smart, live well</i>.
+  </p>
+
+  <p>
+  We created a set of speculative designs exploring the future of menstrual biosensing technologies at home and in the workplace. These speculative designs prompt reflection on current issues with menstrual tracking, such as stereotypical gender roles and expansive data surveillance. We present these speculative designs as a product catalog for fictional company Vivewell, in order to situate the designs in a broader landscape of corporate data narratives.
+  </p>
+
+  {{ macros.publication(ctx.publications_by_name.vivewell_zine) }}
+
+  <p>
+  We also contribute a pictorial documenting our process. We explored how emergent menstrual biosensing technologies compound existing concerns for the everyday ethics of extracting and analyzing intimate data. Specifically, we review the data practices of a set of existing menstrual applications and use that analysis to inform the design of speculative near future technologies. We present these technologies here in the form of a product catalog for a fictional company called Vivewell. Through this work, we contribute both a set of speculative design proposals and a case study of a design project that begins with the analysis of existing data policies.
+  </p>
+
+  {{ macros.publication(ctx.publications_by_name.vivewell) }}
+
+  <p>
+  This project is a collaboration with <a href="https://www.sarahfox.info/">Sarah Fox</a>, <a href="https://people.ischool.berkeley.edu/~richmond/">Richmond Wong</a>, and <a href="https://fspektor.myportfolio.com/">Franky Spektor</a>. Sarah and Richmond led the app data policy reviews. Franky led the graphic design and illustration of the zine. We all contributed to the speculative designs.
+  </p>
+
+  {{ macros.project_footer(ctx.page, ctx) }}
+  {{ macros.base_footer() }}

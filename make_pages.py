@@ -211,16 +211,22 @@ pages = [ \
 # publications appear in the order listed here
 publications_list = [
     {
+        'name': 'hsb1',
+        'cite': """<b>Noura Howell</b>, Greg Niemeyer, Kimiko Ryokai. 2019. Life-Affirming Biosensing in Public: Sounding Heartbeats on a Red Bench. <i>Human Factors in Computing Systems (CHI'19)</i>.""",
+        'pdf': '/static/pdf/19_CHI_Heart_Sounds_Bench.pdf',
+        'url': 'https://dl.acm.org/citation.cfm?id=3300910',
+    },
+    {
         'name': 'vivewell',
         'cite': """Sarah Fox, <b>Noura Howell</b>, Richmond Wong, Franchesca Spektor. 2019. Vivewell: Speculating Near-Future Menstrual Tracking through Current Data Practices. <i>Designing Interactive Systems Pictorials (DIS'19)</i>.""",
         'pdf': '/static/pdf/19_DIS_Vivewell.pdf',
         'url': None,
     },
     {
-        'name': 'hsb1',
-        'cite': """<b>Noura Howell</b>, Greg Niemeyer, Kimiko Ryokai. 2019. Life-Affirming Biosensing in Public: Sounding Heartbeats on a Red Bench. <i>Human Factors in Computing Systems (CHI'19)</i>.""",
-        'pdf': '/static/pdf/19_CHI_Heart_Sounds_Bench.pdf',
-        'url': 'https://dl.acm.org/citation.cfm?id=3300910',
+        'name': 'vivewell_zine',
+        'cite': """Sarah Fox, <b>Noura Howell</b>, Richmond Wong, Franchesca Spektor. 2019. Vivewell: Winter Product Catalog.""",
+        'pdf': '/static/pdf/19_Zine_Vivewell.pdf',
+        'url': None,
     },
     {
         'name': 'cscw_emotional_biosensing',
