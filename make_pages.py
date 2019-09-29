@@ -60,7 +60,7 @@ pages = [ \
         'thumbnail': 'IMG_E1199_square.JPG',
         'path': 'emotional_biosensing',
         'template': 'emotional_biosensing.html',
-        'date': '2015',
+        'date': '2018',
     }, {
         'name': 'Color-Changing Garments for Emotional Reflection',
         'thumbnail': 'ripple.png',
