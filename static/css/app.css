@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media all {
   body {
     font-size: 16px;
@@ -72,11 +73,15 @@ p.block-quote {
   padding-left: 1em;
 }
 
+.caption::before {
+  content: "◦";
+}
+
 .caption {
   font-weight: 400;
   font-size: 93%;
   color: black;
-  margin-top: 0;
+  margin-top: -0.5em;
   padding-bottom: 1em;
 }
 
