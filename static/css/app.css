@@ -23,6 +23,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  padding-bottom: 5em;
 }
 
 body.no-background-blend-mode {
