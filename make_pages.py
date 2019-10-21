@@ -57,7 +57,7 @@ pages = [ \
         'date': '2018 - present',
     }, {
         'name': 'Conceptual Reworkings for Emotional Biosensing',
-        'thumbnail': 'IMG_E1199_square.JPG',
+        'thumbnail': 'Feel.jpg',
         'path': 'emotional_biosensing',
         'template': 'emotional_biosensing.html',
         'date': '2018',
