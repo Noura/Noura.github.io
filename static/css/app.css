@@ -43,6 +43,10 @@ a {
   color: black !important;
 }
 
+a.nav-link.active {
+  font-weight: 600;
+}
+
 .navbar-brand {
   font-size: 1.5em;
 }

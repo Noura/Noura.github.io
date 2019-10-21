@@ -8,7 +8,7 @@
 {% endfor %}
 {% endmacro %}
 
-{% macro base_header() %}
+{% macro base_header(active_nav) %}
 <!doctype html>
 <html lang="en">
   <head>
@@ -38,19 +38,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="nav navbar-nav ml-auto justify-content-end">
             <li class="nav-item">
-              <a class="nav-link" href="/#project-tiles">Projects</a>
+              <a class="nav-link {% if active_nav == "projects" %} active {% endif %}" href="/#project-tiles">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/pubs">Publications</a>
+              <a class="nav-link {% if active_nav == "publications" %} active {% endif %} " href="/pubs">Publications</a>
             </li>
             <li>
-              <a class="nav-link" href="/cv">CV</a>
+              <a class="nav-link  {% if active_nav == "cv" %} active {% endif %} " href="/cv">CV</a>
             </li>
             <li>
-              <a class="nav-link" href="/teaching">Teaching</a>
+              <a class="nav-link  {% if active_nav == "teaching" %} active {% endif %} " href="/teaching">Teaching</a>
             </li>
             <li>
-              <a class="nav-link" href="/about">About</a>
+              <a class="nav-link  {% if active_nav == "about" %} active {% endif %} " href="/about">About</a>
             </li>
           </ul>
         </div>
@@ -59,9 +59,9 @@
 
     <!-- all the page contents go here, then the ending body and html tags come in the footer macro -->
 
-    {% endmacro %}
+{% endmacro %}
 
-    {% macro base_footer() %}
+{% macro base_footer() %}
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
