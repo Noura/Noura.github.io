@@ -362,6 +362,11 @@ def make_pages():
     # ABOUT PAGE #######################################
     make_top_level_page(here, templates, 'about', 'about.html', {})
 
+    # NEWS PAGE ########################################
+    make_top_level_page(here, templates, 'news', 'news.html', {
+        'news': news
+    })
+
     # PROJECTS PAGES ###################################
     vars_for_project_pages = {
         'ctx': {

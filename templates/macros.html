@@ -1,11 +1,12 @@
-{% macro news_item(ctx, N) %}
-<span>News:</span><br>
-{% for item in ctx.news %}
-<a href="{{item.link}}">
-  <span class="news-item"></span>
-  {{item.description}} ({{item.date}})
-</a><br>
-{% endfor %}
+{% macro news(news) %}
+  {% for item in news %}
+  <p>
+    <a href="{{item.link}}">
+      <span class="news-item"></span>
+      {{item.description}} ({{item.date}})
+    </a>
+  </p>
+  {% endfor %}
 {% endmacro %}
 
 {% macro base_header(active_nav) %}
@@ -51,6 +52,9 @@
             </li>
             <li>
               <a class="nav-link  {% if active_nav == "about" %} active {% endif %} " href="/about">About</a>
+            </li>
+            <li>
+              <a class="nav-link  {% if active_nav == "about" %} active {% endif %} " href="/news">News</a>
             </li>
           </ul>
         </div>

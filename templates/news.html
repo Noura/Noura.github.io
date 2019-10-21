@@ -1,0 +1,21 @@
+{% import 'macros.html' as macros %}
+{{ macros.base_header("news") }}
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1>News</h1>
+    </div>
+    <div class="col-sm-12 col-md-6">
+      {{ macros.news(news) }}
+    </div>
+    <div class="col-sm-12 col-md-6">
+      <img style="width:300px; max-width:100%; padding-bottom:1em;" src="/static/img/largest/me_cltc_resex_2019.jpg">
+      <p class="caption">
+        Presenting at the Center for Long-Term Cybersecurity Research Exchange in fall 2019.
+      </p>
+    </div>
+  </div>
+</div>
+{{ macros.base_footer() }}
