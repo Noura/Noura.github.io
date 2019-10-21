@@ -55,18 +55,23 @@ pages = [ \
         'path': 'heart_sounds_bench',
         'template': 'heart_sounds_bench.html',
         'date': '2018 - present',
-    }, {
+        'type': 'dissertation',
+    }, 
+    {
         'name': 'Conceptual Reworkings for Emotional Biosensing',
         'thumbnail': 'Feel.jpg',
         'path': 'emotional_biosensing',
         'template': 'emotional_biosensing.html',
         'date': '2018',
-    }, {
+        'type': 'dissertation',
+    }, 
+    {
         'name': 'Color-Changing Garments for Emotional Reflection',
         'thumbnail': 'ripple.png',
         'path': 'ripple',
         'template': 'ripple.html',
         'date': '2015 - 2018',
+        'type': 'dissertation',
     },
     {
         'name': 'Speculating Near-Future Menstrual Biosensing',
@@ -74,6 +79,7 @@ pages = [ \
         'path': 'menstrual_biosensing',
         'template': 'menstrual_biosensing.html',
         'date': '2018 - present',
+        'type': 'research_collab',
     },
     {
         'name': 'Cherishing Laughter as Biosensory Data',
@@ -81,6 +87,7 @@ pages = [ \
         'path': 'laughter',
         'template': 'laughter.html',
         'date': '2016 - 2017',
+        'type': 'research_collab',
     },
     {
         'name': 'Color-Changing Fabric as Realtime Data Display',
@@ -88,6 +95,7 @@ pages = [ \
         'path': 'ebb',
         'template': 'ebb.html',
         'date': '2015',
+        'type': 'research_collab',
     },
 #    {
 #        'name': 'Assembling Critical Practices Reading Group',
@@ -107,6 +115,7 @@ pages = [ \
         'template': 'salaam.html',
         # appears at bottom of project page just as text
         'date': 'spring 2017',
+        'type': 'interactive_art',
     },
     {
         'name': 'Heart Sounds in Cheap Plastic Buckets',
@@ -114,14 +123,16 @@ pages = [ \
         'path': 'heart_sounds_buckets',
         'template': 'heart_sounds_buckets.html',
         'date': 'spring 2019',
+        'type': 'interactive_art',
     },
-#    {
-#        'name': 'Performing VR Together',
-#        'thumbnail': 'vr_square.jpg',
-#        'path': 'performing_vr',
-#        'template': 'performing_vr.html',
-#        'date': 'fall 2016',
-#    },
+    {
+        'name': 'Performing VR Together',
+        'thumbnail': 'vr_square.jpg',
+        'path': 'performing_vr',
+        'template': 'performing_vr.html',
+        'date': 'fall 2016',
+        'type': 'interactive_art',
+    },
 #    {
 #        'name': 'Code 510 Mentoring',
 #        'thumbnail': 'code510.png',
@@ -142,6 +153,7 @@ pages = [ \
         'path': 'myodj',
         'template': 'myodj.html',
         'date': '2014',
+        'type': 'sound',
     },
     {
         'name': 'Intel Connect Anything Prototyping Kit',
@@ -149,6 +161,7 @@ pages = [ \
         'path': 'intel',
         'template': 'intel.html',
         'date': '2014',
+        'type': 'industry',
     },
     {
         'name': 'WaaZam!',
@@ -156,6 +169,7 @@ pages = [ \
         'path': 'waazam',
         'template': 'waazam.html',
         'date': '2013',
+        'type': 'research_collab',
     },
     {
         'name': 'Sounds',
@@ -163,6 +177,7 @@ pages = [ \
         'path': 'sounds',
         'template': 'sounds.html',
         'date': 'ongoing',
+        'type': 'sound',
     },
     {
         'name': 'Harmonograph Visualizer',
@@ -170,6 +185,7 @@ pages = [ \
         'path': 'lissa',
         'template': 'lissajous.html',
         'date': '2013',
+        'type': 'sound',
     },
     {
         'name': 'Chladni Waves Visualizer',
@@ -177,34 +193,39 @@ pages = [ \
         'path': 'chladni',
         'template': 'chladni.html',
         'date': '2013',
+        'type': 'sound',
     },
-#    {
-#        'name': 'Smart Bamboo Blinds for Bali',
-#        'thumbnail': 'bali_house.jpg',
-#        'path': 'bamboo_blinds',
-#        'template': 'bali.html',
-#        'date': 'May 2014',
-#    },
-#    {
-#        'name': 'Mobile Phones & Illiteracy in Morocco',
-#        'thumbnail': 'apples.jpg',
-#        'path': 'moblit',
-#        'template': 'mobile_illiteracy.html',
-#        'date': '2012',
-#    },
-#    {
-#        'name': 'Solar Cooker for the Himalayas',
-#        'thumbnail': 'solsource.jpg',
-#        'path': 'solsource',
-#        'template': 'solar_cooker.html',
-#        'date': '2010',
-#    },
+    {
+        'name': 'Smart Bamboo Blinds for Bali',
+        'thumbnail': 'bali_house.jpg',
+        'path': 'bamboo_blinds',
+        'template': 'bali.html',
+        'date': 'May 2014',
+        'type': 'ictd',
+    },
+    {
+        'name': 'Mobile Phones & Illiteracy in Morocco',
+        'thumbnail': 'apples.jpg',
+        'path': 'moblit',
+        'template': 'mobile_illiteracy.html',
+        'date': '2012',
+        'type': 'ictd',
+    },
+    {
+        'name': 'Solar Cooker for the Himalayas',
+        'thumbnail': 'solsource.jpg',
+        'path': 'solsource',
+        'template': 'solar_cooker.html',
+        'date': '2010',
+        'type': 'ictd',
+    },
 #    {
 #        'name': 'Biosignals Experiments',
 #        'thumbnail': 'peacebone_gsr.png',
 #        'path': 'biosignals',
 #        'template': 'biosignals.html',
 #        'date': '',
+#        'type': 'sound',
 #    },
     {
         'name': 'Music & Data at The Echo Nest',
@@ -212,7 +233,8 @@ pages = [ \
         'path': 'the_echo_nest',
         'template': 'echonest.html',
         'date': '2012 - 2013',
-    }
+        'type': 'industry',
+    },
   ]
 
 # publications appear in the order listed here

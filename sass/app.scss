@@ -102,6 +102,13 @@ p.block-quote {
     width: 90%;
 }
 
+h2.project-subheading {
+    padding-top: 1em;
+}
+#project-tiles {
+    margin-top: -1em; // hacky but this undoes the top padding for the first project-subheading
+}
+
 // 280px is the max width i have for the image assets for the tiles...
 img.tile {
     width: 100%;

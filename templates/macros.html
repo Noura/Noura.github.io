@@ -76,22 +76,25 @@
 {% endmacro %}
 
 
-{% macro tiles(ctx) %}
-<div id="project-tiles" class="row">
-  {% for page in ctx.pages %}
-  <div class="col-12 col-xs-12 col-sm-6 col-md-4">
-    <a href="/projects/{{page.path}}.html" id="{{page.path}}" name="{{page.path}}">
-      <img class="tile" src="/static/img/280px_tiles/{{ page.thumbnail }}">
-    </a>
-    <br>
-    <a href="/projects/{{page.path}}.html">
-      <span class="tile-name">
-        {{ page.name }}
-      </span>
-    </a>
+{% macro tiles(subheading, type, projects) %}
+  <div class="col-12">
+    <h2 class="project-subheading"> {{ subheading }} </h2>
   </div>
+  {% for page in projects %}
+    {% if page.type == type %}
+      <div class="col-12 col-xs-12 col-sm-6 col-md-4">
+        <a href="/projects/{{page.path}}.html" id="{{page.path}}" name="{{page.path}}">
+          <img class="tile" src="/static/img/280px_tiles/{{ page.thumbnail }}">
+        </a>
+        <br>
+        <a href="/projects/{{page.path}}.html">
+          <span class="tile-name">
+            {{ page.name }}
+          </span>
+        </a>
+      </div>
+    {% endif %}
   {% endfor %}
-</div>
 {% endmacro %}
 
 {% macro project_header(page, ctx) %}

@@ -102,6 +102,14 @@ p.block-quote {
   width: 90%;
 }
 
+h2.project-subheading {
+  padding-top: 1em;
+}
+
+#project-tiles {
+  margin-top: -1em;
+}
+
 img.tile {
   width: 100%;
   max-width: 280px;

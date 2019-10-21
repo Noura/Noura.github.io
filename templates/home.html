@@ -5,8 +5,6 @@
 <div class="container">
 
   <div class="row">
-    
-
     <div class="col-12">
       <p>
       How do we make meaning with data? Not only analytically, but also with our feelings, bodies, materials, and social relationships?
@@ -17,9 +15,16 @@
       I am a PhD candidate at the School of Information at the University of California, Berkeley.
       </p>
     </div>
-
   </div>
-  {{ macros.tiles(ctx) }}
+  
+  <div id="project-tiles" class="row">
+    {{ macros.tiles("Dissertation Work", "dissertation", ctx.pages) }}
+    {{ macros.tiles("Research Collaborations", "research_collab", ctx.pages) }}
+    {{ macros.tiles("Interactive Art", "interactive_art", ctx.pages) }}
+    {{ macros.tiles("Industry", "industry", ctx.pages) }}
+    {{ macros.tiles("Sound Explorations", "sound", ctx.pages) }}
+    {{ macros.tiles("Technology for Development", "ictd", ctx.pages) }}
+  </div>
 </div>
 
 {{ macros.base_footer() }}
