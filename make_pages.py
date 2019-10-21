@@ -172,7 +172,7 @@ pages = [ \
         'type': 'research_collab',
     },
     {
-        'name': 'Sounds',
+        'name': 'Defamiliarizing Sound with Granular Synthesis',
         'thumbnail': 'IMG_E1207_square.JPG',
         'path': 'sounds',
         'template': 'sounds.html',
