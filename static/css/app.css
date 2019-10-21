@@ -79,10 +79,6 @@ p.block-quote {
   padding-left: 1em;
 }
 
-.caption::before {
-  content: "◦";
-}
-
 .caption {
   font-weight: 400;
   font-size: 93%;
