@@ -39,6 +39,10 @@ p {
   line-height: 1.6em;
 }
 
+h1 {
+  padding-bottom: 0.5em;
+}
+
 a {
   color: black !important;
 }
