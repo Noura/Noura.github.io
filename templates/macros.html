@@ -1,11 +1,10 @@
 {% macro news_item(ctx, N) %}
+<span>News:</span><br>
 {% for item in ctx.news %}
 <a href="{{item.link}}">
-  <p>
   <span class="news-item"></span>
-  {{item.description}} ({{item.date}})&nbsp;&gt;&gt;&gt;
-  </p>
-</a>
+  {{item.description}} ({{item.date}})
+</a><br>
 {% endfor %}
 {% endmacro %}
 
