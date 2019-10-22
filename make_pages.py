@@ -246,18 +246,6 @@ publications_list = [
         'url': 'https://dl.acm.org/citation.cfm?id=3300910',
     },
     {
-        'name': 'vivewell',
-        'cite': """Sarah Fox, <b>Noura Howell</b>, Richmond Wong, Franchesca Spektor. 2019. Vivewell: Speculating Near-Future Menstrual Tracking through Current Data Practices. <i>Designing Interactive Systems Pictorials (DIS'19)</i>.""",
-        'pdf': '/static/pdf/19_DIS_Vivewell.pdf',
-        'url': None,
-    },
-    {
-        'name': 'vivewell_zine',
-        'cite': """Sarah Fox, <b>Noura Howell</b>, Richmond Wong, Franchesca Spektor. 2019. Vivewell: Winter Product Catalog.""",
-        'pdf': '/static/pdf/19_Zine_Vivewell.pdf',
-        'url': None,
-    },
-    {
         'name': 'cscw_emotional_biosensing',
         'cite': """<b>Noura Howell</b>, John Chuang, Abigail De Kosnik, Greg Niemeyer, Kimiko Ryokai. 2018. Emotional Biosensing: Exploring Critical Alternatives. <i>Computer Supported Cooperative Work (CSCW'18)</i>.""",
         'pdf': '/static/pdf/18_CSCW_Emotional_Biosensing.pdf',
@@ -268,6 +256,24 @@ publications_list = [
         'cite': """<b>Noura Howell</b>, Laura Devendorf, Tom&aacute;s Vega G&aacute;lvez, Rundong (Kevin) Tian, Kimiko Ryokai. 2018. Tensions of data-driven reflection: A case study of real-time emotional biosensing. <i>Human Factors in Computing Systems (CHI'18)</i>.""",
         'pdf': '/static/pdf/18_CHI_Ripple.pdf',
         'url': 'https://dl.acm.org/citation.cfm?id=3174005',
+    },
+    {
+        'name': 'hint',
+        'cite': """<b>Noura Howell</b>, Laura Devendorf, Rundong (Kevin) Tian, Tom&aacute;s Vega G&aacute;lvez, Nan-Wei Gong, Ivan Poupyrev, Eric Paulos, Kimiko Ryokai. 2016. Biosignals as social cues: Ambiguity and emotional interpretation in social displays of skin conductance. <i>Designing Interactive Systems (DIS'16)</i>.""",
+        'pdf': '/static/pdf/16_DIS_Hint.pdf',
+        'url': 'https://dl.acm.org/citation.cfm?id=2901850',
+    },
+    {
+        'name': 'vivewell',
+        'cite': """Sarah Fox, <b>Noura Howell</b>, Richmond Wong, Franchesca Spektor. 2019. Vivewell: Speculating Near-Future Menstrual Tracking through Current Data Practices. <i>Designing Interactive Systems Pictorials (DIS'19)</i>.""",
+        'pdf': '/static/pdf/19_DIS_Vivewell.pdf',
+        'url': None,
+    },
+    {
+        'name': 'vivewell_zine',
+        'cite': """Sarah Fox, <b>Noura Howell</b>, Richmond Wong, Franchesca Spektor. 2019. Vivewell: Winter Product Catalog.""",
+        'pdf': '/static/pdf/19_Zine_Vivewell.pdf',
+        'url': None,
     },
     {
         # custom name to refer to this publication in templates
@@ -284,12 +290,6 @@ publications_list = [
         'cite': """Kimiko Ryokai, Elena Duran, Dina Bseiso, <b>Noura Howell</b>,Ji Won Jun. 2017. Celebrating Laughter: Capturing and Sharing Tangible Representations of Laughter. <i>Extended Abstracts of Designing Interactive Systems (DIS'17)</i>.""",
         'pdf': None,
         'url': "http://dl.acm.org/citation.cfm?id=3079146",
-    },
-    {
-        'name': 'hint',
-        'cite': """<b>Noura Howell</b>, Laura Devendorf, Rundong (Kevin) Tian, Tom&aacute;s Vega G&aacute;lvez, Nan-Wei Gong, Ivan Poupyrev, Eric Paulos, Kimiko Ryokai. 2016. Biosignals as social cues: Ambiguity and emotional interpretation in social displays of skin conductance. <i>Designing Interactive Systems (DIS'16)</i>.""",
-        'pdf': '/static/pdf/16_DIS_Hint.pdf',
-        'url': 'https://dl.acm.org/citation.cfm?id=2901850',
     },
     {
         'name': 'ebb',
