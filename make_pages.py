@@ -58,8 +58,8 @@ pages = [ \
         'type': 'dissertation',
     }, 
     {
-        'name': 'Conceptual Reworkings for Emotional Biosensing',
-        'thumbnail': 'Feel.jpg',
+        'name': 'Survey of Emotional Biosensing Technologies and Conceptual Reworkings',
+        'thumbnail': 'spire_feel_oura.jpg',
         'path': 'emotional_biosensing',
         'template': 'emotional_biosensing.html',
         'date': '2018',
