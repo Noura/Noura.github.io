@@ -12,8 +12,8 @@ news = [ \
      },
      {
         'date': "Oct'19",
-        'description': "Talk at Cybersecurity Research Exchange",
-        'link': 'https://cltc.berkeley.edu/2019/09/08/2019-cltc-research-exchange/',
+        'description': "Talk at Center for Long-Term Cybersecurity Research Exchange",
+        'link': 'https://cltc.berkeley.edu/grants/speculating-smart-city-cybersecurity-with-the-heart-sounds-bench-detourning-data-and-surveillance-in-public-space/',
      },
      {
         'date': "May'19",
