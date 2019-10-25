@@ -7,6 +7,11 @@ import jinja2
 news = [ \
      {
         'date': "Oct'19",
+        'description': "Collaborator Franchesca Spektor presented our work at Center for Technology, Society, and Policy",
+        'link': 'https://ctsp.berkeley.edu/projects2018/#menstrualBiosensing',
+     },
+     {
+        'date': "Oct'19",
         'description': "Talk at Cybersecurity Research Exchange",
         'link': 'https://cltc.berkeley.edu/2019/09/08/2019-cltc-research-exchange/',
      },
