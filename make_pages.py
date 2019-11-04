@@ -6,6 +6,11 @@ import jinja2
 # news and announcements
 news = [ \
      {
+        'date': "Nov'19",
+        'description': "Talk at U Michigan School of Information",
+        'link': None,
+     },
+     {
         'date': "Oct'19",
         'description': "Collaborator Franchesca Spektor presented our work at Center for Technology, Society, and Policy",
         'link': 'https://ctsp.berkeley.edu/projects2018/#menstrualBiosensing',

@@ -1,10 +1,14 @@
 {% macro news(news) %}
   {% for item in news %}
   <p>
+    {% if item.link %}
     <a href="{{item.link}}">
+    {% endif %}
       <span class="news-item"></span>
       {{item.description}} ({{item.date}})
+    {% if item.link %}
     </a>
+    {% endif %}
   </p>
   {% endfor %}
 {% endmacro %}
