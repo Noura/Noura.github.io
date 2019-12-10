@@ -283,7 +283,7 @@ publications_list = [
         'name': 'vivewell',
         'cite': """Sarah Fox, <b>Noura Howell</b>, Richmond Wong, Franchesca Spektor. 2019. Vivewell: Speculating Near-Future Menstrual Tracking through Current Data Practices. <i>Designing Interactive Systems Pictorials (DIS'19)</i>.""",
         'pdf': '/static/pdf/19_DIS_Vivewell.pdf',
-        'url': None,
+        'url': 'https://dl.acm.org/citation.cfm?id=3323695',
     },
     {
         'name': 'vivewell_zine',
