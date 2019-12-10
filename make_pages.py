@@ -274,6 +274,12 @@ publications_list = [
         'url': 'https://dl.acm.org/citation.cfm?id=2901850',
     },
     {
+        'name': 'design_futuring',
+        'cite': """Sandjar Kozubaev, Chris Elsden, <b>Noura Howell</b>, Marie Louise Juul S&oslash;ndergaard, Nick Merrill, Britta Schulte, Richmond Y. Wong. 2020. Expanding Modes of Reflection in Design Futuring. <i>Human Factors in Computing Systems (CHI'20)</i>.""",
+        'pdf': None,
+        'url': None,
+    },
+    {
         'name': 'vivewell',
         'cite': """Sarah Fox, <b>Noura Howell</b>, Richmond Wong, Franchesca Spektor. 2019. Vivewell: Speculating Near-Future Menstrual Tracking through Current Data Practices. <i>Designing Interactive Systems Pictorials (DIS'19)</i>.""",
         'pdf': '/static/pdf/19_DIS_Vivewell.pdf',
