@@ -6,6 +6,11 @@ import jinja2
 # news and announcements
 news = [ \
      {
+        'date': "Jan'20",
+        'description': "Talk at North Carolina State University Department of Communication",
+        'link': None,
+     },
+     {
         'date': "Dec'19",
         'description': "Paper accepted to CHI 2020 - Expanding Modes of Reflection in Design Futuring with Sandjar Kozubaev, Chris Elsden, Marie Louise Juul S&oslash;ndergaard, Nick Merrill, Britta Schulte, Richmond Y. Wong",
         'link': None,
