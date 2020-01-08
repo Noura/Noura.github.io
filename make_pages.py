@@ -7,6 +7,11 @@ import jinja2
 news = [ \
      {
         'date': "Jan'20",
+        'description': "Talk at Queen's School of Computing in Kingston, Ontario",
+        'link': None,
+     },
+     {
+        'date': "Jan'20",
         'description': "Talk at North Carolina State University Department of Communication",
         'link': None,
      },
