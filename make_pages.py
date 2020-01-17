@@ -41,14 +41,14 @@ news = [ \
         'link': 'https://cltc.berkeley.edu/grants/speculating-smart-city-cybersecurity-with-the-heart-sounds-bench-detourning-data-and-surveillance-in-public-space/',
      },
      {
-        'date': "May'19",
-        'description': "Paper at CHI on Life-Affirming Biosensing",
-        'link': '/projects/heart_sounds_bench.html',
-     },
-     {
         'date': "June'19",
         'description': "Paper at DIS on Menstrual Biosensing",
         'link': '/projects/menstrual_biosensing.html',
+     },
+     {
+        'date': "May'19",
+        'description': "Paper at CHI on Life-Affirming Biosensing",
+        'link': '/projects/heart_sounds_bench.html',
      },
     {
         'date': "Mar'19",
