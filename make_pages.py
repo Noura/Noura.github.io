@@ -40,21 +40,21 @@ news = [ \
         'description': "Collaborator Franchesca Spektor presented our work at Center for Technology, Society, and Policy",
         'link': 'https://ctsp.berkeley.edu/projects2018/#menstrualBiosensing',
      },
-     {
-        'date': "Oct'19",
-        'description': "Talk at Center for Long-Term Cybersecurity Research Exchange",
-        'link': 'https://cltc.berkeley.edu/grants/speculating-smart-city-cybersecurity-with-the-heart-sounds-bench-detourning-data-and-surveillance-in-public-space/',
-     },
-     {
-        'date': "June'19",
-        'description': "Paper at DIS on Menstrual Biosensing",
-        'link': '/projects/menstrual_biosensing.html',
-     },
-     {
-        'date': "May'19",
-        'description': "Paper at CHI on Life-Affirming Biosensing",
-        'link': '/projects/heart_sounds_bench.html',
-     },
+#     {
+#        'date': "Oct'19",
+#        'description': "Talk at Center for Long-Term Cybersecurity Research Exchange",
+#        'link': 'https://cltc.berkeley.edu/grants/speculating-smart-city-cybersecurity-with-the-heart-sounds-bench-detourning-data-and-surveillance-in-public-space/',
+#     },
+#     {
+#        'date': "June'19",
+#        'description': "Paper at DIS on Menstrual Biosensing",
+#        'link': '/projects/menstrual_biosensing.html',
+#     },
+#     {
+#        'date': "May'19",
+#        'description': "Paper at CHI on Life-Affirming Biosensing",
+#        'link': '/projects/heart_sounds_bench.html',
+#     },
 #    {
 #        'date': "Mar'19",
 #        'description': "Talk at InfoCamp Conference",
