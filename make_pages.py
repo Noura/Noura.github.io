@@ -17,6 +17,11 @@ news = [ \
      },
      {
         'date': "Jan'20",
+        'description': "Grant from Center for Technology Society and Policy joint with Algorithmic Fairness and Opacity Group on the project An Alternate Lexicon for AI with Noopur Raval and Morgan Ames",
+        'link': 'https://ctsp.berkeley.edu/projects-2020/',
+     },
+     {
+        'date': "Jan'20",
         'description': "Talk at North Carolina State University Department of Communication",
         'link': None,
      },
