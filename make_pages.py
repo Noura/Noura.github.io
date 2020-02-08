@@ -12,6 +12,11 @@ news = [ \
      },
      {
         'date': "Feb'20",
+        'description': "Talk at Purdue Computer Graphics Technology Department",
+        'link': None,
+     },
+     {
+        'date': "Feb'20",
         'description': "Talk at Georgia Tech School of Literature, Media, and Communication",
         'link': None,
      },
