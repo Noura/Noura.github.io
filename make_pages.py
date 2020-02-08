@@ -35,16 +35,16 @@ news = [ \
         'description': "Paper accepted to CHI 2020 - Expanding Modes of Reflection in Design Futuring with Sandjar Kozubaev, Chris Elsden, Marie Louise Juul S&oslash;ndergaard, Nick Merrill, Britta Schulte, Richmond Y. Wong",
         'link': None,
      },
-     {
-        'date': "Nov'19",
-        'description': "Talk at U Michigan School of Information",
-        'link': None,
-     },
-     {
-        'date': "Oct'19",
-        'description': "Collaborator Franchesca Spektor presented our work at Center for Technology, Society, and Policy",
-        'link': 'https://ctsp.berkeley.edu/projects2018/#menstrualBiosensing',
-     },
+#     {
+#        'date': "Nov'19",
+#        'description': "Talk at U Michigan School of Information",
+#        'link': None,
+#     },
+#     {
+#        'date': "Oct'19",
+#        'description': "Collaborator Franchesca Spektor presented our work at Center for Technology, Society, and Policy",
+#        'link': 'https://ctsp.berkeley.edu/projects2018/#menstrualBiosensing',
+#     },
 #     {
 #        'date': "Oct'19",
 #        'description': "Talk at Center for Long-Term Cybersecurity Research Exchange",
