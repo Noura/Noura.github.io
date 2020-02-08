@@ -7,7 +7,7 @@ import jinja2
 news = [ \
      {
         'date': "Feb'20",
-        'description': "Late-Breaking Work accepted for CHI 2020 - Teachable Machine: Approachable Web-Based Tool for Exploring Machine Learning Classification, with Google AI and Google Creative Lab folks Michelle Carney, Barron Webster, Irene Alvarado, Kyle Phillips, Jordan Griffith, Jonas Jongejan, Amit Pitaru, and Alexander Chen",
+        'description': "Late-Breaking Work accepted to CHI 2020 - Teachable Machine: Approachable Web-Based Tool for Exploring Machine Learning Classification, with Google AI and Google Creative Lab folks Michelle Carney, Barron Webster, Irene Alvarado, Kyle Phillips, Jordan Griffith, Jonas Jongejan, Amit Pitaru, and Alexander Chen",
         'link': None,
      },
      {
