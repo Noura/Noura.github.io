@@ -7,6 +7,11 @@ import jinja2
 news = [ \
      {
         'date': "Feb'20",
+        'description': "Late-Breaking Work accepted for CHI 2020 - Teachable Machine: Approachable Web-Based Tool for Exploring Machine Learning Classification, with Google AI and Google Creative Lab folks Michelle Carney, Barron Webster, Irene Alvarado, Kyle Phillips, Jordan Griffith, Jonas Jongejan, Amit Pitaru, and Alexander Chen",
+        'link': None,
+     },
+     {
+        'date': "Feb'20",
         'description': "Talk at Georgia Tech School of Literature, Media, and Communication",
         'link': None,
      },
@@ -297,6 +302,12 @@ publications_list = [
         'cite': """<b>Noura Howell</b>, Laura Devendorf, Rundong (Kevin) Tian, Tom&aacute;s Vega G&aacute;lvez, Nan-Wei Gong, Ivan Poupyrev, Eric Paulos, Kimiko Ryokai. 2016. Biosignals as social cues: Ambiguity and emotional interpretation in social displays of skin conductance. <i>Designing Interactive Systems (DIS'16)</i>.""",
         'pdf': '/static/pdf/16_DIS_Hint.pdf',
         'url': 'https://dl.acm.org/citation.cfm?id=2901850',
+    },
+    {
+        'name': 'teachable_machine',
+        'cite': """Michelle Carney, Barron Webster, Irene Alvarado, Kyle Phillips, <b>Noura Howell</b>, Jordan Griffith, Jonas Jongejan, Amit Pitaru, Alexander Chen. 2020. Teachable Machine: Approachable Web-Based Tool for Exploring Machine Learning Classification. <i>Late-Breaking Works of Human Factors in Computing Systems (CHI'20)</i>.""",
+        'pdf': None,
+        'url': None,
     },
     {
         'name': 'design_futuring',
