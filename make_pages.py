@@ -311,7 +311,7 @@ publications_list = [
     {
         'name': 'teachable_machine',
         'cite': """Michelle Carney, Barron Webster, Irene Alvarado, Kyle Phillips, <b>Noura Howell</b>, Jordan Griffith, Jonas Jongejan, Amit Pitaru, Alexander Chen. 2020. Teachable Machine: Approachable Web-Based Tool for Exploring Machine Learning Classification. <i>Late-Breaking Works of Human Factors in Computing Systems (CHI'20)</i>.""",
-        'pdf': None,
+        'pdf': '/static/pdf/2020_CHI_LBW_Teachable_Machine.pdf',
         'url': None,
     },
     {
