@@ -7,6 +7,11 @@ import jinja2
 news = [ \
      {
         'date': "Mar'20",
+        'description': "Talk at IST Lisbon in the Department of Computer Science and Engineering",
+        'link': None,
+     },
+     {
+        'date': "Mar'20",
         'description': "Research visit to RITMO with Greg Niemeyer and Alexander Jensenius",
         'link': 'https://www.uio.no/ritmo/english/',
      },
