@@ -17,7 +17,7 @@ news = [ \
      },
      {
         'date': "Mar'20",
-        'description': "Research visit to RITMO with Greg Niemeyer and Alexander Jensenius",
+        'description': "Research visit to RITMO with Greg Niemeyer and Alexander Jensenius (cancelled / postponed)",
         'link': 'https://www.uio.no/ritmo/english/',
      },
      {
