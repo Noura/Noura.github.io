@@ -7,7 +7,7 @@ import jinja2
 news = [ \
      {
         'date': "Mar'20",
-        'description': "Talk at NYU Music and Audio Research Laboratory (MARL) and Integrated Digital Media (IDM)",
+        'description': "Talk at NYU Music and Audio Research Laboratory (MARL) and Integrated Digital Media (IDM) (cancelled)",
         'link': None,
      },
      {
