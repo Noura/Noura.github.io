@@ -5,16 +5,16 @@ import jinja2
 
 # news and announcements
 news = [ \
-     {
-        'date': "Mar'20",
-        'description': "Talk at NYU Music and Audio Research Laboratory (MARL) and Integrated Digital Media (IDM) (cancelled)",
-        'link': None,
-     },
-     {
-        'date': "Mar'20",
-        'description': "Talk at IST Lisbon in the Department of Computer Science and Engineering",
-        'link': None,
-     },
+#     {
+#        'date': "Mar'20",
+#        'description': "Talk at NYU Music and Audio Research Laboratory (MARL) and Integrated Digital Media (IDM) (cancelled)",
+#        'link': None,
+#     },
+#     {
+#        'date': "Mar'20",
+#        'description': "Talk at IST Lisbon in the Department of Computer Science and Engineering",
+#        'link': None,
+#     },
      {
         'date': "Mar'20",
         'description': "Research visit to RITMO with Greg Niemeyer and Alexander Jensenius (cancelled)",
@@ -25,36 +25,36 @@ news = [ \
         'description': "Late-Breaking Work accepted to CHI 2020 - Teachable Machine: Approachable Web-Based Tool for Exploring Machine Learning Classification, with Google AI and Google Creative Lab folks Michelle Carney, Barron Webster, Irene Alvarado, Kyle Phillips, Jordan Griffith, Jonas Jongejan, Amit Pitaru, and Alexander Chen",
         'link': None,
      },
-     {
-        'date': "Feb'20",
-        'description': "Talk at Purdue Computer Graphics Technology Department",
-        'link': None,
-     },
-     {
-        'date': "Feb'20",
-        'description': "Talk at Georgia Tech School of Literature, Media, and Communication",
-        'link': None,
-     },
-     {
-        'date': "Jan'20",
-        'description': "Talk at North Carolina State University Department of Communication",
-        'link': None,
-     },
-     {
-        'date': "Jan'20",
-        'description': "Talk at Queen's School of Computing in Kingston, Ontario",
-        'link': None,
-     },
+#     {
+#        'date': "Feb'20",
+#        'description': "Talk at Purdue Computer Graphics Technology Department",
+#        'link': None,
+#     },
+#     {
+#        'date': "Feb'20",
+#        'description': "Talk at Georgia Tech School of Literature, Media, and Communication",
+#        'link': None,
+#     },
+#     {
+#        'date': "Jan'20",
+#        'description': "Talk at North Carolina State University Department of Communication",
+#        'link': None,
+#     },
+#     {
+#        'date': "Jan'20",
+#        'description': "Talk at Queen's School of Computing in Kingston, Ontario",
+#        'link': None,
+#     },
      {
         'date': "Jan'20",
         'description': "Grant from Center for Technology Society and Policy joint with Algorithmic Fairness and Opacity Group on the project An Alternate Lexicon for AI with Noopur Raval and Morgan Ames",
         'link': 'https://ctsp.berkeley.edu/projects-2020/',
      },
-     {
-        'date': "Dec'19",
-        'description': "Paper accepted to CHI 2020 - Expanding Modes of Reflection in Design Futuring with Sandjar Kozubaev, Chris Elsden, Marie Louise Juul S&oslash;ndergaard, Nick Merrill, Britta Schulte, Richmond Y. Wong",
-        'link': None,
-     },
+#     {
+#        'date': "Dec'19",
+#        'description': "Paper accepted to CHI 2020 - Expanding Modes of Reflection in Design Futuring with Sandjar Kozubaev, Chris Elsden, Marie Louise Juul S&oslash;ndergaard, Nick Merrill, Britta Schulte, Richmond Y. Wong",
+#        'link': None,
+#     },
 #     {
 #        'date': "Nov'19",
 #        'description': "Talk at U Michigan School of Information",
