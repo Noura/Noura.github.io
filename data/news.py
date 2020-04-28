@@ -10,12 +10,12 @@ news = [ \
 #        'link': None,
 #     },
      {
-        'date': "Dec'19",
+        'date': "May'20",
         'description': "Paper accepted to CHI 2020 - Expanding Modes of Reflection in Design Futuring with Sandjar Kozubaev, Chris Elsden, Marie Louise Juul S&oslash;ndergaard, Nick Merrill, Britta Schulte, Richmond Y. Wong",
         'link': 'https://dl.acm.org/doi/abs/10.1145/3313831.3376526',
      },
      {
-        'date': "Feb'20",
+        'date': "May'20",
         'description': "Late-Breaking Work accepted to CHI 2020 - Teachable Machine: Approachable Web-Based Tool for Exploring Machine Learning Classification, with Google AI and Google Creative Lab folks Michelle Carney, Barron Webster, Irene Alvarado, Kyle Phillips, Jordan Griffith, Jonas Jongejan, Amit Pitaru, and Alexander Chen",
         'link': 'https://dl.acm.org/doi/abs/10.1145/3334480.3382839',
      },
