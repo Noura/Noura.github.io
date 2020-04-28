@@ -16,14 +16,19 @@ news = [ \
 #        'link': None,
 #     },
      {
-        'date': "Mar'20",
-        'description': "Research visit to RITMO with Greg Niemeyer and Alexander Jensenius (cancelled)",
-        'link': 'https://www.uio.no/ritmo/english/',
+        'date': "Dec'19",
+        'description': "Paper accepted to CHI 2020 - Expanding Modes of Reflection in Design Futuring with Sandjar Kozubaev, Chris Elsden, Marie Louise Juul S&oslash;ndergaard, Nick Merrill, Britta Schulte, Richmond Y. Wong",
+        'link': 'https://dl.acm.org/doi/abs/10.1145/3313831.3376526',
      },
      {
         'date': "Feb'20",
         'description': "Late-Breaking Work accepted to CHI 2020 - Teachable Machine: Approachable Web-Based Tool for Exploring Machine Learning Classification, with Google AI and Google Creative Lab folks Michelle Carney, Barron Webster, Irene Alvarado, Kyle Phillips, Jordan Griffith, Jonas Jongejan, Amit Pitaru, and Alexander Chen",
         'link': 'https://dl.acm.org/doi/abs/10.1145/3334480.3382839',
+     },
+     {
+        'date': "Mar'20",
+        'description': "Research visit to RITMO with Greg Niemeyer and Alexander Jensenius (cancelled)",
+        'link': 'https://www.uio.no/ritmo/english/',
      },
 #     {
 #        'date': "Feb'20",
@@ -332,8 +337,8 @@ publications_list = [
     {
         'name': 'design_futuring',
         'cite': """Sandjar Kozubaev, Chris Elsden, <b>Noura Howell</b>, Marie Louise Juul S&oslash;ndergaard, Nick Merrill, Britta Schulte, Richmond Y. Wong. 2020. Expanding Modes of Reflection in Design Futuring. <i>Human Factors in Computing Systems (CHI'20)</i>.""",
-        'pdf': None,
-        'url': None,
+        'pdf': '/static/pdf/2020_CHI_Design_Futuring.pdf',
+        'url': 'https://dl.acm.org/doi/abs/10.1145/3313831.3376526',
     },
     {
         'name': 'vivewell',
