@@ -144,7 +144,7 @@
 {% endmacro %}
 
 {% macro list_all_publications(pubs_list) %}
-{% for pub in pubs_list %}
+{% for pub in pubs_list|sort(attribute='date', reverse=True) %}
 {{ publication(pub) }}
 {% endfor %}
 {% endmacro %}
