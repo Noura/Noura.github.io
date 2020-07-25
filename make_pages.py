@@ -86,7 +86,7 @@ def make_pages():
         with codecs.open(os.path.join(here, 'projects', page['path']+'.html'), 'w') as out:
             out.write(tem.render(**vars_for_project_pages))
 
-    print "make_pages()"
+    print("make_pages()")
 
 if __name__ == '__main__':
     make_pages()
