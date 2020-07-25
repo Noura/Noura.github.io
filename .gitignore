@@ -4,3 +4,4 @@ thommuse/*
 *~
 *.DS_Store
 .sass-cache*
+*.pyc
