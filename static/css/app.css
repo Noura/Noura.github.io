@@ -18,7 +18,7 @@ body {
   font-family: freight-sans-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
-  background: white;
+  background: linear-gradient(90deg, #fff5f5, white 50%, #fffff5);
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -28,7 +28,6 @@ body {
 
 body.no-background-blend-mode {
   background-image: none;
-  background: #fafafa;
 }
 
 b {
