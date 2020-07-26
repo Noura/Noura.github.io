@@ -142,21 +142,23 @@ span.news-item {
 // publications ///////////////////////////////
 p.publication::before {
     content: "\25A0";
+    font-size: 160%;
+    vertical-align: bottom;
 }
-p.publication {
+/*p.publication {
     font-family: "Andale mono",monospace;
     font-size: 80%;
     font-weight: 100;
-}
+}*/
 a.publication {
     color: $font_color;
 }
-span.publication {
+/*span.publication {
     display: inline-block;
     width: 10px;
     height: 10px;
     background-color:black;
-}
+}*/
 
 
 // flow chart ////////////////////////////////////

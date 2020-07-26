@@ -140,25 +140,25 @@ span.news-item {
 
 p.publication::before {
   content: "■";
+  font-size: 160%;
+  vertical-align: bottom;
 }
 
-p.publication {
-  font-family: "Andale mono", monospace;
-  font-size: 80%;
-  font-weight: 100;
-}
-
+/*p.publication {
+    font-family: "Andale mono",monospace;
+    font-size: 80%;
+    font-weight: 100;
+}*/
 a.publication {
   color: black;
 }
 
-span.publication {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  background-color: black;
-}
-
+/*span.publication {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color:black;
+}*/
 table.flowchart {
   margin-bottom: 1em;
 }
