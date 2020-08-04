@@ -6,7 +6,7 @@ pages = [ \
         'path': 'heart_sounds_bench',
         'template': 'heart_sounds_bench.html',
         'date': '2018 - present',
-        'type': 'dissertation',
+        'type': 'research',
     }, 
     {
         'name': 'Survey of Emotional Biosensing Technologies and Conceptual Reworkings',
@@ -14,7 +14,7 @@ pages = [ \
         'path': 'emotional_biosensing',
         'template': 'emotional_biosensing.html',
         'date': '2018',
-        'type': 'dissertation',
+        'type': 'research',
     }, 
     {
         'name': 'Color-Changing Garments for Emotional Reflection',
@@ -22,7 +22,7 @@ pages = [ \
         'path': 'ripple',
         'template': 'ripple.html',
         'date': '2015 - 2018',
-        'type': 'dissertation',
+        'type': 'research',
     },
     {
         'name': 'Speculating Near-Future Menstrual Biosensing',
@@ -30,7 +30,7 @@ pages = [ \
         'path': 'menstrual_biosensing',
         'template': 'menstrual_biosensing.html',
         'date': '2018 - present',
-        'type': 'research_collab',
+        'type': 'research',
     },
     {
         'name': 'Cherishing Laughter as Biosensory Data',
@@ -38,7 +38,7 @@ pages = [ \
         'path': 'laughter',
         'template': 'laughter.html',
         'date': '2016 - 2017',
-        'type': 'research_collab',
+        'type': 'research',
     },
     {
         'name': 'Color-Changing Fabric as Realtime Data Display',
@@ -46,7 +46,7 @@ pages = [ \
         'path': 'ebb',
         'template': 'ebb.html',
         'date': '2015',
-        'type': 'research_collab',
+        'type': 'research',
     },
 #    {
 #        'name': 'Assembling Critical Practices Reading Group',
@@ -120,7 +120,7 @@ pages = [ \
         'path': 'waazam',
         'template': 'waazam.html',
         'date': '2013',
-        'type': 'research_collab',
+        'type': 'research',
     },
     {
         'name': 'Defamiliarizing Sound with Granular Synthesis',
