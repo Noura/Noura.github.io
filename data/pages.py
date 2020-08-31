@@ -124,7 +124,7 @@ pages = [ \
     },
     {
         'name': 'Defamiliarizing Sound with Granular Synthesis',
-        'thumbnail': 'IMG_E1207_square.JPG',
+        'thumbnail': 'IMG_E1199_square.JPG',
         'path': 'sounds',
         'template': 'sounds.html',
         'date': 'ongoing',

@@ -87,15 +87,13 @@
   {% for page in projects %}
     {% if page.type == type %}
       <div class="col-12 col-xs-12 col-sm-6 col-md-4">
-        <a href="/projects/{{page.path}}.html" id="{{page.path}}" name="{{page.path}}">
+        <a class="tile" href="/projects/{{page.path}}.html" id="{{page.path}}" name="{{page.path}}">
           <img class="tile" src="/static/img/280px_tiles/{{ page.thumbnail }}">
-        </a>
-        <br>
-        <a href="/projects/{{page.path}}.html">
           <span class="tile-name">
             {{ page.name }}
           </span>
         </a>
+        <br>
       </div>
     {% endif %}
   {% endfor %}
@@ -105,9 +103,9 @@
 
 <div class="container project-page" data-project="{{page.path}}">
   <div class="row">
-    <div class="col-12">
-      <a href="/#{{ page.path }}">
-        &lt;&lt;&lt; Back
+    <div class="col-12 back-button">
+      <a class="back-button" href="/#{{ page.path }}">
+        &#9747;
       </a>
     </div>
   </div>
