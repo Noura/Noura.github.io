@@ -1,5 +1,12 @@
 publications_list = [
     {
+        'name': 'nordiCHI_biodata',
+        'cite': """Vasiliki Tsaknaki, Tom Jenkins, Laurens Boer, Sarah Homewood, Noura Howell, and Pedro Sanches. 2020. Challenges and Opportunities for Designing with Biodata as Material. <i>Proceedings of NordiCHI'20</i>.""",
+        'pdf': '/static/pdf/2020_NordiCHI_Workshop_Biodata_as_Material.pdf',
+        'url': None,
+        'date': '2020-10',
+    },
+    {
         'name': 'hsb1',
         'cite': """Noura Howell, Greg Niemeyer, Kimiko Ryokai. 2019. Life-Affirming Biosensing in Public: Sounding Heartbeats on a Red Bench. <i>Human Factors in Computing Systems (CHI'19)</i>.""",
         'pdf': '/static/pdf/19_CHI_Heart_Sounds_Bench.pdf',
