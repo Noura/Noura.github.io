@@ -99,14 +99,6 @@ pages = [ \
 #        'date': '2015',
 #    },
     {
-        'name': 'Bio-Controlled DJ Effects',
-        'thumbnail': 'beatwave_arm.png',
-        'path': 'myodj',
-        'template': 'myodj.html',
-        'date': '2014',
-        'type': 'sound',
-    },
-    {
         'name': 'Intel Connect Anything Prototyping Kit',
         'thumbnail': 'galileo_w_pin.jpg',
         'path': 'intel',
@@ -128,6 +120,14 @@ pages = [ \
         'path': 'sounds',
         'template': 'sounds.html',
         'date': 'ongoing',
+        'type': 'sound',
+    },
+    {
+        'name': 'Bio-Controlled DJ Effects',
+        'thumbnail': 'beatwave_arm.png',
+        'path': 'myodj',
+        'template': 'myodj.html',
+        'date': '2014',
         'type': 'sound',
     },
     {
