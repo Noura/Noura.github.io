@@ -123,7 +123,7 @@ pages = [ \
         'type': 'sound',
     },
     {
-        'name': 'Bio-Controlled DJ Effects',
+        'name': 'Myo-Controlled DJ Effects',
         'thumbnail': 'beatwave_arm.png',
         'path': 'myodj',
         'template': 'myodj.html',
