@@ -82,7 +82,7 @@
 
 {% macro tiles(subheading, type, projects) %}
   <div class="col-12">
-    <h2 class="project-subheading"> {{ subheading }} </h2>
+    <h2 class="line-divider"> {{ subheading }} </h2>
   </div>
   {% for page in projects %}
     {% if page.type == type %}
