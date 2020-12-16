@@ -1,4 +1,14 @@
 news = [ \
+     {
+        'date': "Jan'21",
+        'description': "Talk at Coffee & Viz on Designing for Emotional Meaning-Making with Data",
+        'link': 'https://www.lib.ncsu.edu/events/coffee-viz-designing-emotional-meaning-making-data',
+     },
+     {
+        'date': "Nov'20",
+        'description': "Co-hosted workshop on Designing with Biodata as Material",
+        'link': 'https://biodataasmaterial.wordpress.com/',
+     },
 #     {
 #        'date': "Mar'20",
 #        'description': "Talk at NYU Music and Audio Research Laboratory (MARL) and Integrated Digital Media (IDM) (cancelled)",
@@ -9,21 +19,21 @@ news = [ \
 #        'description': "Talk at IST Lisbon in the Department of Computer Science and Engineering",
 #        'link': None,
 #     },
-     {
-        'date': "May'20",
-        'description': "Paper accepted to CHI 2020 - Expanding Modes of Reflection in Design Futuring with Sandjar Kozubaev, Chris Elsden, Marie Louise Juul S&oslash;ndergaard, Nick Merrill, Britta Schulte, Richmond Y. Wong",
-        'link': 'https://dl.acm.org/doi/abs/10.1145/3313831.3376526',
-     },
-     {
-        'date': "May'20",
-        'description': "Late-Breaking Work accepted to CHI 2020 - Teachable Machine: Approachable Web-Based Tool for Exploring Machine Learning Classification, with Google AI and Google Creative Lab folks Michelle Carney, Barron Webster, Irene Alvarado, Kyle Phillips, Jordan Griffith, Jonas Jongejan, Amit Pitaru, and Alexander Chen",
-        'link': 'https://dl.acm.org/doi/abs/10.1145/3334480.3382839',
-     },
-     {
-        'date': "Mar'20",
-        'description': "Research visit to RITMO with Greg Niemeyer and Alexander Jensenius (cancelled)",
-        'link': 'https://www.uio.no/ritmo/english/',
-     },
+#     {
+#        'date': "May'20",
+#        'description': "Paper accepted to CHI 2020 - Expanding Modes of Reflection in Design Futuring with Sandjar Kozubaev, Chris Elsden, Marie Louise Juul S&oslash;ndergaard, Nick Merrill, Britta Schulte, Richmond Y. Wong",
+#        'link': 'https://dl.acm.org/doi/abs/10.1145/3313831.3376526',
+#     },
+#     {
+#        'date': "May'20",
+#        'description': "Late-Breaking Work accepted to CHI 2020 - Teachable Machine: Approachable Web-Based Tool for Exploring Machine Learning Classification, with Google AI and Google Creative Lab folks Michelle Carney, Barron Webster, Irene Alvarado, Kyle Phillips, Jordan Griffith, Jonas Jongejan, Amit Pitaru, and Alexander Chen",
+#        'link': 'https://dl.acm.org/doi/abs/10.1145/3334480.3382839',
+#     },
+#     {
+#        'date': "Mar'20",
+#        'description': "Research visit to RITMO with Greg Niemeyer and Alexander Jensenius (cancelled)",
+#        'link': 'https://www.uio.no/ritmo/english/',
+#     },
 #     {
 #        'date': "Feb'20",
 #        'description': "Talk at Purdue Computer Graphics Technology Department",
@@ -44,11 +54,11 @@ news = [ \
 #        'description': "Talk at Queen's School of Computing in Kingston, Ontario",
 #        'link': None,
 #     },
-     {
-        'date': "Jan'20",
-        'description': "Grant from Center for Technology Society and Policy joint with Algorithmic Fairness and Opacity Group on the project An Alternate Lexicon for AI with Noopur Raval and Morgan Ames",
-        'link': 'https://ctsp.berkeley.edu/projects-2020/',
-     },
+#     {
+#        'date': "Jan'20",
+#        'description': "Grant from Center for Technology Society and Policy joint with Algorithmic Fairness and Opacity Group on the project An Alternate Lexicon for AI with Noopur Raval and Morgan Ames",
+#        'link': 'https://ctsp.berkeley.edu/projects-2020/',
+#     },
 #     {
 #        'date': "Dec'19",
 #        'description': "Paper accepted to CHI 2020 - Expanding Modes of Reflection in Design Futuring with Sandjar Kozubaev, Chris Elsden, Marie Louise Juul S&oslash;ndergaard, Nick Merrill, Britta Schulte, Richmond Y. Wong",
