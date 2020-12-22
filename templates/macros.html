@@ -140,7 +140,11 @@
   <p class="publication">
     {{ entry.title }}.
   {{ entry.year }}. 
-  {{ entry.author }}. 
+  {% if entry.author.endswith('.') %}
+    {{ entry.author }}
+  {% else %}
+    {{ entry.author }}.
+  {% endif %}
   <i>
     {% if entry.journal is defined %}
       {{ entry.journal }}.
