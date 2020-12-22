@@ -1,5 +1,10 @@
 news = [ \
      {
+        'date': "Aug'21",
+        'description': "Beginning in fall 2021, I will be an assistant professor at Georgia Tech in the School of Literature, Media, and Communication",
+        'link': None,
+     },
+     {
         'date': "Jan'21",
         'description': "Talk at Coffee & Viz on Designing for Emotional Meaning-Making with Data",
         'link': 'https://www.lib.ncsu.edu/events/coffee-viz-designing-emotional-meaning-making-data',
