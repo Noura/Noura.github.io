@@ -1,21 +1,64 @@
 #!/usr/bin/env python
+
 import os, os.path, shutil, codecs, sys
 
 import jinja2
 
-from data import publications
-publications_list = publications.publications_list
+import bibtexparser, json
+
+# IMPORTING PUBLICATIONS FROM BIBTEX FILE
+# Zotero, select citations, right click, export as bibtex UTF-8
+# save file as data/zotero_export.bib
+
+# some of the publications, i host pdfs for
+# zoteroKey : filename
+bibs_pdfs = {
+    'howellRepresentationInterpretationBiosensing2016': '16_DIS_DC.pdf',
+    'howellBiosignalsSocialCues2016a': '16_DIS_Hint.pdf',
+    'merrillInterrogatingBiosensingEveryday2017': '17_DIS_Workshop_Biosensing.pdf',
+    'howellTensionsDataDrivenReflection2018': '18_CHI_Ripple.pdf',
+    'howellEmotionalBiosensingExploring2018a': '18_CSCW_Emotional_Biosensing.pdf',
+    'howellLifeAffirmingBiosensingPublic2019b': '19_CHI_Heart_Sounds_Bench.pdf',
+    'foxVivewellSpeculatingNearFuture2019': '19_DIS_Vivewell.pdf',
+    'carneyTeachableMachineApproachable2020': '2020_CHI_LBW_Teachable_Machine.pdf',
+    'tsaknakiChallengesOpportunitiesDesigning2020': '2020_NordiCHI_Workshop_Biodata_as_Material.pdf',
+}
+pdf_path = '/static/pdf/'
+
+# jinja does not handle utf-8 well it seems. some author names require utf-8.
+# i will scrub for the accented characters i know are in my co-authors' names
+# and replace them with the corresponding HTML, using this mapping
+# TODO find an actual official table for this instead of rolling my own
+utf8_to_HTML_char_map = {
+        u'á': '&aacute;',
+        u'ó': '&oacute;',        
+        u'ø': '&oslash;',
+}
+
+# parse bibtex
+with open('data/zotero_export.bib') as bibtex_file:
+    parser = bibtexparser.bparser.BibTexParser(common_strings=True)
+    parser.customization = bibtexparser.customization.convert_to_unicode
+    bibs = bibtexparser.load(bibtex_file, parser=parser)
+    for entry in bibs.entries:
+        for utf8_char, html_char in utf8_to_HTML_char_map.items():
+            entry['author'] = entry['author'].replace(utf8_char, html_char)
+        if entry['ID'] in bibs_pdfs:
+            entry['pdf'] = pdf_path + bibs_pdfs[entry['ID']]
+
+# get publications as a list and as a dictionary
+# dictionary IDs are the Zotero IDs
+bibs_list = bibs.entries
+bibs_by_ID = {}
+for entry in bibs_list:
+    bibs_by_ID[entry['ID']] = entry
+
 
 from data import news
 news = news.news
 
 from data import pages
 pages = pages.pages
-
-# some data munging so that templates can refer to publications by name
-publications_by_name = {}
-for pub in publications_list:
-    publications_by_name[pub['name']] = pub
 
 def make_top_level_page(here, templates, rel_path, this_template, vars_for_template):
     if rel_path != '':
@@ -38,8 +81,6 @@ def make_pages():
     make_top_level_page(here, templates, '', 'home.html', {
         'ctx': {
             'pages': pages,
-            'publications_list': publications_list,
-            'publications_by_name': publications_by_name,
             'news': news,
         }
     })
@@ -47,8 +88,8 @@ def make_pages():
     # PUBLICATIONS PAGE ################################
     make_top_level_page(here, templates, 'pubs', 'publications.html', {
         'ctx': {
-            'publications_list': publications_list,
-            'publications_by_name': publications_by_name,
+            'bibs_list': bibs_list,
+            'bibs_by_ID': bibs_by_ID,
         }
     })
 
@@ -70,9 +111,9 @@ def make_pages():
     vars_for_project_pages = {
         'ctx': {
             'page': {},
-            'publications_list': publications_list,
-            'publications_by_name': publications_by_name,
             'news': news,
+            'bibs_list': bibs_list,
+            'bibs_by_ID': bibs_by_ID,
         }
     }
 

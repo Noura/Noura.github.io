@@ -135,16 +135,42 @@
 
 {% endmacro %}
 
-{% macro publication(pub) %}
-<p class="publication">
-{{ pub.cite|safe }}
-{% if pub.pdf %}<a href={{pub.pdf}}>pdf</a>{% endif %}
-{% if pub.url %}<a href={{pub.url}}>url</a>{% endif %}
-</p>
+
+{% macro bib(entry) %}
+  <p class="publication">
+    {{ entry.title }}.
+  {{ entry.year }}. 
+  {{ entry.author }}. 
+  <i>
+    {% if entry.journal is defined %}
+      {{ entry.journal }}.
+    {% endif %}
+    {% if entry.booktitle is defined %}
+      {{ entry.booktitle }}.
+    {% endif %}
+    {% if entry.ENTRYTYPE == 'phdthesis' %}
+      Dissertation at {{ entry.school }}.
+    {% endif %}
+  </i> 
+  {% if entry.url %}
+    <a href={{entry.url}}>
+      url
+    </a>
+  {% endif %}
+  {% if entry.pdf %}
+    , <a href={{entry.pdf}}>
+      pdf
+    </a>
+  {% endif %}
+  </p>
 {% endmacro %}
 
-{% macro list_all_publications(pubs_list) %}
-{% for pub in pubs_list|sort(attribute='date', reverse=True) %}
-{{ publication(pub) }}
-{% endfor %}
+{% macro bibi(bibs) %}
+
+  {% for entry in bibs|sort(attribute='year', reverse=True) %}
+    {{ bib(entry) }}
+  {% endfor %}
+
 {% endmacro %}
+
+
