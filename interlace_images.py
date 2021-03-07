@@ -1,4 +1,5 @@
-#!/usr/bin/env python
+#!/Users/noura/.pyenv/shims/python
+
 import os, os.path, subprocess
 
 images_path = 'static/img/'

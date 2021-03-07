@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/Users/noura/.pyenv/shims/python
 
 import os, os.path, shutil, codecs, sys
 
@@ -31,7 +31,7 @@ pdf_path = '/static/pdf/'
 # TODO find an actual official table for this instead of rolling my own
 utf8_to_HTML_char_map = {
         u'á': '&aacute;',
-        u'ó': '&oacute;',        
+        u'ó': '&oacute;',
         u'ø': '&oslash;',
 }
 
@@ -95,7 +95,7 @@ def make_pages():
 
     # CV PAGE ##########################################
     make_top_level_page(here, templates, 'cv', 'cv.html', {})
-    
+
     # TEACHING PAGE ####################################
     make_top_level_page(here, templates, 'teaching', 'teaching.html', {})
 
