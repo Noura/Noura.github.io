@@ -13,15 +13,15 @@ import bibtexparser, json
 # some of the publications, i host pdfs for
 # zoteroKey : filename
 bibs_pdfs = {
-    'howellRepresentationInterpretationBiosensing2016': '16_DIS_DC.pdf',
-    'howellBiosignalsSocialCues2016a': '16_DIS_Hint.pdf',
-    'merrillInterrogatingBiosensingEveryday2017': '17_DIS_Workshop_Biosensing.pdf',
-    'howellTensionsDataDrivenReflection2018': '18_CHI_Ripple.pdf',
-    'howellEmotionalBiosensingExploring2018a': '18_CSCW_Emotional_Biosensing.pdf',
-    'howellLifeAffirmingBiosensingPublic2019b': '19_CHI_Heart_Sounds_Bench.pdf',
-    'foxVivewellSpeculatingNearFuture2019': '19_DIS_Vivewell.pdf',
-    'carneyTeachableMachineApproachable2020': '2020_CHI_LBW_Teachable_Machine.pdf',
-    'tsaknakiChallengesOpportunitiesDesigning2020': '2020_NordiCHI_Workshop_Biodata_as_Material.pdf',
+    'howell_representation_2016': '16_DIS_DC.pdf',
+    'howell_biosignals_2016': '16_DIS_Hint.pdf',
+    'merrill_interrogating_2017': '17_DIS_Workshop_Biosensing.pdf',
+    'howell_tensions_2018': '18_CHI_Ripple.pdf',
+    'howell_emotional_2018': '18_CSCW_Emotional_Biosensing.pdf',
+    'howell_life-affirming_2019': '19_CHI_Heart_Sounds_Bench.pdf',
+    'fox_vivewell:_2019': '19_DIS_Vivewell.pdf',
+    'carney_teachable_2020': '2020_CHI_LBW_Teachable_Machine.pdf',
+    'tsaknaki_challenges_2020': '2020_NordiCHI_Workshop_Biodata_as_Material.pdf',
 }
 pdf_path = '/static/pdf/'
 
