@@ -36,7 +36,7 @@ utf8_to_HTML_char_map = {
 }
 
 # parse bibtex
-with open('data/zotero_export.bib') as bibtex_file:
+with open('data/zotero_export.bib', 'r', encoding='utf-8') as bibtex_file:
     parser = bibtexparser.bparser.BibTexParser(common_strings=True)
     parser.customization = bibtexparser.customization.convert_to_unicode
     bibs = bibtexparser.load(bibtex_file, parser=parser)
@@ -69,7 +69,7 @@ def make_top_level_page(here, templates, rel_path, this_template, vars_for_templ
 
     path = os.path.join(here, rel_path, 'index.html')
 
-    with codecs.open(path, 'w') as out:
+    with codecs.open(path, 'w', encoding='utf-8') as out:
         out.write(tem.render(**vars_for_template))
 
 def make_pages():
@@ -124,7 +124,7 @@ def make_pages():
     for page in pages:
         vars_for_project_pages['ctx']['page'] = page
         tem = templates.get_template(page['template'])
-        with codecs.open(os.path.join(here, 'projects', page['path']+'.html'), 'w') as out:
+        with codecs.open(os.path.join(here, 'projects', page['path']+'.html'), 'w', encoding='utf-8') as out:
             out.write(tem.render(**vars_for_project_pages))
 
     print("make_pages()")
