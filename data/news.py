@@ -5,6 +5,11 @@ news = [ \
         'link': None,
      },
      {
+        'date': "Feb'21",
+        'description': "alt.chi paper accepted - Calling for a Plurality of Perspectives on Design Futuring: An Un-Manifesto - with lovely collaborators Britta F. Schulte, Amy Twigger Holroyd, Rocío Fatás Arana, Sumita Sharma, and Grace Eden",
+        'link': None, # TODO add pdf for this
+     },
+     {
         'date': "Jan'21",
         'description': "Talk at Coffee & Viz on Designing for Emotional Meaning-Making with Data",
         'link': 'https://www.lib.ncsu.edu/events/coffee-viz-designing-emotional-meaning-making-data',
@@ -12,7 +17,7 @@ news = [ \
      {
         'date': "Nov'20",
         'description': "Co-hosted workshop on Designing with Biodata as Material",
-        'link': 'https://biodataasmaterial.wordpress.com/',
+        'link': 'https://biodataasmaterial.wordpress.com/', # TODO add or link to pdf for this
      },
 #     {
 #        'date': "Mar'20",
