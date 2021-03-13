@@ -1,21 +1,21 @@
 # pages appear in the order listed here
 pages = [ \
     {
+        'name': 'Mapping the Space of Emotional Biosensing Designs and Charting New Directions',
+        'thumbnail': 'spire_feel_oura_mesh.jpeg',
+        'path': 'emotional_biosensing',
+        'template': 'emotional_biosensing.html',
+        'date': '2018 - present',
+        'type': 'research',
+    },
+    {
         'name': 'Life-Affirming Biosensing with the Heart Sounds Bench',
         'thumbnail': 'red_bench.jpg',
         'path': 'heart_sounds_bench',
         'template': 'heart_sounds_bench.html',
         'date': '2018 - present',
         'type': 'research',
-    }, 
-    {
-        'name': 'Survey of Emotional Biosensing Technologies and Conceptual Reworkings',
-        'thumbnail': 'spire_feel_oura.jpg',
-        'path': 'emotional_biosensing',
-        'template': 'emotional_biosensing.html',
-        'date': '2018',
-        'type': 'research',
-    }, 
+    },
     {
         'name': 'Color-Changing Garments for Emotional Reflection',
         'thumbnail': 'ripple.png',
