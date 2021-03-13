@@ -1,6 +1,14 @@
 # pages appear in the order listed here
 pages = [ \
     {
+        'name': 'Diversifying Design Futuring',
+        'thumbnail': 'leaves_lamp.jpg',
+        'path': 'design_futuring',
+        'template': 'design_futuring.html',
+        'date': '2019 - present',
+        'type': 'research',
+    },
+    {
         'name': 'Mapping the Space of Emotional Biosensing Designs and Charting New Directions',
         'thumbnail': 'spire_feel_oura_mesh.jpeg',
         'path': 'emotional_biosensing',
