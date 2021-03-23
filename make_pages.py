@@ -22,6 +22,7 @@ bibs_pdfs = {
     'fox_vivewell:_2019': '19_DIS_Vivewell.pdf',
     'carney_teachable_2020': '2020_CHI_LBW_Teachable_Machine.pdf',
     'tsaknaki_challenges_2020': '2020_NordiCHI_Workshop_Biodata_as_Material.pdf',
+    'howell_calling_2021': '2021_alt.chi_Plurality_Perspectives_Design_Futuring.pdf',
 }
 pdf_path = '/static/pdf/'
 
