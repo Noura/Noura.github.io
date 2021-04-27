@@ -11,7 +11,7 @@ news = [ \
      },
      {
         'date': "Feb'21",
-        'description': "alt.chi paper accepted - Calling for a Plurality of Perspectives on Design Futuring: An Un-Manifesto - with lovely collaborators Britta F. Schulte, Amy Twigger Holroyd, Rocío Fatás Arana, Sumita Sharma, and Grace Eden",
+        'description': "alt.chi paper accepted - Calling for a Plurality of Perspectives on Design Futuring: An Un-Manifesto - with Britta F. Schulte, Amy Twigger Holroyd, Rocío Fatás Arana, Sumita Sharma, and Grace Eden",
         'link': None, # TODO add pdf for this
      },
      {
