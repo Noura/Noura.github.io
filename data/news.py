@@ -5,6 +5,11 @@ news = [ \
         'link': None,
      },
      {
+        'date': "Apr'21",
+        'description': "TOCHI journal article accepted - Cracks in the Success Narrative: Rethinking Failure in Design Research Through a Retrospective Trioethnography - with Audrey Desjardins and Sarah Fox",
+        'link': None, # TODO add pdf for this
+     },
+     {
         'date': "Feb'21",
         'description': "alt.chi paper accepted - Calling for a Plurality of Perspectives on Design Futuring: An Un-Manifesto - with lovely collaborators Britta F. Schulte, Amy Twigger Holroyd, Rocío Fatás Arana, Sumita Sharma, and Grace Eden",
         'link': None, # TODO add pdf for this
