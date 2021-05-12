@@ -111,9 +111,11 @@ p.block-quote {
 .youtube-video-container {
     position: relative;
     padding-bottom: 56.25%;
-    padding-top: 1em;
+    padding-top: 30px;
     height: 0;
     overflow: hidden;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .youtube-video-container iframe, .youtube-video-container object, .youtube-video-container embed {
