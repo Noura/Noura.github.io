@@ -1,4 +1,4 @@
-#!/Users/noura/.pyenv/shims/python
+#!/usr/local/bin/python3
 
 import os, os.path, shutil, codecs, sys
 

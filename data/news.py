@@ -1,10 +1,5 @@
 news = [ \
      {
-        'date': "Aug'21",
-        'description': "Beginning in fall 2021, I will be an assistant professor at Georgia Tech in the School of Literature, Media, and Communication",
-        'link': None,
-     },
-     {
         'date': "Apr'21",
         'description': "TOCHI journal article accepted - Cracks in the Success Narrative: Rethinking Failure in Design Research Through a Retrospective Trioethnography - with Audrey Desjardins and Sarah Fox",
         'link': None, # TODO add pdf for this
@@ -19,11 +14,11 @@ news = [ \
         'description': "Talk at Coffee & Viz on Designing for Emotional Meaning-Making with Data",
         'link': 'https://www.lib.ncsu.edu/events/coffee-viz-designing-emotional-meaning-making-data',
      },
-     {
-        'date': "Nov'20",
-        'description': "Co-hosted workshop on Designing with Biodata as Material",
-        'link': 'https://biodataasmaterial.wordpress.com/', # TODO add or link to pdf for this
-     },
+#     {
+#        'date': "Nov'20",
+#        'description': "Co-hosted workshop on Designing with Biodata as Material",
+#        'link': 'https://biodataasmaterial.wordpress.com/',
+#     },
 #     {
 #        'date': "Mar'20",
 #        'description': "Talk at NYU Music and Audio Research Laboratory (MARL) and Integrated Digital Media (IDM) (cancelled)",
