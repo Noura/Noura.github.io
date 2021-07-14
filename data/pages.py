@@ -6,7 +6,7 @@ pages = [ \
         'path': 'design_futuring',
         'template': 'design_futuring.html',
         'date': '2019 - present',
-        'type': 'research',
+        'type': 'project',
     },
     {
         'name': 'Mapping the Space of Emotional Biosensing Designs and Charting New Directions',
@@ -14,7 +14,7 @@ pages = [ \
         'path': 'emotional_biosensing',
         'template': 'emotional_biosensing.html',
         'date': '2018 - present',
-        'type': 'research',
+        'type': 'project',
     },
     {
         'name': 'Life-Affirming Biosensing with the Heart Sounds Bench',
@@ -22,7 +22,7 @@ pages = [ \
         'path': 'heart_sounds_bench',
         'template': 'heart_sounds_bench.html',
         'date': '2018 - present',
-        'type': 'research',
+        'type': 'project',
     },
     {
         'name': 'Color-Changing Garments for Emotional Reflection',
@@ -30,7 +30,7 @@ pages = [ \
         'path': 'ripple',
         'template': 'ripple.html',
         'date': '2015 - 2018',
-        'type': 'research',
+        'type': 'project',
     },
     {
         'name': 'Speculating Near-Future Menstrual Biosensing',
@@ -38,7 +38,7 @@ pages = [ \
         'path': 'menstrual_biosensing',
         'template': 'menstrual_biosensing.html',
         'date': '2018 - present',
-        'type': 'research',
+        'type': 'project',
     },
     {
         'name': 'Cherishing Laughter as Biosensory Data',
@@ -46,7 +46,7 @@ pages = [ \
         'path': 'laughter',
         'template': 'laughter.html',
         'date': '2016 - 2017',
-        'type': 'research',
+        'type': 'project',
     },
     {
         'name': 'Color-Changing Fabric as Realtime Data Display',
@@ -54,7 +54,7 @@ pages = [ \
         'path': 'ebb',
         'template': 'ebb.html',
         'date': '2015',
-        'type': 'research',
+        'type': 'project',
     },
 #    {
 #        'name': 'Assembling Critical Practices Reading Group',
@@ -74,7 +74,7 @@ pages = [ \
         'template': 'salaam.html',
         # appears at bottom of project page just as text
         'date': 'spring 2017',
-        'type': 'interactive_art',
+        'type': 'project',
     },
     {
         'name': 'Heart Sounds in Cheap Plastic Buckets',
@@ -82,7 +82,7 @@ pages = [ \
         'path': 'heart_sounds_buckets',
         'template': 'heart_sounds_buckets.html',
         'date': 'spring 2019',
-        'type': 'interactive_art',
+        'type': 'project',
     },
     {
         'name': 'Performing VR Together',
@@ -90,7 +90,7 @@ pages = [ \
         'path': 'performing_vr',
         'template': 'performing_vr.html',
         'date': 'fall 2016',
-        'type': 'interactive_art',
+        'type': 'project',
     },
 #    {
 #        'name': 'Code 510 Mentoring',
@@ -112,7 +112,7 @@ pages = [ \
         'path': 'intel',
         'template': 'intel.html',
         'date': '2014',
-        'type': 'industry',
+        'type': 'project',
     },
     {
         'name': 'WaaZam!',
@@ -120,7 +120,7 @@ pages = [ \
         'path': 'waazam',
         'template': 'waazam.html',
         'date': '2013',
-        'type': 'research',
+        'type': 'project',
     },
     {
         'name': 'Defamiliarizing Sound with Granular Synthesis',
@@ -128,7 +128,7 @@ pages = [ \
         'path': 'sounds',
         'template': 'sounds.html',
         'date': 'ongoing',
-        'type': 'sound',
+        'type': 'project',
     },
     {
         'name': 'Myo-Controlled DJ Effects',
@@ -136,7 +136,7 @@ pages = [ \
         'path': 'myodj',
         'template': 'myodj.html',
         'date': '2014',
-        'type': 'sound',
+        'type': 'project',
     },
     {
         'name': 'Harmonograph Visualizer',
@@ -144,7 +144,7 @@ pages = [ \
         'path': 'lissa',
         'template': 'lissajous.html',
         'date': '2013',
-        'type': 'sound',
+        'type': 'project',
     },
     {
         'name': 'Chladni Waves Visualizer',
@@ -152,7 +152,7 @@ pages = [ \
         'path': 'chladni',
         'template': 'chladni.html',
         'date': '2013',
-        'type': 'sound',
+        'type': 'project',
     },
 #    {
 #        'name': 'Smart Bamboo Blinds for Bali',
@@ -192,6 +192,6 @@ pages = [ \
         'path': 'the_echo_nest',
         'template': 'echonest.html',
         'date': '2012 - 2013',
-        'type': 'industry',
+        'type': 'project',
     },
   ]
