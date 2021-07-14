@@ -1,8 +1,13 @@
 news = [ \
      {
-        'date': "Apr'21",
-        'description': "TOCHI journal article accepted - Cracks in the Success Narrative: Rethinking Failure in Design Research Through a Retrospective Trioethnography - with Audrey Desjardins and Sarah Fox",
-        'link': None, # TODO add pdf for this
+        'date': "Aug'21",
+        'description': "Starting as an assistant professor in Digital Media at Georgia Tech!",
+        'link': None,
+     },
+     {
+        'date': "Jun'21",
+        'description': "Talk at UChicago HCI Club with Pedro Lopes and students",
+        'link': 'https://hciclub.plopes.org/',
      },
      {
         'date': "Feb'21",
@@ -14,11 +19,11 @@ news = [ \
         'description': "Talk at Coffee & Viz on Designing for Emotional Meaning-Making with Data",
         'link': 'https://www.lib.ncsu.edu/events/coffee-viz-designing-emotional-meaning-making-data',
      },
-#     {
-#        'date': "Nov'20",
-#        'description': "Co-hosted workshop on Designing with Biodata as Material",
-#        'link': 'https://biodataasmaterial.wordpress.com/',
-#     },
+     {
+        'date': "Nov'20",
+        'description': "Co-hosted workshop on Designing with Biodata as Material",
+        'link': 'https://biodataasmaterial.wordpress.com/',
+     },
 #     {
 #        'date': "Mar'20",
 #        'description': "Talk at NYU Music and Audio Research Laboratory (MARL) and Integrated Digital Media (IDM) (cancelled)",
