@@ -131,6 +131,14 @@ pages = [ \
         'type': 'project',
     },
     {
+        'name': 'Reading NeurIPS Paper Titles',
+        'thumbnail': 'neurips_reading.png',
+        'path': 'neurips_reading',
+        'template': 'neurips_reading.html',
+        'date': '2020',
+        'type': 'project',
+    },
+    {
         'name': 'Myo-Controlled DJ Effects',
         'thumbnail': 'beatwave_arm.png',
         'path': 'myodj',
