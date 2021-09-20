@@ -2,7 +2,7 @@ news = [ \
      {
         'date': "Sep'21",
         'description': "Talk at Georgia Tech GVU Seminar Series",
-        'link': None,
+        'link': 'https://gvu.gatech.edu/hg/item/650534',
      },
      {
         'date': "Aug'21",
