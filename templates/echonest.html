@@ -4,110 +4,23 @@
 {{ macros.base_header() }}
 
 {{ macros.project_header(ctx.page, ctx) }}
-<p>As a software engineer at <a href="http://the.echonest.com/">The Echo Nest</a>, I worked on a variety of data-driven web applications, including a tool for creating generative radio station playlists and internal tools for verifying music data.</p>
+<p>As a software engineer at The Echo Nest, I worked on a variety of data-driven web applications, including a tool for creating generative radio station playlists and internal tools for verifying music data.</p>
 
 <p>
     SiriusXM's <a href="http://blog.echonest.com/post/48040487056/mysxm">MySXM personalized radio stations</a> are created by SiriusXM's music programmers using this tool, made by The Echo Nest. I worked with one other web developer on the front end JavaScript application. Highlights included throttling AJAX requests to reliably load thousands of dynamically structured song objects, maintaining a responsive interface while loading, sorting, and filtering those objects, and automatically suggesting possible areas of concern to the music programmers to guide their design of these radio stations.
 </p>
 
 <p>
-    Data accuracy is of utmost importance to The Echo Nest because data is its primary product, and the continually growing database regularly rolls out to enterprise customers. The tools enabled anyone to view and edit dynamically structured data objects and helped create tasks, workflow, and performance tracking for quality assurance interns.
+    Data accuracy is of utmost importance to The Echo Nest because data is its primary product, and the continually growing database regularly rolls out to enterprise customers. The internal tools I worked on enabled anyone to view and edit dynamically structured data objects and helped create tasks, workflow, and performance tracking for quality assurance interns.
 </p>
 
-<table width="100%" class="flowchart">
-    <colgroup>
-        <col width="46%">
-        <col width="6%">
-        <col width="46%">
-    </colgroup>
-    <tr>
-        <td class="text">
-            <div class="td-inner">
-                <h5>I. Quizzes Website</h5>
-                Workers review sets of data by completing quizzes, and administrators create those quizzes and track worker progress. I made interactive progress graphs and embedded the views and actions from (IV).
-            </div>
-        </td>
-        <td class="arrow">&#8596;</td>
-        <td colspan=2 class="text">
-            <div class="td-inner">
-                <h5>IV. Quality Assurance Website</h5>
-                Users find, view, and make add/remove actions on data objects. I made this, including views that dynamically match data structures and search queries.
-            </div>
-        </td>
-    </tr>
-    <tr>
-        <td class="arrow">&#8597;</td>
-        <td></td>
-        <td class="arrow">&#8597;</td>
-        <td class="arrow">&#8597;</td>
-    </tr>
-    <tr>
-        <td class="text">
-            <div class="td-inner">
-                <h5>II. Data Interface and Server</h5>
-                Serves web pages for (I) and stores data in (III). I implemented a new question type, logged worker actions, and calculated work and quiz progress statistics.
-            </div>
-        </td>
-        <td></td>
-        <td colspan=2>
-            <table width="100%" class="nested">
-                <colgroup>
-                    <col width="55%">
-                    <col width="5%">
-                    <col width="40%">
-                </colgroup>
-                <tr>
-                    <td class="text">
-                        <div class="td-inner">
-                            <h5>V. Web Data Interface</h5>
-                            AJAX requests for add/remove actions and data structure descriptions.
-                        </div>
-                    </td>
-                    <td></td>
-                    <td class="text">
-                        <div class="td-inner">
-                            <h5>VI. Server</h5>
-                            Serves pages for (IV).
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan=3 class="arrow">&#8597;</td>
-                </tr>
-                <tr>
-                    <td colspan=3 class="text">
-                        <div class="td-inner">
-                            <h5>VII. Python Data Interface</h5>
-                            Humans and bots can add/remove data objects, and programmers can define new data types. I did not work on this, but I worked closely with those who did to ensure that data type structures were correctly represented.
-                        </div>
-                    </td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-    <tr>
-        <td class="arrow">&#8597;</td>
-        <td></td>
-        <td colspan=2 class="arrow">&#8597;</td>
-    </tr>
-    <tr>
-        <td class="text">
-            <div class="td-inner">
-                <h5>III. Quizzes to Review Music Data</h5>
-                This database stores quizzes and responses. I defined the collection to store worker actions and queried that collection to calculate progress statistics.
-            </div>
-        </td>
-        <td></td>
-        <td colspan=2 class="text">
-            <div class="td-inner">
-                <h5>VII. Music Data</h5>
-                This database stores the music data whose accuracy must be ensured. I did not work on this, but I worked closely with those who did to define how humans could best contribute to data accuracy.
-            </div>
-        </td>
-    </tr>
-</table>
+<p>
+After my time there, The Echo Nest was bought by Spotify (<a href="https://techcrunch.com/2014/10/19/the-sonic-mad-scientists/">TechCrunch</a>).
+</p>
 
-<p>The thumbnail picture is an <a href="http://blog.echonest.com/post/12789403340/new-echo-nest-t-shirt-design-by-john-allison">Echo Nest t-shirt design.</a></p>
+<img src="/static/img/280px_tiles/en.png">
+<p class="caption">An old <a href="http://blog.echonest.com/post/12789403340/new-echo-nest-t-shirt-design-by-john-allison">Echo Nest t-shirt design</a> by John Allison.</p>
+
 
 
 {{ macros.project_footer(ctx.page, ctx) }}
