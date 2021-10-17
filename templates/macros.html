@@ -81,22 +81,30 @@
 {% endmacro %}
 
 
-{% macro tiles(subheading, type, projects) %}
+{% macro tiles(subheading, url_sub_path, type, pages) %}
   <div class="col-12">
     <h2 class="line-divider"> {{ subheading }} </h2>
   </div>
-  {% for page in projects %}
+  {% for page in pages %}
     {% if page.type == type %}
       <div class="col-12 col-xs-12 col-sm-6 col-md-4">
-        <a href="/projects/{{page.path}}.html" id="{{page.path}}" name="{{page.path}}">
-          <img class="tile" src="/static/img/280px_tiles/{{ page.thumbnail }}">
-        </a>
-        <br>
-        <a href="/projects/{{page.path}}.html">
-          <span class="tile-name">
-            {{ page.name }}
-          </span>
-        </a>
+        {% if page.thumbnail %}
+          <a href="/{{url_sub_path}}/{{page.path}}.html" id="{{page.path}}" name="{{page.path}}">
+            <img class="tile" src="/static/img/280px_tiles/{{ page.thumbnail }}">
+          </a>
+          <!-- <br> -->
+          <a href="/{{url_sub_path}}/{{page.path}}.html">
+            <span class="tile-name">
+              {{ page.name }}
+            </span>
+          </a>
+        {% else %}
+          <a href="/{{url_sub_path}}/{{page.path}}.html" id="{{page.path}}" name="{{page.path}}">
+            <div class="tile-no-img">
+                {{ page.name }}
+            </div>
+          </a>
+        {% endif %}
       </div>
     {% endif %}
   {% endfor %}
@@ -121,9 +129,31 @@
   <div class="row">
     <div class="col-12">
 
-      {% endmacro %}
+{% endmacro %}
 
-      {% macro project_footer(page, ctx) %}
+<!-- TODO MAKE DRY -->
+{% macro teaching_header(page, ctx) %}
+
+<div class="container project-page" data-project="{{page.path}}">
+  <div class="row">
+    <div class="col-12">
+      <a href="/teaching/#{{ page.path }}">
+        &lt;&lt;&lt; Back
+      </a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <h1>{{page.name}}</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+
+{% endmacro %}
+      
+{% macro project_footer(page, ctx) %}
 
     </div>
   </div>

@@ -140,14 +140,25 @@ h2.line-divider {
   border-top: 1px solid black;
 }
 
-#project-tiles {
+.tiles-group {
   margin-top: 0;
 }
 
 img.tile {
-  width: 100%;
-  max-width: 280px;
-  margin-top: 1em;
+  width: 280px;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+div.tile-no-img {
+  width: 280px;
+  min-height: 280px;
+  border: 1px solid black;
+  margin: 20px 0 0 0;
+  font-size: 2.5em;
+  line-height: 1.1em;
+  background: #e6e6e6;
+  word-wrap: break-word;
 }
 
 span.tile-name {

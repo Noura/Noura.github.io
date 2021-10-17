@@ -9,8 +9,8 @@ pages = [ \
         'type': 'project',
     },
     {
-        'name': 'Mapping the Space of Emotional Biosensing Designs and Charting New Directions',
-        'thumbnail': 'spire_feel_oura_mesh.jpeg',
+        'name': 'Emotional Biosensing: Exploring Critical Alternatives',
+        'thumbnail': None,
         'path': 'emotional_biosensing',
         'template': 'emotional_biosensing.html',
         'date': '2018 - present',
