@@ -73,7 +73,7 @@ a.nav-link.active {
 
 .project-page img {
     max-width: 100%;
-    padding-bottom: 1em;
+    margin-bottom: 1em;
 }
 
 img.center {
@@ -92,6 +92,9 @@ img.banner-crop {
     height: 200px;
     object-fit: cover;
     object-position: 50% 50%;
+}
+.my-border {
+    border: 1px solid black;
 }
 
 p.block-quote {
