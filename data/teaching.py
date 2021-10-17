@@ -22,8 +22,8 @@ pages = [ \
         'type': 'class',
     },
     {
-        'name': 'Critical Making for Communicat&shy;ion Majors',
-        'thumbnail': None,
+        'name': 'Critical Making for Commun&shy;icat&shy;ion Majors',
+        'thumbnail': 'why_is_curly_hair.png',
         'path': 'critical_making_for_comm_majors',
         'template': 'crit_making_comm.html',
         'date': 'Fall 2020',
