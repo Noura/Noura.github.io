@@ -144,18 +144,30 @@ h2.line-divider {
   margin-top: 0;
 }
 
-img.tile {
+a.tile-link {
+  position: relative;
   width: 280px;
+  height: 280px;
+  display: block;
   margin-top: 20px;
+}
+
+img.tile-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 280px;
   border: 1px solid black;
 }
 
 div.tile-no-img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 280px;
   min-height: 280px;
   border: 1px solid black;
-  margin: 20px 0 0 0;
-  font-size: 2.5em;
+  font-size: 2em;
   line-height: 1.1em;
   background: #e6e6e6;
   word-wrap: break-word;
@@ -163,9 +175,17 @@ div.tile-no-img {
 }
 
 span.tile-name {
-  max-width: 280px;
-  display: inline-block;
-  margin-bottom: 1em;
+  display: block;
+  width: 260px;
+  margin: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mark {
+  padding: 0 0.3em;
+  background-color: #e6e6e6;
 }
 
 span.news-item {

@@ -1,5 +1,6 @@
 $font_color: black;
 $tile_w: 280px;
+$light_gray: rgb(230, 230, 230);
 
 @media all {
     body { font-size: 16px; }
@@ -142,26 +143,50 @@ h2.line-divider {
     margin-top: 0;
 }
 
-img.tile {
+
+// tiles ///////////////////////////////////////
+
+a.tile-link {
+    position: relative;
     width: $tile_w;
+    height: $tile_w;
+    display: block;
     margin-top: 20px;
+}
+
+img.tile-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: $tile_w;
     border: 1px solid black;
 }
 div.tile-no-img {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: $tile_w;
     min-height: $tile_w;
     border: 1px solid black;
-    margin: 20px 0 0 0;
-    font-size: 2.5em;
+    font-size: 2em;
     line-height: 1.1em;
-    background: rgb(230, 230, 230);
+    background: $light_gray;
     word-wrap: break-word;
     padding: 15px;
 }
+
 span.tile-name {
-    max-width: $tile_w;
-    display: inline-block;
-    margin-bottom: 1em;
+    display: block;
+    width: 260px;
+    margin: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+mark {
+    padding: 0 .3em;
+    background-color: $light_gray;
 }
 
 // news items /////////////////////////////////
