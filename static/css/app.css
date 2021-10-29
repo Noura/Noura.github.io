@@ -173,7 +173,7 @@ div.tile-no-img {
   border: 1px solid black;
   font-size: 2em;
   line-height: 1.1em;
-  background: #e6e6e6;
+  background: #f1ebff;
   word-wrap: break-word;
   padding: 15px;
 }
@@ -189,7 +189,7 @@ span.tile-name {
 
 mark {
   padding: 0 0.3em;
-  background-color: #e6e6e6;
+  background-color: #f1ebff;
 }
 
 span.news-item {
