@@ -1,5 +1,10 @@
 news = [ \
      {
+        'date': "Dec'21",
+        'description': "TOCHI journal article on rethinking failure in design research published - with Audrey Desjardins and Sarah Fox",
+        'link': 'https://dl.acm.org/doi/10.1145/3462447',
+     },
+     {
         'date': "Nov'21",
         'description': "Exhibition at BLack Mountain College Museum + Arts Center Conference",
         'link': 'https://www.blackmountaincollege.org/reviewing-12-abstracts/',
