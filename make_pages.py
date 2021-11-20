@@ -24,6 +24,7 @@ bibs_pdfs = {
     'tsaknaki_challenges_2020': '2020_NordiCHI_Workshop_Biodata_as_Material.pdf',
     'howell_calling_2021': '2021_alt.chi_Plurality_Perspectives_Design_Futuring.pdf',
     'kozubaev_expanding_2020': '2020_CHI_Design_Futuring.pdf',
+    'howellCracksSuccessNarrative2021': '2021_Rethinking_Failure_in_Design_Research.pdf',
 }
 pdf_path = '/static/pdf/'
 
