@@ -185,7 +185,7 @@
 
 {% macro bibi(bibs) %}
 
-  {% for entry in bibs|sort(attribute='year', reverse=True) %}
+  {% for entry in bibs|sort(attribute='urldate', reverse=True) %}
     {{ bib(entry) }}
   {% endfor %}
 
