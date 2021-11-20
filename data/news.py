@@ -1,5 +1,10 @@
 news = [ \
      {
+        'date': "Nov'21",
+        'description': "Exhibition at BLack Mountain College Museum + Arts Center Conference",
+        'link': 'https://www.blackmountaincollege.org/reviewing-12-abstracts/',
+     },
+     {
         'date': "Sep'21",
         'description': "Talk at Georgia Tech GVU Seminar Series",
         'link': 'https://gvu.gatech.edu/hg/item/650534',
@@ -14,16 +19,16 @@ news = [ \
         'description': "Talk at UChicago HCI Club with Pedro Lopes and students",
         'link': 'https://hciclub.plopes.org/',
      },
-     {
-        'date': "Feb'21",
-        'description': "alt.chi paper accepted - Calling for a Plurality of Perspectives on Design Futuring: An Un-Manifesto - with Britta F. Schulte, Amy Twigger Holroyd, Rocío Fatás Arana, Sumita Sharma, and Grace Eden",
-        'link': '/static/pdf/2021_alt.chi_Plurality_Perspectives_Design_Futuring.pdf',
-     },
-     {
-        'date': "Jan'21",
-        'description': "Talk at Coffee & Viz on Designing for Emotional Meaning-Making with Data",
-        'link': 'https://www.lib.ncsu.edu/events/coffee-viz-designing-emotional-meaning-making-data',
-     },
+#     {
+#        'date': "Feb'21",
+#        'description': "alt.chi paper accepted - Calling for a Plurality of Perspectives on Design Futuring: An Un-Manifesto - with Britta F. Schulte, Amy Twigger Holroyd, Rocío Fatás Arana, Sumita Sharma, and Grace Eden",
+#        'link': '/static/pdf/2021_alt.chi_Plurality_Perspectives_Design_Futuring.pdf',
+#     },
+#     {
+#        'date': "Jan'21",
+#        'description': "Talk at Coffee & Viz on Designing for Emotional Meaning-Making with Data",
+#        'link': 'https://www.lib.ncsu.edu/events/coffee-viz-designing-emotional-meaning-making-data',
+#     },
 #     {
 #        'date': "Nov'20",
 #        'description': "Co-hosted workshop on Designing with Biodata as Material",
