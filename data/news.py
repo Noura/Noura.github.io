@@ -6,7 +6,7 @@ news = [ \
      },
      {
         'date': "Nov'21",
-        'description': "Exhibition at BLack Mountain College Museum + Arts Center Conference",
+        'description': "Exhibition at Black Mountain College Museum + Arts Center Conference",
         'link': 'https://www.blackmountaincollege.org/reviewing-12-abstracts/',
      },
      {
