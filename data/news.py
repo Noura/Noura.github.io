@@ -10,6 +10,11 @@ news = [ \
         'link': 'https://www.blackmountaincollege.org/reviewing-12-abstracts/',
      },
      {
+        'date': "Nov'21",
+        'description': "Google TensorFlow faculty award for Engaging Public Audiences with Emotion ML and Inflatable Architecture - with Shawn Protz",
+        'link': None,
+     },
+     {
         'date': "Sep'21",
         'description': "Talk at Georgia Tech GVU Seminar Series",
         'link': 'https://gvu.gatech.edu/hg/item/650534',
