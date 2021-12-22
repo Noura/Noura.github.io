@@ -1,3 +1,5 @@
+some of this might be out of date... 
+
 my personal website / portfolio
 
 first do
