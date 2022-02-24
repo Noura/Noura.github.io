@@ -1,5 +1,10 @@
 news = [ \
      {
+        'date': "Jan'22",
+        'description': "alt.chi article accepted - Design Futuring for Love, Friendship, and Kinships: Five Perspectives on Intimacy - with Sumita Sharma, Britta F. Schulte, Rocío Fatás Arana, Amy Twigger Holroyd, and Grace Eden",
+        'link': None,
+     },
+     {
         'date': "Dec'21",
         'description': "TOCHI journal article on rethinking failure in design research published - with Audrey Desjardins and Sarah Fox",
         'link': 'https://dl.acm.org/doi/10.1145/3462447',
@@ -14,22 +19,22 @@ news = [ \
         'description': "Google TensorFlow faculty award for Engaging Public Audiences with Emotion ML and Inflatable Architecture - with Shawn Protz",
         'link': None,
      },
-     {
-        'date': "Sep'21",
-        'description': "Talk at Georgia Tech GVU Seminar Series",
-        'link': 'https://gvu.gatech.edu/hg/item/650534',
-     },
-     {
-        'date': "Aug'21",
-        'description': "Starting as an assistant professor in Digital Media at Georgia Tech!",
-        'link': None,
-     },
-     {
-        'date': "Jun'21",
-        'description': "Talk at UChicago HCI Club with Pedro Lopes and students",
-        'link': 'https://hciclub.plopes.org/',
-     },
 #     {
+#        'date': "Sep'21",
+#        'description': "Talk at Georgia Tech GVU Seminar Series",
+#        'link': 'https://gvu.gatech.edu/hg/item/650534',
+#     },
+##     {
+#        'date': "Aug'21",
+#        'description': "Starting as an assistant professor in Digital Media at Georgia Tech!",
+#        'link': None,
+#     },
+##     {
+#        'date': "Jun'21",
+#        'description': "Talk at UChicago HCI Club with Pedro Lopes and students",
+#        'link': 'https://hciclub.plopes.org/',
+#     },
+##     {
 #        'date': "Feb'21",
 #        'description': "alt.chi paper accepted - Calling for a Plurality of Perspectives on Design Futuring: An Un-Manifesto - with Britta F. Schulte, Amy Twigger Holroyd, Rocío Fatás Arana, Sumita Sharma, and Grace Eden",
 #        'link': '/static/pdf/2021_alt.chi_Plurality_Perspectives_Design_Futuring.pdf',
