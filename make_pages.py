@@ -62,30 +62,34 @@ news = news.news
 
 from data import projects
 from data import teaching
+from data import alt_text_for_images
 
+vars_for_template = {
+    'ctx': {
+        'page': {},
+        'news': news,
+        'bibs_list': bibs_list,
+        'bibs_by_ID': bibs_by_ID,
+        'alt': alt_text_for_images.alt_text,
+    }
+}
 
 def make_tiled_pages(here, templates, rel_path, pages):
-
-    vars_for_template = {
-        'ctx': {
-            'page': {},
-            'news': news,
-            'bibs_list': bibs_list,
-            'bibs_by_ID': bibs_by_ID,
-        }
-    }
-
     for page in pages:
+        vars_for_template['ctx']['pages'] = pages
         vars_for_template['ctx']['page'] = page
         tem = templates.get_template(page['template'])
         with codecs.open(os.path.join(here, rel_path, page['path']+'.html'), 'w', encoding='utf-8') as out:
             out.write(tem.render(**vars_for_template))
 
 
-def make_top_level_page(here, templates, rel_path, this_template, vars_for_template):
+def make_top_level_page(here, templates, rel_path, this_template, pages=None):
     if rel_path != '':
         shutil.rmtree(os.path.join(here, rel_path), ignore_errors=True )
         os.mkdir(rel_path)
+
+    if pages:
+        vars_for_template['ctx']['pages'] = pages
 
     tem = templates.get_template(this_template)
 
@@ -100,38 +104,22 @@ def make_pages():
     templates = jinja2.Environment(loader=loader)
 
     # HOMEPAGE #######################################
-    make_top_level_page(here, templates, '', 'home.html', {
-        'ctx': {
-            'pages': projects.pages,
-            'news': news,
-        }
-    })
+    make_top_level_page(here, templates, '', 'home.html', projects.pages)
 
     # PUBLICATIONS PAGE ################################
-    make_top_level_page(here, templates, 'pubs', 'publications.html', {
-        'ctx': {
-            'bibs_list': bibs_list,
-            'bibs_by_ID': bibs_by_ID,
-        }
-    })
+    make_top_level_page(here, templates, 'pubs', 'publications.html')
 
     # CV PAGE ##########################################
-    make_top_level_page(here, templates, 'cv', 'cv.html', {})
+    make_top_level_page(here, templates, 'cv', 'cv.html')
 
     # TEACHING PAGE ####################################
-    make_top_level_page(here, templates, 'teaching', 'teaching.html', {
-        'ctx': {
-            'pages': teaching.pages,
-        }
-    })
+    make_top_level_page(here, templates, 'teaching', 'teaching.html', teaching.pages)
 
     # ABOUT PAGE #######################################
-    make_top_level_page(here, templates, 'about', 'about.html', {})
+    make_top_level_page(here, templates, 'about', 'about.html')
 
     # NEWS PAGE ########################################
-    make_top_level_page(here, templates, 'news', 'news.html', {
-        'news': news
-    })
+    make_top_level_page(here, templates, 'news', 'news.html')
 
     # PROJECTS PAGES ###################################
     # assumes projects dir already exists, so first delete it to clear contents
@@ -139,7 +127,6 @@ def make_pages():
     # then recreate it empty to put in the updated project pages
     os.mkdir('projects')
     make_tiled_pages(here, templates, 'projects', projects.pages)
-
 
     # TEACHING PAGES ###################################
     # teaching dir should already exist from making the top level teaching page

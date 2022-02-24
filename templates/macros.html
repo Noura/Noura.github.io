@@ -81,16 +81,22 @@
 {% endmacro %}
 
 
-{% macro tiles(subheading, url_sub_path, type, pages) %}
+{% macro tiles(subheading, url_sub_path, type, ctx) %}
   <div class="col-12">
     <h2 class="line-divider"> {{ subheading }} </h2>
   </div>
-  {% for page in pages %}
+  {% for page in ctx.pages %}
     {% if page.type == type %}
       <div class="col-12 col-xs-12 col-sm-6 col-md-4">
         <a class="tile-link" href="/{{url_sub_path}}{{page.path}}.html" id="{{page.path}}" name="{{page.path}}">
           {% if page.thumbnail %}
-            <img class="tile-img my-border" src="/static/img/280px_tiles/{{ page.thumbnail }}">
+          <img 
+                class="tile-img my-border"
+                src="/static/img/280px_tiles/{{ page.thumbnail }}"
+                {% if page.thumbnail in ctx.alt %}
+                  alt="{{ ctx.alt.__getitem__(page.thumbnail) }}"
+                {% endif %}
+                >
             <span class="tile-name">
                 <mark>{{ page.name }}</mark>
             </span>
