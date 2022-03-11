@@ -1,6 +1,14 @@
 # pages appear in the order listed here
 pages = [ \
     {
+        'name': 'Emotion ML Critical Making Project Studio',
+        'thumbnail': 'tunnel.jpg',
+        'path': 'emotion_ml_project_studio',
+        'template': 'f21_project_studio.html',
+        'date': 'Fall 2021',
+        'type': 'class',
+    },
+    {
         # appears as title for that project page, and title of tile on homepage
         'name': 'Biosens&shy;ing Technolo&shy;gies in Everyday Life',
         # refers to the image in static img 280px tiles folder

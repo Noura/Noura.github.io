@@ -46,6 +46,7 @@ alt_text = { \
             'stethoscope_velvet.JPG': "A pair of stethoscope heads each emerge out of black velvet handles. Out the other hand of the black velvet amorphous handles extends black audio cable.",
             'string_fling.jpg': "A network of hot pink and bright yellow string",
             'tui_taste_sound.jpg': "Noura at left interacts with student at right. They are squeezing a lemon into a device with wires extending from it.",
+            'tunnel.jpg': "The inside of an inflatable tunnel of white and silver stripes. In the tunnel is a black pedestal with a ring light shining toward the camera. At the end of the tunnel are projected visuals.",
             'vacuum_form_molding.gif': "Noura and another workshop participant use a vacuum form molding machine. They lower the frame holding a sheet of melty drooping clear plastic so that the plastic molds over some small objects on the vacuum bed.",
             'vivewell_cover_tile.png': "New from Vivewell: Cutting-Edge Period Tracking Technology. Live smart, live well. Volume 01. The text is shown as a stylized magazine cover.",
             'vivewell_cover.png': "A magazine cover. Title: Vivewell Winter Catalog. Subtitle: New from Vivewell: Cutting-Edge Period Tracking Technology. Live smart, live well. Volume 01. Image is an illustration that shows a white hand holding a menstrual cup with grooves and dots on it and blood inside. In the background is a school notebook, penciles, a marker, an eraser, and plant motifs.",
