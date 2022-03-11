@@ -1,3 +1,13 @@
+{% macro page_image(path, file, ctx, extra_classes) %}
+
+<img class=" {{ extra_classes }} " src="{{path}}/{{file}}" 
+        {% if file in ctx.alt %}
+          alt="{{ ctx.alt.__getitem__(file) }}"
+        {% endif %} >
+
+{% endmacro %}
+
+
 {% macro news(news) %}
   {% for item in news %}
   <p>
