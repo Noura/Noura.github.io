@@ -1,5 +1,10 @@
 news = [ \
      {
+        'date': "Apr'22",
+        'description': "Invited lecture at the Scholars' Lab, University of Virginia",
+        'link': None,
+     },
+     {
         'date': "Jan'22",
         'description': "alt.chi article accepted - Design Futuring for Love, Friendship, and Kinships: Five Perspectives on Intimacy - with Sumita Sharma, Britta F. Schulte, Rocío Fatás Arana, Amy Twigger Holroyd, and Grace Eden",
         'link': None,
