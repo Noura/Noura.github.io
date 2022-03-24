@@ -2,7 +2,7 @@ news = [ \
      {
         'date': "Apr'22",
         'description': "Invited lecture at the Scholars' Lab, University of Virginia",
-        'link': None,
+        'link': 'https://scholarslab.lib.virginia.edu/events/designing-for-emotional-meaning-making-with-data-2022-03-29/',
      },
      {
         'date': "Jan'22",
