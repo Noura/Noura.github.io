@@ -1,6 +1,11 @@
 news = [ \
      {
         'date': "Apr'22",
+        'description': "Infrastructural Membranes public art exhibit",
+        'link': 'https://arts.gatech.edu/content/infrastructural-membranes',
+     },
+     {
+        'date': "Apr'22",
         'description': "Invited lecture at the Scholars' Lab, University of Virginia",
         'link': 'https://scholarslab.lib.virginia.edu/events/designing-for-emotional-meaning-making-with-data-2022-03-29/',
      },
