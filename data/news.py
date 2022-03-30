@@ -1,11 +1,21 @@
 news = [ \
      {
+        'date': "May'22",
+        'description': "Honorable mention on co-authored CHI paper Diffraction-in-action: Designerly Explorations of Agential Realism Through Lived Data - authors Pedro Sanches, Vasiliki Tsaknaki, Tom Jenkins, and Karey Helms",
+        'link': 'https://programs.sigchi.org/chi/2022/program/content/68941',
+     },
+     {
         'date': "Apr'22",
         'description': "Infrastructural Membranes public art exhibit",
         'link': 'https://arts.gatech.edu/content/infrastructural-membranes',
      },
      {
         'date': "Apr'22",
+         'description': "Panelist with Gabriel Kahane and Felipe Barral in Community Conversation: Impact, Arts, and Technology",
+        'link': 'https://arts.gatech.edu/content/community-conversation-impact-arts-and-technology',
+     },
+     {
+        'date': "Mar'22",
         'description': "Invited lecture at the Scholars' Lab, University of Virginia",
         'link': 'https://scholarslab.lib.virginia.edu/events/designing-for-emotional-meaning-making-with-data-2022-03-29/',
      },
