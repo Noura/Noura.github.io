@@ -25,6 +25,8 @@ bibs_pdfs = {
     'howell_calling_2021': '2021_alt.chi_Plurality_Perspectives_Design_Futuring.pdf',
     'kozubaev_expanding_2020': '2020_CHI_Design_Futuring.pdf',
     'howellCracksSuccessNarrative2021': '2021_Rethinking_Failure_in_Design_Research.pdf',
+    'sanches_diffraction_2022': '2022_CHI_Diffraction-in-action.pdf',
+    'sharma_design_2022': '2022_alt.chi_Design_Futuring_for_Love_Friendships_and_Kinships.pdf',
 }
 pdf_path = '/static/pdf/'
 
