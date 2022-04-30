@@ -2,7 +2,7 @@ news = [ \
      {
         'date': "May'22",
         'description': "Honorable mention on co-authored CHI paper Diffraction-in-action: Designerly Explorations of Agential Realism Through Lived Data - authors Pedro Sanches, Vasiliki Tsaknaki, Tom Jenkins, and Karey Helms",
-        'link': 'https://programs.sigchi.org/chi/2022/program/content/68941',
+        'link': 'https://dl.acm.org/doi/10.1145/3491102.3502029',
      },
      {
         'date': "Apr'22",
@@ -22,7 +22,7 @@ news = [ \
      {
         'date': "Jan'22",
         'description': "alt.chi article accepted - Design Futuring for Love, Friendship, and Kinships: Five Perspectives on Intimacy - with Sumita Sharma, Britta F. Schulte, Rocío Fatás Arana, Amy Twigger Holroyd, and Grace Eden",
-        'link': None,
+        'link': 'https://dl.acm.org/doi/10.1145/3491101.3516388',
      },
      {
         'date': "Dec'21",
