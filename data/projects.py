@@ -1,6 +1,14 @@
 # pages appear in the order listed here
 pages = [ \
     {
+        'name': 'Feeling Spaces',
+        'thumbnail': 'inflatable_inside.jpg',
+        'path': 'inflatables',
+        'template': 'inflatables.html',
+        'date': '2021 - present',
+        'type': 'project',
+    },
+    {
         'name': 'Expanding Approaches to Design Futuring',
         'thumbnail': 'leaves_lamp.jpg',
         'path': 'design_futuring',
