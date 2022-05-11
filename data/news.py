@@ -1,5 +1,15 @@
 news = [ \
      {
+        'date': "Jun'22",
+        'description': "NIME Music Performance Embodied Transductions (forthcoming)",
+        'link': None,
+     },
+     {
+        'date': "Jun'22",
+        'description': "DIS Pictorial Fabulating Biodata Futures for Living and Knowing Together with Vasiliki Tsaknaki, Pedro Sanches, Tom Jenkins, Laurens Boer, and Afroditi Bitzouni (forthcoming)",
+        'link': None,
+     },
+    {
         'date': "May'22",
         'description': "Honorable mention on co-authored CHI paper Diffraction-in-action: Designerly Explorations of Agential Realism Through Lived Data - authors Pedro Sanches, Vasiliki Tsaknaki, Tom Jenkins, and Karey Helms",
         'link': 'https://dl.acm.org/doi/10.1145/3491102.3502029',
@@ -19,27 +29,27 @@ news = [ \
         'description': "Invited lecture at the Scholars' Lab, University of Virginia",
         'link': 'https://scholarslab.lib.virginia.edu/events/designing-for-emotional-meaning-making-with-data-2022-03-29/',
      },
-     {
-        'date': "Jan'22",
-        'description': "alt.chi article accepted - Design Futuring for Love, Friendship, and Kinships: Five Perspectives on Intimacy - with Sumita Sharma, Britta F. Schulte, Rocío Fatás Arana, Amy Twigger Holroyd, and Grace Eden",
-        'link': 'https://dl.acm.org/doi/10.1145/3491101.3516388',
-     },
-     {
-        'date': "Dec'21",
-        'description': "TOCHI journal article on rethinking failure in design research published - with Audrey Desjardins and Sarah Fox",
-        'link': 'https://dl.acm.org/doi/10.1145/3462447',
-     },
-     {
-        'date': "Nov'21",
-        'description': "Exhibition at Black Mountain College Museum + Arts Center Conference",
-        'link': 'https://www.blackmountaincollege.org/reviewing-12-abstracts/',
-     },
-     {
-        'date': "Nov'21",
-        'description': "Google TensorFlow faculty award for Engaging Public Audiences with Emotion ML and Inflatable Architecture - with Shawn Protz",
-        'link': None,
-     },
 #     {
+#        'date': "Jan'22",
+#        'description': "alt.chi article accepted - Design Futuring for Love, Friendship, and Kinships: Five Perspectives on Intimacy - with Sumita Sharma, Britta F. Schulte, Rocío Fatás Arana, Amy Twigger Holroyd, and Grace Eden",
+#        'link': 'https://dl.acm.org/doi/10.1145/3491101.3516388',
+#     },
+#     {
+#        'date': "Dec'21",
+#        'description': "TOCHI journal article on rethinking failure in design research published - with Audrey Desjardins and Sarah Fox",
+#        'link': 'https://dl.acm.org/doi/10.1145/3462447',
+#     },
+#     {
+#        'date': "Nov'21",
+#        'description': "Exhibition at Black Mountain College Museum + Arts Center Conference",
+#        'link': 'https://www.blackmountaincollege.org/reviewing-12-abstracts/',
+#     },
+#     {
+#        'date': "Nov'21",
+#        'description': "Google TensorFlow faculty award for Engaging Public Audiences with Emotion ML and Inflatable Architecture - with Shawn Protz",
+#        'link': None,
+#     },
+##     {
 #        'date': "Sep'21",
 #        'description': "Talk at Georgia Tech GVU Seminar Series",
 #        'link': 'https://gvu.gatech.edu/hg/item/650534',
