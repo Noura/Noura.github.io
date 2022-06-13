@@ -25,7 +25,7 @@ pages = [ \
         'type': 'project',
     },
     {
-        'name': 'Feeling Spaces',
+        'name': 'Feeling Spaces: Inflatable Architecture',
         'thumbnail': 'inflatable_inside.jpg',
         'path': 'inflatables',
         'template': 'inflatables.html',
