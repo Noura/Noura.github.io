@@ -1,0 +1,37 @@
+{% import 'macros.html' as macros %}
+{{ macros.base_header() }}
+{{ macros.project_header(ctx.page, ctx, "") }}
+
+
+
+<p>
+Co-authoring with Sandjar Kozubaev, Chris Elsden, Marie Louise Juul Søndergaard, Nick Merrill, Britta F. Schulte, and Richmond Y. Wong, we offer modes of reflection to help design researchers deepen their practice with design futuring:
+</p>
+
+<p>
+Attending to <b>designerly formgiving</b> helps articulate ways in which design artifacts for design futuring both productively narrow or focus imagination around a specific design and also open or broaden imagination about a particular future in greater detail.
+</p>
+
+<p>
+Attending to <b>temporal representations</b> as culturally situated can help surface and question cultural assumptions, such as the linearity of time.
+</p>
+
+<p>
+By attending to <b>positionality and privilege</b>, design futuring researchers can make more thoughtful, meaningful political critiques that resist problematic power relations.
+</p>
+
+<p>
+Attending to the audience or <b>public engagement</b> of design futuring projects can help these projects achieve greater societal impact and foster more open, less elitist debate about alternative futures.
+</p>
+
+<p>
+Attending to <b>anticipatory phenomena</b> that design futuring projects engage can help make more nuanced discursive statements through design regarding anticipated alternative futures, and opens possibilities for design futuring projects to more explicitly link to and build on other design futuring projects across time, designers, and institutions.
+</p>
+
+
+<h2>Papers</h2>
+
+{{ macros.bib(ctx.bibs_by_ID['kozubaev_expanding_2020']) }}
+
+{{ macros.project_footer(ctx.page, ctx) }}
+{{ macros.base_footer() }}

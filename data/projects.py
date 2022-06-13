@@ -1,11 +1,11 @@
 # pages appear in the order listed here
 pages = [ \
     {
-        'name': 'Feeling Spaces',
-        'thumbnail': 'inflatable_inside.jpg',
-        'path': 'inflatables',
-        'template': 'inflatables.html',
-        'date': '2021 - present',
+        'name': 'Fabulating Biodata Design Futures',
+        'thumbnail': 'biodata_fabulation.jpg',
+        'path': 'fabulating_biodata',
+        'template': 'fabulating_biodata.html',
+        'date': '2020 - ongoing',
         'type': 'project',
     },
     {
@@ -22,6 +22,14 @@ pages = [ \
         'path': 'design_futuring_reflections',
         'template': 'modes_of_reflection_for_design_futuring.html',
         'date': '2019 - 2020',
+        'type': 'project',
+    },
+    {
+        'name': 'Feeling Spaces',
+        'thumbnail': 'inflatable_inside.jpg',
+        'path': 'inflatables',
+        'template': 'inflatables.html',
+        'date': '2021 - present',
         'type': 'project',
     },
     {
