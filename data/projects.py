@@ -9,11 +9,19 @@ pages = [ \
         'type': 'project',
     },
     {
-        'name': 'Expanding Approaches to Design Futuring',
+        'name': 'Perspectives for Design Futuring',
         'thumbnail': 'leaves_lamp.jpg',
-        'path': 'design_futuring',
-        'template': 'design_futuring.html',
-        'date': '2019 - present',
+        'path': 'design_futuring_perspectives',
+        'template': 'perspectives_for_design_futuring.html',
+        'date': '2020 - ongoing',
+        'type': 'project',
+    },
+    {
+        'name': 'Expanding Modes of Reflection for Design Futuring',
+        'thumbnail': None,
+        'path': 'design_futuring_reflections',
+        'template': 'modes_of_reflection_for_design_futuring.html',
+        'date': '2019 - 2020',
         'type': 'project',
     },
     {
