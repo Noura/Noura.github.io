@@ -26,7 +26,8 @@ bibs_pdfs = {
     'kozubaev_expanding_2020': '2020_CHI_Design_Futuring.pdf',
     'howell_cracks_2021': '2021_TOCHI_Rethinking_Failure_in_Design_Research.pdf',
     'sanches_diffraction_2022': '2022_CHI_Diffraction-in-action.pdf',
-    'sharma_design_2022': '2022_alt.chi_Design_Futuring_for_Love_Friendships_and_Kinships.pdf',
+    'sharmaDesignFuturingLove2022': '2022_alt.chi_Design_Futuring_for_Love_Friendships_and_Kinships.pdf',
+    'tsaknakiFabulatingBiodataFutures2022a': '2022_DIS_Fabulating_Biodata_Futures.pdf',
 }
 pdf_path = '/static/pdf/'
 
