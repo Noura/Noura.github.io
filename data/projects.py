@@ -89,7 +89,7 @@ pages = [ \
 #    },
     {
         # appears as title for that project page, and title of tile on homepage
-        'name': 'Participatory Peace Sculpture',
+        'name': 'Salaam Participatory Peace Sculpture',
         # refers to the image as specified in app.scss
         'thumbnail': 'salaam_square.JPG',
         # the hash of the URL at which the project page appears
