@@ -9,7 +9,7 @@ pages = [ \
         'type': 'project',
     },
     {
-        'name': 'Perspectives for Design Futuring',
+        'name': 'Polyvocal Perspectives for Design Futuring',
         'thumbnail': 'leaves_lamp.jpg',
         'path': 'design_futuring_perspectives',
         'template': 'perspectives_for_design_futuring.html',
