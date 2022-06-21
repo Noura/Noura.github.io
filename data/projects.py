@@ -9,6 +9,14 @@ pages = [ \
         'type': 'project',
     },
     {
+        'name': 'Embodied Transductions through Musical Practice',
+        'thumbnail': 'embodied_transductions.jpg',
+        'path': 'embodied_transductions',
+        'template': 'embodied_transductions.html',
+        'date': '2020 - ongoing',
+        'type': 'project',
+    },
+    {
         'name': 'Polyvocal Perspectives for Design Futuring',
         'thumbnail': 'leaves_lamp.jpg',
         'path': 'design_futuring_perspectives',
