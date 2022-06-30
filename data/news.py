@@ -1,13 +1,13 @@
 news = [ \
      {
         'date': "Jun'22",
-        'description': "NIME Music Performance Embodied Transductions (forthcoming)",
-        'link': None,
+        'description': "NIME Music Performance Embodied Transductions",
+        'link': 'https://nime.pubpub.org/pub/lgbnnsmw/release/1',
      },
      {
         'date': "Jun'22",
-        'description': "DIS Pictorial Fabulating Biodata Futures for Living and Knowing Together with Vasiliki Tsaknaki, Pedro Sanches, Tom Jenkins, Laurens Boer, and Afroditi Bitzouni (forthcoming)",
-        'link': None,
+        'description': "DIS Pictorial Fabulating Biodata Futures for Living and Knowing Together with Vasiliki Tsaknaki, Pedro Sanches, Tom Jenkins, Laurens Boer, and Afroditi Bitzouni",
+        'link': 'https://dl.acm.org/doi/10.1145/3532106.3533477',
      },
     {
         'date': "May'22",
