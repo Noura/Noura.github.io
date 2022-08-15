@@ -1,16 +1,21 @@
 news = [ \
      {
+        'date': "Aug'22",
+        'description': "Grant recipient for PREMIER: Performance Residencies in Electronic Music for Interdisciplinary Education Research with Alex Cohen, from the GVU/IPaT/GTRI Research and Engagement program at Georgia Tech",
+        'link': None,
+     },
+     {
         'date': "July '22",
          'description': ('NordiCHI Late-Breaking Work accepted - Feeling Air: Exploring Aesthetic and Material Qualities of Architectural Inflatables with architecture professor Shawn Protz '
                          'and students of our two project studios  Jasmyn Byrd, Miguel Castellanos, Alexis Elkins, Jessica Hall, Micah Holdsworth, Lalith Mallikeshwaran Rajogopal Sambasivan, Chris Noel, Oluwarotimi Osiberu, '
                          ' Rushabh Patel, Dylan Scallan, Abigail Uhrich, Aditya Anupam, Blaire Bosley, Rachel Donley, Sara Milkes Espinosa, Michelle Ramirez, Sanjeev Nayak, Anh-Ton Tran, Yiyun Jia, Yunfei Wang (camera ready version forthcoming)'),
         'link': None,
      },
-     {
-        'date': "Jun'22",
-        'description': "NIME Music Performance Embodied Transductions",
-        'link': 'https://nime.pubpub.org/pub/lgbnnsmw/release/1',
-     },
+#     {
+#        'date': "Jun'22",
+#        'description': "NIME Music Performance Embodied Transductions",
+#        'link': 'https://nime.pubpub.org/pub/lgbnnsmw/release/1',
+#     },
      {
         'date': "Jun'22",
         'description': "DIS Pictorial Fabulating Biodata Futures for Living and Knowing Together with Vasiliki Tsaknaki, Pedro Sanches, Tom Jenkins, Laurens Boer, and Afroditi Bitzouni",
