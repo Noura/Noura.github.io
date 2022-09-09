@@ -1,8 +1,18 @@
 news = [ \
      {
+        'date': "Sep'22",
+        'description': "Radio interview for City Lights with Lois Reitzes, with curator Birney Robert, about the art exhibit Extension of Self and the Heart Sounds Bench",
+        'link': None,
+     },
+     {
         'date': "Aug'22",
         'description': "Grant recipient for PREMIER: Performance Residencies in Electronic Music for Interdisciplinary Education Research with Alex Cohen, from the GVU/IPaT/GTRI Research and Engagement program at Georgia Tech",
         'link': None,
+     },
+     {
+        'date': "Aug'22",
+        'description': "The Heart Sounds Bench is in the Extension of Self art exhibit at Georgia Tech, curated by Birney Robert",
+        'link': 'https://art.c21u.gatech.edu/noura-howell',
      },
      {
         'date': "July '22",
@@ -11,12 +21,12 @@ news = [ \
                          ' Rushabh Patel, Dylan Scallan, Abigail Uhrich, Aditya Anupam, Blaire Bosley, Rachel Donley, Sara Milkes Espinosa, Michelle Ramirez, Sanjeev Nayak, Anh-Ton Tran, Yiyun Jia, Yunfei Wang (camera ready version forthcoming)'),
         'link': None,
      },
-#     {
-#        'date': "Jun'22",
-#        'description': "NIME Music Performance Embodied Transductions",
-#        'link': 'https://nime.pubpub.org/pub/lgbnnsmw/release/1',
-#     },
      {
+        'date': "Jun'22",
+        'description': "NIME Music Performance Embodied Transductions",
+        'link': 'https://nime.pubpub.org/pub/lgbnnsmw/release/1',
+     },
+    {
         'date': "Jun'22",
         'description': "DIS Pictorial Fabulating Biodata Futures for Living and Knowing Together with Vasiliki Tsaknaki, Pedro Sanches, Tom Jenkins, Laurens Boer, and Afroditi Bitzouni",
         'link': 'https://dl.acm.org/doi/10.1145/3532106.3533477',
@@ -26,22 +36,27 @@ news = [ \
         'description': "Honorable mention on co-authored CHI paper Diffraction-in-action: Designerly Explorations of Agential Realism Through Lived Data - authors Pedro Sanches, Vasiliki Tsaknaki, Tom Jenkins, and Karey Helms",
         'link': 'https://dl.acm.org/doi/10.1145/3491102.3502029',
      },
-     {
-        'date': "Apr'22",
-        'description': "Infrastructural Membranes public art exhibit",
-        'link': 'https://arts.gatech.edu/content/infrastructural-membranes',
-     },
-     {
-        'date': "Apr'22",
-         'description': "Panelist with Gabriel Kahane and Felipe Barral in Community Conversation: Impact, Arts, and Technology",
-        'link': 'https://arts.gatech.edu/content/community-conversation-impact-arts-and-technology',
-     },
-     {
-        'date': "Mar'22",
-        'description': "Invited lecture at the Scholars' Lab, University of Virginia",
-        'link': 'https://scholarslab.lib.virginia.edu/events/designing-for-emotional-meaning-making-with-data-2022-03-29/',
+    {
+        'date': "May'22",
+        'description': "Grant recipient for Computational Craft Community Building with Anne Sullivan, Vernelle Noel, Michael Nitsche, and Elisabetta Matsumoto from Georgia Tech Seed Grants",
+        'link': None,
      },
 #     {
+#        'date': "Apr'22",
+#        'description': "Infrastructural Membranes public art exhibit",
+#        'link': 'https://arts.gatech.edu/content/infrastructural-membranes',
+#     },
+##     {
+#        'date': "Apr'22",
+#         'description': "Panelist with Gabriel Kahane and Felipe Barral in Community Conversation: Impact, Arts, and Technology",
+#        'link': 'https://arts.gatech.edu/content/community-conversation-impact-arts-and-technology',
+#     },
+##     {
+#        'date': "Mar'22",
+#        'description': "Invited lecture at the Scholars' Lab, University of Virginia",
+#        'link': 'https://scholarslab.lib.virginia.edu/events/designing-for-emotional-meaning-making-with-data-2022-03-29/',
+#     },
+##     {
 #        'date': "Jan'22",
 #        'description': "alt.chi article accepted - Design Futuring for Love, Friendship, and Kinships: Five Perspectives on Intimacy - with Sumita Sharma, Britta F. Schulte, Rocío Fatás Arana, Amy Twigger Holroyd, and Grace Eden",
 #        'link': 'https://dl.acm.org/doi/10.1145/3491101.3516388',
