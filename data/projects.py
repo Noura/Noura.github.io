@@ -25,6 +25,14 @@ pages = [ \
         'type': 'project',
     },
     {
+        'name': 'Feeling Air: Exploring Aesthetic and Material Qualities of Architectural Inflatables',
+        'thumbnail': 'inflatable_inside.jpg',
+        'path': 'feeling_air',
+        'template': 'feeling_air_inflatables.html',
+        'date': '2021',
+        'type': 'project',
+    },
+    {
         'name': 'Polyvocal Perspectives for Design Futuring',
         'thumbnail': 'leaves_lamp.jpg',
         'path': 'design_futuring_perspectives',
@@ -41,11 +49,11 @@ pages = [ \
         'type': 'project',
     },
     {
-        'name': 'Feeling Spaces: Inflatable Architecture',
-        'thumbnail': 'inflatable_inside.jpg',
+        'name': 'Infrastructural Membranes',
+        'thumbnail': 'inflatable_at_ferst.jpg',
         'path': 'inflatables',
         'template': 'inflatables.html',
-        'date': '2021 - present',
+        'date': '2022',
         'type': 'project',
     },
     {
