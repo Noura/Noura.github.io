@@ -19,7 +19,7 @@ news = [ \
          'description': ('NordiCHI Late-Breaking Work accepted - Feeling Air: Exploring Aesthetic and Material Qualities of Architectural Inflatables with architecture professor Shawn Protz '
                          'and students of our two project studios  Jasmyn Byrd, Miguel Castellanos, Alexis Elkins, Jessica Hall, Micah Holdsworth, Lalith Mallikeshwaran Rajogopal Sambasivan, Chris Noel, Oluwarotimi Osiberu, '
                          ' Rushabh Patel, Dylan Scallan, Abigail Uhrich, Aditya Anupam, Blaire Bosley, Rachel Donley, Sara Milkes Espinosa, Michelle Ramirez, Sanjeev Nayak, Anh-Ton Tran, Yiyun Jia, Yunfei Wang (camera ready version forthcoming)'),
-        'link': None,
+        'link': 'https://dl.acm.org/doi/10.1145/3547522.3557781',
      },
      {
         'date': "Jun'22",
