@@ -21,27 +21,27 @@ news = [ \
                          ' Rushabh Patel, Dylan Scallan, Abigail Uhrich, Aditya Anupam, Blaire Bosley, Rachel Donley, Sara Milkes Espinosa, Michelle Ramirez, Sanjeev Nayak, Anh-Ton Tran, Yiyun Jia, Yunfei Wang (camera ready version forthcoming)'),
         'link': 'https://dl.acm.org/doi/10.1145/3547522.3557781',
      },
-     {
-        'date': "Jun'22",
-        'description': "NIME Music Performance Embodied Transductions",
-        'link': 'https://nime.pubpub.org/pub/lgbnnsmw/release/1',
-     },
-    {
-        'date': "Jun'22",
-        'description': "DIS Pictorial Fabulating Biodata Futures for Living and Knowing Together with Vasiliki Tsaknaki, Pedro Sanches, Tom Jenkins, Laurens Boer, and Afroditi Bitzouni",
-        'link': 'https://dl.acm.org/doi/10.1145/3532106.3533477',
-     },
-    {
-        'date': "May'22",
-        'description': "Honorable mention on co-authored CHI paper Diffraction-in-action: Designerly Explorations of Agential Realism Through Lived Data - authors Pedro Sanches, Vasiliki Tsaknaki, Tom Jenkins, and Karey Helms",
-        'link': 'https://dl.acm.org/doi/10.1145/3491102.3502029',
-     },
-    {
-        'date': "May'22",
-        'description': "Grant recipient for Computational Craft Community Building with Anne Sullivan, Vernelle Noel, Michael Nitsche, and Elisabetta Matsumoto from Georgia Tech Seed Grants",
-        'link': None,
-     },
 #     {
+#        'date': "Jun'22",
+#        'description': "NIME Music Performance Embodied Transductions",
+#        'link': 'https://nime.pubpub.org/pub/lgbnnsmw/release/1',
+#     },
+#    {
+#        'date': "Jun'22",
+#        'description': "DIS Pictorial Fabulating Biodata Futures for Living and Knowing Together with Vasiliki Tsaknaki, Pedro Sanches, Tom Jenkins, Laurens Boer, and Afroditi Bitzouni",
+#        'link': 'https://dl.acm.org/doi/10.1145/3532106.3533477',
+#     },
+#    {
+#        'date': "May'22",
+#        'description': "Honorable mention on co-authored CHI paper Diffraction-in-action: Designerly Explorations of Agential Realism Through Lived Data - authors Pedro Sanches, Vasiliki Tsaknaki, Tom Jenkins, and Karey Helms",
+#        'link': 'https://dl.acm.org/doi/10.1145/3491102.3502029',
+#     },
+#    {
+#        'date': "May'22",
+#        'description': "Grant recipient for Computational Craft Community Building with Anne Sullivan, Vernelle Noel, Michael Nitsche, and Elisabetta Matsumoto from Georgia Tech Seed Grants",
+#        'link': None,
+#     },
+##     {
 #        'date': "Apr'22",
 #        'description': "Infrastructural Membranes public art exhibit",
 #        'link': 'https://arts.gatech.edu/content/infrastructural-membranes',
