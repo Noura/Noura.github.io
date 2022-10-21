@@ -1,5 +1,15 @@
 news = [ \
      {
+        'date': "Oct'22",
+        'description': "Women in AI lecture with middle schoolers in Oulu, Finland - organized by Sumita Sharma and hosted by Pooja Kakkar",
+        'link': 'https://www.linkedin.com/feed/update/urn:li:activity:6986947530898980864/',
+     },
+     {
+        'date': "Oct'22",
+        'description': "Hosted design futuring two-day workshop with InfoTech and INTERACT at University of Oulu - with awesome organizers and hosts Arto Lanamäki, Sumita Sharma, Netta Iivari, and Marianne Kinnula",
+        'link': None,
+     },
+     {
         'date': "Sep'22",
         'description': "Radio interview for City Lights with Lois Reitzes, with curator Birney Robert, about the art exhibit Extension of Self and the Heart Sounds Bench",
         'link': 'https://www.wabe.org/podcasts/city-lights/extension-of-self-benefit-concert-for-ukraine-artist-drew-borders/',
