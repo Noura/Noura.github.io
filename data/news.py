@@ -17,7 +17,7 @@ news = [ \
      {
         'date': "Aug'22",
         'description': "Grant recipient for PREMIER: Performance Residencies in Electronic Music for Interdisciplinary Education Research with Alex Cohen, from the GVU/IPaT/GTRI Research and Engagement program at Georgia Tech",
-        'link': None,
+        'link': 'https://sites.gatech.edu/premier-music-residency/',
      },
      {
         'date': "Aug'22",
