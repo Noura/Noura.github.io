@@ -34,7 +34,7 @@ pages = [ \
     },
     {
         'name': 'Polyvocal Perspectives for Design Futuring',
-        'thumbnail': 'leaves_lamp.jpg',
+        'thumbnail': '5_perspectives_design_futuring.png',
         'path': 'design_futuring_perspectives',
         'template': 'perspectives_for_design_futuring.html',
         'date': '2020 - ongoing',
