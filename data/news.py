@@ -11,8 +11,8 @@ news = [ \
      },
      {
         'date': "Oct'22",
-        'description': "Hosted design futuring two-day workshop with InfoTech and INTERACT at University of Oulu - with awesome organizers and hosts Arto Lanamäki, Sumita Sharma, Netta Iivari, and Marianne Kinnula",
-        'link': None,
+        'description': "Hosted design futuring two-day doctoral course with InfoTech and INTERACT at University of Oulu",
+        'link': 'https://www.oulu.fi/en/events/doctoral-course-speculative-design-futures',
      },
      {
         'date': "Sep'22",
