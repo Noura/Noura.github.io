@@ -6,7 +6,7 @@ news = [ \
      },
      {
         'date': "Oct'22",
-        'description': "Women in AI lecture with middle schoolers in Oulu, Finland - organized by Sumita Sharma and hosted by Pooja Kakkar",
+        'description': "Women in AI lecture with middle schoolers in Oulu, Finland",
         'link': 'https://www.linkedin.com/feed/update/urn:li:activity:6986947530898980864/',
      },
      {
