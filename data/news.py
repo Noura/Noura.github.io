@@ -29,14 +29,14 @@ news = [ \
         'description': "The Heart Sounds Bench is in the Extension of Self art exhibit at Georgia Tech, curated by Birney Robert",
         'link': 'https://art.c21u.gatech.edu/noura-howell',
      },
-     {
-        'date': "July '22",
-         'description': ('NordiCHI Late-Breaking Work accepted - Feeling Air: Exploring Aesthetic and Material Qualities of Architectural Inflatables with architecture professor Shawn Protz '
-                         'and students of our two project studios  Jasmyn Byrd, Miguel Castellanos, Alexis Elkins, Jessica Hall, Micah Holdsworth, Lalith Mallikeshwaran Rajogopal Sambasivan, Chris Noel, Oluwarotimi Osiberu, '
-                         ' Rushabh Patel, Dylan Scallan, Abigail Uhrich, Aditya Anupam, Blaire Bosley, Rachel Donley, Sara Milkes Espinosa, Michelle Ramirez, Sanjeev Nayak, Anh-Ton Tran, Yiyun Jia, Yunfei Wang (camera ready version forthcoming)'),
-        'link': 'https://dl.acm.org/doi/10.1145/3547522.3557781',
-     },
 #     {
+#        'date': "July '22",
+#         'description': ('NordiCHI Late-Breaking Work accepted - Feeling Air: Exploring Aesthetic and Material Qualities of Architectural Inflatables with architecture professor Shawn Protz '
+#                         'and students of our two project studios  Jasmyn Byrd, Miguel Castellanos, Alexis Elkins, Jessica Hall, Micah Holdsworth, Lalith Mallikeshwaran Rajogopal Sambasivan, Chris Noel, Oluwarotimi Osiberu, '
+#                         ' Rushabh Patel, Dylan Scallan, Abigail Uhrich, Aditya Anupam, Blaire Bosley, Rachel Donley, Sara Milkes Espinosa, Michelle Ramirez, Sanjeev Nayak, Anh-Ton Tran, Yiyun Jia, Yunfei Wang (camera ready version forthcoming)'),
+#        'link': 'https://dl.acm.org/doi/10.1145/3547522.3557781',
+#     },
+##     {
 #        'date': "Jun'22",
 #        'description': "NIME Music Performance Embodied Transductions",
 #        'link': 'https://nime.pubpub.org/pub/lgbnnsmw/release/1',
