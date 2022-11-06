@@ -16,7 +16,7 @@ news = [ \
      },
      {
         'date': "Sep'22",
-        'description': "Radio interview for City Lights with Lois Reitzes, with curator Birney Robert, about the art exhibit Extension of Self and the Heart Sounds Bench",
+        'description': "Radio interview for NPR City Lights with Lois Reitzes, with curator Birney Robert, about the art exhibit Extension of Self and the Heart Sounds Bench",
         'link': 'https://www.wabe.org/podcasts/city-lights/extension-of-self-benefit-concert-for-ukraine-artist-drew-borders/',
      },
      {
