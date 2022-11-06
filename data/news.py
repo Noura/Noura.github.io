@@ -1,6 +1,11 @@
 news = [ \
      {
         'date': "Oct'22",
+        'description': "Critical AI & Crisis Interrogatives Seminar at Aalto University",
+        'link': 'https://www.aalto.fi/en/events/crai-cis-seminar',
+     },
+     {
+        'date': "Oct'22",
         'description': "Women in AI lecture with middle schoolers in Oulu, Finland - organized by Sumita Sharma and hosted by Pooja Kakkar",
         'link': 'https://www.linkedin.com/feed/update/urn:li:activity:6986947530898980864/',
      },
