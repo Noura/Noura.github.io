@@ -1,5 +1,10 @@
 news = [ \
      {
+        'date': "Nov'22",
+        'description': "FTC Comments on Commercial Surveillance and Data Security with Richmond Wong and Watson Hartsoe",
+        'link': 'https://www.regulations.gov/comment/FTC-2022-0053-1100',
+     },
+     {
         'date': "Oct'22",
         'description': "Critical AI & Crisis Interrogatives Seminar at Aalto University",
         'link': 'https://www.aalto.fi/en/events/crai-cis-seminar',
