@@ -1,5 +1,10 @@
 news = [ \
      {
+        'date': "Dec'22",
+         'description': "Paper - Button Portraits: Embodying Queer History and Interactive Wearable Artifacts - with lead author Allie Riggs and Allie's advisor Anne Sullivan - published at ICIDS (International Conference on Interactive Digital Storytelling)",
+        'link': 'https://link.springer.com/chapter/10.1007/978-3-031-22298-6_2',
+     },
+     {
         'date': "Nov'22",
         'description': "FTC Comments on Commercial Surveillance and Data Security with Richmond Wong and Watson Hartsoe",
         'link': 'https://www.regulations.gov/comment/FTC-2022-0053-1100',
