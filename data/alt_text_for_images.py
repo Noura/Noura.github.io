@@ -61,4 +61,6 @@ alt_text = { \
             'weave_triangle.jpg': "A triangular bright orange woven net on a wooden triangular frame.",
             'why_is_curly_hair.png': "A screenshot of Google search auto-suggestions. The query is 'why is curly hair' and the auto-suggestions are 'why is curly hair dry', 'why is curly hair curly', 'why is curly hair so attractive', 'why is curly hair so ugly', 'why is curly hair dominant', 'why is curly hair called chino', 'why is curly hair considered unprofessional', 'why is curly hair so annoying', 'why is curly hair considered ugly', 'why is curly hair so rare'.",
             'yak_dung.jpg': "A low wall of piled up, dried yak dung sits in front of a green field with green rolling mountains in the distance against a blue sky with a couple of white clouds. A ways behind the dung wall is a clay building.",
+            'biodata_fabulation.jpg': "Collage of textures in blue, pink, mossy green, in organic shapes over white background.",
+
            }
