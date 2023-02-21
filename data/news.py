@@ -1,8 +1,33 @@
 news = [ \
      {
+        'date': "Mar'23",
+         'description': "Talk with Women in Music Tech",
+        'link': None,
+     },
+     {
+        'date': "Mar'23",
+         'description': "GVU Brown Bag Artists Panel - convened the group and facilitated the panel discussion",
+        'link': None,
+     },
+     {
+        'date': "Feb'23",
+         'description': "Talk at Ethics and Coffee: Exploring Emotion AI Ethics by Designing Tangible, Embodied, Social, Emotional Experiences with Biodata",
+        'link': 'https://ethicxcenter.gatech.edu/',
+     },
+     {
+        'date': "Feb'23",
+         'description': "Meet the Artists: Reception for Georgia Tech Artists-in-Residence - introduced the PREMIER artists-in-residence",
+        'link': 'https://calendar.gatech.edu/event/2023/02/06/meet-artists-reception-georgia-tech-artists-residence',
+     },
+     {
         'date': "Dec'22",
          'description': "Paper - Button Portraits: Embodying Queer History and Interactive Wearable Artifacts - with lead author Allie Riggs and Allie's advisor Anne Sullivan - published at ICIDS (International Conference on Interactive Digital Storytelling)",
         'link': 'https://link.springer.com/chapter/10.1007/978-3-031-22298-6_2',
+     },
+     {
+        'date': "Nov'22",
+         'description': "IPaT Tuesday Think Tank on Artist Residencies at Georgia Tech - convened the group and facilitated the discussion",
+        'link': 'https://s2.ibb.gatech.edu/ipat-tuesday-think-tank-arts-residencies-georgia-tech',
      },
      {
         'date': "Nov'22",
