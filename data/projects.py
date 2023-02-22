@@ -1,6 +1,14 @@
 # pages appear in the order listed here
 pages = [ \
     {
+        'name': 'PREMIER: Performance Residences in Electronic Music for Interdisciplinary Education Research',
+        'thumbnail': None,
+        'path': 'premier',
+        'template': 'premier.html',
+        'date': 'Spring 2023',
+        'type': 'project',
+    },
+    {
         'name': 'Fabulating Biodata Design Futures',
         'thumbnail': 'biodata_fabulation.jpg',
         'path': 'fabulating_biodata',
