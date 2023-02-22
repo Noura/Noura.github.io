@@ -2,7 +2,7 @@ news = [ \
      {
         'date': "Mar'23",
          'description': "Talk with Women in Music Tech",
-        'link': None,
+        'link': 'https://gatech.campuslabs.com/engage/event/8895128',
      },
      {
         'date': "Mar'23",
