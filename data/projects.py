@@ -1,7 +1,7 @@
 # pages appear in the order listed here
 pages = [ \
     {
-        'name': 'PREMIER: Performance Residences in Electronic Music for Interdisciplinary Education Research',
+        'name': 'PREMIER: Performance Residencies in Electronic Music for Interdisciplinary Education Research',
         'thumbnail': None,
         'path': 'premier',
         'template': 'premier.html',
