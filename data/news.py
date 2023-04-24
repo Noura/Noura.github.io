@@ -1,5 +1,10 @@
 news = [ \
      {
+        'date': "Apr'23",
+         'description': "Panelist for Extension of Self: A Dance between Human and Digital film screening of dance performance by Full Radius Dance in the Extension of Self art exhibit",
+        'link': 'https://art.c21u.gatech.edu/event/2023/04/14/extension-self-dance-between-human-and-digital',
+     },
+     {
         'date': "Mar'23",
          'description': "Talk with Women in Music Tech",
         'link': 'https://gatech.campuslabs.com/engage/event/8895128',
@@ -19,52 +24,51 @@ news = [ \
          'description': "Meet the Artists: Reception for Georgia Tech Artists-in-Residence - introduced the PREMIER artists-in-residence",
         'link': 'https://calendar.gatech.edu/event/2023/02/06/meet-artists-reception-georgia-tech-artists-residence',
      },
-     {
-        'date': "Dec'22",
-         'description': "Paper - Button Portraits: Embodying Queer History and Interactive Wearable Artifacts - with lead author Allie Riggs and Allie's advisor Anne Sullivan - published at ICIDS (International Conference on Interactive Digital Storytelling)",
-        'link': 'https://link.springer.com/chapter/10.1007/978-3-031-22298-6_2',
-     },
-     {
-        'date': "Nov'22",
-         'description': "IPaT Tuesday Think Tank on Artist Residencies at Georgia Tech - convened the group and facilitated the discussion",
-        'link': 'https://s2.ibb.gatech.edu/ipat-tuesday-think-tank-arts-residencies-georgia-tech',
-     },
-     {
-        'date': "Nov'22",
-        'description': "FTC Comments on Commercial Surveillance and Data Security with Richmond Wong and Watson Hartsoe",
-        'link': 'https://www.regulations.gov/comment/FTC-2022-0053-1100',
-     },
-     {
-        'date': "Oct'22",
-        'description': "Critical AI & Crisis Interrogatives Seminar at Aalto University",
-        'link': 'https://www.aalto.fi/en/events/crai-cis-seminar',
-     },
-     {
-        'date': "Oct'22",
-        'description': "Women in AI lecture with middle schoolers in Oulu, Finland",
-        'link': 'https://www.linkedin.com/feed/update/urn:li:activity:6986947530898980864/',
-     },
-     {
-        'date': "Oct'22",
-        'description': "Hosted design futuring two-day doctoral course with InfoTech and INTERACT at University of Oulu",
-        'link': 'https://www.oulu.fi/en/events/doctoral-course-speculative-design-futures',
-     },
-     {
-        'date': "Sep'22",
-        'description': "Radio interview for NPR City Lights with Lois Reitzes, with curator Birney Robert, about the art exhibit Extension of Self and the Heart Sounds Bench",
-        'link': 'https://www.wabe.org/podcasts/city-lights/extension-of-self-benefit-concert-for-ukraine-artist-drew-borders/',
-     },
-     {
-        'date': "Aug'22",
-        'description': "Grant recipient for PREMIER: Performance Residencies in Electronic Music for Interdisciplinary Education Research with Alex Cohen, from the GVU/IPaT/GTRI Research and Engagement program at Georgia Tech",
-        'link': 'https://sites.gatech.edu/premier-music-residency/',
-     },
-     {
-        'date': "Aug'22",
-        'description': "The Heart Sounds Bench is in the Extension of Self art exhibit at Georgia Tech, curated by Birney Robert",
-        'link': 'https://art.c21u.gatech.edu/noura-howell',
-     },
 #     {
+#        'date': "Dec'22",
+#         'description': "Paper - Button Portraits: Embodying Queer History and Interactive Wearable Artifacts - with lead author Allie Riggs and Allie's advisor Anne Sullivan - published at ICIDS (International Conference on Interactive Digital Storytelling)",
+#        'link': 'https://link.springer.com/chapter/10.1007/978-3-031-22298-6_2', },
+#     {
+#        'date': "Nov'22",
+#         'description': "IPaT Tuesday Think Tank on Artist Residencies at Georgia Tech - convened the group and facilitated the discussion",
+#        'link': 'https://s2.ibb.gatech.edu/ipat-tuesday-think-tank-arts-residencies-georgia-tech',
+#     },
+#     {
+#        'date': "Nov'22",
+#        'description': "FTC Comments on Commercial Surveillance and Data Security with Richmond Wong and Watson Hartsoe",
+#        'link': 'https://www.regulations.gov/comment/FTC-2022-0053-1100',
+#     },
+#     {
+#        'date': "Oct'22",
+#        'description': "Critical AI & Crisis Interrogatives Seminar at Aalto University",
+#        'link': 'https://www.aalto.fi/en/events/crai-cis-seminar',
+#     },
+#     {
+#        'date': "Oct'22",
+#        'description': "Women in AI lecture with middle schoolers in Oulu, Finland",
+#        'link': 'https://www.linkedin.com/feed/update/urn:li:activity:6986947530898980864/',
+#     },
+#     {
+#        'date': "Oct'22",
+#        'description': "Hosted design futuring two-day doctoral course with InfoTech and INTERACT at University of Oulu",
+#        'link': 'https://www.oulu.fi/en/events/doctoral-course-speculative-design-futures',
+#     },
+#     {
+#        'date': "Sep'22",
+#        'description': "Radio interview for NPR City Lights with Lois Reitzes, with curator Birney Robert, about the art exhibit Extension of Self and the Heart Sounds Bench",
+#        'link': 'https://www.wabe.org/podcasts/city-lights/extension-of-self-benefit-concert-for-ukraine-artist-drew-borders/',
+#     },
+#     {
+#        'date': "Aug'22",
+#        'description': "Grant recipient for PREMIER: Performance Residencies in Electronic Music for Interdisciplinary Education Research with Alex Cohen, from the GVU/IPaT/GTRI Research and Engagement program at Georgia Tech",
+#        'link': 'https://sites.gatech.edu/premier-music-residency/',
+#     },
+#     {
+#        'date': "Aug'22",
+#        'description': "The Heart Sounds Bench is in the Extension of Self art exhibit at Georgia Tech, curated by Birney Robert",
+#        'link': 'https://art.c21u.gatech.edu/noura-howell',
+#     },
+##     {
 #        'date': "July '22",
 #         'description': ('NordiCHI Late-Breaking Work accepted - Feeling Air: Exploring Aesthetic and Material Qualities of Architectural Inflatables with architecture professor Shawn Protz '
 #                         'and students of our two project studios  Jasmyn Byrd, Miguel Castellanos, Alexis Elkins, Jessica Hall, Micah Holdsworth, Lalith Mallikeshwaran Rajogopal Sambasivan, Chris Noel, Oluwarotimi Osiberu, '
