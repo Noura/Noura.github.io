@@ -1,11 +1,11 @@
 news = [ \
      {
-        'date': "Apr'23",
+        'date': "Jul'23",
          'description': "Co-organizing workshop at DIS, Designing with Biosignals: Challenges, Opportunities, and Future Directions for Integrating Physiological Signals in Human-Computer Interaction, with Ekatrina R. Stepanova, John Desnoyers-Stewart, Alexandra Kitson, Bernhard E. Riecke, Alissa N. Antle, Abdallah El Ali, Jeremy Frey, Vasiliki Tsaknaki",
         'link': 'http://ispace.iat.sfu.ca/project/biosignals-wks/',
      },
      {
-        'date': "Apr'23",
+        'date': "Jul'23",
          'description': "Co-organizing workshop at DIS, Towards Mutual Benefit: Reflecting on Artist Residencies as a Method for Collaboration in DIS, with Laura Devendorf, Leah Buechley, Jennifer Jacobs, Hsin-Liu (Cindy) Kao, Martin Murer, Daniela Rosner, Nica Ross, Robert Soden, Jared Tso, Clement Zheng",
         'link': 'https://unstable.design/mutualbenefit/',
      },
