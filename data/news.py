@@ -10,6 +10,11 @@ news = [ \
         'link': 'https://unstable.design/mutualbenefit/',
      },
      {
+        'date': "May'23",
+         'description': "Featured speaker at NIME workshop, Querying Experience for NIME, with other featured speakers Kelsey Cotton, Juan Pablo Martinez Avila, and Cally Gatehouse, and workshop organizers Courtney N. Reed, Eevee Zayas-Garin, and Andrew McPherson.",
+        'link': 'https://qe4nime.github.io/#home',
+     },
+     {
         'date': "Apr'23",
          'description': "Panelist for Extension of Self: A Dance between Human and Digital film screening of dance performance by Full Radius Dance in the Extension of Self art exhibit",
         'link': 'https://art.c21u.gatech.edu/event/2023/04/14/extension-self-dance-between-human-and-digital',
