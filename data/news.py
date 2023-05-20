@@ -10,25 +10,35 @@ news = [ \
         'link': 'https://unstable.design/mutualbenefit/',
      },
      {
+        'date': "Jun'23",
+         'description': "Emotion AI and Fabulation: Seeking Biopolitical Futures of Respectful Care, keynote talk at Nordic Fabulation Network workshop",
+        'link': 'https://nordicfabulation.net/keynote/',
+     },
+     {
+        'date': "Jun'23",
+         'description': "Fabulating Futures for Flourishing and Vibrant Worlds, co-organizing workshop at Nordes 2023 with Tom Jenkins, Marie-Louise Juul Søndergaard, Pedro Sanches, Vasiliki Tsaknaki, Nadia Campo Woytuk, Karey Helms, Laurens Boer, and Jason Tucker",
+        'link': 'https://nordes2023.org/workshops/',
+     },
+     {
         'date': "May'23",
          'description': "Featured speaker at NIME workshop, Querying Experience for NIME, with other featured speakers Kelsey Cotton, Juan Pablo Martinez Avila, and Cally Gatehouse, and workshop organizers Courtney N. Reed, Eevee Zayas-Garin, and Andrew McPherson.",
         'link': 'https://qe4nime.github.io/#home',
      },
-     {
-        'date': "Apr'23",
-         'description': "Panelist for Extension of Self: A Dance between Human and Digital film screening of dance performance by Full Radius Dance in the Extension of Self art exhibit",
-        'link': 'https://art.c21u.gatech.edu/event/2023/04/14/extension-self-dance-between-human-and-digital',
-     },
-     {
-        'date': "Mar'23",
-         'description': "Talk with Women in Music Tech",
-        'link': 'https://gatech.campuslabs.com/engage/event/8895128',
-     },
-     {
-        'date': "Mar'23",
-         'description': "GVU Brown Bag Artists Panel - convened the group and facilitated the panel discussion",
-        'link': None,
-     },
+#     {
+#        'date': "Apr'23",
+#         'description': "Panelist for Extension of Self: A Dance between Human and Digital film screening of dance performance by Full Radius Dance in the Extension of Self art exhibit",
+#        'link': 'https://art.c21u.gatech.edu/event/2023/04/14/extension-self-dance-between-human-and-digital',
+#     },
+#     {
+#        'date': "Mar'23",
+#         'description': "Talk with Women in Music Tech",
+#        'link': 'https://gatech.campuslabs.com/engage/event/8895128',
+#     },
+#     {
+#        'date': "Mar'23",
+#         'description': "GVU Brown Bag Artists Panel - convened the group and facilitated the panel discussion",
+#        'link': None,
+#     },
      {
         'date': "Feb'23",
          'description': "Talk at Ethics and Coffee: Exploring Emotion AI Ethics by Designing Tangible, Embodied, Social, Emotional Experiences with Biodata",
