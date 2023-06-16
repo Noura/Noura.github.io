@@ -16,6 +16,11 @@ news = [ \
      },
      {
         'date': "Jun'23",
+         'description': "Recipient of Ralph E. Powe Junior Faculty Enhancement Award with Sosuke Ichihashi on Thermal Displays",
+        'link': '',
+     },
+     {
+        'date': "Jun'23",
          'description': "Emotion AI and Fabulation: Seeking Biopolitical Futures of Respectful Care, seminar talk with Kristina Höök's Somaesthetic Design research group at KTH",
         'link': '',
      },
