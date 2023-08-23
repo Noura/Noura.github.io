@@ -28,7 +28,7 @@ bibs_pdfs = {
     'sanches_diffraction_2022': '2022_CHI_Diffraction-in-action.pdf',
     'sharmaDesignFuturingLove2022': '2022_alt.chi_Design_Futuring_for_Love_Friendships_and_Kinships.pdf',
     'tsaknakiFabulatingBiodataFutures2022a': '2022_DIS_Fabulating_Biodata_Futures.pdf',
-    'feelingAir2022howelletal': '2022_NordiCHI_Inflatables.pdf',
+    'howellFeelingAirExploring2022': '2022_NordiCHI_Inflatables.pdf',
 }
 pdf_path = '/static/pdf/'
 
