@@ -9,9 +9,9 @@ pages = [ \
         'type': 'project',
     },
     {
-        'name': 'Fabulating Biodata Design Futures',
+        'name': 'Fabulation for Design Futuring',
         'thumbnail': 'biodata_fabulation.jpg',
-        'path': 'fabulating_biodata',
+        'path': 'fabulation',
         'template': 'fabulating_biodata.html',
         'date': '2020 - ongoing',
         'type': 'project',
