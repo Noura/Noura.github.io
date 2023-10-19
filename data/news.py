@@ -1,44 +1,49 @@
 news = [ \
      {
+        'date': "Oct'23",
+         'description': "Presentation at Grace Hopper Celebration of Women in Computing, with Dr. Sumita Sharma, on Critical AI Literacy for Children with Schools in India, Finland, and the US",
+        'link': '',
+     },
+     {
         'date': "Jul'23",
          'description': "Paper at DIS - Fabulation as an Approach for Design Futuring - with Marie Louise Juul Søndergaard, Nadia Campo Woytuk, Vasiliki Tsaknaki, Karey Helms, Tom Jenkins, and Pedro Sanches",
         'link': '',
      },
-     {
-        'date': "Jul'23",
-         'description': "Co-organizing workshop at DIS, Designing with Biosignals: Challenges, Opportunities, and Future Directions for Integrating Physiological Signals in Human-Computer Interaction, with Ekatrina R. Stepanova, John Desnoyers-Stewart, Alexandra Kitson, Bernhard E. Riecke, Alissa N. Antle, Abdallah El Ali, Jeremy Frey, Vasiliki Tsaknaki",
-        'link': 'http://ispace.iat.sfu.ca/project/biosignals-wks/',
-     },
-     {
-        'date': "Jul'23",
-         'description': "Co-organizing workshop at DIS, Towards Mutual Benefit: Reflecting on Artist Residencies as a Method for Collaboration in DIS, with Laura Devendorf, Leah Buechley, Jennifer Jacobs, Hsin-Liu (Cindy) Kao, Martin Murer, Daniela Rosner, Nica Ross, Robert Soden, Jared Tso, Clement Zheng",
-        'link': 'https://unstable.design/mutualbenefit/',
-     },
-     {
-        'date': "Jun'23",
-         'description': "Recipient of Ralph E. Powe Junior Faculty Enhancement Award with Sosuke Ichihashi on Thermal Displays",
-        'link': '',
-     },
-     {
-        'date': "Jun'23",
-         'description': "Emotion AI and Fabulation: Seeking Biopolitical Futures of Respectful Care, seminar talk with Kristina Höök's Somaesthetic Design research group at KTH",
-        'link': '',
-     },
-     {
-        'date': "Jun'23",
-         'description': "Emotion AI and Fabulation: Seeking Biopolitical Futures of Respectful Care, keynote talk at Nordic Fabulation Network workshop",
-        'link': 'https://nordicfabulation.net/keynote/',
-     },
-     {
-        'date': "Jun'23",
-         'description': "Fabulating Futures for Flourishing and Vibrant Worlds, co-organizing workshop at Nordes 2023 with Tom Jenkins, Marie-Louise Juul Søndergaard, Pedro Sanches, Vasiliki Tsaknaki, Nadia Campo Woytuk, Karey Helms, Laurens Boer, and Jason Tucker",
-        'link': 'https://nordes2023.org/workshops/',
-     },
-     {
-        'date': "May'23",
-         'description': "Featured speaker at NIME workshop, Querying Experience for NIME, with other featured speakers Kelsey Cotton, Juan Pablo Martinez Avila, and Cally Gatehouse, and workshop organizers Courtney N. Reed, Eevee Zayas-Garin, and Andrew McPherson.",
-        'link': 'https://qe4nime.github.io/#home',
-     },
+#     {
+#        'date': "Jul'23",
+#         'description': "Co-organizing workshop at DIS, Designing with Biosignals: Challenges, Opportunities, and Future Directions for Integrating Physiological Signals in Human-Computer Interaction, with Ekatrina R. Stepanova, John Desnoyers-Stewart, Alexandra Kitson, Bernhard E. Riecke, Alissa N. Antle, Abdallah El Ali, Jeremy Frey, Vasiliki Tsaknaki",
+#        'link': 'http://ispace.iat.sfu.ca/project/biosignals-wks/',
+#     },
+#     {
+#        'date': "Jul'23",
+#         'description': "Co-organizing workshop at DIS, Towards Mutual Benefit: Reflecting on Artist Residencies as a Method for Collaboration in DIS, with Laura Devendorf, Leah Buechley, Jennifer Jacobs, Hsin-Liu (Cindy) Kao, Martin Murer, Daniela Rosner, Nica Ross, Robert Soden, Jared Tso, Clement Zheng",
+#        'link': 'https://unstable.design/mutualbenefit/',
+#     },
+#     {
+#        'date': "Jun'23",
+#         'description': "Recipient of Ralph E. Powe Junior Faculty Enhancement Award with Sosuke Ichihashi on Thermal Displays",
+#        'link': '',
+#     },
+#     {
+#        'date': "Jun'23",
+#         'description': "Emotion AI and Fabulation: Seeking Biopolitical Futures of Respectful Care, seminar talk with Kristina Höök's Somaesthetic Design research group at KTH",
+#        'link': '',
+#     },
+#     {
+#        'date': "Jun'23",
+#         'description': "Emotion AI and Fabulation: Seeking Biopolitical Futures of Respectful Care, keynote talk at Nordic Fabulation Network workshop",
+#        'link': 'https://nordicfabulation.net/keynote/',
+#     },
+#     {
+#        'date': "Jun'23",
+#         'description': "Fabulating Futures for Flourishing and Vibrant Worlds, co-organizing workshop at Nordes 2023 with Tom Jenkins, Marie-Louise Juul Søndergaard, Pedro Sanches, Vasiliki Tsaknaki, Nadia Campo Woytuk, Karey Helms, Laurens Boer, and Jason Tucker",
+#        'link': 'https://nordes2023.org/workshops/',
+#     },
+#     {
+#        'date': "May'23",
+#         'description': "Featured speaker at NIME workshop, Querying Experience for NIME, with other featured speakers Kelsey Cotton, Juan Pablo Martinez Avila, and Cally Gatehouse, and workshop organizers Courtney N. Reed, Eevee Zayas-Garin, and Andrew McPherson.",
+#        'link': 'https://qe4nime.github.io/#home',
+#     },
 #     {
 #        'date': "Apr'23",
 #         'description': "Panelist for Extension of Self: A Dance between Human and Digital film screening of dance performance by Full Radius Dance in the Extension of Self art exhibit",
@@ -54,12 +59,12 @@ news = [ \
 #         'description': "GVU Brown Bag Artists Panel - convened the group and facilitated the panel discussion",
 #        'link': None,
 #     },
-     {
-        'date': "Feb'23",
-         'description': "Talk at Ethics and Coffee: Exploring Emotion AI Ethics by Designing Tangible, Embodied, Social, Emotional Experiences with Biodata",
-        'link': 'https://ethicxcenter.gatech.edu/',
-     },
 #     {
+#        'date': "Feb'23",
+#         'description': "Talk at Ethics and Coffee: Exploring Emotion AI Ethics by Designing Tangible, Embodied, Social, Emotional Experiences with Biodata",
+#        'link': 'https://ethicxcenter.gatech.edu/',
+#     },
+##     {
 #        'date': "Feb'23",
 #         'description': "Meet the Artists: Reception for Georgia Tech Artists-in-Residence - introduced the PREMIER artists-in-residence",
 #        'link': 'https://calendar.gatech.edu/event/2023/02/06/meet-artists-reception-georgia-tech-artists-residence',
