@@ -2,7 +2,7 @@
 pages = [ \
     {
         'name': 'PREMIER: Performance Residencies in Electronic Music for Interdisciplinary Education Research',
-        'thumbnail': None,
+        'thumbnail': 'PREMIER_wb_workshop.png',
         'path': 'premier',
         'template': 'premier.html',
         'date': 'Spring 2023',
