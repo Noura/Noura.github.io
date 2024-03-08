@@ -1,5 +1,10 @@
 news = [ \
      {
+        'date': "Feb'23",
+         'description': "Pictorial at TEI - Sensing Bodies: Engaging Postcolonial Histories through More-than-Human Interactions - Sylvia Janicki, Allie Riggs, Noura Howell, Anne Sullivan, Nassim Parvin",
+        'link': 'https://dl.acm.org/doi/10.1145/3623509.3633389',
+     },
+     {
         'date': "Oct'23",
          'description': "Presentation at Grace Hopper Celebration of Women in Computing, with Dr. Sumita Sharma, on Critical AI Literacy for Children with Schools in India, Finland, and the US",
         'link': '',
