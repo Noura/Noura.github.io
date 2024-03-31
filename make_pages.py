@@ -19,7 +19,7 @@ bibs_pdfs = {
     'howell_tensions_2018': '18_CHI_Ripple.pdf',
     'howell_emotional_2018': '18_CSCW_Emotional_Biosensing.pdf',
     'howell_life-affirming_2019': '19_CHI_Heart_Sounds_Bench.pdf',
-    'fox_vivewell:_2019': '19_DIS_Vivewell.pdf',
+    'fox_vivewell_2019': '19_DIS_Vivewell.pdf',
     'carney_teachable_2020': '2020_CHI_LBW_Teachable_Machine.pdf',
     'tsaknaki_challenges_2020': '2020_NordiCHI_Workshop_Biodata_as_Material.pdf',
     'howell_calling_2021': '2021_alt.chi_Plurality_Perspectives_Design_Futuring.pdf',
