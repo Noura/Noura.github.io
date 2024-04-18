@@ -12,7 +12,7 @@ pages = [ \
         # appears as title for that project page, and title of tile on homepage
         'name': 'Biosens&shy;ing Technolo&shy;gies in Everyday Life',
         # refers to the image in static img 280px tiles folder
-        'thumbnail': None,
+        'thumbnail': 'baker_stanley_biosensing_tech_in_everyday_life_still.png',
         # the hash of the URL at which the project page appears
         'path': 'biosensing_tech_in_daily_life',
         # template file in templates/
@@ -55,7 +55,7 @@ pages = [ \
     },
     {
         'name': 'Deconstruct&shy;ing Data Science',
-        'thumbnail': None,
+        'thumbnail': 'ML_textbook_2.jpg',
         'path': 'deconstructing_data_sci',
         'template': 'dds.html',
         'date': 'Spring 2016',

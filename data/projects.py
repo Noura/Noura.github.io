@@ -50,7 +50,7 @@ pages = [ \
     },
     {
         'name': 'Expanding Modes of Reflection for Design Futuring',
-        'thumbnail': None,
+        'thumbnail': 'modes_of_reflection_in_design_futuring.png',
         'path': 'design_futuring_reflections',
         'template': 'modes_of_reflection_for_design_futuring.html',
         'date': '2019 - 2020',
@@ -66,7 +66,7 @@ pages = [ \
     },
     {
         'name': 'Emotional Biosensing: Exploring Critical Alternatives',
-        'thumbnail': None,
+        'thumbnail': 'emotional_biosensing_survey.jpeg',
         'path': 'emotional_biosensing',
         'template': 'emotional_biosensing.html',
         'date': '2018 - present',

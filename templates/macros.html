@@ -1,200 +1,207 @@
 
 {% macro news(news) %}
-  {% for item in news %}
-  <p>
-    {% if item.link %}
-    <a href="{{item.link}}">
+{% for item in news %}
+<p>
+{% if item.link %}
+<a href="{{item.link}}">
     {% endif %}
-      <span class="news-item"></span>
-      {{item.description}} ({{item.date}})
+    <span class="news-item"></span>
+    {{item.description}} ({{item.date}})
     {% if item.link %}
-    </a>
-    {% endif %}
-  </p>
-  {% endfor %}
+</a>
+{% endif %}
+</p>
+{% endfor %}
 {% endmacro %}
 
 {% macro base_header(active_nav) %}
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Noura Howell</title>
+    <head>
+        <meta charset="UTF-8">
+        <title>Noura Howell</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="/static/css/app.css">
+        <link rel="stylesheet" href="/static/css/app.css">
 
-    <link rel="stylesheet" href="https://use.typekit.net/jka1nec.css">
+        <link rel="stylesheet" href="https://use.typekit.net/jka1nec.css">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  </head>
-  <body>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    </head>
+    <body>
 
-    <nav class="navbar navbar-expand-md navbar-light">
-      <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container">
 
-        <div class="navbar-header">
-          <a class="navbar-brand" href="/">Noura Howell</a>
-        </div>
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/">Noura Howell</a>
+                </div>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="nav navbar-nav ml-auto justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link {% if active_nav == "projects" %} active {% endif %}" href="/#project-tiles">Research</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link {% if active_nav == "publications" %} active {% endif %} " href="/pubs">Publications</a>
-            </li>
-            <li>
-              <a class="nav-link  {% if active_nav == "cv" %} active {% endif %} " href="/cv">CV</a>
-            </li>
-            <li>
-              <a class="nav-link  {% if active_nav == "teaching" %} active {% endif %} " href="/teaching">Teaching</a>
-            </li>
-            <li>
-              <a class="nav-link  {% if active_nav == "about" %} active {% endif %} " href="/about">About</a>
-            </li>
-            <li>
-              <a class="nav-link  {% if active_nav == "news" %} active {% endif %} " href="/news">News</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav ml-auto justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link {% if active_nav == "projects" %} active {% endif %}" href="/#project-tiles">Research</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link {% if active_nav == "publications" %} active {% endif %} " href="/pubs">Publications</a>
+                        </li>
+                        <li>
+                            <a class="nav-link  {% if active_nav == "cv" %} active {% endif %} " href="/cv">CV</a>
+                        </li>
+                        <li>
+                            <a class="nav-link  {% if active_nav == "teaching" %} active {% endif %} " href="/teaching">Teaching</a>
+                        </li>
+                        <li>
+                            <a class="nav-link  {% if active_nav == "about" %} active {% endif %} " href="/about">About</a>
+                        </li>
+                        <li>
+                            <a class="nav-link  {% if active_nav == "news" %} active {% endif %} " href="/news">News</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-    <!-- all the page contents go here, then the ending body and html tags come in the footer macro -->
+        <!-- all the page contents go here, then the ending body and html tags come in the footer macro -->
 
-{% endmacro %}
+        {% endmacro %}
 
-{% macro base_footer() %}
+        {% macro base_footer() %}
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-  </body>
+    </body>
 </html>
 {% endmacro %}
 
 
 {% macro tiles(subheading, url_sub_path, type, ctx) %}
-  <div class="col-12">
-    <h2 class="line-divider"> {{ subheading }} </h2>
-  </div>
-  {% for page in ctx.pages %}
-    {% if page.type == type %}
-      <div class="col-12 col-xs-12 col-sm-6 col-md-4">
-        <a class="tile-link" href="/{{url_sub_path}}{{page.path}}.html" id="{{page.path}}" name="{{page.path}}">
-          {% if page.thumbnail %}
-          <img 
-                class="tile-img my-border"
-                src="/static/img/280px_tiles/{{ page.thumbnail }}"
-                {% if page.thumbnail in ctx.alt %}
-                  alt="{{ ctx.alt.__getitem__(page.thumbnail) }}"
-                {% endif %}
-                >
-            <span class="tile-name">
-                <mark>{{ page.name }}</mark>
-            </span>
-          {% else %}
-            <div class="tile-no-img my-border">
-              {{ page.name }}
-            </div>
-          {% endif %}
-        </a>
-      </div>
-    {% endif %}
-  {% endfor %}
+
+    <div class="col-12">
+        <h2 class="line-divider"> {{ subheading }} </h2>
+    </div>
+
+    {% for page in ctx.pages %}
+        {% if page.type == type %}
+                <div class="col-4 col-xs-12 col-sm-4 col-md-4">
+                    <a class="tile-link"
+                    href="/{{url_sub_path}}{{page.path}}.html"
+                    id="{{page.path}}"
+                    name="{{page.path}}">
+                        <img 
+                         class="tile-img my-border"
+                         src="/static/img/280px_tiles/{{ page.thumbnail }}"
+                         {% if page.thumbnail in ctx.alt %}
+                         alt="{{ ctx.alt.__getitem__(page.thumbnail) }}"
+                         {% endif %}
+                         >
+                    </a>
+                </div>
+
+                <div class="col-8 col-xs-12 col-sm-8 col-md-8">
+                    <a class="tile-link"
+                    href="/{{url_sub_path}}{{page.path}}.html"
+                    id="{{page.path}}"
+                    name="{{page.path}}">
+                       {{ page.name }}
+                    </a>
+                </div>
+
+        {% endif %}
+    {% endfor %}
+
 {% endmacro %}
 
 {% macro project_header(page, ctx, url_sub_path) %}
 
 <div class="container project-page" data-project="{{page.path}}">
-  <div class="row">
-    <div class="col-12">
-        <a href="/{{url_sub_path}}#{{ page.path }}">
-        &lt;&lt;&lt; Back
-      </a>
+    <div class="row">
+        <div class="col-12">
+            <a href="/{{url_sub_path}}#{{ page.path }}">
+                &lt;&lt;&lt; Back
+            </a>
+        </div>
     </div>
-  </div>
 
-  <div class="row">
-    <div class="col-12">
-      <h1>{{page.name}}</h1>
+    <div class="row">
+        <div class="col-12">
+            <h1>{{page.name}}</h1>
+        </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-12">
+    <div class="row">
+        <div class="col-12">
 
-{% endmacro %}
+            {% endmacro %}
 
-      
-{% macro project_footer(page, ctx) %}
 
+            {% macro project_footer(page, ctx) %}
+
+        </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-12 date">
-      <p>{{page.date}}</p>
+    <div class="row">
+        <div class="col-12 date">
+            <p>{{page.date}}</p>
+        </div>
     </div>
-  </div>
 </div>
 
 {% endmacro %}
 
 
 {% macro bib(entry) %}
-  <span style="display:none;">
+<span style="display:none;">
     {# author names tend to be formatted like Howell, Zach and Howell, Noura #}
     {# from the Zotero BibTex export formatting ... #}
     {# this reformats them to be Zach Howell, Noura Howell #}
     {% set last_comma_firsts = entry.author.split(' and ') %}
     {% set first_space_lasts = [] %}
     {% for name in last_comma_firsts %}
-        {% set parts = name.split(', ') %}
-        {{ first_space_lasts.append(parts[1] + " " + parts[0]) }}
+    {% set parts = name.split(', ') %}
+    {{ first_space_lasts.append(parts[1] + " " + parts[0]) }}
     {% endfor %}
     {# this is inside a hidden span element because of what I think is a stupid jinja2 bug. appending to the list returns None, sure this is how Python works, and so then putting it inside the double brackets will print that result to the HTML so a bunch of "None" repeated will appear in the HTML... this seemed obviously wrong so I tried to instead put the append statement inside the curly bracket percent sign instead of the double brackets, but then the for loop got confused
     and i got an error saying the for loop was not closed. so whatever, this is a crappy hack, but it suppresses any incidental jinja output, and we have our list of names ready to go for use in the following paragraph #}
-  </span>
-  <p class="publication">
-    {{ entry.title }}.
-    {{ entry.year }}. 
-    {{ first_space_lasts|join(', ') }}.
-  <i>
+</span>
+<p class="publication">
+{{ entry.title }}.
+{{ entry.year }}. 
+{{ first_space_lasts|join(', ') }}.
+<i>
     {% if entry.journal is defined %}
-      {{ entry.journal }}.
+    {{ entry.journal }}.
     {% endif %}
     {% if entry.booktitle is defined %}
-      {{ entry.booktitle }}.
+    {{ entry.booktitle }}.
     {% endif %}
     {% if entry.ENTRYTYPE == 'phdthesis' %}
-      Dissertation at {{ entry.school }}.
+    Dissertation at {{ entry.school }}.
     {% endif %}
-  </i> 
-  {% if entry.url %}
-    &nbsp; <a href={{entry.url}}>
-      url
-    </a>
-  {% endif %}
-  {% if entry.pdf %}
-    &nbsp; <a href={{entry.pdf}}>
-      pdf
-    </a>
-  {% endif %}
-  </p>
+</i> 
+{% if entry.url %}
+&nbsp; <a href={{entry.url}}>
+    url
+</a>
+{% endif %}
+{% if entry.pdf %}
+&nbsp; <a href={{entry.pdf}}>
+    pdf
+</a>
+{% endif %}
+</p>
 {% endmacro %}
 
 {% macro bibi(bibs) %}
 
-  {% for entry in bibs|sort(attribute='year', reverse=True) %}
-    {{ bib(entry) }}
-  {% endfor %}
+{% for entry in bibs|sort(attribute='year', reverse=True) %}
+{{ bib(entry) }}
+{% endfor %}
 
 {% endmacro %}
 

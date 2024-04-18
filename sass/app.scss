@@ -152,19 +152,16 @@ h2.line-divider {
 // tiles ///////////////////////////////////////
 
 a.tile-link {
-    position: relative;
-    width: $tile_w;
     height: $tile_w;
     display: block;
-    margin-top: 20px;
+    padding: 0;
+    width: 100%;
+    margin: 0.75em 0;
 }
 
 img.tile-img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: $tile_w;
-    border: 1px solid black;
+    width: 100%;
+    max-width: $tile_w;
 }
 div.tile-no-img {
     position: absolute;
