@@ -158,45 +158,48 @@
 
 
 {% macro bib(entry) %}
-<span style="display:none;">
-    {# author names tend to be formatted like Howell, Zach and Howell, Noura #}
-    {# from the Zotero BibTex export formatting ... #}
-    {# this reformats them to be Zach Howell, Noura Howell #}
-    {% set last_comma_firsts = entry.author.split(' and ') %}
-    {% set first_space_lasts = [] %}
-    {% for name in last_comma_firsts %}
-    {% set parts = name.split(', ') %}
-    {{ first_space_lasts.append(parts[1] + " " + parts[0]) }}
-    {% endfor %}
-    {# this is inside a hidden span element because of what I think is a stupid jinja2 bug. appending to the list returns None, sure this is how Python works, and so then putting it inside the double brackets will print that result to the HTML so a bunch of "None" repeated will appear in the HTML... this seemed obviously wrong so I tried to instead put the append statement inside the curly bracket percent sign instead of the double brackets, but then the for loop got confused
-    and i got an error saying the for loop was not closed. so whatever, this is a crappy hack, but it suppresses any incidental jinja output, and we have our list of names ready to go for use in the following paragraph #}
-</span>
-<p class="publication">
-{{ entry.title }}.
-{{ entry.year }}. 
-{{ first_space_lasts|join(', ') }}.
-<i>
-    {% if entry.journal is defined %}
-    {{ entry.journal }}.
-    {% endif %}
-    {% if entry.booktitle is defined %}
-    {{ entry.booktitle }}.
-    {% endif %}
-    {% if entry.ENTRYTYPE == 'phdthesis' %}
-    Dissertation at {{ entry.school }}.
-    {% endif %}
-</i> 
-{% if entry.url %}
-&nbsp; <a href={{entry.url}}>
-    url
-</a>
-{% endif %}
-{% if entry.pdf %}
-&nbsp; <a href={{entry.pdf}}>
-    pdf
-</a>
-{% endif %}
-</p>
+    <span style="display:none;">
+        {# author names tend to be formatted like Howell, Zach and Howell, Noura #}
+        {# from the Zotero BibTex export formatting ... #}
+        {# this reformats them to be Zach Howell, Noura Howell #}
+        {% set last_comma_firsts = entry.author.split(' and ') %}
+        {% set first_space_lasts = [] %}
+        {% for name in last_comma_firsts %}
+            {% set parts = name.split(', ') %}
+            {{ first_space_lasts.append(parts[1] + " " + parts[0]) }}
+        {% endfor %}
+        {# this is inside a hidden span element because of what I think is a stupid jinja2 bug. appending to the list returns None, sure this is how Python works, and so then putting it inside the double brackets will print that result to the HTML so a bunch of "None" repeated will appear in the HTML... this seemed obviously wrong so I tried to instead put the append statement inside the curly bracket percent sign instead of the double brackets, but then the for loop got confused
+        and i got an error saying the for loop was not closed. so whatever, this is a crappy hack, but it suppresses any incidental jinja output, and we have our list of names ready to go for use in the following paragraph #}
+    </span>
+
+    <p class="publication">
+        <mark>
+            {{ entry.title }}.
+        </mark>
+        {{ entry.year }}. 
+        {{ first_space_lasts|join(', ') }}.
+        <i>
+            {% if entry.journal is defined %}
+                {{ entry.journal }}.
+            {% endif %}
+            {% if entry.booktitle is defined %}
+                {{ entry.booktitle }}.
+            {% endif %}
+            {% if entry.ENTRYTYPE == 'phdthesis' %}
+                Dissertation at {{ entry.school }}.
+            {% endif %}
+        </i> 
+        {% if entry.url %}
+            &nbsp; <a href={{entry.url}}>
+                url
+            </a>
+        {% endif %}
+        {% if entry.pdf %}
+            &nbsp; <a href={{entry.pdf}}>
+                pdf
+            </a>
+        {% endif %}
+    </p>
 {% endmacro %}
 
 {% macro bibi(bibs) %}
