@@ -1,48 +1,12 @@
 # pages appear in the order listed here
 pages = [ \
     {
-        'name': 'PREMIER: Performance Residencies in Electronic Music for Interdisciplinary Education Research',
-        'desc': 'PREMIER was a series of artist residencies that brought interdisciplinary STEAM education to Georgia Tech students and the Atlanta community with participatory music, arts, and performance opportunities incorporating audio technology and electronics in service of creative practice.',
-        'thumbnail': 'PREMIER_wb_workshop.png',
-        'path': 'premier',
-        'template': 'premier.html',
-        'date': 'Spring 2023',
-        'type': 'project',
-    },
-    {
         'name': 'Fabulation for Design Futuring',
         'desc': 'Envisioning alternative futures and desirable worlds is a core element of design that must be cultivated, especially when a deep transition of practices, values, and power is necessary for vibrant and just future lifeworlds.',
         'thumbnail': 'biodata_fabulation.jpg',
         'path': 'fabulation',
         'template': 'fabulating_biodata.html',
         'date': '2020 - ongoing',
-        'type': 'project',
-    },
-    {
-        'name': 'Embodied Transductions through Musical Practice',
-        'desc': 'Embodied Transductions explores alternative ways of knowing bodies, both human and non-human, through hacking biomedical technology for musical expression.',
-        'thumbnail': 'embodied_transductions.jpg',
-        'path': 'embodied_transductions',
-        'template': 'embodied_transductions.html',
-        'date': '2020 - ongoing',
-        'type': 'project',
-    },
-    {
-        'name': 'Life-Affirming Biosensing with the Heart Sounds Bench',
-        'desc': 'The Heart Sounds Bench amplifies live unfiltered heart sounds. It resists the colonial impulse to make people transparent via data, instead inviting people to appreciate the live presence and unknowable complexity of one another.',
-        'thumbnail': 'hsbv3.jpg',
-        'path': 'heart_sounds_bench',
-        'template': 'heart_sounds_bench.html',
-        'date': '2018 - present',
-        'type': 'project',
-    },
-    {
-        'name': 'Feeling Air: Exploring Aesthetic and Material Qualities of Architectural Inflatables',
-        'desc': 'These large-scale inflatable sculptures explore material, aesthetic, and somatic qualities of interactive inflatable structures.',
-        'thumbnail': 'inflatable_inside.jpg',
-        'path': 'feeling_air',
-        'template': 'feeling_air_inflatables.html',
-        'date': '2021',
         'type': 'project',
     },
     {
@@ -64,12 +28,63 @@ pages = [ \
         'type': 'project',
     },
     {
+        'name': 'Life-Affirming Biosensing with the Heart Sounds Bench',
+        'desc': 'The Heart Sounds Bench amplifies live unfiltered heart sounds. It resists the colonial impulse to make people transparent via data, instead inviting people to appreciate the live presence and unknowable complexity of one another.',
+        'thumbnail': 'hsbv3.jpg',
+        'path': 'heart_sounds_bench',
+        'template': 'heart_sounds_bench.html',
+        'date': '2018 - present',
+        'type': 'project',
+    },
+    {
+        'name': 'PREMIER: Performance Residencies in Electronic Music for Interdisciplinary Education Research',
+        'desc': 'PREMIER was a series of artist residencies that brought interdisciplinary STEAM education to Georgia Tech students and the Atlanta community with participatory music, arts, and performance opportunities incorporating audio technology and electronics in service of creative practice.',
+        'thumbnail': 'PREMIER_wb_workshop.png',
+        'path': 'premier',
+        'template': 'premier.html',
+        'date': 'Spring 2023',
+        'type': 'project',
+    },
+    {
+        'name': 'Embodied Transductions through Musical Practice',
+        'desc': 'Embodied Transductions explores alternative ways of knowing bodies, both human and non-human, through hacking biomedical technology for musical expression.',
+        'thumbnail': 'embodied_transductions.jpg',
+        'path': 'embodied_transductions',
+        'template': 'embodied_transductions.html',
+        'date': '2020 - ongoing',
+        'type': 'project',
+    },
+    {
+        'name': 'Feeling Air: Exploring Aesthetic and Material Qualities of Architectural Inflatables',
+        'desc': 'These large-scale inflatable sculptures explore material, aesthetic, and somatic qualities of interactive inflatable structures.',
+        'thumbnail': 'inflatable_inside.jpg',
+        'path': 'feeling_air',
+        'template': 'feeling_air_inflatables.html',
+        'date': '2021',
+        'type': 'project',
+    },
+    {
         'name': 'Infrastructural Membranes',
         'desc': 'This inflatable sculpture explores take-for-granted infrastructures of data, air, and feeling.',
         'thumbnail': 'inflatable_at_ferst.jpg',
         'path': 'inflatables',
         'template': 'inflatables.html',
         'date': '2022',
+        'type': 'project',
+    },
+    {
+        # appears as title for that project page, and title of tile on homepage
+        'name': 'Salaam Participatory Peace Sculpture',
+        # description appears below the project name
+        'desc': 'This sculpture is inspired by the Arabic word salaam, used as a greeting to wish peace upon others. The sculpture responds to mounting Islamophobia in the US with a strong, tall form that is at the same time peaceful, gentle, and inviting.',
+        # refers to the image as specified in app.scss
+        'thumbnail': 'salaam_square.JPG',
+        # the hash of the URL at which the project page appears
+        'path': 'salaam',
+        # template file in templates/
+        'template': 'salaam.html',
+        # appears at bottom of project page just as text
+        'date': 'spring 2017',
         'type': 'project',
     },
     {
@@ -124,21 +139,6 @@ pages = [ \
 #        'template': 'assembling_critical_practices.html',
 #        'date': '2016 - present',
 #    },
-    {
-        # appears as title for that project page, and title of tile on homepage
-        'name': 'Salaam Participatory Peace Sculpture',
-        # description appears below the project name
-        'desc': 'This sculpture is inspired by the Arabic word salaam, used as a greeting to wish peace upon others. The sculpture responds to mounting Islamophobia in the US with a strong, tall form that is at the same time peaceful, gentle, and inviting.',
-        # refers to the image as specified in app.scss
-        'thumbnail': 'salaam_square.JPG',
-        # the hash of the URL at which the project page appears
-        'path': 'salaam',
-        # template file in templates/
-        'template': 'salaam.html',
-        # appears at bottom of project page just as text
-        'date': 'spring 2017',
-        'type': 'project',
-    },
     {
         'name': 'Heart Sounds in Cheap Plastic Buckets',
         'desc': 'The Heart Sounds Buckets explore an uncomfortable contrast of hearing the live unfiltered heart sounds of gallery visitors, as precious and intimate, contrasted with their emanation from cheap plastic buckets, a cold sterile material, to invite reflection on biomedicalization of everyday life.',
