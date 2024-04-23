@@ -151,7 +151,7 @@ h2.line-divider {
 }
 
 a.tile-link {
-  height: 280px;
+  min-height: 280px;
   display: block;
   padding: 0;
   width: 100%;

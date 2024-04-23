@@ -152,7 +152,7 @@ h2.line-divider {
 // tiles ///////////////////////////////////////
 
 a.tile-link {
-    height: $tile_w;
+    min-height: $tile_w;
     display: block;
     padding: 0;
     width: 100%;
