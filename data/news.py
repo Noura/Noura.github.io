@@ -1,20 +1,30 @@
 news = [ \
      {
-        'date': "Feb'23",
+        'date': "May'23",
+         'description': "Paper at CHI - Designing an Archive of Feelings: Queering Tangible Interaction with Button Portraits - Alexandra Teixeira Riggs, Sylvia Janicki, Noura Howell, Anne Sullivan",
+        'link': None,
+     },
+     {
+        'date': "May'23",
+         'description': "Paper at alt.CHI - Queering/Cripping Technologies of Productivity - Sylvia Janicki, Alexandra Teixeira Riggs, Noura Howell, Anne Sullivan, Abigale Stangle",
+        'link': None,
+     },
+     {
+        'date': "Feb'24",
          'description': "Pictorial at TEI - Sensing Bodies: Engaging Postcolonial Histories through More-than-Human Interactions - Sylvia Janicki, Allie Riggs, Noura Howell, Anne Sullivan, Nassim Parvin",
         'link': 'https://dl.acm.org/doi/10.1145/3623509.3633389',
      },
-     {
-        'date': "Oct'23",
-         'description': "Presentation at Grace Hopper Celebration of Women in Computing, with Dr. Sumita Sharma, on Critical AI Literacy for Children with Schools in India, Finland, and the US",
-        'link': '',
-     },
-     {
-        'date': "Jul'23",
-         'description': "Paper at DIS - Fabulation as an Approach for Design Futuring - with Marie Louise Juul Søndergaard, Nadia Campo Woytuk, Vasiliki Tsaknaki, Karey Helms, Tom Jenkins, and Pedro Sanches",
-        'link': '',
-     },
 #     {
+#        'date': "Oct'23",
+#         'description': "Presentation at Grace Hopper Celebration of Women in Computing, with Dr. Sumita Sharma, on Critical AI Literacy for Children with Schools in India, Finland, and the US",
+#        'link': '',
+#     },
+#     {
+#        'date': "Jul'23",
+#         'description': "Paper at DIS - Fabulation as an Approach for Design Futuring - with Marie Louise Juul Søndergaard, Nadia Campo Woytuk, Vasiliki Tsaknaki, Karey Helms, Tom Jenkins, and Pedro Sanches",
+#        'link': '',
+#     },
+##     {
 #        'date': "Jul'23",
 #         'description': "Co-organizing workshop at DIS, Designing with Biosignals: Challenges, Opportunities, and Future Directions for Integrating Physiological Signals in Human-Computer Interaction, with Ekatrina R. Stepanova, John Desnoyers-Stewart, Alexandra Kitson, Bernhard E. Riecke, Alissa N. Antle, Abdallah El Ali, Jeremy Frey, Vasiliki Tsaknaki",
 #        'link': 'http://ispace.iat.sfu.ca/project/biosignals-wks/',
