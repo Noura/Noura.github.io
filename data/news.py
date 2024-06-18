@@ -1,13 +1,18 @@
 news = [ \
      {
-        'date': "May'23",
-         'description': "Paper at CHI - Designing an Archive of Feelings: Queering Tangible Interaction with Button Portraits - Alexandra Teixeira Riggs, Sylvia Janicki, Noura Howell, Anne Sullivan",
+        'date': "Jul'24",
+        'description': "NSF CAREER Award: Critically Reimagining Emotion Artificial Intelligence by Combining AI Literacy & Design Futuring",
         'link': None,
      },
      {
-        'date': "May'23",
+        'date': "May'24",
+         'description': "Paper at CHI - Designing an Archive of Feelings: Queering Tangible Interaction with Button Portraits - Alexandra Teixeira Riggs, Sylvia Janicki, Noura Howell, Anne Sullivan",
+        'link': 'https://dl.acm.org/doi/10.1145/3613904.3642312',
+     },
+     {
+        'date': "May'24",
          'description': "Paper at alt.CHI - Queering/Cripping Technologies of Productivity - Sylvia Janicki, Alexandra Teixeira Riggs, Noura Howell, Anne Sullivan, Abigale Stangle",
-        'link': None,
+        'link': 'https://dl.acm.org/doi/10.1145/3613905.3644067',
      },
      {
         'date': "Feb'24",
