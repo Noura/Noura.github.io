@@ -29,6 +29,9 @@ bibs_pdfs = {
     'sharmaDesignFuturingLove2022': '2022_alt.chi_Design_Futuring_for_Love_Friendships_and_Kinships.pdf',
     'tsaknakiFabulatingBiodataFutures2022a': '2022_DIS_Fabulating_Biodata_Futures.pdf',
     'howellFeelingAirExploring2022': '2022_NordiCHI_Inflatables.pdf',
+    'riggsRedRedactedTheatre2024': '2024_DIS_Red_Redacted_Theatre.pdf',
+    'kozubaevTuningListeningCurrent2024': '2024_DIS_Remote_Ritual_Practice.pdf',
+    'janickiCripReflectionsDesigning2024': '2024_DIS_Crip_Reflections_on_Designing_with_Plants.pdf',
 }
 pdf_path = '/static/pdf/'
 
