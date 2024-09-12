@@ -1,6 +1,15 @@
 # pages appear in the order listed here
 pages = [ \
     {
+        'name': 'Principles of Interaction Design',
+        'desc': 'Georgia Tech, Spring 2022 - Fall 2024, Lead Instructor',
+        'thumbnail': 'eterna_frame8.png',
+        'path': 'principles_of_interaction_design',
+        'template': 'principles_of_interaction_design.html',
+        'date': 'Spring 2022 - Fall 2024',
+        'type': 'class',
+    },
+    {
         'name': 'Emotion ML Critical Making Project Studio',
         'desc': 'Georgia Tech, Fall 2021, Lead Instructor',
         'thumbnail': 'tunnel.jpg',
