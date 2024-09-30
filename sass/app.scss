@@ -193,6 +193,13 @@ mark {
     background-color: $light_gray;
 }
 
+
+.no-underline,
+a.no-underline {
+    text-decoration: none;
+}
+
+
 // news items /////////////////////////////////
 span.news-item {
     display: inline-block;

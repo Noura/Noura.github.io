@@ -193,6 +193,11 @@ mark {
   background-color: rgb(241, 235, 255);
 }
 
+.no-underline,
+a.no-underline {
+  text-decoration: none;
+}
+
 span.news-item {
   display: inline-block;
   height: 5px;

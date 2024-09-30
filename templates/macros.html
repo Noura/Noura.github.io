@@ -176,6 +176,10 @@
     </span>
 
     <p class="publication">
+        {% if entry.url %}
+            &nbsp; <a href={{entry.url}} class="no-underline">
+        {% endif %}
+
         <mark>
             {{ entry.title }}.
         </mark>
@@ -192,11 +196,11 @@
                 Dissertation at {{ entry.school }}.
             {% endif %}
         </i> 
+
         {% if entry.url %}
-            &nbsp; <a href={{entry.url}}>
-                url
             </a>
         {% endif %}
+
         {% if entry.pdf %}
             &nbsp; <a href={{entry.pdf}}>
                 pdf
