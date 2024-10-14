@@ -32,6 +32,9 @@ bibs_pdfs = {
     'riggsRedRedactedTheatre2024': '2024_DIS_Red_Redacted_Theatre.pdf',
     'kozubaevTuningListeningCurrent2024': '2024_DIS_Remote_Ritual_Practice.pdf',
     'janickiCripReflectionsDesigning2024': '2024_DIS_Crip_Reflections_on_Designing_with_Plants.pdf',
+    'howellReflectiveDesignInformal2024': '2024_NordiCHI_Reflective_Design_for_Informal_Audits.pdf',
+    'ichihashiHydropticalThermalFeedback2024': '2024_UIST_Hydroptical.pdf',
+    'sharmaPromotingCriticalityDesign2024': '2024_NordiCHI_Criticality_Design_Futuring.pdf',
 }
 pdf_path = '/static/pdf/'
 
