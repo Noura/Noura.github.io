@@ -28,6 +28,15 @@ pages = [ \
         'type': 'project',
     },
     {
+        'name': 'Exploring Technological Mediation in Sufi Spiritual Practices',
+        'desc': 'We explore Sufi spiritual practices of collective chanting and how technological mediation may shift these spiritual experiences when groups choose to offer online or hybrid participation.',
+        'thumbnail': 'masnavi_margin_edit.jpg',
+        'path': 'zikr',
+        'template': 'zikr.html',
+        'date': '2023 - ongoing',
+        'type': 'project',
+    },
+    {
         'name': 'Life-Affirming Biosensing with the Heart Sounds Bench',
         'desc': 'The Heart Sounds Bench amplifies live unfiltered heart sounds. It resists the colonial impulse to make people transparent via data, instead inviting people to appreciate the live presence and unknowable complexity of one another.',
         'thumbnail': 'hsbv3.jpg',
