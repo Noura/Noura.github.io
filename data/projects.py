@@ -1,6 +1,15 @@
 # pages appear in the order listed here
 pages = [ \
     {
+        'name': 'Reflective Design for Participatory Informal Algorithm Auditing',
+        'desc': 'This project explores how tactics from reflective design can be leveraged to support participatory informal algorithm auditing by encouraging more holistic and critical reflection on the algorithm, including its assumptions, in/accuracies, and bias.',
+        'thumbnail': 'EAI_morph_faces.jpg',
+        'path': 'FEAI_reflective_audit',
+        'template': 'FEAI_reflective_auditing.html',
+        'date': '2022 - 2024',
+        'type': 'project',
+    },
+    {
         'name': 'Fabulation for Design Futuring',
         'desc': 'Envisioning alternative futures and desirable worlds is a core element of design that must be cultivated, especially when a deep transition of practices, values, and power is necessary for vibrant and just future lifeworlds.',
         'thumbnail': 'biodata_fabulation.jpg',

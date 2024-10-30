@@ -1,0 +1,31 @@
+{% import 'macros.html' as macros %}
+{{ macros.base_header() }}
+{{ macros.project_header(ctx.page, ctx, "") }}
+
+<h2>Reflective Design for Informal Participatory Algorithm Auditing</h2>
+
+<p>Co-authoring with Watson Hartsoe, Vyshnavi Namani, Jacob Amin</p>
+
+
+<img src="/static/img/1000px_wide/EAI_morph_faces.jpg" alt="a grid of washed out faces on a dark background overlaid with Emotion AI predictions and purple and green tints">
+<p class="caption">Participants saw how an Emotion AI algorithm predicted their emotions based on images of their faces. This image has been altered to creatively express the sometimes uncomfortable experience of having one's own emotions categorized by AI.</p>
+
+<p>
+This paper suggests how reflective design can aid informal participatory algorithm auditing. Drawing from reflective design, we designed a simple web-form probe to invite critical reflection on Emotion AI, ethically controversial techniques predicting individuals' emotions. Participants engaged the probe throughout their daily lives for about a week. Then, we interviewed participants about their experiences and reflections.
+</p>
+
+<p>
+Our findings surface themes around participants' critiques of Emotion AI, factors contributing to inaccuracy, and patterns of miscategorization. Our discussion contributes recommendations for Emotion AI and how reflective design may offer considerations to inform algorithm auditing.
+</p>
+
+<p>
+Overall, our project suggests ways critically-oriented design research can engage AI ethics through informal, participatory, exploratory algorithm auditing.
+</p>
+
+
+<h2>Papers</h2>
+
+{{ macros.bib(ctx.bibs_by_ID['howellReflectiveDesignInformal2024']) }}
+
+{{ macros.project_footer(ctx.page, ctx) }}
+{{ macros.base_footer() }}
