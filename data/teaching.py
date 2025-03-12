@@ -1,6 +1,15 @@
 # pages appear in the order listed here
 pages = [ \
     {
+        'name': 'Computer as Expressive Medium',
+        'desc': 'Georgia Tech, Fall 2022 - Fall 2025, Lead Instructor',
+        'thumbnail': 'thais_lab_1.png',
+        'path': 'computer_as_expressive_medium',
+        'template': 'computer_as_expressive_medium.html',
+        'date': 'Fall 2022 - Fall 2025',
+        'type': 'class',
+    },
+    {
         'name': 'Principles of Interaction Design',
         'desc': 'Georgia Tech, Spring 2022 - Fall 2024, Lead Instructor',
         'thumbnail': 'eterna_frame8.png',
