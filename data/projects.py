@@ -1,7 +1,7 @@
 # pages appear in the order listed here
 pages = [ \
     {
-        'name': 'Auditing Emotion AI: Informal, Participatory, Reflective',
+        'name': 'Auditing Emotion AI: Informal, Participatory, Reflective Directions',
         'desc': 'This project explores how tactics from reflective design can be leveraged to support participatory informal algorithm auditing by encouraging more holistic and critical reflection on the algorithm, including its assumptions, in/accuracies, and bias.',
         'thumbnail': 'EAI_morph_faces.jpg',
         'path': 'FEAI_reflective_audit',
