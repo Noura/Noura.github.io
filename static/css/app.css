@@ -172,7 +172,7 @@ div.tile-no-img {
   border: 1px solid black;
   font-size: 2em;
   line-height: 1.1em;
-  background: rgb(241, 235, 255);
+  background: rgb(227, 214, 255);
   word-wrap: break-word;
   padding: 15px;
 }
@@ -190,7 +190,7 @@ span.tile-name {
 
 mark {
   padding: 0 0.3em;
-  background-color: rgb(241, 235, 255);
+  background-color: rgb(227, 214, 255);
 }
 
 .no-underline,
