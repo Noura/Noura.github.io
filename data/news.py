@@ -1,24 +1,34 @@
 news = [ \
      {
+        'date': "Jul'25",
+        'description': '"Georgia Tech Researchers Aim to Increase Awareness of Emotion AI - By Letting People Try It"',
+        'link': 'https://iac.gatech.edu/featured-news/2025/07/researchers-increase-awareness-emotion-ai',
+     },
+     {
+        'date': "Mar'25",
+        'description': '"Reshaping the Future of Emotion AI"',
+        'link': 'https://www.techsquareatl.com/tech-square-news/2025/3/26/reshaping-the-future-of-emotion-ai',
+     },
+     {
         'date': "Jul'24",
         'description': "NSF CAREER Award: Critically Reimagining Emotion Artificial Intelligence by Combining AI Literacy & Design Futuring",
         'link': 'https://www.nsf.gov/awardsearch/showAward?AWD_ID=2335974',
      },
-     {
-        'date': "May'24",
-         'description': "Paper at CHI - Designing an Archive of Feelings: Queering Tangible Interaction with Button Portraits - Alexandra Teixeira Riggs, Sylvia Janicki, Noura Howell, Anne Sullivan",
-        'link': 'https://dl.acm.org/doi/10.1145/3613904.3642312',
-     },
-     {
-        'date': "May'24",
-         'description': "Paper at alt.CHI - Queering/Cripping Technologies of Productivity - Sylvia Janicki, Alexandra Teixeira Riggs, Noura Howell, Anne Sullivan, Abigale Stangle",
-        'link': 'https://dl.acm.org/doi/10.1145/3613905.3644067',
-     },
-     {
-        'date': "Feb'24",
-         'description': "Pictorial at TEI - Sensing Bodies: Engaging Postcolonial Histories through More-than-Human Interactions - Sylvia Janicki, Allie Riggs, Noura Howell, Anne Sullivan, Nassim Parvin",
-        'link': 'https://dl.acm.org/doi/10.1145/3623509.3633389',
-     },
+#  {
+#       'date': "May'24",
+#        'description': "Paper at CHI - Designing an Archive of Feelings: Queering Tangible Interaction with Button Portraits - Alexandra Teixeira Riggs, Sylvia Janicki, Noura Howell, Anne Sullivan",
+#       'link': 'https://dl.acm.org/doi/10.1145/3613904.3642312',
+#    },
+#    {
+#       'date': "May'24",
+#        'description': "Paper at alt.CHI - Queering/Cripping Technologies of Productivity - Sylvia Janicki, Alexandra Teixeira Riggs, Noura Howell, Anne Sullivan, Abigale Stangle",
+#       'link': 'https://dl.acm.org/doi/10.1145/3613905.3644067',
+#    },
+#    {
+#       'date': "Feb'24",
+#        'description': "Pictorial at TEI - Sensing Bodies: Engaging Postcolonial Histories through More-than-Human Interactions - Sylvia Janicki, Allie Riggs, Noura Howell, Anne Sullivan, Nassim Parvin",
+#       'link': 'https://dl.acm.org/doi/10.1145/3623509.3633389',
+#    },
 #     {
 #        'date': "Oct'23",
 #         'description': "Presentation at Grace Hopper Celebration of Women in Computing, with Dr. Sumita Sharma, on Critical AI Literacy for Children with Schools in India, Finland, and the US",
