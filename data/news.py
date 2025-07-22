@@ -2,7 +2,7 @@ news = [ \
      {
         'date': "Jul'24",
         'description': "NSF CAREER Award: Critically Reimagining Emotion Artificial Intelligence by Combining AI Literacy & Design Futuring",
-        'link': None,
+        'link': 'https://www.nsf.gov/awardsearch/showAward?AWD_ID=2335974',
      },
      {
         'date': "May'24",
