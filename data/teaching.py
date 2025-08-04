@@ -19,6 +19,15 @@ pages = [ \
         'type': 'class',
     },
     {
+        'name': 'Technologies of Representation',
+        'desc': 'Georgia Tech, Summer 2025, Lead Instructor',
+        'thumbnail': '3314_genAI_sports.png',
+        'path': 'technologies_of_representation',
+        'template': '3314_techno_representation.html',
+        'date': 'Summer 2025',
+        'type': 'class',
+    },
+    {
         'name': 'Emotion ML Critical Making Project Studio',
         'desc': 'Georgia Tech, Fall 2021, Lead Instructor',
         'thumbnail': 'tunnel.jpg',
