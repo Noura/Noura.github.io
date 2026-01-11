@@ -1,5 +1,10 @@
 news = [ \
      {
+        'date': "Jan'26",
+        'description': 'Starting as Associate Professor at the University of Southern Denmark',
+        'link': None,
+     },
+     {
         'date': "Jul'25",
         'description': '"Georgia Tech Researchers Aim to Increase Awareness of Emotion AI - By Letting People Try It"',
         'link': 'https://iac.gatech.edu/featured-news/2025/07/researchers-increase-awareness-emotion-ai',
@@ -8,6 +13,11 @@ news = [ \
         'date': "Mar'25",
         'description': '"Reshaping the Future of Emotion AI"',
         'link': 'https://www.techsquareatl.com/tech-square-news/2025/3/26/reshaping-the-future-of-emotion-ai',
+     },
+     {
+        'date': "Jan'25",
+        'description': '"Microscale Thermal Tech for Sustainability"',
+        'link': 'https://news.research.gatech.edu/2025/01/29/initiative-lead-q-and-noura-howell-and-joe-bozeman',
      },
      {
         'date': "Jul'24",
