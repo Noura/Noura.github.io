@@ -1,0 +1,51 @@
+{% import 'macros.html' as macros %}
+{{ macros.base_header() }}
+{{ macros.project_header(ctx.page, ctx, "") }}
+
+<h2>Participatory Design Futuring with Children</h2>
+
+<div class="youtube-video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/60pU5qg8QSQ?si=lQH__P7lKSglAYZN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<h3>PlayFutures: Imagining Civic Futures with AI and Puppets</h3>
+
+<p>
+Supratim Pait, Sumita Sharma, Ashley Frith, Michael Nitsche, Noura Howell
+</p>
+
+<img src="/static/img/largest/PlayFutures_OogyWoogyCouncil_FernbankMuseumReimagined.jpg" alt="a puppet of paper and pipe cleaners is a unique weird playful creature performing in front of an AI-generated image projected on the back wall">
+<p class="caption">One group of children reimagined their local natural history museum to be more vibrant and full of life.</p>
+
+
+<p>
+Our project supports children's critical AI engagement through participatory workshops re-envisioning public spaces. We ran a workshop with children aged 9-12 combining AI, puppet-making, performance, and design futuring to reimagine civic spaces. Participants used ChatGPT to visualize changes to local places, created puppets of characters who had different viewpoints regarding these changes, and performed debates about the proposed changes.
+Our findings reveal children's critical engagement with AI as a design tool, preference for iterative refinement, and desires for authentic over 'AI-like' content. This work contributes methods for engaging children in civic discussions through making and performing futures. It also demonstrates how these methods can scaffold critical AI literacy.
+</p>
+
+<img src="/static/img/largest/PlayFutures_Process.png"
+     alt="Top row of three photos of local places: park, library, museum. Bottom row of images shows how children used GenAI to represent their proposed changes to the spaces, and snippets of their prompts." 
+     >
+<p class="caption">Children formed teams or 'councils' inspired by city council to debate proposed changes. They reimagined public spaces in Atlanta.</p>
+
+
+<h2>Papers</h2>
+
+{{ macros.bib(ctx.bibs_by_ID['pait_playfutures_2026']) }}
+
+<h2>Funding</h2>
+
+<p>
+Applying Generative AI for STEAM Education: Supporting AI Literacy and Community Engagement with Marginalized Youth. 2024. PI: Noura Howell, Co-PI: Michael Nitsche, Community Partner: Kalia Morrison from Decatur Makers. Grant from the Georgia Tech Institute for Data Engineering and Science (IDEaS).
+</p>
+
+<p>
+<a href="https://www.aiai.network/futuresatlanta-creative-engagement-with-generative-ai-art-as-a-method-for-designing-local-community-futures-with-children-in-atlanta/">
+FuturesAtlanta: Creative Engagement with Generative AI Art as a Method for Designing Local Community Futures with Children in Atlanta. 2023. PI: Noura Howell. Lead PhD student: Supratim Pait. Lead Community Partner: Decatur Makers. Grant from the Atlanta Interdisciplinary AI Network.
+</a>
+</p>
+
+
+
+{{ macros.project_footer(ctx.page, ctx) }}
+{{ macros.base_footer() }}

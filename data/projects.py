@@ -9,6 +9,17 @@ pages = [ \
         'date': '2022 - 2024',
         'type': 'project',
     },
+
+    {
+        'name': 'Participatory Design Futuring with Children',
+        'desc': 'Workshops with children invite them to imagine alternative futures for their local communities while also supporting critical AI literacy.',
+        'thumbnail': 'PlayFutures_OogyWoogyCouncil_FernbankMuseumReimagined.jpg',
+        'path': 'youth_design_futuring',
+        'template': 'youth_design_futuring.html',
+        'date': '2023 - 2026',
+        'type': 'project',
+    },
+
     {
         'name': 'Fabulation for Design Futuring',
         'desc': 'Envisioning alternative futures and desirable worlds is a core element of design that must be cultivated, especially when a deep transition of practices, values, and power is necessary for vibrant and just future lifeworlds.',
