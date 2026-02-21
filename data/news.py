@@ -1,5 +1,10 @@
 news = [ \
      {
+        'date': "Feb'26",
+        'description': 'Talk at ITU Copenhagen on leveraging emotion, embodiment, and imagination for more ethical, sustainable futures',
+        'link': None,
+     },
+     {
         'date': "Jan'26",
         'description': 'Starting as Associate Professor at the University of Southern Denmark',
         'link': None,
