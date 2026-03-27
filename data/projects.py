@@ -6,7 +6,7 @@ pages = [ \
         'thumbnail': 'EAI_morph_faces.jpg',
         'path': 'FEAI_reflective_audit',
         'template': 'FEAI_reflective_auditing.html',
-        'date': '2022 - 2024',
+        'date': '2022 - 2026',
         'type': 'project',
     },
 
@@ -26,7 +26,7 @@ pages = [ \
         'thumbnail': 'biodata_fabulation.jpg',
         'path': 'fabulation',
         'template': 'fabulating_biodata.html',
-        'date': '2020 - ongoing',
+        'date': '2020 - 2023',
         'type': 'project',
     },
     {
@@ -35,7 +35,7 @@ pages = [ \
         'thumbnail': '5_perspectives_design_futuring.png',
         'path': 'design_futuring_perspectives',
         'template': 'perspectives_for_design_futuring.html',
-        'date': '2020 - ongoing',
+        'date': '2020 - 2021',
         'type': 'project',
     },
     {
@@ -53,7 +53,7 @@ pages = [ \
         'thumbnail': 'masnavi_margin_edit.jpg',
         'path': 'zikr',
         'template': 'zikr.html',
-        'date': '2023 - ongoing',
+        'date': '2023 - 2024',
         'type': 'project',
     },
     {
@@ -62,7 +62,7 @@ pages = [ \
         'thumbnail': 'hsbv3.jpg',
         'path': 'heart_sounds_bench',
         'template': 'heart_sounds_bench.html',
-        'date': '2018 - present',
+        'date': '2018 - 2024',
         'type': 'project',
     },
     {
@@ -122,7 +122,7 @@ pages = [ \
         'thumbnail': 'emotional_biosensing_survey.jpeg',
         'path': 'emotional_biosensing',
         'template': 'emotional_biosensing.html',
-        'date': '2018 - present',
+        'date': '2018 - 2020',
         'type': 'project',
     },
     {
@@ -140,7 +140,7 @@ pages = [ \
         'thumbnail': 'vivewell_vivid.png',
         'path': 'menstrual_biosensing',
         'template': 'menstrual_biosensing.html',
-        'date': '2018 - present',
+        'date': '2018 - 2019',
         'type': 'project',
     },
     {
@@ -224,7 +224,7 @@ pages = [ \
         'thumbnail': 'IMG_E1207_square.JPG',
         'path': 'sounds',
         'template': 'sounds.html',
-        'date': 'ongoing',
+        'date': '2018-2020',
         'type': 'project',
     },
     {
