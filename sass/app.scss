@@ -1,6 +1,7 @@
-$font_color: black;
+$font_color: white;
 $tile_w: 280px;
 $light_gray: rgb(227, 214, 255);
+$bg_color: rgb(0,0,0);
 
 @media all {
     body { font-size: 16px; }
@@ -18,7 +19,8 @@ body {
     font-family: freight-sans-pro, sans-serif;
     font-weight: 400;
     font-style: normal;
-    background: rgb(255, 255, 255);
+    letter-spacing: 0.7px;
+    background: $bg_color;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -49,12 +51,12 @@ h2 {
 
 h3 {
     font-size: 1.3rem;
-    margi-top: 1em;
+    margin-top: 1em;
     margin-bottom: 1em;
 }
 
 a {
-    color: black !important;
+    color: $font_color !important;
 }
 
 p a {
@@ -63,7 +65,7 @@ p a {
 
 a.nav-link.active {
     font-weight: 600;
-    border: 1px solid black;
+    border: 1px solid $font_color;
 }
 
 .navbar-brand {
@@ -76,7 +78,7 @@ a.nav-link.active {
 }
 
 .solid-bg {
-    background: white;
+    background: $bg_color;
 }
 
 .project-page img {
@@ -101,22 +103,19 @@ img.banner-crop {
     object-fit: cover;
     object-position: 50% 50%;
 }
-.my-border {
-    border: 1px solid black;
-}
 
 p.block-quote {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-    border-left: 1px solid black;
+    border-left: 1px solid $font_color;
     padding-left: 1em;
 }
 
 .caption {
   font-weight: 400;
   font-size: 93%;
-  color: black;
+  color: $font_color;
   margin-top: -0.5em;
   padding-bottom: 1em;
 }
@@ -148,7 +147,7 @@ p.block-quote {
 
 h2.line-divider {
     margin-top: 1.5em;
-    border-top: 1px solid black;
+    border-top: 1px solid $font_color;
 }
 .tiles-group {
     margin-top: 0;
@@ -175,7 +174,7 @@ div.tile-no-img {
     left: 0;
     width: $tile_w;
     min-height: $tile_w;
-    border: 1px solid black;
+    border: 1px solid $font_color;
     font-size: 2em;
     line-height: 1.1em;
     background: $light_gray;
@@ -211,7 +210,7 @@ span.news-item {
     display: inline-block;
     height: 5px;
     border-right: 0px solid transparent;
-    border-left: 5px solid black;
+    border-left: 5px solid $font_color;
     border-bottom: 5px solid transparent;
     border-top: 5px solid transparent;
 }

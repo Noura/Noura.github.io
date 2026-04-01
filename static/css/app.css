@@ -14,11 +14,12 @@
 }
 
 body {
-  color: black;
+  color: white;
   font-family: freight-sans-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
-  background: rgb(255, 255, 255);
+  letter-spacing: 0.7px;
+  background: rgb(0, 0, 0);
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -50,12 +51,12 @@ h2 {
 
 h3 {
   font-size: 1.3rem;
-  margi-top: 1em;
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 
 a {
-  color: black !important;
+  color: white !important;
 }
 
 p a {
@@ -64,7 +65,7 @@ p a {
 
 a.nav-link.active {
   font-weight: 600;
-  border: 1px solid black;
+  border: 1px solid white;
 }
 
 .navbar-brand {
@@ -76,7 +77,7 @@ a.nav-link.active {
 }
 
 .solid-bg {
-  background: white;
+  background: rgb(0, 0, 0);
 }
 
 .project-page img {
@@ -102,22 +103,18 @@ img.banner-crop {
   object-position: 50% 50%;
 }
 
-.my-border {
-  border: 1px solid black;
-}
-
 p.block-quote {
   width: 75%;
   margin-left: auto;
   margin-right: auto;
-  border-left: 1px solid black;
+  border-left: 1px solid white;
   padding-left: 1em;
 }
 
 .caption {
   font-weight: 400;
   font-size: 93%;
-  color: black;
+  color: white;
   margin-top: -0.5em;
   padding-bottom: 1em;
 }
@@ -149,7 +146,7 @@ p.block-quote {
 
 h2.line-divider {
   margin-top: 1.5em;
-  border-top: 1px solid black;
+  border-top: 1px solid white;
 }
 
 .tiles-group {
@@ -175,7 +172,7 @@ div.tile-no-img {
   left: 0;
   width: 280px;
   min-height: 280px;
-  border: 1px solid black;
+  border: 1px solid white;
   font-size: 2em;
   line-height: 1.1em;
   background: rgb(227, 214, 255);
@@ -208,7 +205,7 @@ span.news-item {
   display: inline-block;
   height: 5px;
   border-right: 0px solid transparent;
-  border-left: 5px solid black;
+  border-left: 5px solid white;
   border-bottom: 5px solid transparent;
   border-top: 5px solid transparent;
 }
@@ -225,7 +222,7 @@ p.publication::before {
     font-weight: 100;
 }*/
 a.publication {
-  color: black;
+  color: white;
 }
 
 /*span.publication {
