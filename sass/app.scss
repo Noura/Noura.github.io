@@ -2,6 +2,7 @@ $font_color: white;
 $tile_w: 280px;
 $light_gray: rgb(227, 214, 255);
 $bg_color: rgb(0,0,0);
+$border_color: #bcbcbc;
 
 @media all {
     body { font-size: 16px; }
@@ -65,7 +66,7 @@ p a {
 
 a.nav-link.active {
     font-weight: 600;
-    border: 1px solid $font_color;
+    border: 1px solid $border_color;
 }
 
 .navbar-brand {
@@ -108,7 +109,7 @@ p.block-quote {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-    border-left: 1px solid $font_color;
+    border-left: 1px solid $border_color;
     padding-left: 1em;
 }
 
@@ -147,7 +148,7 @@ p.block-quote {
 
 h2.line-divider {
     margin-top: 1.5em;
-    border-top: 1px solid $font_color;
+    border-top: 1px solid $border_color;
 }
 .tiles-group {
     margin-top: 0;
@@ -174,7 +175,7 @@ div.tile-no-img {
     left: 0;
     width: $tile_w;
     min-height: $tile_w;
-    border: 1px solid $font_color;
+    border: 1px solid $border_color;
     font-size: 2em;
     line-height: 1.1em;
     background: $light_gray;
@@ -210,7 +211,7 @@ span.news-item {
     display: inline-block;
     height: 5px;
     border-right: 0px solid transparent;
-    border-left: 5px solid $font_color;
+    border-left: 5px solid $border_color;
     border-bottom: 5px solid transparent;
     border-top: 5px solid transparent;
 }
