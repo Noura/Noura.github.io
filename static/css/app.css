@@ -19,7 +19,7 @@ body {
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0.2px;
-  background: rgb(0, 0, 0);
+  background: rgb(33, 35, 31);
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -77,7 +77,7 @@ a.nav-link.active {
 }
 
 .solid-bg {
-  background: rgb(0, 0, 0);
+  background: rgb(33, 35, 31);
 }
 
 .project-page img {
@@ -196,8 +196,9 @@ span.tile-name {
 }
 
 mark {
-  padding: 0 0.3em;
-  background-color: rgb(227, 214, 255);
+  padding: 0 0.2em 0 0.7em;
+  background-color: rgb(45, 0, 171);
+  color: #e7e7e7;
 }
 
 .no-underline,

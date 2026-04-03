@@ -202,8 +202,9 @@ span.tile-name {
 }
 
 mark {
-    padding: 0 .3em;
-    background-color: $light_gray;
+    padding: 0 0.2em 0 0.7em;
+    background-color: rgb(45, 0, 171);
+    color: $font_color;
 }
 
 
