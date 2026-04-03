@@ -1,11 +1,12 @@
-$font_color: white;
+$font_color: #e7e7e7;
 $tile_w: 280px;
 $light_gray: rgb(227, 214, 255);
 $bg_color: rgb(0,0,0);
 $border_color: #bcbcbc;
+$dark_alt1: #303231;
 
 @media all {
-    body { font-size: 16px; }
+    body { font-size: 17px; }
 }
 @media (max-device-width: 1200px) {
     body { font-size: 24px; }
@@ -20,7 +21,7 @@ body {
     font-family: freight-sans-pro, sans-serif;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: 0.7px;
+    letter-spacing: 0.2px;
     background: $bg_color;
     background-size: cover;
     -webkit-background-size: cover;
@@ -150,12 +151,18 @@ h2.line-divider {
     margin-top: 1.5em;
     border-top: 1px solid $border_color;
 }
+
+
+// tiles ///////////////////////////////////////
+
+
 .tiles-group {
     margin-top: 0;
 }
 
-
-// tiles ///////////////////////////////////////
+.tiles-group .row.tile {
+    background: $dark_alt1;
+}
 
 a.tile-link {
     min-height: $tile_w;
