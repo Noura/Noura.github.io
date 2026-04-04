@@ -1,0 +1,62 @@
+{% import 'macros.html' as macros %}
+{{ macros.base_header() }}
+{{ macros.project_header(ctx.page, ctx, "") }}
+
+
+<h3>Towards Designing for Everyday Thermal Experiences</h3>
+
+<p>
+    This pictorial helps expand thermal interaction design toward more situated experiences in everyday life. First, we map existing thermal display applications and techniques, identifying an under-explored niche of thermal displays that rapidly change temperature without touching the body directly. Second, we explore this niche with scenarios showing everyday interaction possibilities, including Candlelit Dinner, Calming Compact Mirror, Social FootBath, Fried Ice Cream,
+    Thermal Painting, and VR Diwali, among others. Finally, our discussion contributes design directions regarding heat as a design material, personalized thermal comfort in shared settings, cultural and emotional associations with heat in everyday contexts, and facial thermal interactions. Overall, this pictorial contributes to designing for everyday thermal experiences.
+</p>
+
+<img src="/static/img/largest/thermal_pictorial_page10.jpg"
+    alt="Scenario Candlelit Dinner: When a long distance couple on a Zoom call looks at each other and smiles, they each experience dynamic warmth. Scenario Calming Compact Mirror: A middle-aged woman uses a special compact mirror to direct dynamic sensations at warm and cool at specific facial regions, such as cool on her forehead to relax and feel calmer, or warmth on her cheeks to feel comfort.">
+
+
+
+<h3>Thermal Painting</h3>
+
+<div class="youtube-video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rIGO8lKhb8M?si=ZfdMFsX7Ez4l278Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<p>
+Thermal Painting is a probe to explore multisensory painting, aiming to defamiliarize, or present the familiar creative practice of painting in an unfamiliar way for artists. The system provides dynamic thermal feedback based on what color the artist is painting. In a qualitative, exploratory pilot study with 20 artists, we investigated how thermal sensations influenced their creative process. Artists described how thermal feedback impacted color selection, brush movements, comfort and flow, thematic associations, and memory triggers. This prompts plans for future work around design improvements, an in-situ field study, thermal associations, and multisensory defamiliarization. This project offers preliminary insights into the interplay of thermal sensation and creative process.
+</p>
+
+<img src="/static/img/1000px_wide/ThermalPaintingFeature.jpg" 
+    alt="A person with glasses and dark hair leans over a flat canvas and paints a stroke of red. Across the table from them is a heater behind thermally insulating blinds.">
+<p class="caption">As the painter applies paintbrush strokes, they experience dynamic warmth depending on what color they are painting. The heat is controlled by thermally insulating blinds that open to varying degrees, or close entirely, to dynamically vary the amount of heat that reaches the painter from the IR heater.</p>
+
+<img src="/static/img/largest/thermal_Paintings_smaller_filesize.png"
+    alt="Four paintings. From left to right: Pink and purple sunset over skycscrapers; abstract cross-hatch strokes in red, yellow, purple, and gray; two koi fish in orange and black swimming in blue water; a person on an island of yellow sand with green trees in blue water">
+<p class="caption">
+   Examples of paintings produced by participants during the study.
+</p>
+
+
+
+<h2>Papers</h2>
+
+{{ macros.bib(ctx.bibs_by_ID['paitDesigningDefamiliarizationThermal2026']) }}
+
+{{ macros.bib(ctx.bibs_by_ID['ichihashiDesigningEverydayThermal2025']) }}
+
+{{ macros.bib(ctx.bibs_by_ID['ichihashiSwellLightApproachable2025']) }}
+
+{{ macros.bib(ctx.bibs_by_ID['ichihashiHydropticalThermalFeedback2024']) }}
+
+<h2>Funding</h2>
+
+<p>
+Ralph E. Power Junior Faculty Enhancement Award. 2022.
+</p>
+
+<p>
+Institute for Matter and Systems Initiative Lead Award. Georgia Institute of Technology. 2024.
+</p>
+
+
+{{ macros.project_footer(ctx.page, ctx) }}
+{{ macros.base_footer() }}

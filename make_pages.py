@@ -36,6 +36,7 @@ bibs_pdfs = {
     'howellReflectiveDesignInformal2024': '2024_NordiCHI_Reflective_Design_for_Informal_Audits.pdf',
     'ichihashiHydropticalThermalFeedback2024': '2024_UIST_Hydroptical.pdf',
     'sharmaPromotingCriticalityDesign2024': '2024_NordiCHI_Criticality_Design_Futuring.pdf',
+    'ichihashiDesigningEverydayThermal2025': '2025_Designing_Everyday_Thermal_Experiences.pdf',
 }
 pdf_path = '/static/pdf/'
 

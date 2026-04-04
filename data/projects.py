@@ -30,6 +30,15 @@ pages = [ \
         'type': 'project',
     },
     {
+        'name': 'Designing Thermal Interactions',
+        'desc': 'These projects help expand thermal interaction design toward more situated experiences in everyday life, as well as exploring new techniques for thermal feedback.',
+        'thumbnail': 'ThermalPaintingFeature.jpg',
+        'path': 'thermal',
+        'template': 'thermal.html',
+        'date': '2024 - 2026',
+        'type': 'project',
+    },
+    {
         'name': 'Polyvocal Perspectives for Design Futuring',
         'desc': 'This un-manifesto calls for greater diversity in approaches for design futuring and offers five idiosyncratic approaches drawing from our own personal, cultural, and professional backgrounds.',
         'thumbnail': '5_perspectives_design_futuring.png',
