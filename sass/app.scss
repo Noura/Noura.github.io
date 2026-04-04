@@ -4,6 +4,7 @@ $light_gray: rgb(227, 214, 255);
 $bg_color: rgb(33, 35, 31);
 $border_color: #bcbcbc;
 $dark_alt1: #303231;
+$bg_img_size: 20000px;
 
 @media all {
     body { font-size: 17px; }
@@ -14,6 +15,8 @@ $dark_alt1: #303231;
 
 .container {
     max-width: 900px;
+    background: $bg_color;
+    padding: 15px;
 }
 
 body {
@@ -23,14 +26,19 @@ body {
     font-style: normal;
     letter-spacing: 0.2px;
     background: $bg_color;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-size: $bg_img_size;
+    -webkit-background-size: $bg_img_size;
+    -moz-background-size: $bg_img_size;
+    -o-background-size: $bg_img_size;
     padding-bottom: 5em;
+    background-image: url('/static/img/largest/mushroom_closeup.gif');
 }
 body.no-background-blend-mode {
     background-image: none;
+}
+.bg-overlay {
+  background: rgba(0, 0, 25, 0.76);
+  padding-bottom: 200px;
 }
 
 b {
@@ -76,7 +84,8 @@ a.nav-link.active {
 
 
 .row {
-    margin-top: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .solid-bg {
@@ -147,12 +156,6 @@ p.block-quote {
     width: 90%;
 }
 
-h2.line-divider {
-    margin-top: 1.5em;
-    border-top: 1px solid $border_color;
-}
-
-
 // tiles ///////////////////////////////////////
 
 
@@ -203,7 +206,7 @@ span.tile-name {
 
 mark {
     padding: 0 0.2em 0 0.7em;
-    background-color: rgb(45, 0, 171);
+    background-color: rgb(99, 56, 114);
     color: $font_color;
 }
 

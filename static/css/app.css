@@ -11,6 +11,8 @@
 }
 .container {
   max-width: 900px;
+  background: rgb(33, 35, 31);
+  padding: 15px;
 }
 
 body {
@@ -20,15 +22,21 @@ body {
   font-style: normal;
   letter-spacing: 0.2px;
   background: rgb(33, 35, 31);
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-size: 20000px;
+  -webkit-background-size: 20000px;
+  -moz-background-size: 20000px;
+  -o-background-size: 20000px;
   padding-bottom: 5em;
+  background-image: url("/static/img/largest/mushroom_closeup.gif");
 }
 
 body.no-background-blend-mode {
   background-image: none;
+}
+
+.bg-overlay {
+  background: rgba(0, 0, 25, 0.76);
+  padding-bottom: 200px;
 }
 
 b {
@@ -73,7 +81,8 @@ a.nav-link.active {
 }
 
 .row {
-  margin-top: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .solid-bg {
@@ -144,11 +153,6 @@ p.block-quote {
   width: 90%;
 }
 
-h2.line-divider {
-  margin-top: 1.5em;
-  border-top: 1px solid #bcbcbc;
-}
-
 .tiles-group {
   margin-top: 0;
 }
@@ -197,7 +201,7 @@ span.tile-name {
 
 mark {
   padding: 0 0.2em 0 0.7em;
-  background-color: rgb(45, 0, 171);
+  background-color: rgb(99, 56, 114);
   color: #e7e7e7;
 }
 
