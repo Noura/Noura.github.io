@@ -1,5 +1,10 @@
 news = [ \
      {
+        'date': "Mar'26",
+        'description': 'Received Novo Nordisk Start Package Grant for Design Futuring Fabulation of Sustainable Futures with Youth and Local Communities',
+        'link': None,
+     },
+     {
         'date': "Feb'26",
         'description': 'Talk at ITU Copenhagen on leveraging emotion, embodiment, and imagination for more ethical, sustainable futures',
         'link': None,
