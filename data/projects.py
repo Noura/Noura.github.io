@@ -62,7 +62,7 @@ pages = [ \
         'thumbnail': 'masnavi_margin_edit.jpg',
         'path': 'zikr',
         'template': 'zikr.html',
-        'date': '2023 - 2024',
+        'date': '2023 - 2026',
         'type': 'project',
     },
     {
