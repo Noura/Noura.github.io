@@ -206,7 +206,7 @@ span.tile-name {
 
 mark {
     padding: 0 0.2em 0 0.7em;
-    background-color: rgb(89, 0, 67);
+    background-color: rgb(70, 91, 49);
     color: $font_color;
 }
 
@@ -231,7 +231,7 @@ span.news-item {
 p.publication::before {
     content: "\25A0";
     font-size: 160%;
-    vertical-align: bottom;
+    vertical-align: baseline;
 }
 /*p.publication {
     font-family: "Andale mono",monospace;
