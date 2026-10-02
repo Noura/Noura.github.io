@@ -1,9 +1,9 @@
 $font_color: #e7e7e7;
 $tile_w: 280px;
 $light_gray: rgb(227, 214, 255);
-$bg_color: rgb(33, 35, 31);
+$bg_color: rgb(50, 57, 44);
 $border_color: #bcbcbc;
-$dark_alt1: #303231;
+$dark_alt1: #212523;
 $bg_img_size: 20000px;
 
 @media all {
@@ -205,8 +205,9 @@ span.tile-name {
 
 mark {
     padding: 0 0.2em 0 0.7em;
-    background-color: rgb(70, 91, 49);
+    background-color: rgba(0, 0, 0, 0);
     color: $font_color;
+    font-weight: 800;
 }
 
 

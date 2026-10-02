@@ -11,7 +11,7 @@
 }
 .container {
   max-width: 900px;
-  background: rgb(33, 35, 31);
+  background: rgb(50, 57, 44);
   padding: 15px;
 }
 
@@ -20,7 +20,7 @@ body {
   font-family: freight-sans-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
-  background: rgb(33, 35, 31);
+  background: rgb(50, 57, 44);
   background-size: 20000px;
   -webkit-background-size: 20000px;
   -moz-background-size: 20000px;
@@ -85,7 +85,7 @@ a.nav-link.active {
 }
 
 .solid-bg {
-  background: rgb(33, 35, 31);
+  background: rgb(50, 57, 44);
 }
 
 .project-page img {
@@ -157,7 +157,7 @@ p.block-quote {
 }
 
 .tiles-group .row.tile {
-  background: #303231;
+  background: #212523;
 }
 
 a.tile-link {
@@ -200,8 +200,9 @@ span.tile-name {
 
 mark {
   padding: 0 0.2em 0 0.7em;
-  background-color: rgb(70, 91, 49);
+  background-color: rgba(0, 0, 0, 0);
   color: #e7e7e7;
+  font-weight: 800;
 }
 
 .no-underline,
