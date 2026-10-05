@@ -1,9 +1,9 @@
-$font_color: #e7e7e7;
+$font_color: #ffe;
 $tile_w: 280px;
 $light_gray: rgb(227, 214, 255);
-$bg_color: rgb(50, 57, 44);
+$bg_color: rgb(59, 64, 54);
 $border_color: #bcbcbc;
-$dark_alt1: #212523;
+$dark_alt1: #302d2a;
 $bg_img_size: 20000px;
 
 @media all {
@@ -17,6 +17,7 @@ $bg_img_size: 20000px;
     max-width: 900px;
     background: $bg_color;
     padding: 15px;
+    border-radius: 0 20px;
 }
 
 body {
@@ -24,6 +25,7 @@ body {
     font-family: freight-sans-pro, sans-serif;
     font-weight: 400;
     font-style: normal;
+    letter-spacing: 0.1px;
     background: $bg_color;
     background-size: $bg_img_size;
     -webkit-background-size: $bg_img_size;
