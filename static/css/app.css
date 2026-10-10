@@ -21,7 +21,7 @@ body {
   font-family: freight-sans-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.05em;
   background: rgb(59, 64, 54);
   background-size: 20000px;
   -webkit-background-size: 20000px;
@@ -36,12 +36,15 @@ body.no-background-blend-mode {
 }
 
 .bg-overlay {
-  background: rgba(130, 126, 255, 0.58);
+  background: rgba(130, 126, 255, 0.7);
   padding-bottom: 200px;
 }
 
 b {
-  font-weight: 600;
+  font-weight: 400;
+  background-color: rgb(95, 56, 128);
+  font-size: 1.2em;
+  padding: 0 0.5em;
 }
 
 p {
@@ -74,7 +77,8 @@ p a {
 
 a.nav-link.active {
   font-weight: 600;
-  border: 1px solid #bcbcbc;
+  background: #17220c;
+  border-radius: 0 15px;
 }
 
 .navbar-brand {
@@ -158,16 +162,16 @@ p.block-quote {
   margin-top: 0;
 }
 
-.tiles-group .row.tile {
-  background: #302d2a;
-}
-
 a.tile-link {
   min-height: 280px;
   display: block;
   padding: 0;
   width: 100%;
   margin: 0.75em 0;
+}
+
+a.tile-link:hover {
+  text-decoration: none;
 }
 
 img.tile-img {
@@ -204,7 +208,7 @@ mark {
   padding: 0 0.2em 0 0.7em;
   background-color: rgba(0, 0, 0, 0);
   color: #ffe;
-  font-weight: 800;
+  font-weight: 400;
 }
 
 .no-underline,
