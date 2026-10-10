@@ -4,11 +4,9 @@
     font-size: 17px;
   }
 }
-@media (max-device-width: 1200px) {
-  body {
-    font-size: 24px;
-  }
-}
+/* @media (max-device-width: 1200px) {
+    body { font-size: 24px; }
+}*/
 .container {
   max-width: 900px;
   background: rgb(59, 64, 54);
